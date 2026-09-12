@@ -1,0 +1,458 @@
+{
+ "cells": {
+  "T0|C0|rot0": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "donors": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "assign": {
+    "cat": "Q",
+    "dress": "V",
+    "snake": "F",
+    "turtle": "B",
+    "airport": "H",
+    "fish": "M"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "cat",
+   "B_word": "dress",
+   "C_word": "snake",
+   "selfpatch_bitwise": true
+  },
+  "T0|C0|rot1": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "donors": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "assign": {
+    "dress": "H",
+    "snake": "B",
+    "cat": "M",
+    "airport": "F",
+    "fish": "Q",
+    "turtle": "D"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "dress",
+   "B_word": "snake",
+   "C_word": "cat",
+   "selfpatch_bitwise": true
+  },
+  "T0|C0|rot2": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "donors": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "assign": {
+    "snake": "B",
+    "cat": "M",
+    "dress": "Q",
+    "fish": "F",
+    "turtle": "V",
+    "airport": "D"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "snake",
+   "B_word": "cat",
+   "C_word": "dress",
+   "selfpatch_bitwise": true
+  },
+  "T0|C1|rot0": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "donors": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "assign": {
+    "cat": "D",
+    "dress": "H",
+    "snake": "M",
+    "turtle": "Q",
+    "airport": "F",
+    "fish": "V"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "cat",
+   "B_word": "dress",
+   "C_word": "snake",
+   "selfpatch_bitwise": true
+  },
+  "T0|C1|rot1": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "donors": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "assign": {
+    "dress": "F",
+    "snake": "D",
+    "cat": "Q",
+    "airport": "K",
+    "fish": "M",
+    "turtle": "H"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "dress",
+   "B_word": "snake",
+   "C_word": "cat",
+   "selfpatch_bitwise": true
+  },
+  "T0|C1|rot2": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "donors": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "assign": {
+    "snake": "B",
+    "cat": "M",
+    "dress": "Q",
+    "fish": "H",
+    "turtle": "D",
+    "airport": "K"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "snake",
+   "B_word": "cat",
+   "C_word": "dress",
+   "selfpatch_bitwise": true
+  },
+  "T1|C0|rot0": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "donors": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "assign": {
+    "turtle": "F",
+    "airport": "K",
+    "fish": "Q",
+    "library": "H",
+    "toy": "D",
+    "dish": "B"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "turtle",
+   "B_word": "airport",
+   "C_word": "fish",
+   "selfpatch_bitwise": true
+  },
+  "T1|C0|rot1": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "donors": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "assign": {
+    "airport": "V",
+    "fish": "M",
+    "turtle": "B",
+    "toy": "F",
+    "dish": "H",
+    "library": "K"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "airport",
+   "B_word": "fish",
+   "C_word": "turtle",
+   "selfpatch_bitwise": true
+  },
+  "T1|C0|rot2": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "donors": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "assign": {
+    "fish": "B",
+    "turtle": "K",
+    "airport": "D",
+    "dish": "H",
+    "library": "F",
+    "toy": "V"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "fish",
+   "B_word": "turtle",
+   "C_word": "airport",
+   "selfpatch_bitwise": true
+  },
+  "T1|C1|rot0": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "donors": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "assign": {
+    "turtle": "Q",
+    "airport": "H",
+    "fish": "V",
+    "library": "B",
+    "toy": "K",
+    "dish": "D"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "turtle",
+   "B_word": "airport",
+   "C_word": "fish",
+   "selfpatch_bitwise": true
+  },
+  "T1|C1|rot1": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "donors": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "assign": {
+    "airport": "K",
+    "fish": "B",
+    "turtle": "V",
+    "toy": "D",
+    "dish": "H",
+    "library": "Q"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "airport",
+   "B_word": "fish",
+   "C_word": "turtle",
+   "selfpatch_bitwise": true
+  },
+  "T1|C1|rot2": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "donors": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "assign": {
+    "fish": "D",
+    "turtle": "M",
+    "airport": "K",
+    "dish": "H",
+    "library": "Q",
+    "toy": "F"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "fish",
+   "B_word": "turtle",
+   "C_word": "airport",
+   "selfpatch_bitwise": true
+  }
+ },
+ "triples": [
+  [
+   "cat",
+   "dress",
+   "snake"
+  ],
+  [
+   "turtle",
+   "airport",
+   "fish"
+  ],
+  [
+   "library",
+   "toy",
+   "dish"
+  ],
+  [
+   "moon",
+   "fort",
+   "heart"
+  ],
+  [
+   "bubble",
+   "rug",
+   "bear"
+  ],
+  [
+   "coal",
+   "card",
+   "lake"
+  ],
+  [
+   "glass",
+   "silver",
+   "river"
+  ],
+  [
+   "shield",
+   "monkey",
+   "queen"
+  ]
+ ],
+ "carriers": [
+  "C0",
+  "C1"
+ ],
+ "tags": [
+  "A",
+  "B",
+  "C"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "l_x": 36,
+ "query": "Using the code, give the letter for the word you were instructed to keep in mind. Answer with the letter only.",
+ "letters": [
+  "B",
+  "D",
+  "F",
+  "H",
+  "K",
+  "M",
+  "Q",
+  "V"
+ ],
+ "letter_ids": {
+  "B": [
+   33,
+   417
+  ],
+  "D": [
+   35,
+   414
+  ],
+  "F": [
+   37,
+   426
+  ],
+  "H": [
+   39,
+   462
+  ],
+  "K": [
+   42,
+   710
+  ],
+  "M": [
+   44,
+   380
+  ],
+  "Q": [
+   48,
+   1167
+  ],
+  "V": [
+   53,
+   629
+  ]
+ },
+ "seed": 20260907,
+ "cell_triples": [
+  0,
+  1
+ ],
+ "stage": "pilot",
+ "full": false,
+ "scoring": "llp[8,2] saved; analysis uses logsumexp over forms",
+ "run_id": "20260907T214007Z",
+ "n_forwards": 96,
+ "elapsed_s": 47.8
+}

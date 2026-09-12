@@ -1,0 +1,416 @@
+{
+ "cells": {
+  "T0|C0|rot0": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "donors": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "assign": {
+    "cat": "Q",
+    "dress": "V",
+    "snake": "F",
+    "turtle": "B",
+    "airport": "H",
+    "fish": "M"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "cat",
+   "B_word": "dress",
+   "C_word": "snake"
+  },
+  "T0|C0|rot1": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "donors": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "assign": {
+    "dress": "H",
+    "snake": "B",
+    "cat": "M",
+    "airport": "F",
+    "fish": "Q",
+    "turtle": "D"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "dress",
+   "B_word": "snake",
+   "C_word": "cat"
+  },
+  "T0|C0|rot2": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "donors": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "assign": {
+    "snake": "B",
+    "cat": "M",
+    "dress": "Q",
+    "fish": "F",
+    "turtle": "V",
+    "airport": "D"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "snake",
+   "B_word": "cat",
+   "C_word": "dress"
+  },
+  "T0|C1|rot0": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "donors": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "assign": {
+    "cat": "D",
+    "dress": "H",
+    "snake": "M",
+    "turtle": "Q",
+    "airport": "F",
+    "fish": "V"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "cat",
+   "B_word": "dress",
+   "C_word": "snake"
+  },
+  "T0|C1|rot1": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "donors": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "assign": {
+    "dress": "F",
+    "snake": "D",
+    "cat": "Q",
+    "airport": "K",
+    "fish": "M",
+    "turtle": "H"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "dress",
+   "B_word": "snake",
+   "C_word": "cat"
+  },
+  "T0|C1|rot2": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "donors": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "assign": {
+    "snake": "B",
+    "cat": "M",
+    "dress": "Q",
+    "fish": "H",
+    "turtle": "D",
+    "airport": "K"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "snake",
+   "B_word": "cat",
+   "C_word": "dress"
+  },
+  "T1|C0|rot0": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "donors": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "assign": {
+    "turtle": "F",
+    "airport": "K",
+    "fish": "Q",
+    "library": "H",
+    "toy": "D",
+    "dish": "B"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "turtle",
+   "B_word": "airport",
+   "C_word": "fish"
+  },
+  "T1|C0|rot1": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "donors": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "assign": {
+    "airport": "V",
+    "fish": "M",
+    "turtle": "B",
+    "toy": "F",
+    "dish": "H",
+    "library": "K"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "airport",
+   "B_word": "fish",
+   "C_word": "turtle"
+  },
+  "T1|C0|rot2": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "donors": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "assign": {
+    "fish": "B",
+    "turtle": "K",
+    "airport": "D",
+    "dish": "H",
+    "library": "F",
+    "toy": "V"
+   },
+   "tag_pos": 30,
+   "carrier_start": 78,
+   "answer_pos": 165,
+   "instr_len": 48,
+   "A_word": "fish",
+   "B_word": "turtle",
+   "C_word": "airport"
+  },
+  "T1|C1|rot0": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "donors": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "assign": {
+    "turtle": "Q",
+    "airport": "H",
+    "fish": "V",
+    "library": "B",
+    "toy": "K",
+    "dish": "D"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "turtle",
+   "B_word": "airport",
+   "C_word": "fish"
+  },
+  "T1|C1|rot1": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "donors": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "assign": {
+    "airport": "K",
+    "fish": "B",
+    "turtle": "V",
+    "toy": "D",
+    "dish": "H",
+    "library": "Q"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "airport",
+   "B_word": "fish",
+   "C_word": "turtle"
+  },
+  "T1|C1|rot2": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "donors": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "assign": {
+    "fish": "D",
+    "turtle": "M",
+    "airport": "K",
+    "dish": "H",
+    "library": "Q",
+    "toy": "F"
+   },
+   "tag_pos": 30,
+   "carrier_start": 79,
+   "answer_pos": 167,
+   "instr_len": 49,
+   "A_word": "fish",
+   "B_word": "turtle",
+   "C_word": "airport"
+  }
+ },
+ "triples": [
+  [
+   "cat",
+   "dress",
+   "snake"
+  ],
+  [
+   "turtle",
+   "airport",
+   "fish"
+  ],
+  [
+   "library",
+   "toy",
+   "dish"
+  ],
+  [
+   "moon",
+   "fort",
+   "heart"
+  ],
+  [
+   "bubble",
+   "rug",
+   "bear"
+  ],
+  [
+   "coal",
+   "card",
+   "lake"
+  ],
+  [
+   "glass",
+   "silver",
+   "river"
+  ],
+  [
+   "shield",
+   "monkey",
+   "queen"
+  ]
+ ],
+ "carriers": [
+  "C0",
+  "C1"
+ ],
+ "tags": [
+  "A",
+  "B",
+  "C"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "l_x": 36,
+ "query": "Using the code, give the letter for the word you were instructed to keep in mind. Answer with the letter only.",
+ "letters": [
+  "B",
+  "D",
+  "F",
+  "H",
+  "K",
+  "M",
+  "Q",
+  "V"
+ ],
+ "seed": 20260907,
+ "cell_triples": [
+  0,
+  1
+ ],
+ "stage": "pilot",
+ "full": false,
+ "gate3": {
+  "prefix_ids_identical": true,
+  "max_abs_dz_carrier_interior": 10.96875,
+  "note": "expected small (sequence-length nondeterminism, trap #1), not bitwise zero; large => hook/mask/tokenization fault"
+ },
+ "run_id": "20260907T210301Z",
+ "n_forwards": 97,
+ "elapsed_s": 57.2
+}

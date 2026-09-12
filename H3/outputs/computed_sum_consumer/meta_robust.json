@@ -1,0 +1,1072 @@
+{
+ "columns": [
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "sum_words": [
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen"
+ ],
+ "letters": [
+  "B",
+  "D",
+  "F",
+  "H",
+  "K",
+  "M",
+  "Q",
+  "V"
+ ],
+ "letter_ids": {
+  "B": [
+   33,
+   417
+  ],
+  "D": [
+   35,
+   414
+  ],
+  "F": [
+   37,
+   426
+  ],
+  "H": [
+   39,
+   462
+  ],
+  "K": [
+   42,
+   710
+  ],
+  "M": [
+   44,
+   380
+  ],
+  "Q": [
+   48,
+   1167
+  ],
+  "V": [
+   53,
+   629
+  ]
+ },
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "seed": 20260908,
+ "stage": "robust",
+ "queries": {
+  "sum_pair": "Using the code, give the letter for the sum of the pair. Answer with the letter only.",
+  "sum_two": "Using the code, give the letter for the sum of the two numbers. Answer with the letter only.",
+  "total_pair": "Using the code, give the letter for the total of the pair. Answer with the letter only."
+ },
+ "token_ids": {
+  "two": 1330,
+  "three": 2250,
+  "four": 2943,
+  "five": 4097,
+  "six": 4590,
+  "seven": 7840,
+  "eight": 7810,
+  "nine": 11292,
+  "ten": 5600,
+  "eleven": 42744,
+  "twelve": 28279,
+  "thirteen": 58614,
+  "fourteen": 60163,
+  "anchor": 16602,
+  "apple": 22544,
+  "arrow": 17385,
+  "badge": 23213,
+  "basket": 13621,
+  "bread": 15530,
+  "brick": 24051,
+  "bridge": 13759
+ },
+ "lx": 36,
+ "carriers": [
+  "C0",
+  "C1",
+  "C2",
+  "C3"
+ ],
+ "maps": {
+  "off3": 3,
+  "off1": 1
+ },
+ "cells": {
+  "S0|C0": {
+   "sum": "seven",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "eight"
+     ],
+     "sum": "ten",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "six"
+     ],
+     "sum": "eight",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S1|C0": {
+   "sum": "eight",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "three",
+      "eight"
+     ],
+     "sum": "eleven",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "seven"
+     ],
+     "sum": "nine",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S2|C0": {
+   "sum": "nine",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "four",
+      "eight"
+     ],
+     "sum": "twelve",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "eight"
+     ],
+     "sum": "ten",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S3|C0": {
+   "sum": "ten",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "five",
+      "eight"
+     ],
+     "sum": "thirteen",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "three",
+      "eight"
+     ],
+     "sum": "eleven",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S4|C0": {
+   "sum": "eleven",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "six",
+      "eight"
+     ],
+     "sum": "fourteen",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "four",
+      "eight"
+     ],
+     "sum": "twelve",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S5|C0": {
+   "sum": "twelve",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "five"
+     ],
+     "sum": "seven",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "five",
+      "eight"
+     ],
+     "sum": "thirteen",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S6|C0": {
+   "sum": "thirteen",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "six"
+     ],
+     "sum": "eight",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "six",
+      "eight"
+     ],
+     "sum": "fourteen",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S7|C0": {
+   "sum": "fourteen",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "seven"
+     ],
+     "sum": "nine",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "five"
+     ],
+     "sum": "seven",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S0|C1": {
+   "sum": "seven",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "eight"
+     ],
+     "sum": "ten",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "six"
+     ],
+     "sum": "eight",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S1|C1": {
+   "sum": "eight",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "three",
+      "eight"
+     ],
+     "sum": "eleven",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "seven"
+     ],
+     "sum": "nine",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S2|C1": {
+   "sum": "nine",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "four",
+      "eight"
+     ],
+     "sum": "twelve",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "eight"
+     ],
+     "sum": "ten",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S3|C1": {
+   "sum": "ten",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "five",
+      "eight"
+     ],
+     "sum": "thirteen",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "three",
+      "eight"
+     ],
+     "sum": "eleven",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S4|C1": {
+   "sum": "eleven",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "six",
+      "eight"
+     ],
+     "sum": "fourteen",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "four",
+      "eight"
+     ],
+     "sum": "twelve",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S5|C1": {
+   "sum": "twelve",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "five"
+     ],
+     "sum": "seven",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "five",
+      "eight"
+     ],
+     "sum": "thirteen",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S6|C1": {
+   "sum": "thirteen",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "six"
+     ],
+     "sum": "eight",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "six",
+      "eight"
+     ],
+     "sum": "fourteen",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S7|C1": {
+   "sum": "fourteen",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "seven"
+     ],
+     "sum": "nine",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "five"
+     ],
+     "sum": "seven",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S0|C2": {
+   "sum": "seven",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "eight"
+     ],
+     "sum": "ten",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "six"
+     ],
+     "sum": "eight",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S1|C2": {
+   "sum": "eight",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "three",
+      "eight"
+     ],
+     "sum": "eleven",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "seven"
+     ],
+     "sum": "nine",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S2|C2": {
+   "sum": "nine",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "four",
+      "eight"
+     ],
+     "sum": "twelve",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "eight"
+     ],
+     "sum": "ten",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S3|C2": {
+   "sum": "ten",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "five",
+      "eight"
+     ],
+     "sum": "thirteen",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "three",
+      "eight"
+     ],
+     "sum": "eleven",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S4|C2": {
+   "sum": "eleven",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "six",
+      "eight"
+     ],
+     "sum": "fourteen",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "four",
+      "eight"
+     ],
+     "sum": "twelve",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S5|C2": {
+   "sum": "twelve",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "five"
+     ],
+     "sum": "seven",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "five",
+      "eight"
+     ],
+     "sum": "thirteen",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S6|C2": {
+   "sum": "thirteen",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "six"
+     ],
+     "sum": "eight",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "six",
+      "eight"
+     ],
+     "sum": "fourteen",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S7|C2": {
+   "sum": "fourteen",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "seven"
+     ],
+     "sum": "nine",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "five"
+     ],
+     "sum": "seven",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S0|C3": {
+   "sum": "seven",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "eight"
+     ],
+     "sum": "ten",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "six"
+     ],
+     "sum": "eight",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S1|C3": {
+   "sum": "eight",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "three",
+      "eight"
+     ],
+     "sum": "eleven",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "seven"
+     ],
+     "sum": "nine",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S2|C3": {
+   "sum": "nine",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "four",
+      "eight"
+     ],
+     "sum": "twelve",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "eight"
+     ],
+     "sum": "ten",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S3|C3": {
+   "sum": "ten",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "five",
+      "eight"
+     ],
+     "sum": "thirteen",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "three",
+      "eight"
+     ],
+     "sum": "eleven",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S4|C3": {
+   "sum": "eleven",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "six",
+      "eight"
+     ],
+     "sum": "fourteen",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "four",
+      "eight"
+     ],
+     "sum": "twelve",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S5|C3": {
+   "sum": "twelve",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "five"
+     ],
+     "sum": "seven",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "five",
+      "eight"
+     ],
+     "sum": "thirteen",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S6|C3": {
+   "sum": "thirteen",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "six"
+     ],
+     "sum": "eight",
+     "parity": "even"
+    },
+    "off1": {
+     "donor": [
+      "six",
+      "eight"
+     ],
+     "sum": "fourteen",
+     "parity": "even"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  },
+  "S7|C3": {
+   "sum": "fourteen",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "own_parity": "even",
+   "maps": {
+    "off3": {
+     "donor": [
+      "two",
+      "seven"
+     ],
+     "sum": "nine",
+     "parity": "odd"
+    },
+    "off1": {
+     "donor": [
+      "two",
+      "five"
+     ],
+     "sum": "seven",
+     "parity": "odd"
+    }
+   },
+   "parity_C_own_bitwise": true,
+   "report_C_own_bitwise": true
+  }
+ },
+ "design": "Amendment 2",
+ "resid_axis": {
+  "fit_templates": [
+   "The answer was {m}.",
+   "She counted to {m}.",
+   "The total came to {m}.",
+   "He wrote {m} on the board."
+  ],
+  "val_templates": [
+   "The final number is {m}.",
+   "They stopped at {m}."
+  ],
+  "heldout_presence_margin_L36_59": {
+   "seven": 74.85057067871094,
+   "eight": 72.740966796875,
+   "nine": 74.36770629882812,
+   "ten": 74.33650970458984,
+   "eleven": 79.52301025390625,
+   "twelve": 80.80376434326172,
+   "thirteen": 83.57049560546875,
+   "fourteen": 85.20872497558594
+  },
+  "heldout_pair_margin_L36_59": {
+   "seven->ten": 51.660396575927734,
+   "seven->eight": 37.17188262939453,
+   "eight->eleven": 52.358882904052734,
+   "eight->nine": 37.02677536010742,
+   "nine->twelve": 51.565467834472656,
+   "nine->ten": 47.63481140136719,
+   "ten->thirteen": 59.15928649902344,
+   "ten->eleven": 50.76304244995117,
+   "eleven->fourteen": 51.022857666015625,
+   "eleven->twelve": 44.56858825683594,
+   "twelve->seven": 53.97759246826172,
+   "twelve->thirteen": 44.962074279785156,
+   "thirteen->eight": 56.41094207763672,
+   "thirteen->fourteen": 38.82078170776367,
+   "fourteen->nine": 58.48548889160156,
+   "fourteen->seven": 55.68210983276367
+  }
+ },
+ "run_id": "20260909T121335Z",
+ "n_forwards": 1022,
+ "elapsed_s": 261.1
+}

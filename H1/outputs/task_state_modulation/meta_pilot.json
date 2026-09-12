@@ -1,0 +1,356 @@
+{
+ "cells": {
+  "C0|maintain|orange->tiger": {
+   "L_star": -13.566194534301758,
+   "L_own": -6.902210712432861,
+   "alpha_mean": -6.6639838218688965,
+   "n_interior": 19,
+   "n_tokens": 83
+  },
+  "C0|mention|orange->tiger": {
+   "L_star": -6.902210712432861,
+   "L_own": -13.566194534301758,
+   "alpha_mean": 6.663983345031738,
+   "n_interior": 19,
+   "n_tokens": 83
+  },
+  "C0|maintain|tiger->orange": {
+   "L_star": -13.491376876831055,
+   "L_own": -6.629251003265381,
+   "alpha_mean": -6.862126350402832,
+   "n_interior": 19,
+   "n_tokens": 83
+  },
+  "C0|mention|tiger->orange": {
+   "L_star": -6.629251003265381,
+   "L_own": -13.491376876831055,
+   "alpha_mean": 6.862124919891357,
+   "n_interior": 19,
+   "n_tokens": 83
+  },
+  "C0|maintain|guitar->mountain": {
+   "L_star": -13.40314769744873,
+   "L_own": -6.214667320251465,
+   "alpha_mean": -7.188480377197266,
+   "n_interior": 19,
+   "n_tokens": 84
+  },
+  "C0|mention|guitar->mountain": {
+   "L_star": -6.214667320251465,
+   "L_own": -13.40314769744873,
+   "alpha_mean": 7.188480377197266,
+   "n_interior": 19,
+   "n_tokens": 84
+  },
+  "C0|maintain|mountain->guitar": {
+   "L_star": -13.560168266296387,
+   "L_own": -6.271315097808838,
+   "alpha_mean": -7.288852691650391,
+   "n_interior": 19,
+   "n_tokens": 84
+  },
+  "C0|mention|mountain->guitar": {
+   "L_star": -6.271315097808838,
+   "L_own": -13.560168266296387,
+   "alpha_mean": 7.288852691650391,
+   "n_interior": 19,
+   "n_tokens": 84
+  },
+  "C0|maintain|diamond->castle": {
+   "L_star": -13.237203598022461,
+   "L_own": -6.261955738067627,
+   "alpha_mean": -6.975247859954834,
+   "n_interior": 19,
+   "n_tokens": 83
+  },
+  "C0|mention|diamond->castle": {
+   "L_star": -6.261955738067627,
+   "L_own": -13.237203598022461,
+   "alpha_mean": 6.97524881362915,
+   "n_interior": 19,
+   "n_tokens": 83
+  },
+  "C0|maintain|castle->diamond": {
+   "L_star": -13.373723983764648,
+   "L_own": -5.800568103790283,
+   "alpha_mean": -7.573156833648682,
+   "n_interior": 19,
+   "n_tokens": 83
+  },
+  "C0|mention|castle->diamond": {
+   "L_star": -5.800568103790283,
+   "L_own": -13.373723983764648,
+   "alpha_mean": 7.573156833648682,
+   "n_interior": 19,
+   "n_tokens": 83
+  },
+  "C1|maintain|orange->tiger": {
+   "L_star": -13.397679328918457,
+   "L_own": -6.031565189361572,
+   "alpha_mean": -7.366114616394043,
+   "n_interior": 20,
+   "n_tokens": 85
+  },
+  "C1|mention|orange->tiger": {
+   "L_star": -6.031565189361572,
+   "L_own": -13.397679328918457,
+   "alpha_mean": 7.366114616394043,
+   "n_interior": 20,
+   "n_tokens": 85
+  },
+  "C1|maintain|tiger->orange": {
+   "L_star": -13.3725004196167,
+   "L_own": -5.275574207305908,
+   "alpha_mean": -8.096925735473633,
+   "n_interior": 20,
+   "n_tokens": 85
+  },
+  "C1|mention|tiger->orange": {
+   "L_star": -5.275574207305908,
+   "L_own": -13.3725004196167,
+   "alpha_mean": 8.09692668914795,
+   "n_interior": 20,
+   "n_tokens": 85
+  },
+  "C1|maintain|guitar->mountain": {
+   "L_star": -13.297171592712402,
+   "L_own": -4.669167518615723,
+   "alpha_mean": -8.62800407409668,
+   "n_interior": 20,
+   "n_tokens": 86
+  },
+  "C1|mention|guitar->mountain": {
+   "L_star": -4.669167518615723,
+   "L_own": -13.297171592712402,
+   "alpha_mean": 8.628003120422363,
+   "n_interior": 20,
+   "n_tokens": 86
+  },
+  "C1|maintain|mountain->guitar": {
+   "L_star": -12.75788402557373,
+   "L_own": -3.8228416442871094,
+   "alpha_mean": -8.935042381286621,
+   "n_interior": 20,
+   "n_tokens": 86
+  },
+  "C1|mention|mountain->guitar": {
+   "L_star": -3.8228416442871094,
+   "L_own": -12.75788402557373,
+   "alpha_mean": 8.935042381286621,
+   "n_interior": 20,
+   "n_tokens": 86
+  },
+  "C1|maintain|diamond->castle": {
+   "L_star": -12.91711711883545,
+   "L_own": -4.272017002105713,
+   "alpha_mean": -8.645099639892578,
+   "n_interior": 20,
+   "n_tokens": 85
+  },
+  "C1|mention|diamond->castle": {
+   "L_star": -4.272017002105713,
+   "L_own": -12.91711711883545,
+   "alpha_mean": 8.645101547241211,
+   "n_interior": 20,
+   "n_tokens": 85
+  },
+  "C1|maintain|castle->diamond": {
+   "L_star": -12.9341459274292,
+   "L_own": -3.867818593978882,
+   "alpha_mean": -9.066328048706055,
+   "n_interior": 20,
+   "n_tokens": 85
+  },
+  "C1|mention|castle->diamond": {
+   "L_star": -3.867818593978882,
+   "L_own": -12.9341459274292,
+   "alpha_mean": 9.066327095031738,
+   "n_interior": 20,
+   "n_tokens": 85
+  }
+ },
+ "pairs": [
+  [
+   "orange",
+   "tiger"
+  ],
+  [
+   "guitar",
+   "mountain"
+  ],
+  [
+   "diamond",
+   "castle"
+  ]
+ ],
+ "excluded": [],
+ "columns": [
+  "castle",
+  "diamond",
+  "guitar",
+  "mountain",
+  "orange",
+  "tiger",
+  "dragon",
+  "drawer",
+  "forest",
+  "fork",
+  "hammer",
+  "horse",
+  "knife",
+  "lion"
+ ],
+ "random_column_ids": [
+  75890,
+  217237,
+  238757,
+  161021,
+  49421,
+  189012,
+  226937,
+  99468,
+  52937,
+  101638,
+  158434,
+  54237,
+  41848,
+  26482,
+  226699,
+  137987,
+  170058,
+  159557,
+  92599,
+  128569,
+  82255,
+  70438,
+  116287,
+  128030,
+  51633,
+  163542,
+  113789,
+  70483,
+  184793,
+  209689,
+  119747,
+  94154,
+  135584,
+  43439,
+  47503,
+  72739,
+  18107,
+  135786,
+  200224,
+  196588,
+  95692,
+  40020,
+  213554,
+  221865,
+  91404,
+  124992,
+  191689,
+  108711,
+  137648,
+  59032,
+  62044,
+  187506,
+  76395,
+  13081,
+  65422,
+  236575,
+  147194,
+  86356,
+  172110,
+  197383,
+  219960,
+  131974,
+  42127,
+  102003
+ ],
+ "rank_layers": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59
+ ],
+ "carriers": [
+  "C0",
+  "C1"
+ ],
+ "panel": [
+  "iso00",
+  "iso01",
+  "iso02",
+  "iso03",
+  "cov00",
+  "cov01",
+  "cov02",
+  "cov03",
+  "pc00",
+  "pc01",
+  "sem00",
+  "sem01"
+ ],
+ "doses": [
+  0.5,
+  2.0
+ ],
+ "l_state": 35,
+ "l_x": 36,
+ "G_sha256": "ad20332aa942d30fe3330c7849ed42739e411d6f711cbbec6ca1a06e54c65af9",
+ "run_id": "20260906T222757Z",
+ "stage": "pilot",
+ "n_forwards": 744,
+ "elapsed_s": 248.2,
+ "token_ids": {
+  "castle": 31508,
+  "diamond": 21517,
+  "guitar": 16488,
+  "mountain": 15822,
+  "orange": 18016,
+  "tiger": 49993,
+  "dragon": 24309,
+  "drawer": 25635,
+  "forest": 13245,
+  "fork": 21736,
+  "hammer": 22725,
+  "horse": 14780,
+  "knife": 20773,
+  "lion": 37739
+ },
+ "arms": [
+  "maintain",
+  "mention"
+ ]
+}

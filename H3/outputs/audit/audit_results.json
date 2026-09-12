@@ -1,0 +1,181 @@
+{
+ "check1_prefix_leakage": {
+  "len_with": 166,
+  "len_with_alt": 166,
+  "len_without": 101,
+  "equal_length_alt": true,
+  "prefix_ids_identical_alt": true,
+  "prefix_ids_identical_nc": true,
+  "carrier_ids_identical_alt": true,
+  "first_divergent_block_equal_length_alt": null,
+  "first_divergent_block_without_consumer": 0,
+  "max_abs_resid_diff_alt": 0.0,
+  "max_abs_resid_diff_nc": 549.0,
+  "per_layer_alt_first8": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "per_layer_nc_first8": [
+   0.0625,
+   0.125,
+   0.1875,
+   0.125,
+   0.125,
+   0.125,
+   0.125,
+   0.25
+  ],
+  "per_layer_nc_last8": [
+   125.0,
+   137.0,
+   549.0,
+   41.0,
+   14.0,
+   13.625,
+   54.0,
+   50.5
+  ]
+ },
+ "check2_readback": {
+  "hook_site": "register_forward_hook on block -> patches BLOCK OUTPUT",
+  "max_abs_diff_patched_positions_vs_donor(should be 0)": 0.0,
+  "max_abs_diff_below_Lx_at_instr_vs_cleanA(should be 0)": 0.0,
+  "max_abs_diff_below_Lx_at_source_spans(should be 0)": 0.0,
+  "instr_positions": [
+   30,
+   77
+  ],
+  "n_instr": 48,
+  "instr_decoded": " A in mind while you copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "instr_disjoint_from_sources": true,
+  "instr_max_lt_answer_pos": true
+ },
+ "check4_scoring": {
+  "answer_position_index": 165,
+  "seq_len": 166,
+  "scored_position_is_last": true,
+  "last_5_tokens": [
+   "\n",
+   "<think>",
+   "\n\n",
+   "</think>",
+   "\n\n"
+  ],
+  "letter_ids": {
+   "B": [
+    33,
+    417
+   ],
+   "D": [
+    35,
+    414
+   ],
+   "F": [
+    37,
+    426
+   ],
+   "H": [
+    39,
+    462
+   ],
+   "K": [
+    42,
+    710
+   ],
+   "M": [
+    44,
+    380
+   ],
+   "Q": [
+    48,
+    1167
+   ],
+   "V": [
+    53,
+    629
+   ]
+  },
+  "n_ids_per_letter": {
+   "B": 2,
+   "D": 2,
+   "F": 2,
+   "H": 2,
+   "K": 2,
+   "M": 2,
+   "Q": 2,
+   "V": 2
+  },
+  "greedy_cleanA": "Q",
+  "greedy_BtoA": "Q",
+  "raw_logit_at_scored_pos_cleanA": {
+   "B": [
+    14.9375,
+    11.6875
+   ],
+   "D": [
+    14.125,
+    10.875
+   ],
+   "F": [
+    15.6875,
+    12.625
+   ],
+   "H": [
+    13.8125,
+    10.9375
+   ],
+   "K": [
+    11.625,
+    8.375
+   ],
+   "M": [
+    14.25,
+    11.3125
+   ],
+   "Q": [
+    22.625,
+    19.5
+   ],
+   "V": [
+    14.6875,
+    11.5
+   ]
+  },
+  "E_B_max_rule": 1.4374999441206455,
+  "E_B_logsumexp_rule": 1.4328312315046787,
+  "offby_one_probe_E_B_at_pos_minus_1": 2.125
+ },
+ "check5_random_control": {
+  "mean_write_norm_BtoA_per_layer_first5": [
+   6.602972984313965,
+   6.771092891693115,
+   6.6246538162231445,
+   6.639980316162109,
+   6.568742275238037
+  ],
+  "mean_write_norm_CtoA_per_layer_first5": [
+   6.115954399108887,
+   6.218256950378418,
+   6.066129207611084,
+   5.996001243591309,
+   5.862994194030762
+  ],
+  "mean_write_norm_randA_per_layer_first5": [
+   6.604148864746094,
+   6.7722883224487305,
+   6.6260809898376465,
+   6.6412458419799805,
+   6.5699896812438965
+  ],
+  "randA_matches_BtoA_ratio": 1.0002364561667498,
+  "randA_matches_CtoA_ratio": 1.143354950562449,
+  "CtoA_vs_BtoA_norm_ratio": 0.8748258409820195,
+  "note": "SpanWriter OVERWRITES; realized==requested by construction (verified in check2 read-back). The battery's stored randA rho=1.0 was a hardcoded placeholder, not a measurement."
+ }
+}

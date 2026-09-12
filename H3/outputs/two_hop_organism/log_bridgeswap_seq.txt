@@ -1,0 +1,61 @@
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 3510.07it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<04:09,  3.41it/s]Loading weights:   0%|          | 2/851 [00:00<04:48,  2.95it/s]Loading weights:   3%|▎         | 23/851 [00:00<00:19, 42.60it/s]Loading weights:   4%|▍         | 35/851 [00:00<00:14, 58.18it/s]Loading weights:   6%|▌         | 47/851 [00:01<00:11, 69.44it/s]Loading weights:   7%|▋         | 62/851 [00:01<00:08, 88.28it/s]Loading weights:   9%|▉         | 79/851 [00:01<00:07, 100.57it/s]Loading weights:  12%|█▏        | 99/851 [00:01<00:06, 121.32it/s]Loading weights:  14%|█▍        | 118/851 [00:01<00:05, 135.93it/s]Loading weights:  16%|█▌        | 133/851 [00:01<00:05, 122.20it/s]Loading weights:  17%|█▋        | 148/851 [00:01<00:05, 126.05it/s]Loading weights:  19%|█▉        | 162/851 [00:01<00:05, 119.96it/s]Loading weights:  21%|██        | 175/851 [00:01<00:05, 119.67it/s]Loading weights:  22%|██▏       | 188/851 [00:02<00:05, 119.42it/s]Loading weights:  24%|██▎       | 202/851 [00:02<00:05, 124.66it/s]Loading weights:  26%|██▌       | 221/851 [00:02<00:04, 136.90it/s]Loading weights:  28%|██▊       | 235/851 [00:02<00:04, 135.64it/s]Loading weights:  29%|██▉       | 249/851 [00:02<00:05, 119.99it/s]Loading weights:  31%|███       | 262/851 [00:02<00:05, 110.72it/s]Loading weights:  33%|███▎      | 278/851 [00:02<00:04, 117.22it/s]Loading weights:  34%|███▍      | 292/851 [00:02<00:04, 118.32it/s]Loading weights:  36%|███▌      | 307/851 [00:03<00:04, 124.92it/s]Loading weights:  38%|███▊      | 320/851 [00:03<00:04, 119.45it/s]Loading weights:  40%|███▉      | 340/851 [00:03<00:03, 139.03it/s]Loading weights:  42%|████▏     | 355/851 [00:03<00:03, 139.10it/s]Loading weights:  43%|████▎     | 370/851 [00:03<00:03, 125.06it/s]Loading weights:  45%|████▌     | 385/851 [00:03<00:03, 127.23it/s]Loading weights:  48%|████▊     | 408/851 [00:03<00:02, 152.41it/s]Loading weights:  50%|████▉     | 424/851 [00:03<00:03, 132.18it/s]Loading weights:  51%|█████▏    | 438/851 [00:04<00:03, 130.27it/s]Loading weights:  53%|█████▎    | 453/851 [00:04<00:03, 129.29it/s]Loading weights:  55%|█████▍    | 467/851 [00:04<00:02, 131.68it/s]Loading weights:  57%|█████▋    | 486/851 [00:04<00:02, 146.95it/s]Loading weights:  59%|█████▉    | 502/851 [00:04<00:02, 149.85it/s]Loading weights:  61%|██████    | 518/851 [00:04<00:02, 143.87it/s]Loading weights:  63%|██████▎   | 533/851 [00:04<00:02, 132.43it/s]Loading weights:  65%|██████▍   | 553/851 [00:04<00:02, 147.85it/s]Loading weights:  67%|██████▋   | 569/851 [00:04<00:01, 149.11it/s]Loading weights:  69%|██████▊   | 585/851 [00:05<00:02, 124.98it/s]Loading weights:  70%|███████   | 599/851 [00:05<00:01, 127.14it/s]Loading weights:  73%|███████▎  | 620/851 [00:05<00:01, 144.04it/s]Loading weights:  75%|███████▍  | 635/851 [00:05<00:01, 119.11it/s]Loading weights:  76%|███████▋  | 651/851 [00:05<00:01, 123.33it/s]Loading weights:  79%|███████▉  | 672/851 [00:05<00:01, 138.25it/s]Loading weights:  81%|████████  | 687/851 [00:05<00:01, 117.77it/s]Loading weights:  83%|████████▎ | 704/851 [00:06<00:01, 127.15it/s]Loading weights:  84%|████████▍ | 718/851 [00:06<00:01, 126.07it/s]Loading weights:  86%|████████▋ | 735/851 [00:06<00:00, 136.84it/s]Loading weights:  89%|████████▊ | 754/851 [00:06<00:00, 149.13it/s]Loading weights:  90%|█████████ | 770/851 [00:06<00:00, 133.90it/s]Loading weights:  92%|█████████▏| 785/851 [00:06<00:00, 128.32it/s]Loading weights:  94%|█████████▍| 804/851 [00:06<00:00, 141.67it/s]Loading weights:  96%|█████████▌| 819/851 [00:06<00:00, 139.51it/s]Loading weights:  98%|█████████▊| 834/851 [00:06<00:00, 141.31it/s]Loading weights: 100%|█████████▉| 849/851 [00:07<00:00, 116.36it/s]Loading weights: 100%|██████████| 851/851 [00:07<00:00, 119.62it/s]
+  ex-city-capital-Barcelona-Toronto|C0: 45 forwards (12s)
+  ex-city-capital-Barcelona-Toronto|C1: 90 forwards (24s)
+  ex-city-capital-Barcelona-Toronto|C2: 135 forwards (36s)
+  ex-city-capital-Barcelona-Toronto|C3: 180 forwards (48s)
+  ex-city-capital-Lyon-Naples|C0: 225 forwards (60s)
+  ex-city-capital-Lyon-Naples|C1: 270 forwards (72s)
+  ex-city-capital-Lyon-Naples|C2: 315 forwards (84s)
+  ex-city-capital-Lyon-Naples|C3: 360 forwards (96s)
+  ex-city-capital-Naples-Barcelona|C0: 405 forwards (108s)
+  ex-city-capital-Naples-Barcelona|C1: 450 forwards (120s)
+  ex-city-capital-Naples-Barcelona|C2: 495 forwards (132s)
+  ex-city-capital-Naples-Barcelona|C3: 540 forwards (145s)
+  ex-city-capital-Toronto-Lyon|C0: 585 forwards (157s)
+  ex-city-capital-Toronto-Lyon|C1: 630 forwards (169s)
+  ex-city-capital-Toronto-Lyon|C2: 675 forwards (181s)
+  ex-city-capital-Toronto-Lyon|C3: 720 forwards (193s)
+  ex2-city-capital-Munich|C0: 765 forwards (205s)
+  ex2-city-capital-Munich|C1: 810 forwards (217s)
+  ex2-city-capital-Munich|C2: 855 forwards (228s)
+  ex2-city-capital-Munich|C3: 900 forwards (240s)
+  ex2-city-capital-Osaka|C0: 945 forwards (252s)
+  ex2-city-capital-Osaka|C1: 990 forwards (263s)
+  ex2-city-capital-Osaka|C2: 1035 forwards (275s)
+  ex2-city-capital-Osaka|C3: 1080 forwards (286s)
+  ex2-city-language-Cairo|C0: 1125 forwards (298s)
+  ex2-city-language-Cairo|C1: 1170 forwards (310s)
+  ex2-city-language-Cairo|C2: 1215 forwards (321s)
+  ex2-city-language-Cairo|C3: 1260 forwards (333s)
+  ex2-city-language-Moscow|C0: 1305 forwards (345s)
+  ex2-city-language-Moscow|C1: 1350 forwards (356s)
+  ex2-city-language-Moscow|C2: 1395 forwards (367s)
+  ex2-city-language-Moscow|C3: 1440 forwards (379s)
+  ex2-language-capital-Hungarian|C0: 1485 forwards (391s)
+  ex2-language-capital-Hungarian|C1: 1530 forwards (402s)
+  ex2-language-capital-Hungarian|C2: 1575 forwards (414s)
+  ex2-language-capital-Hungarian|C3: 1620 forwards (426s)
+  ex2-language-capital-Polish|C0: 1665 forwards (437s)
+  ex2-language-capital-Polish|C1: 1710 forwards (448s)
+  ex2-language-capital-Polish|C2: 1755 forwards (460s)
+  ex2-language-capital-Polish|C3: 1800 forwards (472s)
+  food-animal-butter|C0: 1889 forwards (494s)
+  food-animal-butter|C1: 1978 forwards (517s)
+  food-animal-butter|C2: 2067 forwards (540s)
+  food-animal-butter|C3: 2156 forwards (563s)
+  food-animal-honey|C0: 2245 forwards (586s)
+  food-animal-honey|C1: 2334 forwards (609s)
+  food-animal-honey|C2: 2423 forwards (632s)
+  food-animal-honey|C3: 2512 forwards (655s)
+  [S_donor0 ] seq margin +23.88 [+21.93,+25.83] (12/12>0) share +1.00 flips 48/48
+  [int_tail ] seq margin  +9.85 [ +7.14,+12.55] (12/12>0) share +0.41 flips 16/48
+  [int_clue ] seq margin  +2.20 [ +1.46, +2.94] (12/12>0) share +0.09 flips 0/48
+  [int_carr ] seq margin  +1.66 [ +0.99, +2.33] (12/12>0) share +0.07 flips 0/48
+  [int_q    ] seq margin  +4.74 [ +3.50, +5.98] (12/12>0) share +0.20 flips 0/48
+  [ans_tail ] seq margin +12.91 [ +9.76,+16.05] (12/12>0) share +0.54 flips 29/48
+  [ans_clue ] seq margin  +1.31 [ +0.72, +1.91] (12/12>0) share +0.06 flips 0/48
+  [ans_carr ] seq margin  +1.39 [ +0.91, +1.86] (12/12>0) share +0.06 flips 0/48
+  [ans_q    ] seq margin +10.22 [ +7.85,+12.59] (12/12>0) share +0.43 flips 17/48
+  [rand_tail] seq margin  +0.13 [ -0.01, +0.28] (11/12>0) share +0.01 flips 0/48
+[done bridgeswap_seq] 2512 forwards, 655s

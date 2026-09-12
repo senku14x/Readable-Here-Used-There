@@ -1,0 +1,61 @@
+
+====================================================================================================
+0. PARITY MAPPING — independent check of own_parity / diff_parity in meta (numeric, not index arithmetic)
+====================================================================================================
+  parity mapping consistent with numeric values, diff donor flips parity in all cells: YES
+
+====================================================================================================
+1. BOUNDARY GATE (raw_boundary) — scored-argmax rule, all 16 cells and cluster-t over 8 sums
+====================================================================================================
+  self-patch bitwise no-op: 32/32
+  -- parity --
+    L23: clean-correct 16/16 | diff->donor FLIP 16/16 | same stays 16/16 | margin diff +6.45 [+5.89,+7.01] 8/8 | same -0.08 [-0.87,+0.72] 5/8
+    L36: clean-correct 16/16 | diff->donor FLIP 12/16 | same stays 16/16 | margin diff +3.91 [+3.01,+4.81] 8/8 | same -0.47 [-1.44,+0.51] 4/8
+  -- report --
+    L23: clean-correct 16/16 | diff->donor FLIP 16/16 | same stays 16/16 | margin diff +21.31 [+19.95,+22.68] 8/8 | same -0.42 [-1.25,+0.40] 3/8
+    L36: clean-correct 16/16 | diff->donor FLIP 16/16 | same stays 16/16 | margin diff +21.11 [+19.79,+22.43] 8/8 | same -0.29 [-0.95,+0.37] 3/8
+  -- internal C_diff^sum, L51-59, report forwards --
+    L23: +1.55 [+1.30,+1.80] 8/8
+    L36: +1.50 [+1.30,+1.69] 8/8
+  -- carrier damage (report): dNLL diffswap - clean --
+    L23: mean -0.0001 max +0.0013
+    L36: mean -0.0001 max +0.0010
+
+====================================================================================================
+2. TRANSPORT (raw_transport) — the load-bearing dissociation; scored-argmax rule (fixes the runner's greedy-prefix check)
+====================================================================================================
+  lx=36  n_forwards=160  (expect 8 sums x 2 carriers x 2 consumers x 5 = 160)
+  -- report --
+    O_donor  flip(scored) 16/16  flip(greedy-prefix, runner rule) 14/16 | margin +21.11 [+19.79,+22.43] 8/8 | internal(carrier sum) +1.50 [+1.30,+1.69] 8/8
+    C_full   flip(scored)  0/16  flip(greedy-prefix, runner rule)  0/16 | margin +1.70 [+1.09,+2.31] 8/8 | internal(carrier sum) +1.55 [+1.31,+1.80] 8/8
+    C_rand   flip(scored)  0/16  flip(greedy-prefix, runner rule)  0/16 | margin +0.05 [-0.01,+0.11] 5/8 | internal(carrier sum) +0.13 [+0.08,+0.17] 8/8
+  -- parity --
+    O_donor  flip(scored) 12/16  flip(greedy-prefix, runner rule) 12/16 | margin +3.91 [+3.01,+4.81] 8/8 | internal(carrier sum) +1.50 [+1.30,+1.69] 8/8
+    C_full   flip(scored)  0/16  flip(greedy-prefix, runner rule)  0/16 | margin +0.53 [+0.19,+0.87] 8/8 | internal(carrier sum) +1.55 [+1.31,+1.80] 8/8
+    C_rand   flip(scored)  0/16  flip(greedy-prefix, runner rule)  0/16 | margin -0.07 [-0.12,-0.02] 2/8 | internal(carrier sum) +0.13 [+0.08,+0.17] 8/8
+  -- clean competence in transport forwards --
+    report: 16/16
+    parity: 16/16
+  -- carrier damage under C_full (dNLL vs clean) --
+    report: mean -0.0000 max +0.0019
+    parity: mean -0.0000 max +0.0019
+  -- MATCHED INTERNAL CONTROL: ratio of C_full to O_donor internal shift (per-sum, report) --
+    C_full/O_donor internal per-sum: [1.07 0.94 1.03 0.97 0.98 1.05 1.19 1.05]   mean ratio 1.04
+  -- BEHAVIORAL ratio C_full/O_donor margin (report; ratio of cluster means) --
+    C_full/O_donor behavioral (ratio of means): 0.081
+  -- O_donor reproducibility: transport vs boundary internal C_diff^sum at L36 (same intervention, independent runs) --
+    boundary lx36 +1.50 [+1.30,+1.69] 8/8   transport O_donor +1.50 [+1.30,+1.69] 8/8
+
+====================================================================================================
+3. CALIBRATION (meta_calibrate) — A/B/C recomputed from meta
+====================================================================================================
+  A explicit 1.000 (16/16)
+  A latent   0.250 (4/16)
+  gt10    0.812 (13/16)
+  parity  1.000 (16/16)
+  codebook sum_pair   0.250 (4/16)
+  codebook sum_two    0.000 (0/16)
+  codebook total_pair 0.125 (2/16)
+  original competence run: codebook identical across wordings? False  (False = the RNG confound the review caught)
+
+DONE

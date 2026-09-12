@@ -1,0 +1,31 @@
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 2667.23it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<01:55,  7.34it/s]Loading weights:   0%|          | 2/851 [00:00<02:16,  6.22it/s]Loading weights:   3%|▎         | 24/851 [00:00<00:10, 75.47it/s]Loading weights:   4%|▍         | 37/851 [00:00<00:08, 92.45it/s]Loading weights:   6%|▌         | 48/851 [00:00<00:09, 81.21it/s]Loading weights:   8%|▊         | 66/851 [00:00<00:07, 106.14it/s]Loading weights:   9%|▉         | 80/851 [00:00<00:06, 114.18it/s]Loading weights:  11%|█         | 94/851 [00:01<00:06, 120.30it/s]Loading weights:  13%|█▎        | 107/851 [00:01<00:06, 106.49it/s]Loading weights:  15%|█▌        | 128/851 [00:01<00:05, 133.25it/s]Loading weights:  17%|█▋        | 143/851 [00:01<00:05, 130.43it/s]Loading weights:  18%|█▊        | 157/851 [00:01<00:06, 115.34it/s]Loading weights:  20%|██        | 171/851 [00:01<00:05, 120.23it/s]Loading weights:  22%|██▏       | 184/851 [00:01<00:05, 119.09it/s]Loading weights:  23%|██▎       | 197/851 [00:01<00:05, 114.01it/s]Loading weights:  25%|██▍       | 209/851 [00:02<00:06, 101.90it/s]Loading weights:  26%|██▋       | 224/851 [00:02<00:05, 110.94it/s]Loading weights:  28%|██▊       | 236/851 [00:02<00:05, 112.20it/s]Loading weights:  29%|██▉       | 248/851 [00:02<00:05, 108.70it/s]Loading weights:  31%|███       | 260/851 [00:02<00:06, 98.47it/s] Loading weights:  33%|███▎      | 277/851 [00:02<00:05, 113.30it/s]Loading weights:  34%|███▍      | 289/851 [00:02<00:04, 113.62it/s]Loading weights:  36%|███▌      | 305/851 [00:02<00:04, 125.53it/s]Loading weights:  37%|███▋      | 318/851 [00:02<00:04, 112.40it/s]Loading weights:  39%|███▉      | 332/851 [00:03<00:04, 115.87it/s]Loading weights:  41%|████      | 346/851 [00:03<00:04, 122.07it/s]Loading weights:  42%|████▏     | 361/851 [00:03<00:03, 123.14it/s]Loading weights:  44%|████▍     | 374/851 [00:03<00:03, 123.13it/s]Loading weights:  46%|████▌     | 392/851 [00:03<00:03, 132.75it/s]Loading weights:  48%|████▊     | 411/851 [00:03<00:03, 145.78it/s]Loading weights:  50%|█████     | 426/851 [00:03<00:03, 119.38it/s]Loading weights:  52%|█████▏    | 440/851 [00:03<00:03, 124.18it/s]Loading weights:  54%|█████▍    | 460/851 [00:04<00:02, 136.46it/s]Loading weights:  56%|█████▌    | 475/851 [00:04<00:02, 127.36it/s]Loading weights:  58%|█████▊    | 492/851 [00:04<00:02, 132.54it/s]Loading weights:  60%|██████    | 514/851 [00:04<00:02, 152.21it/s]Loading weights:  62%|██████▏   | 530/851 [00:04<00:02, 136.20it/s]Loading weights:  64%|██████▍   | 545/851 [00:04<00:02, 136.49it/s]Loading weights:  66%|██████▌   | 560/851 [00:04<00:02, 139.80it/s]Loading weights:  68%|██████▊   | 576/851 [00:04<00:02, 137.29it/s]Loading weights:  70%|██████▉   | 595/851 [00:04<00:01, 149.90it/s]Loading weights:  72%|███████▏  | 611/851 [00:05<00:01, 135.74it/s]Loading weights:  74%|███████▎  | 626/851 [00:05<00:01, 134.08it/s]Loading weights:  76%|███████▌  | 643/851 [00:05<00:01, 141.18it/s]Loading weights:  78%|███████▊  | 660/851 [00:05<00:01, 148.15it/s]Loading weights:  79%|███████▉  | 676/851 [00:05<00:01, 150.03it/s]Loading weights:  81%|████████▏ | 692/851 [00:05<00:01, 131.71it/s]Loading weights:  83%|████████▎ | 710/851 [00:05<00:00, 144.11it/s]Loading weights:  85%|████████▌ | 725/851 [00:05<00:00, 138.09it/s]Loading weights:  87%|████████▋ | 740/851 [00:06<00:00, 127.51it/s]Loading weights:  89%|████████▉ | 757/851 [00:06<00:00, 131.09it/s]Loading weights:  91%|█████████▏| 777/851 [00:06<00:00, 145.23it/s]Loading weights:  93%|█████████▎| 792/851 [00:06<00:00, 132.70it/s]Loading weights:  95%|█████████▌| 810/851 [00:06<00:00, 137.99it/s]Loading weights:  98%|█████████▊| 830/851 [00:06<00:00, 146.87it/s]Loading weights:  99%|█████████▉| 845/851 [00:06<00:00, 133.28it/s]Loading weights: 100%|██████████| 851/851 [00:06<00:00, 123.96it/s]
+[axis] member centroids fit; held-out margin min 27.27 (18s)
+  [select] C0 T0: 96 forwards (46s)
+  [select] C0 T1: 192 forwards (73s)
+  [select] C0 T2: 288 forwards (100s)
+  [select] C0 T3: 384 forwards (127s)
+  [select] C0 T4: 480 forwards (154s)
+  [select] C0 T5: 576 forwards (181s)
+  [select] C0 T6: 672 forwards (208s)
+  [select] C0 T7: 768 forwards (235s)
+  [readout-only] C0: 792 forwards (243s)
+  [select] C1 T0: 888 forwards (271s)
+  [select] C1 T1: 984 forwards (298s)
+  [select] C1 T2: 1080 forwards (325s)
+  [select] C1 T3: 1176 forwards (353s)
+  [select] C1 T4: 1272 forwards (380s)
+  [select] C1 T5: 1368 forwards (407s)
+  [select] C1 T6: 1464 forwards (434s)
+  [select] C1 T7: 1560 forwards (461s)
+  [readout-only] C1: 1584 forwards (470s)
+  [select] C3 T0: 1680 forwards (498s)
+  [select] C3 T1: 1776 forwards (526s)
+  [select] C3 T2: 1872 forwards (554s)
+  [select] C3 T3: 1968 forwards (582s)
+  [select] C3 T4: 2064 forwards (611s)
+  [select] C3 T5: 2160 forwards (639s)
+  [select] C3 T6: 2256 forwards (667s)
+  [select] C3 T7: 2352 forwards (695s)
+  [readout-only] C3: 2376 forwards (704s)
+[done select] 2376 forwards, 725s -> /workspace/tcsif/H1/outputs/tagged_categories

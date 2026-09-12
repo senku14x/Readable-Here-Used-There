@@ -1,0 +1,1154 @@
+{
+ "pairs": [
+  [
+   "cat",
+   "dress"
+  ],
+  [
+   "snake",
+   "turtle"
+  ],
+  [
+   "airport",
+   "fish"
+  ],
+  [
+   "library",
+   "toy"
+  ],
+  [
+   "dish",
+   "moon"
+  ],
+  [
+   "fort",
+   "heart"
+  ],
+  [
+   "bubble",
+   "rug"
+  ],
+  [
+   "bear",
+   "coal"
+  ],
+  [
+   "card",
+   "lake"
+  ],
+  [
+   "glass",
+   "silver"
+  ],
+  [
+   "river",
+   "shield"
+  ],
+  [
+   "monkey",
+   "queen"
+  ],
+  [
+   "king",
+   "paper"
+  ],
+  [
+   "gold",
+   "train"
+  ],
+  [
+   "cup",
+   "engine"
+  ],
+  [
+   "letter",
+   "sword"
+  ]
+ ],
+ "decoys": [
+  "dragon",
+  "drawer",
+  "forest",
+  "fork"
+ ],
+ "words": [
+  "airport",
+  "bear",
+  "bubble",
+  "card",
+  "cat",
+  "coal",
+  "cup",
+  "dish",
+  "dragon",
+  "drawer",
+  "dress",
+  "engine",
+  "fish",
+  "forest",
+  "fork",
+  "fort",
+  "glass",
+  "gold",
+  "heart",
+  "king",
+  "lake",
+  "letter",
+  "library",
+  "monkey",
+  "moon",
+  "paper",
+  "queen",
+  "river",
+  "rug",
+  "shield",
+  "silver",
+  "snake",
+  "sword",
+  "toy",
+  "train",
+  "turtle"
+ ],
+ "l_inj": 35,
+ "window": [
+  51,
+  59
+ ],
+ "seed_A": 20260909,
+ "seed_B": 20260910,
+ "cells": {
+  "cat->dress|C2": {
+   "X": "cat",
+   "Y": "dress",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "cat": "F",
+    "dress": "H",
+    "dragon": "D",
+    "drawer": "K",
+    "forest": "M",
+    "fork": "Q"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.13635408878326416
+  },
+  "cat->dress|C3": {
+   "X": "cat",
+   "Y": "dress",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "cat": "K",
+    "dress": "D",
+    "dragon": "B",
+    "drawer": "V",
+    "forest": "H",
+    "fork": "M"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.13635408878326416
+  },
+  "cat->dress|C0": {
+   "X": "cat",
+   "Y": "dress",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "cat": "B",
+    "dress": "H",
+    "dragon": "D",
+    "drawer": "M",
+    "forest": "K",
+    "fork": "Q"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.13635408878326416
+  },
+  "cat->dress|C1": {
+   "X": "cat",
+   "Y": "dress",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "cat": "M",
+    "dress": "K",
+    "dragon": "B",
+    "drawer": "V",
+    "forest": "Q",
+    "fork": "F"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.13635408878326416
+  },
+  "snake->turtle|C2": {
+   "X": "snake",
+   "Y": "turtle",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "snake": "Q",
+    "turtle": "H",
+    "dragon": "F",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "B"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.2170693576335907
+  },
+  "snake->turtle|C3": {
+   "X": "snake",
+   "Y": "turtle",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "snake": "F",
+    "turtle": "M",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "D"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.2170693576335907
+  },
+  "snake->turtle|C0": {
+   "X": "snake",
+   "Y": "turtle",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "snake": "F",
+    "turtle": "H",
+    "dragon": "D",
+    "drawer": "K",
+    "forest": "M",
+    "fork": "Q"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.2170693576335907
+  },
+  "snake->turtle|C1": {
+   "X": "snake",
+   "Y": "turtle",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "snake": "K",
+    "turtle": "D",
+    "dragon": "B",
+    "drawer": "V",
+    "forest": "H",
+    "fork": "M"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.2170693576335907
+  },
+  "airport->fish|C2": {
+   "X": "airport",
+   "Y": "fish",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "airport": "K",
+    "fish": "Q",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "M"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.1421794295310974
+  },
+  "airport->fish|C3": {
+   "X": "airport",
+   "Y": "fish",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "airport": "B",
+    "fish": "H",
+    "dragon": "K",
+    "drawer": "M",
+    "forest": "F",
+    "fork": "V"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.1421794295310974
+  },
+  "airport->fish|C0": {
+   "X": "airport",
+   "Y": "fish",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "airport": "Q",
+    "fish": "H",
+    "dragon": "F",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "B"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.1421794295310974
+  },
+  "airport->fish|C1": {
+   "X": "airport",
+   "Y": "fish",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "airport": "F",
+    "fish": "M",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "D"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.1421794295310974
+  },
+  "library->toy|C2": {
+   "X": "library",
+   "Y": "toy",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "library": "Q",
+    "toy": "M",
+    "dragon": "K",
+    "drawer": "D",
+    "forest": "V",
+    "fork": "B"
+   },
+   "delta_norm": 8.978071212768555,
+   "cos_delta_steer": 0.13886982202529907
+  },
+  "library->toy|C3": {
+   "X": "library",
+   "Y": "toy",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "library": "B",
+    "toy": "D",
+    "dragon": "F",
+    "drawer": "Q",
+    "forest": "M",
+    "fork": "K"
+   },
+   "delta_norm": 8.978071212768555,
+   "cos_delta_steer": 0.13886982202529907
+  },
+  "library->toy|C0": {
+   "X": "library",
+   "Y": "toy",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "library": "K",
+    "toy": "Q",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "M"
+   },
+   "delta_norm": 8.978071212768555,
+   "cos_delta_steer": 0.13886982202529907
+  },
+  "library->toy|C1": {
+   "X": "library",
+   "Y": "toy",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "library": "B",
+    "toy": "H",
+    "dragon": "K",
+    "drawer": "M",
+    "forest": "F",
+    "fork": "V"
+   },
+   "delta_norm": 8.978071212768555,
+   "cos_delta_steer": 0.13886982202529907
+  },
+  "dish->moon|C2": {
+   "X": "dish",
+   "Y": "moon",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "dish": "V",
+    "moon": "F",
+    "dragon": "D",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "B"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.17688396573066711
+  },
+  "dish->moon|C3": {
+   "X": "dish",
+   "Y": "moon",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "dish": "K",
+    "moon": "D",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "V"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.17688396573066711
+  },
+  "dish->moon|C0": {
+   "X": "dish",
+   "Y": "moon",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "dish": "Q",
+    "moon": "M",
+    "dragon": "K",
+    "drawer": "D",
+    "forest": "V",
+    "fork": "B"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.17688396573066711
+  },
+  "dish->moon|C1": {
+   "X": "dish",
+   "Y": "moon",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "dish": "B",
+    "moon": "D",
+    "dragon": "F",
+    "drawer": "Q",
+    "forest": "M",
+    "fork": "K"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.17688396573066711
+  },
+  "fort->heart|C2": {
+   "X": "fort",
+   "Y": "heart",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "fort": "Q",
+    "heart": "F",
+    "dragon": "V",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "K"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.08704958856105804
+  },
+  "fort->heart|C3": {
+   "X": "fort",
+   "Y": "heart",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "fort": "B",
+    "heart": "K",
+    "dragon": "M",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "D"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.08704958856105804
+  },
+  "fort->heart|C0": {
+   "X": "fort",
+   "Y": "heart",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "fort": "V",
+    "heart": "F",
+    "dragon": "D",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "B"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.08704958856105804
+  },
+  "fort->heart|C1": {
+   "X": "fort",
+   "Y": "heart",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "fort": "K",
+    "heart": "D",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "V"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.08704958856105804
+  },
+  "bubble->rug|C2": {
+   "X": "bubble",
+   "Y": "rug",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "bubble": "B",
+    "rug": "D",
+    "dragon": "H",
+    "drawer": "M",
+    "forest": "V",
+    "fork": "Q"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.13435760140419006
+  },
+  "bubble->rug|C3": {
+   "X": "bubble",
+   "Y": "rug",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "bubble": "H",
+    "rug": "D",
+    "dragon": "V",
+    "drawer": "K",
+    "forest": "Q",
+    "fork": "F"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.13435760140419006
+  },
+  "bubble->rug|C0": {
+   "X": "bubble",
+   "Y": "rug",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "bubble": "Q",
+    "rug": "F",
+    "dragon": "V",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "K"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.13435760140419006
+  },
+  "bubble->rug|C1": {
+   "X": "bubble",
+   "Y": "rug",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "bubble": "B",
+    "rug": "K",
+    "dragon": "M",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "D"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.13435760140419006
+  },
+  "bear->coal|C2": {
+   "X": "bear",
+   "Y": "coal",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "bear": "D",
+    "coal": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "M"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.2492976039648056
+  },
+  "bear->coal|C3": {
+   "X": "bear",
+   "Y": "coal",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "bear": "H",
+    "coal": "D",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "F"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.2492976039648056
+  },
+  "bear->coal|C0": {
+   "X": "bear",
+   "Y": "coal",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "bear": "B",
+    "coal": "D",
+    "dragon": "H",
+    "drawer": "M",
+    "forest": "V",
+    "fork": "Q"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.2492976039648056
+  },
+  "bear->coal|C1": {
+   "X": "bear",
+   "Y": "coal",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "bear": "H",
+    "coal": "D",
+    "dragon": "V",
+    "drawer": "K",
+    "forest": "Q",
+    "fork": "F"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.2492976039648056
+  },
+  "card->lake|C2": {
+   "X": "card",
+   "Y": "lake",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "card": "V",
+    "lake": "F",
+    "dragon": "K",
+    "drawer": "Q",
+    "forest": "D",
+    "fork": "H"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.06201890856027603
+  },
+  "card->lake|C3": {
+   "X": "card",
+   "Y": "lake",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "card": "V",
+    "lake": "B",
+    "dragon": "M",
+    "drawer": "H",
+    "forest": "D",
+    "fork": "F"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.06201890856027603
+  },
+  "card->lake|C0": {
+   "X": "card",
+   "Y": "lake",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "card": "D",
+    "lake": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "M"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.06201890856027603
+  },
+  "card->lake|C1": {
+   "X": "card",
+   "Y": "lake",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "card": "H",
+    "lake": "D",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "F"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.06201890856027603
+  },
+  "glass->silver|C2": {
+   "X": "glass",
+   "Y": "silver",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "glass": "D",
+    "silver": "F",
+    "dragon": "K",
+    "drawer": "H",
+    "forest": "Q",
+    "fork": "V"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.10966173559427261
+  },
+  "glass->silver|C3": {
+   "X": "glass",
+   "Y": "silver",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "glass": "M",
+    "silver": "Q",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "H"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.10966173559427261
+  },
+  "glass->silver|C0": {
+   "X": "glass",
+   "Y": "silver",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "glass": "V",
+    "silver": "F",
+    "dragon": "K",
+    "drawer": "Q",
+    "forest": "D",
+    "fork": "H"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.10966173559427261
+  },
+  "glass->silver|C1": {
+   "X": "glass",
+   "Y": "silver",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "glass": "V",
+    "silver": "B",
+    "dragon": "M",
+    "drawer": "H",
+    "forest": "D",
+    "fork": "F"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.10966173559427261
+  },
+  "river->shield|C2": {
+   "X": "river",
+   "Y": "shield",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "river": "H",
+    "shield": "K",
+    "dragon": "B",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "V"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.09400594979524612
+  },
+  "river->shield|C3": {
+   "X": "river",
+   "Y": "shield",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "river": "D",
+    "shield": "Q",
+    "dragon": "M",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "F"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.09400594979524612
+  },
+  "river->shield|C0": {
+   "X": "river",
+   "Y": "shield",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "river": "D",
+    "shield": "F",
+    "dragon": "K",
+    "drawer": "H",
+    "forest": "Q",
+    "fork": "V"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.09400594979524612
+  },
+  "river->shield|C1": {
+   "X": "river",
+   "Y": "shield",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "river": "M",
+    "shield": "Q",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "H"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.09400594979524612
+  },
+  "monkey->queen|C2": {
+   "X": "monkey",
+   "Y": "queen",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "monkey": "V",
+    "queen": "B",
+    "dragon": "Q",
+    "drawer": "F",
+    "forest": "M",
+    "fork": "H"
+   },
+   "delta_norm": 8.978071212768555,
+   "cos_delta_steer": 0.08845534175634384
+  },
+  "monkey->queen|C3": {
+   "X": "monkey",
+   "Y": "queen",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "monkey": "Q",
+    "queen": "M",
+    "dragon": "B",
+    "drawer": "K",
+    "forest": "F",
+    "fork": "H"
+   },
+   "delta_norm": 8.978071212768555,
+   "cos_delta_steer": 0.08845534175634384
+  },
+  "monkey->queen|C0": {
+   "X": "monkey",
+   "Y": "queen",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "monkey": "H",
+    "queen": "K",
+    "dragon": "B",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "V"
+   },
+   "delta_norm": 8.978071212768555,
+   "cos_delta_steer": 0.08845534175634384
+  },
+  "monkey->queen|C1": {
+   "X": "monkey",
+   "Y": "queen",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "monkey": "D",
+    "queen": "Q",
+    "dragon": "M",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "F"
+   },
+   "delta_norm": 8.978071212768555,
+   "cos_delta_steer": 0.08845534175634384
+  },
+  "king->paper|C2": {
+   "X": "king",
+   "Y": "paper",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "king": "F",
+    "paper": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "M",
+    "fork": "K"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.035254430025815964
+  },
+  "king->paper|C3": {
+   "X": "king",
+   "Y": "paper",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "king": "Q",
+    "paper": "M",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "K",
+    "fork": "H"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.035254430025815964
+  },
+  "king->paper|C0": {
+   "X": "king",
+   "Y": "paper",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "king": "V",
+    "paper": "B",
+    "dragon": "Q",
+    "drawer": "F",
+    "forest": "M",
+    "fork": "H"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.035254430025815964
+  },
+  "king->paper|C1": {
+   "X": "king",
+   "Y": "paper",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "king": "Q",
+    "paper": "M",
+    "dragon": "B",
+    "drawer": "K",
+    "forest": "F",
+    "fork": "H"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.035254430025815964
+  },
+  "gold->train|C2": {
+   "X": "gold",
+   "Y": "train",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "gold": "H",
+    "train": "B",
+    "dragon": "M",
+    "drawer": "F",
+    "forest": "Q",
+    "fork": "D"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.07367920875549316
+  },
+  "gold->train|C3": {
+   "X": "gold",
+   "Y": "train",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "gold": "Q",
+    "train": "H",
+    "dragon": "B",
+    "drawer": "F",
+    "forest": "K",
+    "fork": "D"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.07367920875549316
+  },
+  "gold->train|C0": {
+   "X": "gold",
+   "Y": "train",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "gold": "F",
+    "train": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "M",
+    "fork": "K"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.07367920875549316
+  },
+  "gold->train|C1": {
+   "X": "gold",
+   "Y": "train",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "gold": "Q",
+    "train": "M",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "K",
+    "fork": "H"
+   },
+   "delta_norm": 8.978073120117188,
+   "cos_delta_steer": 0.07367920875549316
+  },
+  "cup->engine|C2": {
+   "X": "cup",
+   "Y": "engine",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "cup": "M",
+    "engine": "Q",
+    "dragon": "H",
+    "drawer": "F",
+    "forest": "V",
+    "fork": "D"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.14590121805667877
+  },
+  "cup->engine|C3": {
+   "X": "cup",
+   "Y": "engine",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "cup": "D",
+    "engine": "H",
+    "dragon": "K",
+    "drawer": "F",
+    "forest": "B",
+    "fork": "M"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.14590121805667877
+  },
+  "cup->engine|C0": {
+   "X": "cup",
+   "Y": "engine",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "cup": "H",
+    "engine": "B",
+    "dragon": "M",
+    "drawer": "F",
+    "forest": "Q",
+    "fork": "D"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.14590121805667877
+  },
+  "cup->engine|C1": {
+   "X": "cup",
+   "Y": "engine",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "cup": "Q",
+    "engine": "H",
+    "dragon": "B",
+    "drawer": "F",
+    "forest": "K",
+    "fork": "D"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.14590121805667877
+  },
+  "letter->sword|C2": {
+   "X": "letter",
+   "Y": "sword",
+   "carrier": "C2",
+   "audit": true,
+   "F": {
+    "letter": "M",
+    "sword": "B",
+    "dragon": "H",
+    "drawer": "F",
+    "forest": "Q",
+    "fork": "D"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.15228569507598877
+  },
+  "letter->sword|C3": {
+   "X": "letter",
+   "Y": "sword",
+   "carrier": "C3",
+   "audit": true,
+   "F": {
+    "letter": "M",
+    "sword": "V",
+    "dragon": "F",
+    "drawer": "K",
+    "forest": "Q",
+    "fork": "B"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.15228569507598877
+  },
+  "letter->sword|C0": {
+   "X": "letter",
+   "Y": "sword",
+   "carrier": "C0",
+   "audit": false,
+   "F": {
+    "letter": "M",
+    "sword": "Q",
+    "dragon": "H",
+    "drawer": "F",
+    "forest": "V",
+    "fork": "D"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.15228569507598877
+  },
+  "letter->sword|C1": {
+   "X": "letter",
+   "Y": "sword",
+   "carrier": "C1",
+   "audit": false,
+   "F": {
+    "letter": "D",
+    "sword": "H",
+    "dragon": "K",
+    "drawer": "F",
+    "forest": "B",
+    "fork": "M"
+   },
+   "delta_norm": 8.978072166442871,
+   "cos_delta_steer": 0.15228569507598877
+  }
+ },
+ "stage": "audit",
+ "steps": 60,
+ "lr": 0.15,
+ "radii": [
+  1.0
+ ],
+ "run_id": "20260909T215316Z",
+ "n_forwards": 192,
+ "elapsed_s": 60.4
+}

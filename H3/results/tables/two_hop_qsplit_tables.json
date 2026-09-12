@@ -1,0 +1,495 @@
+{
+ "stage": "qsplit",
+ "run_id": "20260911T030657Z",
+ "n_forwards": 1792,
+ "n_cells": 48,
+ "n_items": 12,
+ "s_donor0_seq_bf16_quoted": 23.87764283021291,
+ "gate1_q_token_equality": true,
+ "competence_clean32_seq": 1.0,
+ "competence_donor32_seq": 1.0,
+ "plane_degenerate_cells": [],
+ "cos_int_swap_max_abs": 0.7510275840759277,
+ "norms_mean_over_cells_and_blocks": {
+  "dh": 12.761685371398926,
+  "vJ": 2.56628680229187,
+  "vR": 2.56628680229187,
+  "vJ_over_dh": 0.17260445654392242
+ },
+ "rows": {
+  "q_full_pre": {
+   "margin_seq": {
+    "mean": 11.188809523979822,
+    "ci": [
+     10.002168275257667,
+     12.375450772701978
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "share_of_q_full_pre": 1.0,
+   "share_of_S_donor0_bf16": 0.4685893663599982,
+   "flips_seq": 18,
+   "margin_candidate": {
+    "mean": 10.913247386614481,
+    "ci": [
+     10.319818602971132,
+     11.50667617025783
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "flips_candidate": 21,
+   "J_q_readout_shift_L51_59": {
+    "mean": 2.924268027767539,
+    "ci": [
+     2.5401538835002198,
+     3.3083821720348583
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "J_qpre_readout_shift_L51_59": {
+    "mean": 2.8288678837319217,
+    "ci": [
+     2.4466079402145073,
+     3.211127827249336
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "block63_plane_coord_shift_int_swap": {
+    "mean": 14.153341631094614,
+    "ci": [
+     12.956487330951484,
+     15.350195931237744
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "dNLL_max": 0.0,
+   "per_item_margin": {
+    "ex-city-capital-Barcelona-Toronto": 11.056517362594604,
+    "ex-city-capital-Lyon-Naples": 10.25344467163086,
+    "ex-city-capital-Naples-Barcelona": 10.89434552192688,
+    "ex-city-capital-Toronto-Lyon": 11.017768144607544,
+    "ex2-city-capital-Munich": 13.146560668945312,
+    "ex2-city-capital-Osaka": 11.75434684753418,
+    "ex2-city-language-Cairo": 12.19902229309082,
+    "ex2-city-language-Moscow": 12.224581480026245,
+    "ex2-language-capital-Hungarian": 11.682104110717773,
+    "ex2-language-capital-Polish": 13.52426791191101,
+    "food-animal-butter": 6.22925341129303,
+    "food-animal-honey": 10.283501863479614
+   },
+   "rho": 1.0,
+   "kappa": 1.0,
+   "readback_max": 0.0,
+   "plane_dev_max": 0.0
+  },
+  "q_plane_pre": {
+   "margin_seq": {
+    "mean": 2.2520714898904166,
+    "ci": [
+     1.3422537986827412,
+     3.161889181098092
+    ],
+    "n_pos": 11,
+    "n": 12
+   },
+   "share_of_q_full_pre": 0.20127891935811257,
+   "share_of_S_donor0_bf16": 0.09431716128364316,
+   "flips_seq": 0,
+   "margin_candidate": {
+    "mean": 2.7354438404242196,
+    "ci": [
+     1.8226959228970678,
+     3.6481917579513716
+    ],
+    "n_pos": 11,
+    "n": 12
+   },
+   "flips_candidate": 9,
+   "J_q_readout_shift_L51_59": {
+    "mean": 2.8298692355553308,
+    "ci": [
+     2.4528949923125962,
+     3.2068434787980653
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "J_qpre_readout_shift_L51_59": {
+    "mean": 2.834694732601444,
+    "ci": [
+     2.4599877164026016,
+     3.209401748800286
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "block63_plane_coord_shift_int_swap": {
+    "mean": 14.872673114140829,
+    "ci": [
+     13.72596729647049,
+     16.01937893181117
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "dNLL_max": 0.0,
+   "per_item_margin": {
+    "ex-city-capital-Barcelona-Toronto": 0.9869673252105713,
+    "ex-city-capital-Lyon-Naples": 1.8475420475006104,
+    "ex-city-capital-Naples-Barcelona": 2.2817388772964478,
+    "ex-city-capital-Toronto-Lyon": 2.6403971910476685,
+    "ex2-city-capital-Munich": 3.554999828338623,
+    "ex2-city-capital-Osaka": 3.655681848526001,
+    "ex2-city-language-Cairo": 5.392185091972351,
+    "ex2-city-language-Moscow": 2.21024227142334,
+    "ex2-language-capital-Hungarian": 1.2438645362854004,
+    "ex2-language-capital-Polish": 1.806260347366333,
+    "food-animal-butter": 1.4414196014404297,
+    "food-animal-honey": -0.03644108772277832
+   },
+   "rho": 1.0,
+   "kappa": 1.0,
+   "readback_max": 0.0,
+   "plane_dev_max": 0.0
+  },
+  "q_rem_pre": {
+   "margin_seq": {
+    "mean": 8.773380756378174,
+    "ci": [
+     7.758752684676365,
+     9.788008828079983
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "share_of_q_full_pre": 0.7841210217740405,
+   "share_of_S_donor0_bf16": 0.367430772742652,
+   "flips_seq": 1,
+   "margin_candidate": {
+    "mean": 8.046253244082132,
+    "ci": [
+     7.327084569739311,
+     8.765421918424954
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "flips_candidate": 19,
+   "J_q_readout_shift_L51_59": {
+    "mean": 0.051311022291580834,
+    "ci": [
+     0.018115628050661546,
+     0.08450641653250013
+    ],
+    "n_pos": 11,
+    "n": 12
+   },
+   "J_qpre_readout_shift_L51_59": {
+    "mean": -0.011019336680571238,
+    "ci": [
+     -0.036773877336243134,
+     0.014735203975100657
+    ],
+    "n_pos": 5,
+    "n": 12
+   },
+   "block63_plane_coord_shift_int_swap": {
+    "mean": -0.6238011692961057,
+    "ci": [
+     -0.8703872100423917,
+     -0.37721512854981976
+    ],
+    "n_pos": 0,
+    "n": 12
+   },
+   "dNLL_max": 0.0,
+   "per_item_margin": {
+    "ex-city-capital-Barcelona-Toronto": 10.243401765823364,
+    "ex-city-capital-Lyon-Naples": 8.649386167526245,
+    "ex-city-capital-Naples-Barcelona": 8.281774640083313,
+    "ex-city-capital-Toronto-Lyon": 8.186748027801514,
+    "ex2-city-capital-Munich": 9.491971254348755,
+    "ex2-city-capital-Osaka": 8.243436336517334,
+    "ex2-city-language-Cairo": 6.632838845252991,
+    "ex2-city-language-Moscow": 9.712762355804443,
+    "ex2-language-capital-Hungarian": 9.305677652359009,
+    "ex2-language-capital-Polish": 11.083393335342407,
+    "food-animal-butter": 5.357293128967285,
+    "food-animal-honey": 10.091885566711426
+   },
+   "rho": 1.0,
+   "kappa": 1.0,
+   "readback_max": 0.0,
+   "plane_dev_max": 0.0
+  },
+  "q_rand_pre": {
+   "margin_seq": {
+    "mean": 0.029775728782018025,
+    "ci": [
+     -0.006362925156110994,
+     0.06591438272014705
+    ],
+    "n_pos": 9,
+    "n": 12
+   },
+   "share_of_q_full_pre": 0.0026612061558651773,
+   "share_of_S_donor0_bf16": 0.00124701290633019,
+   "flips_seq": 0,
+   "margin_candidate": {
+    "mean": 0.0156954030195872,
+    "ci": [
+     -0.027017528304374403,
+     0.05840833434354881
+    ],
+    "n_pos": 6,
+    "n": 12
+   },
+   "flips_candidate": 0,
+   "J_q_readout_shift_L51_59": {
+    "mean": 0.029866652563214302,
+    "ci": [
+     0.02142176847905977,
+     0.03831153664736883
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "J_qpre_readout_shift_L51_59": {
+    "mean": 0.030033739283680916,
+    "ci": [
+     0.021416736511900885,
+     0.03865074205546094
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "block63_plane_coord_shift_int_swap": {
+    "mean": 0.08435616393884023,
+    "ci": [
+     0.03905301391089049,
+     0.12965931396678995
+    ],
+    "n_pos": 11,
+    "n": 12
+   },
+   "dNLL_max": 0.0,
+   "per_item_margin": {
+    "ex-city-capital-Barcelona-Toronto": 0.054216623306274414,
+    "ex-city-capital-Lyon-Naples": 0.06474804878234863,
+    "ex-city-capital-Naples-Barcelona": -0.0620732307434082,
+    "ex-city-capital-Toronto-Lyon": 0.046288490295410156,
+    "ex2-city-capital-Munich": 0.14030694961547852,
+    "ex2-city-capital-Osaka": 0.01593780517578125,
+    "ex2-city-language-Cairo": 0.000667572021484375,
+    "ex2-city-language-Moscow": 0.08139467239379883,
+    "ex2-language-capital-Hungarian": 0.06260395050048828,
+    "ex2-language-capital-Polish": 0.013637304306030273,
+    "food-animal-butter": -0.04755842685699463,
+    "food-animal-honey": -0.012861013412475586
+   },
+   "rho": 1.0,
+   "kappa": 1.0,
+   "readback_max": 0.0,
+   "plane_dev_max": 0.0
+  },
+  "q_rem_rand_pre": {
+   "margin_seq": {
+    "mean": 10.997795403003693,
+    "ci": [
+     9.847308996365262,
+     12.148281809642123
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "share_of_q_full_pre": 0.9829281103975585,
+   "share_of_S_donor0_bf16": 0.4605896604286223,
+   "flips_seq": 15,
+   "margin_candidate": {
+    "mean": 10.776196390390396,
+    "ci": [
+     10.214918070139051,
+     11.337474710641741
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "flips_candidate": 21,
+   "J_q_readout_shift_L51_59": {
+    "mean": 2.891807605201999,
+    "ci": [
+     2.5155692380144066,
+     3.268045972389592
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "J_qpre_readout_shift_L51_59": {
+    "mean": 2.79875512017558,
+    "ci": [
+     2.423904639252374,
+     3.173605601098786
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "block63_plane_coord_shift_int_swap": {
+    "mean": 14.092553416887919,
+    "ci": [
+     12.926527762579658,
+     15.258579071196179
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "dNLL_max": 0.0,
+   "per_item_margin": {
+    "ex-city-capital-Barcelona-Toronto": 10.809348821640015,
+    "ex-city-capital-Lyon-Naples": 10.124878168106079,
+    "ex-city-capital-Naples-Barcelona": 10.83706259727478,
+    "ex-city-capital-Toronto-Lyon": 10.776011228561401,
+    "ex2-city-capital-Munich": 12.826123237609863,
+    "ex2-city-capital-Osaka": 11.514660596847534,
+    "ex2-city-language-Cairo": 11.976612567901611,
+    "ex2-city-language-Moscow": 12.064128875732422,
+    "ex2-language-capital-Hungarian": 11.432388305664062,
+    "ex2-language-capital-Polish": 13.368162393569946,
+    "food-animal-butter": 6.23239541053772,
+    "food-animal-honey": 10.011772632598877
+   },
+   "rho": 1.0,
+   "kappa": 1.0,
+   "readback_max": 0.0,
+   "plane_dev_max": 0.0
+  },
+  "int_q32": {
+   "margin_seq": {
+    "mean": 2.3339032729466758,
+    "ci": [
+     1.6061259244042736,
+     3.061680621489078
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "share_of_q_full_pre": 0.20859263605700512,
+   "share_of_S_donor0_bf16": 0.09774429115731376,
+   "flips_seq": 0,
+   "margin_candidate": {
+    "mean": 2.588123212258021,
+    "ci": [
+     1.9616336131030643,
+     3.2146128114129775
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "flips_candidate": 5,
+   "J_q_readout_shift_L51_59": {
+    "mean": 1.5856935779253643,
+    "ci": [
+     1.2618908938083016,
+     1.909496262042427
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "J_qpre_readout_shift_L51_59": {
+    "mean": 1.5702725071460009,
+    "ci": [
+     1.2423948738842951,
+     1.8981501404077066
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "block63_plane_coord_shift_int_swap": {
+    "mean": 3.95012100537618,
+    "ci": [
+     2.361772603295899,
+     5.538469407456461
+    ],
+    "n_pos": 12,
+    "n": 12
+   },
+   "dNLL_max": 0.0,
+   "per_item_margin": {
+    "ex-city-capital-Barcelona-Toronto": 0.9494774341583252,
+    "ex-city-capital-Lyon-Naples": 2.693500518798828,
+    "ex-city-capital-Naples-Barcelona": 2.7193610668182373,
+    "ex-city-capital-Toronto-Lyon": 2.9530919790267944,
+    "ex2-city-capital-Munich": 3.7858880758285522,
+    "ex2-city-capital-Osaka": 2.9057116508483887,
+    "ex2-city-language-Cairo": 2.4853436946868896,
+    "ex2-city-language-Moscow": 3.9874143600463867,
+    "ex2-language-capital-Hungarian": 1.2600560188293457,
+    "ex2-language-capital-Polish": 2.642069101333618,
+    "food-animal-butter": 1.4387567043304443,
+    "food-animal-honey": 0.18616867065429688
+   }
+  }
+ },
+ "A_plane_share": 0.20127891935811257,
+ "B_rem_share": 0.7841210217740405,
+ "additivity_S": {
+  "mean": 0.1633572777112325,
+  "ci": [
+   -0.11615910904286261,
+   0.4428736644653276
+  ],
+  "n_pos": 8,
+  "n": 12
+ },
+ "per_item_A": {
+  "ex-city-capital-Barcelona-Toronto": 0.08926566050080006,
+  "ex-city-capital-Lyon-Naples": 0.18018744984428242,
+  "ex-city-capital-Naples-Barcelona": 0.20944249222718586,
+  "ex-city-capital-Toronto-Lyon": 0.23964900662208663,
+  "ex2-city-capital-Munich": 0.2704129177098168,
+  "ex2-city-capital-Osaka": 0.31100680420136556,
+  "ex2-city-language-Cairo": 0.4420178078554977,
+  "ex2-city-language-Moscow": 0.18080310356920248,
+  "ex2-language-capital-Hungarian": 0.10647607010660126,
+  "ex2-language-capital-Polish": 0.13355697765906682,
+  "food-animal-butter": 0.23139524213724816,
+  "food-animal-honey": -0.0035436457547786938
+ },
+ "per_item_B": {
+  "ex-city-capital-Barcelona-Toronto": 0.9264582535254637,
+  "ex-city-capital-Lyon-Naples": 0.843559061810446,
+  "ex-city-capital-Naples-Barcelona": 0.7601901943916424,
+  "ex-city-capital-Toronto-Lyon": 0.7430495832142171,
+  "ex2-city-capital-Munich": 0.7220117484241033,
+  "ex2-city-capital-Osaka": 0.7013096043058009,
+  "ex2-city-language-Cairo": 0.5437188887678025,
+  "ex2-city-language-Moscow": 0.7945271886546084,
+  "ex2-language-capital-Hungarian": 0.7965754768288269,
+  "ex2-language-capital-Polish": 0.8195189127820448,
+  "food-animal-butter": 0.8600217032839015,
+  "food-animal-honey": 0.9813666298395213
+ },
+ "gate4": {
+  "items_pos": 12,
+  "mean": 11.188809523979822,
+  "bar_0.3_S_donor0": 7.163292849063873,
+  "pass": true
+ },
+ "gate5": {
+  "rand_share": 0.0026612061558651773,
+  "rand_flips": 0,
+  "rem_rand_share": 0.9829281103975585,
+  "pass": true
+ },
+ "gate3": {
+  "pass": true
+ },
+ "gate2": {
+  "pass": true
+ },
+ "P3_reading": "complement dominant"
+}

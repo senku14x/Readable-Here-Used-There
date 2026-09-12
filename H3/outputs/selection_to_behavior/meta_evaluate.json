@@ -1,0 +1,1068 @@
+{
+ "cells": {
+  "T2|C2|rot0": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "donors": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "assign": {
+    "library": "Q",
+    "toy": "B",
+    "dish": "H",
+    "moon": "D",
+    "fort": "F",
+    "heart": "V"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "library",
+   "B_word": "toy",
+   "C_word": "dish"
+  },
+  "T2|C2|rot1": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "donors": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "assign": {
+    "toy": "D",
+    "dish": "Q",
+    "library": "F",
+    "fort": "V",
+    "heart": "M",
+    "moon": "H"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "toy",
+   "B_word": "dish",
+   "C_word": "library"
+  },
+  "T2|C2|rot2": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "donors": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "assign": {
+    "dish": "Q",
+    "library": "B",
+    "toy": "H",
+    "heart": "F",
+    "moon": "D",
+    "fort": "K"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "dish",
+   "B_word": "library",
+   "C_word": "toy"
+  },
+  "T2|C3|rot0": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "donors": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "assign": {
+    "library": "F",
+    "toy": "K",
+    "dish": "D",
+    "moon": "H",
+    "fort": "V",
+    "heart": "B"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "library",
+   "B_word": "toy",
+   "C_word": "dish"
+  },
+  "T2|C3|rot1": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "donors": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "assign": {
+    "toy": "F",
+    "dish": "Q",
+    "library": "H",
+    "fort": "B",
+    "heart": "M",
+    "moon": "D"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "toy",
+   "B_word": "dish",
+   "C_word": "library"
+  },
+  "T2|C3|rot2": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "donors": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "assign": {
+    "dish": "M",
+    "library": "D",
+    "toy": "V",
+    "heart": "B",
+    "moon": "Q",
+    "fort": "F"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "dish",
+   "B_word": "library",
+   "C_word": "toy"
+  },
+  "T3|C2|rot0": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "donors": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "assign": {
+    "moon": "Q",
+    "fort": "H",
+    "heart": "M",
+    "bubble": "V",
+    "rug": "K",
+    "bear": "F"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "moon",
+   "B_word": "fort",
+   "C_word": "heart"
+  },
+  "T3|C2|rot1": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "donors": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "assign": {
+    "fort": "K",
+    "heart": "H",
+    "moon": "B",
+    "rug": "V",
+    "bear": "D",
+    "bubble": "F"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "fort",
+   "B_word": "heart",
+   "C_word": "moon"
+  },
+  "T3|C2|rot2": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "donors": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "assign": {
+    "heart": "D",
+    "moon": "V",
+    "fort": "Q",
+    "bear": "K",
+    "bubble": "M",
+    "rug": "B"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "heart",
+   "B_word": "moon",
+   "C_word": "fort"
+  },
+  "T3|C3|rot0": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "donors": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "assign": {
+    "moon": "Q",
+    "fort": "B",
+    "heart": "F",
+    "bubble": "V",
+    "rug": "M",
+    "bear": "H"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "moon",
+   "B_word": "fort",
+   "C_word": "heart"
+  },
+  "T3|C3|rot1": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "donors": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "assign": {
+    "fort": "K",
+    "heart": "Q",
+    "moon": "F",
+    "rug": "V",
+    "bear": "M",
+    "bubble": "D"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "fort",
+   "B_word": "heart",
+   "C_word": "moon"
+  },
+  "T3|C3|rot2": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "donors": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "assign": {
+    "heart": "B",
+    "moon": "D",
+    "fort": "M",
+    "bear": "H",
+    "bubble": "F",
+    "rug": "Q"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "heart",
+   "B_word": "moon",
+   "C_word": "fort"
+  },
+  "T4|C2|rot0": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "donors": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "assign": {
+    "bubble": "F",
+    "rug": "M",
+    "bear": "K",
+    "coal": "B",
+    "card": "V",
+    "lake": "Q"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "bubble",
+   "B_word": "rug",
+   "C_word": "bear"
+  },
+  "T4|C2|rot1": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "donors": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "assign": {
+    "rug": "F",
+    "bear": "K",
+    "bubble": "Q",
+    "card": "V",
+    "lake": "B",
+    "coal": "D"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "rug",
+   "B_word": "bear",
+   "C_word": "bubble"
+  },
+  "T4|C2|rot2": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "donors": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "assign": {
+    "bear": "V",
+    "bubble": "B",
+    "rug": "D",
+    "lake": "F",
+    "coal": "K",
+    "card": "H"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "bear",
+   "B_word": "bubble",
+   "C_word": "rug"
+  },
+  "T4|C3|rot0": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "donors": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "assign": {
+    "bubble": "D",
+    "rug": "M",
+    "bear": "B",
+    "coal": "H",
+    "card": "V",
+    "lake": "Q"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "bubble",
+   "B_word": "rug",
+   "C_word": "bear"
+  },
+  "T4|C3|rot1": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "donors": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "assign": {
+    "rug": "V",
+    "bear": "M",
+    "bubble": "B",
+    "card": "H",
+    "lake": "F",
+    "coal": "Q"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "rug",
+   "B_word": "bear",
+   "C_word": "bubble"
+  },
+  "T4|C3|rot2": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "donors": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "assign": {
+    "bear": "V",
+    "bubble": "B",
+    "rug": "H",
+    "lake": "D",
+    "coal": "K",
+    "card": "M"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "bear",
+   "B_word": "bubble",
+   "C_word": "rug"
+  },
+  "T5|C2|rot0": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "donors": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "assign": {
+    "coal": "H",
+    "card": "M",
+    "lake": "Q",
+    "glass": "V",
+    "silver": "K",
+    "river": "F"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "coal",
+   "B_word": "card",
+   "C_word": "lake"
+  },
+  "T5|C2|rot1": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "donors": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "assign": {
+    "card": "M",
+    "lake": "K",
+    "coal": "Q",
+    "silver": "H",
+    "river": "V",
+    "glass": "B"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "card",
+   "B_word": "lake",
+   "C_word": "coal"
+  },
+  "T5|C2|rot2": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "donors": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "assign": {
+    "lake": "D",
+    "coal": "V",
+    "card": "K",
+    "river": "Q",
+    "glass": "B",
+    "silver": "M"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "lake",
+   "B_word": "coal",
+   "C_word": "card"
+  },
+  "T5|C3|rot0": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "donors": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "assign": {
+    "coal": "Q",
+    "card": "D",
+    "lake": "K",
+    "glass": "H",
+    "silver": "M",
+    "river": "V"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "coal",
+   "B_word": "card",
+   "C_word": "lake"
+  },
+  "T5|C3|rot1": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "donors": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "assign": {
+    "card": "V",
+    "lake": "M",
+    "coal": "F",
+    "silver": "D",
+    "river": "Q",
+    "glass": "K"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "card",
+   "B_word": "lake",
+   "C_word": "coal"
+  },
+  "T5|C3|rot2": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "donors": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "assign": {
+    "lake": "K",
+    "coal": "B",
+    "card": "V",
+    "river": "M",
+    "glass": "D",
+    "silver": "F"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "lake",
+   "B_word": "coal",
+   "C_word": "card"
+  },
+  "T6|C2|rot0": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "donors": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "assign": {
+    "glass": "Q",
+    "silver": "F",
+    "river": "D",
+    "shield": "H",
+    "monkey": "K",
+    "queen": "M"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "glass",
+   "B_word": "silver",
+   "C_word": "river"
+  },
+  "T6|C2|rot1": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "donors": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "assign": {
+    "silver": "B",
+    "river": "Q",
+    "glass": "D",
+    "monkey": "V",
+    "queen": "F",
+    "shield": "H"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "silver",
+   "B_word": "river",
+   "C_word": "glass"
+  },
+  "T6|C2|rot2": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "donors": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "assign": {
+    "river": "H",
+    "glass": "F",
+    "silver": "B",
+    "queen": "M",
+    "shield": "K",
+    "monkey": "Q"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "river",
+   "B_word": "glass",
+   "C_word": "silver"
+  },
+  "T6|C3|rot0": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "donors": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "assign": {
+    "glass": "Q",
+    "silver": "D",
+    "river": "B",
+    "shield": "H",
+    "monkey": "M",
+    "queen": "F"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "glass",
+   "B_word": "silver",
+   "C_word": "river"
+  },
+  "T6|C3|rot1": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "donors": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "assign": {
+    "silver": "D",
+    "river": "F",
+    "glass": "B",
+    "monkey": "V",
+    "queen": "K",
+    "shield": "H"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "silver",
+   "B_word": "river",
+   "C_word": "glass"
+  },
+  "T6|C3|rot2": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "donors": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "assign": {
+    "river": "Q",
+    "glass": "B",
+    "silver": "M",
+    "queen": "V",
+    "shield": "H",
+    "monkey": "K"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "river",
+   "B_word": "glass",
+   "C_word": "silver"
+  },
+  "T7|C2|rot0": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "donors": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "assign": {
+    "shield": "Q",
+    "monkey": "K",
+    "queen": "D",
+    "cat": "M",
+    "dress": "B",
+    "snake": "V"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "shield",
+   "B_word": "monkey",
+   "C_word": "queen"
+  },
+  "T7|C2|rot1": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "donors": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "assign": {
+    "monkey": "V",
+    "queen": "H",
+    "shield": "B",
+    "dress": "Q",
+    "snake": "K",
+    "cat": "D"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "monkey",
+   "B_word": "queen",
+   "C_word": "shield"
+  },
+  "T7|C2|rot2": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "donors": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "assign": {
+    "queen": "F",
+    "shield": "B",
+    "monkey": "Q",
+    "snake": "M",
+    "cat": "K",
+    "dress": "V"
+   },
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "answer_pos": 151,
+   "instr_len": 41,
+   "A_word": "queen",
+   "B_word": "shield",
+   "C_word": "monkey"
+  },
+  "T7|C3|rot0": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "donors": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "assign": {
+    "shield": "F",
+    "monkey": "D",
+    "queen": "B",
+    "cat": "K",
+    "dress": "Q",
+    "snake": "V"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "shield",
+   "B_word": "monkey",
+   "C_word": "queen"
+  },
+  "T7|C3|rot1": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "donors": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "assign": {
+    "monkey": "B",
+    "queen": "Q",
+    "shield": "H",
+    "dress": "K",
+    "snake": "F",
+    "cat": "D"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "monkey",
+   "B_word": "queen",
+   "C_word": "shield"
+  },
+  "T7|C3|rot2": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "donors": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "assign": {
+    "queen": "H",
+    "shield": "D",
+    "monkey": "V",
+    "snake": "B",
+    "cat": "M",
+    "dress": "K"
+   },
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "answer_pos": 185,
+   "instr_len": 58,
+   "A_word": "queen",
+   "B_word": "shield",
+   "C_word": "monkey"
+  }
+ },
+ "triples": [
+  [
+   "cat",
+   "dress",
+   "snake"
+  ],
+  [
+   "turtle",
+   "airport",
+   "fish"
+  ],
+  [
+   "library",
+   "toy",
+   "dish"
+  ],
+  [
+   "moon",
+   "fort",
+   "heart"
+  ],
+  [
+   "bubble",
+   "rug",
+   "bear"
+  ],
+  [
+   "coal",
+   "card",
+   "lake"
+  ],
+  [
+   "glass",
+   "silver",
+   "river"
+  ],
+  [
+   "shield",
+   "monkey",
+   "queen"
+  ]
+ ],
+ "carriers": [
+  "C2",
+  "C3"
+ ],
+ "tags": [
+  "A",
+  "B",
+  "C"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "l_x": 36,
+ "query": "Using the code, give the letter for the word you were instructed to keep in mind. Answer with the letter only.",
+ "letters": [
+  "B",
+  "D",
+  "F",
+  "H",
+  "K",
+  "M",
+  "Q",
+  "V"
+ ],
+ "seed": 20260907,
+ "cell_triples": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "stage": "evaluate",
+ "full": true,
+ "gate3": {
+  "prefix_ids_identical": true,
+  "max_abs_dz_carrier_interior": 0.8125,
+  "note": "expected small (sequence-length nondeterminism, trap #1), not bitwise zero; large => hook/mask/tokenization fault"
+ },
+ "run_id": "20260907T210702Z",
+ "n_forwards": 1045,
+ "elapsed_s": 1191.8
+}

@@ -1,0 +1,52 @@
+[32mActivated conda/uv virtual environment at [36m/venv/main[0m
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 2763.90it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<05:02,  2.81it/s]Loading weights:   2%|▏         | 15/851 [00:00<00:19, 42.07it/s]Loading weights:   4%|▍         | 36/851 [00:00<00:09, 89.85it/s]Loading weights:   6%|▌         | 50/851 [00:00<00:09, 85.01it/s]Loading weights:   8%|▊         | 67/851 [00:00<00:07, 102.00it/s]Loading weights:  10%|▉         | 82/851 [00:00<00:07, 109.18it/s]Loading weights:  12%|█▏        | 99/851 [00:01<00:06, 118.96it/s]Loading weights:  14%|█▎        | 115/851 [00:01<00:05, 128.69it/s]Loading weights:  15%|█▌        | 129/851 [00:01<00:05, 127.71it/s]Loading weights:  17%|█▋        | 143/851 [00:01<00:05, 122.62it/s]Loading weights:  18%|█▊        | 156/851 [00:01<00:06, 106.33it/s]Loading weights:  20%|██        | 171/851 [00:01<00:05, 113.87it/s]Loading weights:  22%|██▏       | 183/851 [00:01<00:06, 110.00it/s]Loading weights:  23%|██▎       | 195/851 [00:01<00:06, 103.03it/s]Loading weights:  24%|██▍       | 206/851 [00:02<00:06, 96.16it/s] Loading weights:  27%|██▋       | 226/851 [00:02<00:05, 119.89it/s]Loading weights:  28%|██▊       | 240/851 [00:02<00:04, 122.49it/s]Loading weights:  30%|██▉       | 255/851 [00:02<00:04, 121.82it/s]Loading weights:  31%|███▏      | 268/851 [00:02<00:04, 119.81it/s]Loading weights:  33%|███▎      | 281/851 [00:02<00:04, 114.66it/s]Loading weights:  35%|███▌      | 300/851 [00:02<00:04, 133.35it/s]Loading weights:  37%|███▋      | 314/851 [00:02<00:04, 119.57it/s]Loading weights:  39%|███▉      | 331/851 [00:03<00:03, 131.84it/s]Loading weights:  41%|████      | 345/851 [00:03<00:03, 132.02it/s]Loading weights:  42%|████▏     | 359/851 [00:03<00:03, 133.04it/s]Loading weights:  44%|████▍     | 373/851 [00:03<00:04, 115.23it/s]Loading weights:  47%|████▋     | 398/851 [00:03<00:03, 144.62it/s]Loading weights:  49%|████▊     | 414/851 [00:03<00:03, 144.11it/s]Loading weights:  51%|█████     | 431/851 [00:03<00:02, 148.80it/s]Loading weights:  53%|█████▎    | 451/851 [00:03<00:02, 157.99it/s]Loading weights:  55%|█████▍    | 468/851 [00:03<00:02, 149.02it/s]Loading weights:  57%|█████▋    | 484/851 [00:04<00:02, 148.59it/s]Loading weights:  59%|█████▉    | 503/851 [00:04<00:02, 156.77it/s]Loading weights:  61%|██████    | 519/851 [00:04<00:02, 139.97it/s]Loading weights:  63%|██████▎   | 534/851 [00:04<00:02, 136.19it/s]Loading weights:  64%|██████▍   | 548/851 [00:04<00:02, 136.16it/s]Loading weights:  66%|██████▌   | 562/851 [00:04<00:02, 130.22it/s]Loading weights:  68%|██████▊   | 576/851 [00:04<00:02, 122.99it/s]Loading weights:  70%|██████▉   | 593/851 [00:04<00:01, 132.97it/s]Loading weights:  71%|███████▏  | 607/851 [00:05<00:01, 129.80it/s]Loading weights:  73%|███████▎  | 621/851 [00:05<00:01, 130.16it/s]Loading weights:  75%|███████▍  | 635/851 [00:05<00:01, 113.48it/s]Loading weights:  76%|███████▋  | 650/851 [00:05<00:01, 115.41it/s]Loading weights:  78%|███████▊  | 665/851 [00:05<00:01, 123.16it/s]Loading weights:  80%|███████▉  | 679/851 [00:05<00:01, 123.57it/s]Loading weights:  82%|████████▏ | 696/851 [00:05<00:01, 135.81it/s]Loading weights:  83%|████████▎ | 710/851 [00:05<00:01, 129.53it/s]Loading weights:  85%|████████▌ | 726/851 [00:05<00:00, 132.99it/s]Loading weights:  87%|████████▋ | 740/851 [00:06<00:00, 118.45it/s]Loading weights:  89%|████████▉ | 756/851 [00:06<00:00, 126.54it/s]Loading weights:  90%|█████████ | 770/851 [00:06<00:00, 128.28it/s]Loading weights:  92%|█████████▏| 784/851 [00:06<00:00, 118.86it/s]Loading weights:  94%|█████████▍| 804/851 [00:06<00:00, 135.08it/s]Loading weights:  96%|█████████▌| 818/851 [00:06<00:00, 135.68it/s]Loading weights:  98%|█████████▊| 832/851 [00:06<00:00, 133.40it/s]Loading weights:  99%|█████████▉| 846/851 [00:06<00:00, 118.29it/s]Loading weights: 100%|██████████| 851/851 [00:06<00:00, 121.95it/s]
+  [qsplit] ex-city-capital-Barcelona-Toronto|C0: 32 forwards (9s) | cos max 0.51 | |dh| 56.2 |vJ| 14.54 at L62
+  [qsplit] ex-city-capital-Barcelona-Toronto|C1: 64 forwards (17s) | cos max 0.51 | |dh| 54.8 |vJ| 14.56 at L62
+  [qsplit] ex-city-capital-Barcelona-Toronto|C2: 96 forwards (25s) | cos max 0.51 | |dh| 55.1 |vJ| 14.32 at L62
+  [qsplit] ex-city-capital-Barcelona-Toronto|C3: 128 forwards (33s) | cos max 0.51 | |dh| 57.1 |vJ| 13.59 at L62
+  [qsplit] ex-city-capital-Lyon-Naples|C0: 160 forwards (41s) | cos max 0.68 | |dh| 50.2 |vJ| 10.74 at L62
+  [qsplit] ex-city-capital-Lyon-Naples|C1: 192 forwards (49s) | cos max 0.68 | |dh| 48.6 |vJ| 11.42 at L62
+  [qsplit] ex-city-capital-Lyon-Naples|C2: 224 forwards (57s) | cos max 0.68 | |dh| 49.4 |vJ| 11.00 at L62
+  [qsplit] ex-city-capital-Lyon-Naples|C3: 256 forwards (66s) | cos max 0.68 | |dh| 48.6 |vJ| 10.23 at L62
+  [qsplit] ex-city-capital-Naples-Barcelona|C0: 288 forwards (74s) | cos max 0.71 | |dh| 53.1 |vJ| 13.13 at L62
+  [qsplit] ex-city-capital-Naples-Barcelona|C1: 320 forwards (82s) | cos max 0.71 | |dh| 50.6 |vJ| 13.12 at L62
+  [qsplit] ex-city-capital-Naples-Barcelona|C2: 352 forwards (90s) | cos max 0.71 | |dh| 51.4 |vJ| 13.26 at L62
+  [qsplit] ex-city-capital-Naples-Barcelona|C3: 384 forwards (98s) | cos max 0.71 | |dh| 51.1 |vJ| 12.25 at L62
+  [qsplit] ex-city-capital-Toronto-Lyon|C0: 416 forwards (106s) | cos max 0.61 | |dh| 56.0 |vJ| 12.15 at L62
+  [qsplit] ex-city-capital-Toronto-Lyon|C1: 448 forwards (114s) | cos max 0.61 | |dh| 54.2 |vJ| 12.72 at L62
+  [qsplit] ex-city-capital-Toronto-Lyon|C2: 480 forwards (122s) | cos max 0.61 | |dh| 55.8 |vJ| 12.10 at L62
+  [qsplit] ex-city-capital-Toronto-Lyon|C3: 512 forwards (131s) | cos max 0.61 | |dh| 58.1 |vJ| 11.42 at L62
+  [qsplit] ex2-city-capital-Munich|C0: 544 forwards (139s) | cos max 0.60 | |dh| 51.1 |vJ| 15.05 at L62
+  [qsplit] ex2-city-capital-Munich|C1: 576 forwards (147s) | cos max 0.60 | |dh| 48.6 |vJ| 15.23 at L62
+  [qsplit] ex2-city-capital-Munich|C2: 608 forwards (155s) | cos max 0.60 | |dh| 48.5 |vJ| 14.73 at L62
+  [qsplit] ex2-city-capital-Munich|C3: 640 forwards (163s) | cos max 0.60 | |dh| 51.4 |vJ| 14.59 at L62
+  [qsplit] ex2-city-capital-Osaka|C0: 672 forwards (171s) | cos max 0.60 | |dh| 50.9 |vJ| 15.11 at L62
+  [qsplit] ex2-city-capital-Osaka|C1: 704 forwards (179s) | cos max 0.60 | |dh| 48.1 |vJ| 15.18 at L62
+  [qsplit] ex2-city-capital-Osaka|C2: 736 forwards (187s) | cos max 0.60 | |dh| 48.5 |vJ| 14.84 at L62
+  [qsplit] ex2-city-capital-Osaka|C3: 768 forwards (195s) | cos max 0.60 | |dh| 51.6 |vJ| 14.66 at L62
+  [qsplit] ex2-city-language-Cairo|C0: 800 forwards (204s) | cos max 0.56 | |dh| 42.1 |vJ| 13.26 at L62
+  [qsplit] ex2-city-language-Cairo|C1: 832 forwards (212s) | cos max 0.56 | |dh| 42.2 |vJ| 13.69 at L62
+  [qsplit] ex2-city-language-Cairo|C2: 864 forwards (220s) | cos max 0.56 | |dh| 42.3 |vJ| 12.78 at L62
+  [qsplit] ex2-city-language-Cairo|C3: 896 forwards (228s) | cos max 0.56 | |dh| 42.9 |vJ| 12.37 at L62
+  [qsplit] ex2-city-language-Moscow|C0: 928 forwards (236s) | cos max 0.56 | |dh| 42.7 |vJ| 13.26 at L62
+  [qsplit] ex2-city-language-Moscow|C1: 960 forwards (244s) | cos max 0.56 | |dh| 42.5 |vJ| 13.75 at L62
+  [qsplit] ex2-city-language-Moscow|C2: 992 forwards (252s) | cos max 0.56 | |dh| 41.0 |vJ| 12.73 at L62
+  [qsplit] ex2-city-language-Moscow|C3: 1024 forwards (261s) | cos max 0.56 | |dh| 41.2 |vJ| 12.43 at L62
+  [qsplit] ex2-language-capital-Hungarian|C0: 1056 forwards (269s) | cos max 0.75 | |dh| 44.5 |vJ| 11.44 at L62
+  [qsplit] ex2-language-capital-Hungarian|C1: 1088 forwards (277s) | cos max 0.75 | |dh| 45.1 |vJ| 11.97 at L62
+  [qsplit] ex2-language-capital-Hungarian|C2: 1120 forwards (285s) | cos max 0.75 | |dh| 45.4 |vJ| 11.73 at L62
+  [qsplit] ex2-language-capital-Hungarian|C3: 1152 forwards (293s) | cos max 0.75 | |dh| 44.4 |vJ| 11.20 at L62
+  [qsplit] ex2-language-capital-Polish|C0: 1184 forwards (301s) | cos max 0.58 | |dh| 48.5 |vJ| 13.19 at L62
+  [qsplit] ex2-language-capital-Polish|C1: 1216 forwards (309s) | cos max 0.58 | |dh| 48.3 |vJ| 13.16 at L62
+  [qsplit] ex2-language-capital-Polish|C2: 1248 forwards (317s) | cos max 0.58 | |dh| 49.2 |vJ| 13.19 at L62
+  [qsplit] ex2-language-capital-Polish|C3: 1280 forwards (326s) | cos max 0.58 | |dh| 48.9 |vJ| 12.21 at L62
+  [qsplit] food-animal-butter|C0: 1344 forwards (341s) | cos max 0.51 | |dh| 60.8 |vJ| 12.49 at L62
+  [qsplit] food-animal-butter|C1: 1408 forwards (357s) | cos max 0.51 | |dh| 61.7 |vJ| 11.47 at L62
+  [qsplit] food-animal-butter|C2: 1472 forwards (373s) | cos max 0.51 | |dh| 62.3 |vJ| 12.45 at L62
+  [qsplit] food-animal-butter|C3: 1536 forwards (389s) | cos max 0.51 | |dh| 60.7 |vJ| 9.95 at L62
+  [qsplit] food-animal-honey|C0: 1600 forwards (405s) | cos max 0.51 | |dh| 60.8 |vJ| 12.49 at L62
+  [qsplit] food-animal-honey|C1: 1664 forwards (421s) | cos max 0.51 | |dh| 61.7 |vJ| 11.47 at L62
+  [qsplit] food-animal-honey|C2: 1728 forwards (437s) | cos max 0.51 | |dh| 62.3 |vJ| 12.45 at L62
+  [qsplit] food-animal-honey|C3: 1792 forwards (453s) | cos max 0.51 | |dh| 60.7 |vJ| 9.95 at L62
+[done qsplit] 1792 forwards, 457s

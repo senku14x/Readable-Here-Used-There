@@ -1,0 +1,2562 @@
+{
+ "pairs": [
+  [
+   "cat",
+   "dress"
+  ],
+  [
+   "snake",
+   "turtle"
+  ],
+  [
+   "airport",
+   "fish"
+  ],
+  [
+   "library",
+   "toy"
+  ],
+  [
+   "dish",
+   "moon"
+  ],
+  [
+   "fort",
+   "heart"
+  ],
+  [
+   "bubble",
+   "rug"
+  ],
+  [
+   "bear",
+   "coal"
+  ],
+  [
+   "card",
+   "lake"
+  ],
+  [
+   "glass",
+   "silver"
+  ],
+  [
+   "river",
+   "shield"
+  ],
+  [
+   "monkey",
+   "queen"
+  ],
+  [
+   "king",
+   "paper"
+  ],
+  [
+   "gold",
+   "train"
+  ],
+  [
+   "cup",
+   "engine"
+  ],
+  [
+   "letter",
+   "sword"
+  ]
+ ],
+ "decoys": [
+  "dragon",
+  "drawer",
+  "forest",
+  "fork"
+ ],
+ "words": [
+  "airport",
+  "bear",
+  "bubble",
+  "card",
+  "cat",
+  "coal",
+  "cup",
+  "dish",
+  "dragon",
+  "drawer",
+  "dress",
+  "engine",
+  "fish",
+  "forest",
+  "fork",
+  "fort",
+  "glass",
+  "gold",
+  "heart",
+  "king",
+  "lake",
+  "letter",
+  "library",
+  "monkey",
+  "moon",
+  "paper",
+  "queen",
+  "river",
+  "rug",
+  "shield",
+  "silver",
+  "snake",
+  "sword",
+  "toy",
+  "train",
+  "turtle"
+ ],
+ "l_inj": 35,
+ "window": [
+  51,
+  59
+ ],
+ "seed_A": 20260909,
+ "seed_B": 20260910,
+ "cells": {
+  "cat->dress|C0": {
+   "X": "cat",
+   "Y": "dress",
+   "carrier": "C0",
+   "F": {
+    "cat": "B",
+    "dress": "H",
+    "dragon": "D",
+    "drawer": "M",
+    "forest": "K",
+    "fork": "Q"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 8.606382369995117
+  },
+  "cat->dress|C1": {
+   "X": "cat",
+   "Y": "dress",
+   "carrier": "C1",
+   "F": {
+    "cat": "M",
+    "dress": "K",
+    "dragon": "B",
+    "drawer": "V",
+    "forest": "Q",
+    "fork": "F"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 13.3211088180542
+  },
+  "cat->dress|C2": {
+   "X": "cat",
+   "Y": "dress",
+   "carrier": "C2",
+   "F": {
+    "cat": "F",
+    "dress": "H",
+    "dragon": "D",
+    "drawer": "K",
+    "forest": "M",
+    "fork": "Q"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 10.621379852294922
+  },
+  "cat->dress|C3": {
+   "X": "cat",
+   "Y": "dress",
+   "carrier": "C3",
+   "F": {
+    "cat": "K",
+    "dress": "D",
+    "dragon": "B",
+    "drawer": "V",
+    "forest": "H",
+    "fork": "M"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 10.925498962402344
+  },
+  "dress->cat|C0": {
+   "X": "dress",
+   "Y": "cat",
+   "carrier": "C0",
+   "F": {
+    "dress": "B",
+    "cat": "H",
+    "dragon": "D",
+    "drawer": "M",
+    "forest": "K",
+    "fork": "Q"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 8.606382369995117
+  },
+  "dress->cat|C1": {
+   "X": "dress",
+   "Y": "cat",
+   "carrier": "C1",
+   "F": {
+    "dress": "M",
+    "cat": "K",
+    "dragon": "B",
+    "drawer": "V",
+    "forest": "Q",
+    "fork": "F"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 13.3211088180542
+  },
+  "dress->cat|C2": {
+   "X": "dress",
+   "Y": "cat",
+   "carrier": "C2",
+   "F": {
+    "dress": "F",
+    "cat": "H",
+    "dragon": "D",
+    "drawer": "K",
+    "forest": "M",
+    "fork": "Q"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 10.621379852294922
+  },
+  "dress->cat|C3": {
+   "X": "dress",
+   "Y": "cat",
+   "carrier": "C3",
+   "F": {
+    "dress": "K",
+    "cat": "D",
+    "dragon": "B",
+    "drawer": "V",
+    "forest": "H",
+    "fork": "M"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 10.925498962402344
+  },
+  "snake->turtle|C0": {
+   "X": "snake",
+   "Y": "turtle",
+   "carrier": "C0",
+   "F": {
+    "snake": "F",
+    "turtle": "H",
+    "dragon": "D",
+    "drawer": "K",
+    "forest": "M",
+    "fork": "Q"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 6.00558614730835
+  },
+  "snake->turtle|C1": {
+   "X": "snake",
+   "Y": "turtle",
+   "carrier": "C1",
+   "F": {
+    "snake": "K",
+    "turtle": "D",
+    "dragon": "B",
+    "drawer": "V",
+    "forest": "H",
+    "fork": "M"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 8.041159629821777
+  },
+  "snake->turtle|C2": {
+   "X": "snake",
+   "Y": "turtle",
+   "carrier": "C2",
+   "F": {
+    "snake": "Q",
+    "turtle": "H",
+    "dragon": "F",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "B"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 5.865727424621582
+  },
+  "snake->turtle|C3": {
+   "X": "snake",
+   "Y": "turtle",
+   "carrier": "C3",
+   "F": {
+    "snake": "F",
+    "turtle": "M",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "D"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 5.091141223907471
+  },
+  "turtle->snake|C0": {
+   "X": "turtle",
+   "Y": "snake",
+   "carrier": "C0",
+   "F": {
+    "turtle": "F",
+    "snake": "H",
+    "dragon": "D",
+    "drawer": "K",
+    "forest": "M",
+    "fork": "Q"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 6.00558614730835
+  },
+  "turtle->snake|C1": {
+   "X": "turtle",
+   "Y": "snake",
+   "carrier": "C1",
+   "F": {
+    "turtle": "K",
+    "snake": "D",
+    "dragon": "B",
+    "drawer": "V",
+    "forest": "H",
+    "fork": "M"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 8.041159629821777
+  },
+  "turtle->snake|C2": {
+   "X": "turtle",
+   "Y": "snake",
+   "carrier": "C2",
+   "F": {
+    "turtle": "Q",
+    "snake": "H",
+    "dragon": "F",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "B"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 5.865727424621582
+  },
+  "turtle->snake|C3": {
+   "X": "turtle",
+   "Y": "snake",
+   "carrier": "C3",
+   "F": {
+    "turtle": "F",
+    "snake": "M",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "D"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 5.091141223907471
+  },
+  "airport->fish|C0": {
+   "X": "airport",
+   "Y": "fish",
+   "carrier": "C0",
+   "F": {
+    "airport": "Q",
+    "fish": "H",
+    "dragon": "F",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "B"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 10.137313842773438
+  },
+  "airport->fish|C1": {
+   "X": "airport",
+   "Y": "fish",
+   "carrier": "C1",
+   "F": {
+    "airport": "F",
+    "fish": "M",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "D"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 13.815774917602539
+  },
+  "airport->fish|C2": {
+   "X": "airport",
+   "Y": "fish",
+   "carrier": "C2",
+   "F": {
+    "airport": "K",
+    "fish": "Q",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "M"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 11.244646072387695
+  },
+  "airport->fish|C3": {
+   "X": "airport",
+   "Y": "fish",
+   "carrier": "C3",
+   "F": {
+    "airport": "B",
+    "fish": "H",
+    "dragon": "K",
+    "drawer": "M",
+    "forest": "F",
+    "fork": "V"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 10.105030059814453
+  },
+  "fish->airport|C0": {
+   "X": "fish",
+   "Y": "airport",
+   "carrier": "C0",
+   "F": {
+    "fish": "Q",
+    "airport": "H",
+    "dragon": "F",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "B"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 10.137313842773438
+  },
+  "fish->airport|C1": {
+   "X": "fish",
+   "Y": "airport",
+   "carrier": "C1",
+   "F": {
+    "fish": "F",
+    "airport": "M",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "D"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 13.815774917602539
+  },
+  "fish->airport|C2": {
+   "X": "fish",
+   "Y": "airport",
+   "carrier": "C2",
+   "F": {
+    "fish": "K",
+    "airport": "Q",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "M"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 11.244646072387695
+  },
+  "fish->airport|C3": {
+   "X": "fish",
+   "Y": "airport",
+   "carrier": "C3",
+   "F": {
+    "fish": "B",
+    "airport": "H",
+    "dragon": "K",
+    "drawer": "M",
+    "forest": "F",
+    "fork": "V"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 10.105030059814453
+  },
+  "library->toy|C0": {
+   "X": "library",
+   "Y": "toy",
+   "carrier": "C0",
+   "F": {
+    "library": "K",
+    "toy": "Q",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "M"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 8.635053634643555
+  },
+  "library->toy|C1": {
+   "X": "library",
+   "Y": "toy",
+   "carrier": "C1",
+   "F": {
+    "library": "B",
+    "toy": "H",
+    "dragon": "K",
+    "drawer": "M",
+    "forest": "F",
+    "fork": "V"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 7.741158962249756
+  },
+  "library->toy|C2": {
+   "X": "library",
+   "Y": "toy",
+   "carrier": "C2",
+   "F": {
+    "library": "Q",
+    "toy": "M",
+    "dragon": "K",
+    "drawer": "D",
+    "forest": "V",
+    "fork": "B"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 9.141794204711914
+  },
+  "library->toy|C3": {
+   "X": "library",
+   "Y": "toy",
+   "carrier": "C3",
+   "F": {
+    "library": "B",
+    "toy": "D",
+    "dragon": "F",
+    "drawer": "Q",
+    "forest": "M",
+    "fork": "K"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 10.546712875366211
+  },
+  "toy->library|C0": {
+   "X": "toy",
+   "Y": "library",
+   "carrier": "C0",
+   "F": {
+    "toy": "K",
+    "library": "Q",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "M"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 8.635053634643555
+  },
+  "toy->library|C1": {
+   "X": "toy",
+   "Y": "library",
+   "carrier": "C1",
+   "F": {
+    "toy": "B",
+    "library": "H",
+    "dragon": "K",
+    "drawer": "M",
+    "forest": "F",
+    "fork": "V"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 7.741158962249756
+  },
+  "toy->library|C2": {
+   "X": "toy",
+   "Y": "library",
+   "carrier": "C2",
+   "F": {
+    "toy": "Q",
+    "library": "M",
+    "dragon": "K",
+    "drawer": "D",
+    "forest": "V",
+    "fork": "B"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 9.141794204711914
+  },
+  "toy->library|C3": {
+   "X": "toy",
+   "Y": "library",
+   "carrier": "C3",
+   "F": {
+    "toy": "B",
+    "library": "D",
+    "dragon": "F",
+    "drawer": "Q",
+    "forest": "M",
+    "fork": "K"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 10.546712875366211
+  },
+  "dish->moon|C0": {
+   "X": "dish",
+   "Y": "moon",
+   "carrier": "C0",
+   "F": {
+    "dish": "Q",
+    "moon": "M",
+    "dragon": "K",
+    "drawer": "D",
+    "forest": "V",
+    "fork": "B"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 8.463099479675293
+  },
+  "dish->moon|C1": {
+   "X": "dish",
+   "Y": "moon",
+   "carrier": "C1",
+   "F": {
+    "dish": "B",
+    "moon": "D",
+    "dragon": "F",
+    "drawer": "Q",
+    "forest": "M",
+    "fork": "K"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 10.03325080871582
+  },
+  "dish->moon|C2": {
+   "X": "dish",
+   "Y": "moon",
+   "carrier": "C2",
+   "F": {
+    "dish": "V",
+    "moon": "F",
+    "dragon": "D",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "B"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 11.944854736328125
+  },
+  "dish->moon|C3": {
+   "X": "dish",
+   "Y": "moon",
+   "carrier": "C3",
+   "F": {
+    "dish": "K",
+    "moon": "D",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "V"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 11.056600570678711
+  },
+  "moon->dish|C0": {
+   "X": "moon",
+   "Y": "dish",
+   "carrier": "C0",
+   "F": {
+    "moon": "Q",
+    "dish": "M",
+    "dragon": "K",
+    "drawer": "D",
+    "forest": "V",
+    "fork": "B"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 8.463099479675293
+  },
+  "moon->dish|C1": {
+   "X": "moon",
+   "Y": "dish",
+   "carrier": "C1",
+   "F": {
+    "moon": "B",
+    "dish": "D",
+    "dragon": "F",
+    "drawer": "Q",
+    "forest": "M",
+    "fork": "K"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 10.03325080871582
+  },
+  "moon->dish|C2": {
+   "X": "moon",
+   "Y": "dish",
+   "carrier": "C2",
+   "F": {
+    "moon": "V",
+    "dish": "F",
+    "dragon": "D",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "B"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 11.944854736328125
+  },
+  "moon->dish|C3": {
+   "X": "moon",
+   "Y": "dish",
+   "carrier": "C3",
+   "F": {
+    "moon": "K",
+    "dish": "D",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "V"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 11.056600570678711
+  },
+  "fort->heart|C0": {
+   "X": "fort",
+   "Y": "heart",
+   "carrier": "C0",
+   "F": {
+    "fort": "V",
+    "heart": "F",
+    "dragon": "D",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "B"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 12.464367866516113
+  },
+  "fort->heart|C1": {
+   "X": "fort",
+   "Y": "heart",
+   "carrier": "C1",
+   "F": {
+    "fort": "K",
+    "heart": "D",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "V"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 10.074803352355957
+  },
+  "fort->heart|C2": {
+   "X": "fort",
+   "Y": "heart",
+   "carrier": "C2",
+   "F": {
+    "fort": "Q",
+    "heart": "F",
+    "dragon": "V",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "K"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 8.222345352172852
+  },
+  "fort->heart|C3": {
+   "X": "fort",
+   "Y": "heart",
+   "carrier": "C3",
+   "F": {
+    "fort": "B",
+    "heart": "K",
+    "dragon": "M",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "D"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 9.900164604187012
+  },
+  "heart->fort|C0": {
+   "X": "heart",
+   "Y": "fort",
+   "carrier": "C0",
+   "F": {
+    "heart": "V",
+    "fort": "F",
+    "dragon": "D",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "B"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 12.464367866516113
+  },
+  "heart->fort|C1": {
+   "X": "heart",
+   "Y": "fort",
+   "carrier": "C1",
+   "F": {
+    "heart": "K",
+    "fort": "D",
+    "dragon": "F",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "V"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 10.074803352355957
+  },
+  "heart->fort|C2": {
+   "X": "heart",
+   "Y": "fort",
+   "carrier": "C2",
+   "F": {
+    "heart": "Q",
+    "fort": "F",
+    "dragon": "V",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "K"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 8.222345352172852
+  },
+  "heart->fort|C3": {
+   "X": "heart",
+   "Y": "fort",
+   "carrier": "C3",
+   "F": {
+    "heart": "B",
+    "fort": "K",
+    "dragon": "M",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "D"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 9.900164604187012
+  },
+  "bubble->rug|C0": {
+   "X": "bubble",
+   "Y": "rug",
+   "carrier": "C0",
+   "F": {
+    "bubble": "Q",
+    "rug": "F",
+    "dragon": "V",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "K"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 7.106205940246582
+  },
+  "bubble->rug|C1": {
+   "X": "bubble",
+   "Y": "rug",
+   "carrier": "C1",
+   "F": {
+    "bubble": "B",
+    "rug": "K",
+    "dragon": "M",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "D"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 8.88036060333252
+  },
+  "bubble->rug|C2": {
+   "X": "bubble",
+   "Y": "rug",
+   "carrier": "C2",
+   "F": {
+    "bubble": "B",
+    "rug": "D",
+    "dragon": "H",
+    "drawer": "M",
+    "forest": "V",
+    "fork": "Q"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 8.879779815673828
+  },
+  "bubble->rug|C3": {
+   "X": "bubble",
+   "Y": "rug",
+   "carrier": "C3",
+   "F": {
+    "bubble": "H",
+    "rug": "D",
+    "dragon": "V",
+    "drawer": "K",
+    "forest": "Q",
+    "fork": "F"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 7.484151840209961
+  },
+  "rug->bubble|C0": {
+   "X": "rug",
+   "Y": "bubble",
+   "carrier": "C0",
+   "F": {
+    "rug": "Q",
+    "bubble": "F",
+    "dragon": "V",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "K"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 7.106205940246582
+  },
+  "rug->bubble|C1": {
+   "X": "rug",
+   "Y": "bubble",
+   "carrier": "C1",
+   "F": {
+    "rug": "B",
+    "bubble": "K",
+    "dragon": "M",
+    "drawer": "Q",
+    "forest": "H",
+    "fork": "D"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 8.88036060333252
+  },
+  "rug->bubble|C2": {
+   "X": "rug",
+   "Y": "bubble",
+   "carrier": "C2",
+   "F": {
+    "rug": "B",
+    "bubble": "D",
+    "dragon": "H",
+    "drawer": "M",
+    "forest": "V",
+    "fork": "Q"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 8.879779815673828
+  },
+  "rug->bubble|C3": {
+   "X": "rug",
+   "Y": "bubble",
+   "carrier": "C3",
+   "F": {
+    "rug": "H",
+    "bubble": "D",
+    "dragon": "V",
+    "drawer": "K",
+    "forest": "Q",
+    "fork": "F"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 7.484151840209961
+  },
+  "bear->coal|C0": {
+   "X": "bear",
+   "Y": "coal",
+   "carrier": "C0",
+   "F": {
+    "bear": "B",
+    "coal": "D",
+    "dragon": "H",
+    "drawer": "M",
+    "forest": "V",
+    "fork": "Q"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 7.334327220916748
+  },
+  "bear->coal|C1": {
+   "X": "bear",
+   "Y": "coal",
+   "carrier": "C1",
+   "F": {
+    "bear": "H",
+    "coal": "D",
+    "dragon": "V",
+    "drawer": "K",
+    "forest": "Q",
+    "fork": "F"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 8.129772186279297
+  },
+  "bear->coal|C2": {
+   "X": "bear",
+   "Y": "coal",
+   "carrier": "C2",
+   "F": {
+    "bear": "D",
+    "coal": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "M"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 14.237189292907715
+  },
+  "bear->coal|C3": {
+   "X": "bear",
+   "Y": "coal",
+   "carrier": "C3",
+   "F": {
+    "bear": "H",
+    "coal": "D",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "F"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 6.036287784576416
+  },
+  "coal->bear|C0": {
+   "X": "coal",
+   "Y": "bear",
+   "carrier": "C0",
+   "F": {
+    "coal": "B",
+    "bear": "D",
+    "dragon": "H",
+    "drawer": "M",
+    "forest": "V",
+    "fork": "Q"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 7.334327220916748
+  },
+  "coal->bear|C1": {
+   "X": "coal",
+   "Y": "bear",
+   "carrier": "C1",
+   "F": {
+    "coal": "H",
+    "bear": "D",
+    "dragon": "V",
+    "drawer": "K",
+    "forest": "Q",
+    "fork": "F"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 8.129772186279297
+  },
+  "coal->bear|C2": {
+   "X": "coal",
+   "Y": "bear",
+   "carrier": "C2",
+   "F": {
+    "coal": "D",
+    "bear": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "M"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 14.237189292907715
+  },
+  "coal->bear|C3": {
+   "X": "coal",
+   "Y": "bear",
+   "carrier": "C3",
+   "F": {
+    "coal": "H",
+    "bear": "D",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "F"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 6.036287784576416
+  },
+  "card->lake|C0": {
+   "X": "card",
+   "Y": "lake",
+   "carrier": "C0",
+   "F": {
+    "card": "D",
+    "lake": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "M"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 9.559844017028809
+  },
+  "card->lake|C1": {
+   "X": "card",
+   "Y": "lake",
+   "carrier": "C1",
+   "F": {
+    "card": "H",
+    "lake": "D",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "F"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 9.755324363708496
+  },
+  "card->lake|C2": {
+   "X": "card",
+   "Y": "lake",
+   "carrier": "C2",
+   "F": {
+    "card": "V",
+    "lake": "F",
+    "dragon": "K",
+    "drawer": "Q",
+    "forest": "D",
+    "fork": "H"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 8.530862808227539
+  },
+  "card->lake|C3": {
+   "X": "card",
+   "Y": "lake",
+   "carrier": "C3",
+   "F": {
+    "card": "V",
+    "lake": "B",
+    "dragon": "M",
+    "drawer": "H",
+    "forest": "D",
+    "fork": "F"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 9.594002723693848
+  },
+  "lake->card|C0": {
+   "X": "lake",
+   "Y": "card",
+   "carrier": "C0",
+   "F": {
+    "lake": "D",
+    "card": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "M"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 9.559844017028809
+  },
+  "lake->card|C1": {
+   "X": "lake",
+   "Y": "card",
+   "carrier": "C1",
+   "F": {
+    "lake": "H",
+    "card": "D",
+    "dragon": "K",
+    "drawer": "B",
+    "forest": "V",
+    "fork": "F"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 9.755324363708496
+  },
+  "lake->card|C2": {
+   "X": "lake",
+   "Y": "card",
+   "carrier": "C2",
+   "F": {
+    "lake": "V",
+    "card": "F",
+    "dragon": "K",
+    "drawer": "Q",
+    "forest": "D",
+    "fork": "H"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 8.530862808227539
+  },
+  "lake->card|C3": {
+   "X": "lake",
+   "Y": "card",
+   "carrier": "C3",
+   "F": {
+    "lake": "V",
+    "card": "B",
+    "dragon": "M",
+    "drawer": "H",
+    "forest": "D",
+    "fork": "F"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 9.594002723693848
+  },
+  "glass->silver|C0": {
+   "X": "glass",
+   "Y": "silver",
+   "carrier": "C0",
+   "F": {
+    "glass": "V",
+    "silver": "F",
+    "dragon": "K",
+    "drawer": "Q",
+    "forest": "D",
+    "fork": "H"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 6.012691974639893
+  },
+  "glass->silver|C1": {
+   "X": "glass",
+   "Y": "silver",
+   "carrier": "C1",
+   "F": {
+    "glass": "V",
+    "silver": "B",
+    "dragon": "M",
+    "drawer": "H",
+    "forest": "D",
+    "fork": "F"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 8.471190452575684
+  },
+  "glass->silver|C2": {
+   "X": "glass",
+   "Y": "silver",
+   "carrier": "C2",
+   "F": {
+    "glass": "D",
+    "silver": "F",
+    "dragon": "K",
+    "drawer": "H",
+    "forest": "Q",
+    "fork": "V"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 5.65427303314209
+  },
+  "glass->silver|C3": {
+   "X": "glass",
+   "Y": "silver",
+   "carrier": "C3",
+   "F": {
+    "glass": "M",
+    "silver": "Q",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "H"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 5.948547840118408
+  },
+  "silver->glass|C0": {
+   "X": "silver",
+   "Y": "glass",
+   "carrier": "C0",
+   "F": {
+    "silver": "V",
+    "glass": "F",
+    "dragon": "K",
+    "drawer": "Q",
+    "forest": "D",
+    "fork": "H"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 6.012691974639893
+  },
+  "silver->glass|C1": {
+   "X": "silver",
+   "Y": "glass",
+   "carrier": "C1",
+   "F": {
+    "silver": "V",
+    "glass": "B",
+    "dragon": "M",
+    "drawer": "H",
+    "forest": "D",
+    "fork": "F"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 8.471190452575684
+  },
+  "silver->glass|C2": {
+   "X": "silver",
+   "Y": "glass",
+   "carrier": "C2",
+   "F": {
+    "silver": "D",
+    "glass": "F",
+    "dragon": "K",
+    "drawer": "H",
+    "forest": "Q",
+    "fork": "V"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 5.65427303314209
+  },
+  "silver->glass|C3": {
+   "X": "silver",
+   "Y": "glass",
+   "carrier": "C3",
+   "F": {
+    "silver": "M",
+    "glass": "Q",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "H"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 5.948547840118408
+  },
+  "river->shield|C0": {
+   "X": "river",
+   "Y": "shield",
+   "carrier": "C0",
+   "F": {
+    "river": "D",
+    "shield": "F",
+    "dragon": "K",
+    "drawer": "H",
+    "forest": "Q",
+    "fork": "V"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 9.230125427246094
+  },
+  "river->shield|C1": {
+   "X": "river",
+   "Y": "shield",
+   "carrier": "C1",
+   "F": {
+    "river": "M",
+    "shield": "Q",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "H"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 9.087312698364258
+  },
+  "river->shield|C2": {
+   "X": "river",
+   "Y": "shield",
+   "carrier": "C2",
+   "F": {
+    "river": "H",
+    "shield": "K",
+    "dragon": "B",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "V"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 8.934350967407227
+  },
+  "river->shield|C3": {
+   "X": "river",
+   "Y": "shield",
+   "carrier": "C3",
+   "F": {
+    "river": "D",
+    "shield": "Q",
+    "dragon": "M",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "F"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 8.411764144897461
+  },
+  "shield->river|C0": {
+   "X": "shield",
+   "Y": "river",
+   "carrier": "C0",
+   "F": {
+    "shield": "D",
+    "river": "F",
+    "dragon": "K",
+    "drawer": "H",
+    "forest": "Q",
+    "fork": "V"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 9.230125427246094
+  },
+  "shield->river|C1": {
+   "X": "shield",
+   "Y": "river",
+   "carrier": "C1",
+   "F": {
+    "shield": "M",
+    "river": "Q",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "H"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 9.087312698364258
+  },
+  "shield->river|C2": {
+   "X": "shield",
+   "Y": "river",
+   "carrier": "C2",
+   "F": {
+    "shield": "H",
+    "river": "K",
+    "dragon": "B",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "V"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 8.934350967407227
+  },
+  "shield->river|C3": {
+   "X": "shield",
+   "Y": "river",
+   "carrier": "C3",
+   "F": {
+    "shield": "D",
+    "river": "Q",
+    "dragon": "M",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "F"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 8.411764144897461
+  },
+  "monkey->queen|C0": {
+   "X": "monkey",
+   "Y": "queen",
+   "carrier": "C0",
+   "F": {
+    "monkey": "H",
+    "queen": "K",
+    "dragon": "B",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "V"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 8.454377174377441
+  },
+  "monkey->queen|C1": {
+   "X": "monkey",
+   "Y": "queen",
+   "carrier": "C1",
+   "F": {
+    "monkey": "D",
+    "queen": "Q",
+    "dragon": "M",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "F"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 8.799918174743652
+  },
+  "monkey->queen|C2": {
+   "X": "monkey",
+   "Y": "queen",
+   "carrier": "C2",
+   "F": {
+    "monkey": "V",
+    "queen": "B",
+    "dragon": "Q",
+    "drawer": "F",
+    "forest": "M",
+    "fork": "H"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 6.534369468688965
+  },
+  "monkey->queen|C3": {
+   "X": "monkey",
+   "Y": "queen",
+   "carrier": "C3",
+   "F": {
+    "monkey": "Q",
+    "queen": "M",
+    "dragon": "B",
+    "drawer": "K",
+    "forest": "F",
+    "fork": "H"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 6.799972057342529
+  },
+  "queen->monkey|C0": {
+   "X": "queen",
+   "Y": "monkey",
+   "carrier": "C0",
+   "F": {
+    "queen": "H",
+    "monkey": "K",
+    "dragon": "B",
+    "drawer": "M",
+    "forest": "D",
+    "fork": "V"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 8.454377174377441
+  },
+  "queen->monkey|C1": {
+   "X": "queen",
+   "Y": "monkey",
+   "carrier": "C1",
+   "F": {
+    "queen": "D",
+    "monkey": "Q",
+    "dragon": "M",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "F"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 8.799918174743652
+  },
+  "queen->monkey|C2": {
+   "X": "queen",
+   "Y": "monkey",
+   "carrier": "C2",
+   "F": {
+    "queen": "V",
+    "monkey": "B",
+    "dragon": "Q",
+    "drawer": "F",
+    "forest": "M",
+    "fork": "H"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 6.534369468688965
+  },
+  "queen->monkey|C3": {
+   "X": "queen",
+   "Y": "monkey",
+   "carrier": "C3",
+   "F": {
+    "queen": "Q",
+    "monkey": "M",
+    "dragon": "B",
+    "drawer": "K",
+    "forest": "F",
+    "fork": "H"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 6.799972057342529
+  },
+  "king->paper|C0": {
+   "X": "king",
+   "Y": "paper",
+   "carrier": "C0",
+   "F": {
+    "king": "V",
+    "paper": "B",
+    "dragon": "Q",
+    "drawer": "F",
+    "forest": "M",
+    "fork": "H"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 10.813068389892578
+  },
+  "king->paper|C1": {
+   "X": "king",
+   "Y": "paper",
+   "carrier": "C1",
+   "F": {
+    "king": "Q",
+    "paper": "M",
+    "dragon": "B",
+    "drawer": "K",
+    "forest": "F",
+    "fork": "H"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 7.6638312339782715
+  },
+  "king->paper|C2": {
+   "X": "king",
+   "Y": "paper",
+   "carrier": "C2",
+   "F": {
+    "king": "F",
+    "paper": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "M",
+    "fork": "K"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 7.705256938934326
+  },
+  "king->paper|C3": {
+   "X": "king",
+   "Y": "paper",
+   "carrier": "C3",
+   "F": {
+    "king": "Q",
+    "paper": "M",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "K",
+    "fork": "H"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 9.39876937866211
+  },
+  "paper->king|C0": {
+   "X": "paper",
+   "Y": "king",
+   "carrier": "C0",
+   "F": {
+    "paper": "V",
+    "king": "B",
+    "dragon": "Q",
+    "drawer": "F",
+    "forest": "M",
+    "fork": "H"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 10.813068389892578
+  },
+  "paper->king|C1": {
+   "X": "paper",
+   "Y": "king",
+   "carrier": "C1",
+   "F": {
+    "paper": "Q",
+    "king": "M",
+    "dragon": "B",
+    "drawer": "K",
+    "forest": "F",
+    "fork": "H"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 7.6638312339782715
+  },
+  "paper->king|C2": {
+   "X": "paper",
+   "Y": "king",
+   "carrier": "C2",
+   "F": {
+    "paper": "F",
+    "king": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "M",
+    "fork": "K"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 7.705256938934326
+  },
+  "paper->king|C3": {
+   "X": "paper",
+   "Y": "king",
+   "carrier": "C3",
+   "F": {
+    "paper": "Q",
+    "king": "M",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "K",
+    "fork": "H"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 9.39876937866211
+  },
+  "gold->train|C0": {
+   "X": "gold",
+   "Y": "train",
+   "carrier": "C0",
+   "F": {
+    "gold": "F",
+    "train": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "M",
+    "fork": "K"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 7.6712422370910645
+  },
+  "gold->train|C1": {
+   "X": "gold",
+   "Y": "train",
+   "carrier": "C1",
+   "F": {
+    "gold": "Q",
+    "train": "M",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "K",
+    "fork": "H"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 15.116622924804688
+  },
+  "gold->train|C2": {
+   "X": "gold",
+   "Y": "train",
+   "carrier": "C2",
+   "F": {
+    "gold": "H",
+    "train": "B",
+    "dragon": "M",
+    "drawer": "F",
+    "forest": "Q",
+    "fork": "D"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 6.840029716491699
+  },
+  "gold->train|C3": {
+   "X": "gold",
+   "Y": "train",
+   "carrier": "C3",
+   "F": {
+    "gold": "Q",
+    "train": "H",
+    "dragon": "B",
+    "drawer": "F",
+    "forest": "K",
+    "fork": "D"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 7.1976189613342285
+  },
+  "train->gold|C0": {
+   "X": "train",
+   "Y": "gold",
+   "carrier": "C0",
+   "F": {
+    "train": "F",
+    "gold": "H",
+    "dragon": "Q",
+    "drawer": "B",
+    "forest": "M",
+    "fork": "K"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 7.6712422370910645
+  },
+  "train->gold|C1": {
+   "X": "train",
+   "Y": "gold",
+   "carrier": "C1",
+   "F": {
+    "train": "Q",
+    "gold": "M",
+    "dragon": "D",
+    "drawer": "V",
+    "forest": "K",
+    "fork": "H"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 15.116622924804688
+  },
+  "train->gold|C2": {
+   "X": "train",
+   "Y": "gold",
+   "carrier": "C2",
+   "F": {
+    "train": "H",
+    "gold": "B",
+    "dragon": "M",
+    "drawer": "F",
+    "forest": "Q",
+    "fork": "D"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 6.840029716491699
+  },
+  "train->gold|C3": {
+   "X": "train",
+   "Y": "gold",
+   "carrier": "C3",
+   "F": {
+    "train": "Q",
+    "gold": "H",
+    "dragon": "B",
+    "drawer": "F",
+    "forest": "K",
+    "fork": "D"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 7.1976189613342285
+  },
+  "cup->engine|C0": {
+   "X": "cup",
+   "Y": "engine",
+   "carrier": "C0",
+   "F": {
+    "cup": "H",
+    "engine": "B",
+    "dragon": "M",
+    "drawer": "F",
+    "forest": "Q",
+    "fork": "D"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 7.92495584487915
+  },
+  "cup->engine|C1": {
+   "X": "cup",
+   "Y": "engine",
+   "carrier": "C1",
+   "F": {
+    "cup": "Q",
+    "engine": "H",
+    "dragon": "B",
+    "drawer": "F",
+    "forest": "K",
+    "fork": "D"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 11.586634635925293
+  },
+  "cup->engine|C2": {
+   "X": "cup",
+   "Y": "engine",
+   "carrier": "C2",
+   "F": {
+    "cup": "M",
+    "engine": "Q",
+    "dragon": "H",
+    "drawer": "F",
+    "forest": "V",
+    "fork": "D"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 7.292106628417969
+  },
+  "cup->engine|C3": {
+   "X": "cup",
+   "Y": "engine",
+   "carrier": "C3",
+   "F": {
+    "cup": "D",
+    "engine": "H",
+    "dragon": "K",
+    "drawer": "F",
+    "forest": "B",
+    "fork": "M"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 6.8799729347229
+  },
+  "engine->cup|C0": {
+   "X": "engine",
+   "Y": "cup",
+   "carrier": "C0",
+   "F": {
+    "engine": "H",
+    "cup": "B",
+    "dragon": "M",
+    "drawer": "F",
+    "forest": "Q",
+    "fork": "D"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 7.92495584487915
+  },
+  "engine->cup|C1": {
+   "X": "engine",
+   "Y": "cup",
+   "carrier": "C1",
+   "F": {
+    "engine": "Q",
+    "cup": "H",
+    "dragon": "B",
+    "drawer": "F",
+    "forest": "K",
+    "fork": "D"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 11.586634635925293
+  },
+  "engine->cup|C2": {
+   "X": "engine",
+   "Y": "cup",
+   "carrier": "C2",
+   "F": {
+    "engine": "M",
+    "cup": "Q",
+    "dragon": "H",
+    "drawer": "F",
+    "forest": "V",
+    "fork": "D"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 7.292106628417969
+  },
+  "engine->cup|C3": {
+   "X": "engine",
+   "Y": "cup",
+   "carrier": "C3",
+   "F": {
+    "engine": "D",
+    "cup": "H",
+    "dragon": "K",
+    "drawer": "F",
+    "forest": "B",
+    "fork": "M"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 6.8799729347229
+  },
+  "letter->sword|C0": {
+   "X": "letter",
+   "Y": "sword",
+   "carrier": "C0",
+   "F": {
+    "letter": "M",
+    "sword": "Q",
+    "dragon": "H",
+    "drawer": "F",
+    "forest": "V",
+    "fork": "D"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 9.426592826843262
+  },
+  "letter->sword|C1": {
+   "X": "letter",
+   "Y": "sword",
+   "carrier": "C1",
+   "F": {
+    "letter": "D",
+    "sword": "H",
+    "dragon": "K",
+    "drawer": "F",
+    "forest": "B",
+    "fork": "M"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 9.945334434509277
+  },
+  "letter->sword|C2": {
+   "X": "letter",
+   "Y": "sword",
+   "carrier": "C2",
+   "F": {
+    "letter": "M",
+    "sword": "B",
+    "dragon": "H",
+    "drawer": "F",
+    "forest": "Q",
+    "fork": "D"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 8.596181869506836
+  },
+  "letter->sword|C3": {
+   "X": "letter",
+   "Y": "sword",
+   "carrier": "C3",
+   "F": {
+    "letter": "M",
+    "sword": "V",
+    "dragon": "F",
+    "drawer": "K",
+    "forest": "Q",
+    "fork": "B"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 10.666465759277344
+  },
+  "sword->letter|C0": {
+   "X": "sword",
+   "Y": "letter",
+   "carrier": "C0",
+   "F": {
+    "sword": "M",
+    "letter": "Q",
+    "dragon": "H",
+    "drawer": "F",
+    "forest": "V",
+    "fork": "D"
+   },
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147,
+   "rho_nat": 9.426592826843262
+  },
+  "sword->letter|C1": {
+   "X": "sword",
+   "Y": "letter",
+   "carrier": "C1",
+   "F": {
+    "sword": "D",
+    "letter": "H",
+    "dragon": "K",
+    "drawer": "F",
+    "forest": "B",
+    "fork": "M"
+   },
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149,
+   "rho_nat": 9.945334434509277
+  },
+  "sword->letter|C2": {
+   "X": "sword",
+   "Y": "letter",
+   "carrier": "C2",
+   "F": {
+    "sword": "M",
+    "letter": "B",
+    "dragon": "H",
+    "drawer": "F",
+    "forest": "Q",
+    "fork": "D"
+   },
+   "interior": [
+    55,
+    66
+   ],
+   "n_tokens": 133,
+   "rho_nat": 8.596181869506836
+  },
+  "sword->letter|C3": {
+   "X": "sword",
+   "Y": "letter",
+   "carrier": "C3",
+   "F": {
+    "sword": "M",
+    "letter": "V",
+    "dragon": "F",
+    "drawer": "K",
+    "forest": "Q",
+    "fork": "B"
+   },
+   "interior": [
+    72,
+    100
+   ],
+   "n_tokens": 167,
+   "rho_nat": 10.666465759277344
+  }
+ },
+ "stage": "bank",
+ "steps": 60,
+ "lr": 0.15,
+ "radii": [
+  1.0
+ ],
+ "run_id": "20260909T212931Z",
+ "n_forwards": 880,
+ "elapsed_s": 233.0
+}

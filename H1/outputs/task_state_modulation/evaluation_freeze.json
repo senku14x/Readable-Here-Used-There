@@ -1,0 +1,31 @@
+{
+ "frozen": true,
+ "date": "2026-09-07",
+ "materials": "Banks 1 and 2 (16 unordered pairs), carriers C2/C3, geometry-matched pairs only (excluded pairs recorded)",
+ "sites": {
+  "state": 35,
+  "L_x": 36
+ },
+ "windows": [
+  "L48-50",
+  "L51-59"
+ ],
+ "panel": "g-orthogonalized 12 + 4 covperp + native pc01/cov01 (amendment 1)",
+ "doses": [
+  0.5,
+  2.0
+ ],
+ "tolerances": {
+  "realized_write": {
+   "rho": [
+    0.9,
+    1.1
+   ],
+   "kappa_min": 0.99
+  },
+  "top1_retention_min": 0.95,
+  "equivalence_eps_fraction_of_A": 0.2
+ },
+ "primary_family": "I(g) on J_NP at the two windows, Holm",
+ "note": "no fit or calibration process reads these outcomes"
+}

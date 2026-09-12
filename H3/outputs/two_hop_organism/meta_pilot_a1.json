@@ -1,0 +1,737 @@
+{
+ "columns": [
+  "Canada",
+  "Egypt",
+  "France",
+  "Germany",
+  "Greece",
+  "Hungary",
+  "Italy",
+  "Japan",
+  "Poland",
+  "Russia",
+  "Spain",
+  "butter",
+  "honey",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers": [
+  "C0",
+  "C1"
+ ],
+ "lx": 36,
+ "seed": 20260909,
+ "cells": {
+  "ex-city-capital-Barcelona-Toronto|C0": {
+   "clue": "The capital of the country where Barcelona is located",
+   "donor_clue": "The capital of the country where Toronto is located",
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "n_tokens": 120,
+   "acts_clean": true
+  },
+  "ex-city-capital-Barcelona-Toronto|C1": {
+   "clue": "The capital of the country where Barcelona is located",
+   "donor_clue": "The capital of the country where Toronto is located",
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "n_tokens": 122,
+   "acts_clean": true
+  },
+  "ex-city-capital-Lyon-Naples|C0": {
+   "clue": "The capital of the country where Lyon is located",
+   "donor_clue": "The capital of the country where Naples is located",
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "n_tokens": 120,
+   "acts_clean": true
+  },
+  "ex-city-capital-Lyon-Naples|C1": {
+   "clue": "The capital of the country where Lyon is located",
+   "donor_clue": "The capital of the country where Naples is located",
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "n_tokens": 122,
+   "acts_clean": true
+  },
+  "ex-city-capital-Naples-Barcelona|C0": {
+   "clue": "The capital of the country where Naples is located",
+   "donor_clue": "The capital of the country where Barcelona is located",
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "n_tokens": 120,
+   "acts_clean": true
+  },
+  "ex-city-capital-Naples-Barcelona|C1": {
+   "clue": "The capital of the country where Naples is located",
+   "donor_clue": "The capital of the country where Barcelona is located",
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "n_tokens": 122,
+   "acts_clean": true
+  },
+  "ex-city-capital-Toronto-Lyon|C0": {
+   "clue": "The capital of the country where Toronto is located",
+   "donor_clue": "The capital of the country where Lyon is located",
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "n_tokens": 120,
+   "acts_clean": true
+  },
+  "ex-city-capital-Toronto-Lyon|C1": {
+   "clue": "The capital of the country where Toronto is located",
+   "donor_clue": "The capital of the country where Lyon is located",
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "n_tokens": 122,
+   "acts_clean": true
+  },
+  "ex2-city-capital-Munich|C0": {
+   "clue": "The capital of the country where Munich is located",
+   "donor_clue": "The capital of the country where Osaka is located",
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "n_tokens": 120,
+   "acts_clean": true
+  },
+  "ex2-city-capital-Munich|C1": {
+   "clue": "The capital of the country where Munich is located",
+   "donor_clue": "The capital of the country where Osaka is located",
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "n_tokens": 122,
+   "acts_clean": true
+  },
+  "ex2-city-capital-Osaka|C0": {
+   "clue": "The capital of the country where Osaka is located",
+   "donor_clue": "The capital of the country where Munich is located",
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "answer": "Tokyo",
+   "swap_answer": "Berlin",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "n_tokens": 120,
+   "acts_clean": true
+  },
+  "ex2-city-capital-Osaka|C1": {
+   "clue": "The capital of the country where Osaka is located",
+   "donor_clue": "The capital of the country where Munich is located",
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "answer": "Tokyo",
+   "swap_answer": "Berlin",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "n_tokens": 122,
+   "acts_clean": true
+  },
+  "ex2-city-language-Cairo|C0": {
+   "clue": "The language spoken in the country where Cairo is located",
+   "donor_clue": "The language spoken in the country where Moscow is located",
+   "intermediate": "Egypt",
+   "swap_to": "Russia",
+   "answer": "Arabic",
+   "swap_answer": "Russian",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    72,
+    95
+   ],
+   "n_tokens": 122,
+   "acts_clean": true
+  },
+  "ex2-city-language-Cairo|C1": {
+   "clue": "The language spoken in the country where Cairo is located",
+   "donor_clue": "The language spoken in the country where Moscow is located",
+   "intermediate": "Egypt",
+   "swap_to": "Russia",
+   "answer": "Arabic",
+   "swap_answer": "Russian",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    73,
+    97
+   ],
+   "n_tokens": 124,
+   "acts_clean": true
+  },
+  "ex2-city-language-Moscow|C0": {
+   "clue": "The language spoken in the country where Moscow is located",
+   "donor_clue": "The language spoken in the country where Cairo is located",
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    72,
+    95
+   ],
+   "n_tokens": 122,
+   "acts_clean": true
+  },
+  "ex2-city-language-Moscow|C1": {
+   "clue": "The language spoken in the country where Moscow is located",
+   "donor_clue": "The language spoken in the country where Cairo is located",
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    73,
+    97
+   ],
+   "n_tokens": 124,
+   "acts_clean": true
+  },
+  "ex2-language-capital-Hungarian|C0": {
+   "clue": "The capital of the country where Hungarian is the primary language",
+   "donor_clue": "The capital of the country where Polish is the primary language",
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    73,
+    96
+   ],
+   "n_tokens": 124,
+   "acts_clean": true
+  },
+  "ex2-language-capital-Hungarian|C1": {
+   "clue": "The capital of the country where Hungarian is the primary language",
+   "donor_clue": "The capital of the country where Polish is the primary language",
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    74,
+    98
+   ],
+   "n_tokens": 126,
+   "acts_clean": true
+  },
+  "ex2-language-capital-Polish|C0": {
+   "clue": "The capital of the country where Polish is the primary language",
+   "donor_clue": "The capital of the country where Greek is the primary language",
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    73,
+    96
+   ],
+   "n_tokens": 124,
+   "acts_clean": true
+  },
+  "ex2-language-capital-Polish|C1": {
+   "clue": "The capital of the country where Polish is the primary language",
+   "donor_clue": "The capital of the country where Greek is the primary language",
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    74,
+    98
+   ],
+   "n_tokens": 126,
+   "acts_clean": true
+  },
+  "food-animal-butter|C0": {
+   "clue": "The animal that produces the yellow dairy spread used on bread",
+   "donor_clue": "The insect that produces the sweet golden substance spread on toast",
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "answer": "cow",
+   "swap_answer": "bee",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    73,
+    96
+   ],
+   "n_tokens": 125,
+   "acts_clean": true
+  },
+  "food-animal-butter|C1": {
+   "clue": "The animal that produces the yellow dairy spread used on bread",
+   "donor_clue": "The insect that produces the sweet golden substance spread on toast",
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "answer": "cow",
+   "swap_answer": "bee",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    74,
+    98
+   ],
+   "n_tokens": 127,
+   "acts_clean": true
+  },
+  "food-animal-honey|C0": {
+   "clue": "The insect that produces the sweet golden substance spread on toast",
+   "donor_clue": "The animal that produces the yellow dairy spread used on bread",
+   "intermediate": "honey",
+   "swap_to": "butter",
+   "answer": "bee",
+   "swap_answer": "cow",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    73,
+    96
+   ],
+   "n_tokens": 125,
+   "acts_clean": true
+  },
+  "food-animal-honey|C1": {
+   "clue": "The insect that produces the sweet golden substance spread on toast",
+   "donor_clue": "The animal that produces the yellow dairy spread used on bread",
+   "intermediate": "honey",
+   "swap_to": "butter",
+   "answer": "bee",
+   "swap_answer": "cow",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    74,
+    98
+   ],
+   "n_tokens": 127,
+   "acts_clean": true
+  }
+ },
+ "items": [
+  {
+   "name": "ex-city-capital-Barcelona-Toronto",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Barcelona is located is",
+   "intermediate": "Spain",
+   "answer": "Madrid",
+   "swap_to": "Canada",
+   "swap_answer": "Ottawa",
+   "donor_prompt": "Fact: The capital of the country where Toronto is located is",
+   "donor_name": "ex-city-capital-Toronto-Lyon"
+  },
+  {
+   "name": "ex-city-capital-Lyon-Naples",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Lyon is located is",
+   "intermediate": "France",
+   "answer": "Paris",
+   "swap_to": "Italy",
+   "swap_answer": "Rome",
+   "donor_prompt": "Fact: The capital of the country where Naples is located is",
+   "donor_name": "ex-city-capital-Naples-Barcelona"
+  },
+  {
+   "name": "ex-city-capital-Naples-Barcelona",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Naples is located is",
+   "intermediate": "Italy",
+   "answer": "Rome",
+   "swap_to": "Spain",
+   "swap_answer": "Madrid",
+   "donor_prompt": "Fact: The capital of the country where Barcelona is located is",
+   "donor_name": "ex-city-capital-Barcelona-Toronto"
+  },
+  {
+   "name": "ex-city-capital-Toronto-Lyon",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Toronto is located is",
+   "intermediate": "Canada",
+   "answer": "Ottawa",
+   "swap_to": "France",
+   "swap_answer": "Paris",
+   "donor_prompt": "Fact: The capital of the country where Lyon is located is",
+   "donor_name": "ex-city-capital-Lyon-Naples"
+  },
+  {
+   "name": "ex2-city-capital-Munich",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Munich is located is",
+   "intermediate": "Germany",
+   "answer": "Berlin",
+   "swap_to": "Japan",
+   "swap_answer": "Tokyo",
+   "donor_prompt": "Fact: The capital of the country where Osaka is located is",
+   "donor_name": "ex2-city-capital-Osaka"
+  },
+  {
+   "name": "ex2-city-capital-Osaka",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Osaka is located is",
+   "intermediate": "Japan",
+   "answer": "Tokyo",
+   "swap_to": "Germany",
+   "swap_answer": "Berlin",
+   "donor_prompt": "Fact: The capital of the country where Munich is located is",
+   "donor_name": "ex2-city-capital-Munich"
+  },
+  {
+   "name": "ex2-city-language-Cairo",
+   "category": "city-language",
+   "prompt": "Fact: The language spoken in the country where Cairo is located is",
+   "intermediate": "Egypt",
+   "answer": "Arabic",
+   "swap_to": "Russia",
+   "swap_answer": "Russian",
+   "donor_prompt": "Fact: The language spoken in the country where Moscow is located is",
+   "donor_name": "ex2-city-language-Moscow"
+  },
+  {
+   "name": "ex2-city-language-Moscow",
+   "category": "city-language",
+   "prompt": "Fact: The language spoken in the country where Moscow is located is",
+   "intermediate": "Russia",
+   "answer": "Russian",
+   "swap_to": "Egypt",
+   "swap_answer": "Arabic",
+   "donor_prompt": "Fact: The language spoken in the country where Cairo is located is",
+   "donor_name": "ex2-city-language-Cairo"
+  },
+  {
+   "name": "ex2-language-capital-Hungarian",
+   "category": "language-capital",
+   "prompt": "Fact: The capital of the country where Hungarian is the primary language is",
+   "intermediate": "Hungary",
+   "answer": "Budapest",
+   "swap_to": "Poland",
+   "swap_answer": "Warsaw",
+   "donor_prompt": "Fact: The capital of the country where Polish is the primary language is",
+   "donor_name": "ex2-language-capital-Polish"
+  },
+  {
+   "name": "ex2-language-capital-Polish",
+   "category": "language-capital",
+   "prompt": "Fact: The capital of the country where Polish is the primary language is",
+   "intermediate": "Poland",
+   "answer": "Warsaw",
+   "swap_to": "Greece",
+   "swap_answer": "Athens",
+   "donor_prompt": "Fact: The capital of the country where Greek is the primary language is",
+   "donor_name": "ex2-language-capital-Greek"
+  },
+  {
+   "name": "food-animal-butter",
+   "category": "food-animal",
+   "prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+   "intermediate": "butter",
+   "answer": "cow",
+   "swap_to": "honey",
+   "swap_answer": "bee",
+   "donor_prompt": "Fact: The insect that produces the sweet golden substance spread on toast is the",
+   "donor_name": "food-animal-honey"
+  },
+  {
+   "name": "food-animal-honey",
+   "category": "food-animal",
+   "prompt": "Fact: The insect that produces the sweet golden substance spread on toast is the",
+   "intermediate": "honey",
+   "answer": "bee",
+   "swap_to": "butter",
+   "swap_answer": "cow",
+   "donor_prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+   "donor_name": "food-animal-butter"
+  }
+ ],
+ "G1": {
+  "scored_pairwise": 1.0,
+  "greedy_exact": 0.5,
+  "pass": true
+ },
+ "G2": {
+  "own_minus_donor_clue": [
+   2.399294455225269,
+   1.901529893164089,
+   2.8970590172864488,
+   12,
+   12
+  ],
+  "own_minus_hidden": [
+   4.550511543949445,
+   3.6879353245504087,
+   5.41308776334848,
+   12,
+   12
+  ],
+  "pass": true
+ },
+ "interventions_run": true,
+ "pilot": [
+  {
+   "cond": "S_donor",
+   "margin": [
+    5.81709098815918,
+    4.36818635497843,
+    7.265995621339929,
+    12,
+    12
+   ],
+   "flips": 4,
+   "n": 24,
+   "carrier_latent_shift_J": [
+    2.8113045704861483,
+    2.0995937225271115,
+    3.523015418445185,
+    12,
+    12
+   ],
+   "dNLL_max": 0.008804225362837315
+  },
+  {
+   "cond": "S_donor0",
+   "margin": [
+    2.9866533279418945,
+    1.7305704029975308,
+    4.242736252886258,
+    12,
+    12
+   ],
+   "flips": 3,
+   "n": 24,
+   "carrier_latent_shift_J": [
+    4.838279155393441,
+    3.8676264089310086,
+    5.808931901855874,
+    12,
+    12
+   ],
+   "dNLL_max": 0.044391993433237076
+  },
+  {
+   "cond": "C_full",
+   "margin": [
+    2.995655059814453,
+    1.8645770592650455,
+    4.126733060363861,
+    12,
+    12
+   ],
+   "flips": 0,
+   "n": 24,
+   "carrier_latent_shift_J": [
+    4.861380468433102,
+    3.888978596516841,
+    5.833782340349362,
+    12,
+    12
+   ],
+   "dNLL_max": 0.017313461750745773
+  },
+  {
+   "cond": "C_all",
+   "margin": [
+    2.9194018840789795,
+    1.7667091706019198,
+    4.072094597556039,
+    12,
+    12
+   ],
+   "flips": 1,
+   "n": 24,
+   "carrier_latent_shift_J": [
+    4.861380468433102,
+    3.888978596516841,
+    5.833782340349362,
+    12,
+    12
+   ],
+   "dNLL_max": 0.017313461750745773
+  },
+  {
+   "cond": "C_rand",
+   "margin": [
+    -0.008416553027927876,
+    -0.07551273250989046,
+    0.05867962645403471,
+    5,
+    12
+   ],
+   "flips": 0,
+   "n": 24,
+   "carrier_latent_shift_J": [
+    0.27007849390308064,
+    0.201188001053547,
+    0.3389689867526143,
+    12,
+    12
+   ],
+   "dNLL_max": 0.010110616683959961
+  }
+ ],
+ "run_id": "20260909T151120Z",
+ "n_forwards": 192,
+ "elapsed_s": 49.7
+}

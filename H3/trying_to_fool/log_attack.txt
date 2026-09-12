@@ -1,0 +1,179 @@
+[32mActivated conda/uv virtual environment at [36m/venv/main[0m
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 2724.87it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<03:58,  3.57it/s]Loading weights:   0%|          | 2/851 [00:00<04:34,  3.10it/s]Loading weights:   2%|▏         | 14/851 [00:00<00:31, 26.34it/s]Loading weights:   3%|▎         | 27/851 [00:00<00:17, 46.81it/s]Loading weights:   4%|▍         | 37/851 [00:00<00:14, 56.62it/s]Loading weights:   5%|▌         | 45/851 [00:01<00:14, 56.09it/s]Loading weights:   6%|▌         | 52/851 [00:01<00:13, 57.53it/s]Loading weights:   8%|▊         | 66/851 [00:01<00:10, 72.57it/s]Loading weights:   9%|▉         | 76/851 [00:01<00:10, 75.30it/s]Loading weights:  10%|▉         | 85/851 [00:01<00:10, 74.90it/s]Loading weights:  11%|█         | 95/851 [00:01<00:10, 71.49it/s]Loading weights:  12%|█▏        | 105/851 [00:01<00:09, 75.81it/s]Loading weights:  14%|█▍        | 119/851 [00:02<00:08, 87.21it/s]Loading weights:  15%|█▌        | 129/851 [00:02<00:08, 86.84it/s]Loading weights:  16%|█▌        | 138/851 [00:02<00:08, 81.26it/s]Loading weights:  17%|█▋        | 147/851 [00:02<00:09, 74.69it/s]Loading weights:  18%|█▊        | 155/851 [00:02<00:09, 70.69it/s]Loading weights:  20%|█▉        | 168/851 [00:02<00:08, 82.95it/s]Loading weights:  21%|██        | 177/851 [00:02<00:08, 79.66it/s]Loading weights:  22%|██▏       | 186/851 [00:02<00:08, 80.96it/s]Loading weights:  23%|██▎       | 195/851 [00:02<00:07, 83.17it/s]Loading weights:  24%|██▍       | 204/851 [00:03<00:08, 80.03it/s]Loading weights:  25%|██▌       | 213/851 [00:03<00:08, 74.04it/s]Loading weights:  27%|██▋       | 226/851 [00:03<00:07, 81.69it/s]Loading weights:  28%|██▊       | 238/851 [00:03<00:07, 87.52it/s]Loading weights:  29%|██▉       | 247/851 [00:03<00:07, 84.82it/s]Loading weights:  30%|███       | 256/851 [00:03<00:08, 73.57it/s]Loading weights:  31%|███       | 264/851 [00:03<00:08, 68.19it/s]Loading weights:  32%|███▏      | 276/851 [00:04<00:07, 76.71it/s]Loading weights:  33%|███▎      | 284/851 [00:04<00:07, 73.78it/s]Loading weights:  34%|███▍      | 293/851 [00:04<00:07, 71.70it/s]Loading weights:  36%|███▌      | 305/851 [00:04<00:07, 76.99it/s]Loading weights:  37%|███▋      | 313/851 [00:04<00:08, 62.66it/s]Loading weights:  38%|███▊      | 325/851 [00:04<00:07, 75.01it/s]Loading weights:  39%|███▉      | 334/851 [00:04<00:07, 71.98it/s]Loading weights:  41%|████      | 346/851 [00:05<00:06, 76.70it/s]Loading weights:  42%|████▏     | 359/851 [00:05<00:05, 82.64it/s]Loading weights:  43%|████▎     | 368/851 [00:05<00:06, 72.34it/s]Loading weights:  45%|████▌     | 383/851 [00:05<00:05, 88.12it/s]Loading weights:  46%|████▌     | 393/851 [00:05<00:05, 82.55it/s]Loading weights:  47%|████▋     | 402/851 [00:05<00:05, 76.27it/s]Loading weights:  49%|████▊     | 413/851 [00:05<00:05, 78.01it/s]Loading weights:  50%|████▉     | 422/851 [00:06<00:06, 70.26it/s]Loading weights:  51%|█████     | 436/851 [00:06<00:04, 84.80it/s]Loading weights:  52%|█████▏    | 446/851 [00:06<00:04, 85.06it/s]Loading weights:  53%|█████▎    | 455/851 [00:06<00:05, 73.79it/s]Loading weights:  55%|█████▍    | 466/851 [00:06<00:04, 77.40it/s]Loading weights:  56%|█████▌    | 475/851 [00:06<00:05, 71.20it/s]Loading weights:  57%|█████▋    | 489/851 [00:06<00:04, 86.55it/s]Loading weights:  59%|█████▊    | 499/851 [00:06<00:04, 85.93it/s]Loading weights:  60%|█████▉    | 509/851 [00:07<00:04, 75.79it/s]Loading weights:  61%|██████    | 519/851 [00:07<00:04, 76.04it/s]Loading weights:  62%|██████▏   | 527/851 [00:07<00:04, 70.86it/s]Loading weights:  64%|██████▎   | 542/851 [00:07<00:03, 89.39it/s]Loading weights:  65%|██████▍   | 552/851 [00:07<00:03, 88.61it/s]Loading weights:  66%|██████▌   | 562/851 [00:07<00:03, 77.88it/s]Loading weights:  67%|██████▋   | 572/851 [00:07<00:03, 77.65it/s]Loading weights:  68%|██████▊   | 581/851 [00:08<00:03, 71.34it/s]Loading weights:  70%|███████   | 596/851 [00:08<00:03, 77.50it/s]Loading weights:  72%|███████▏  | 609/851 [00:08<00:02, 83.28it/s]Loading weights:  73%|███████▎  | 624/851 [00:08<00:02, 95.73it/s]Loading weights:  75%|███████▍  | 634/851 [00:08<00:02, 81.66it/s]Loading weights:  76%|███████▋  | 649/851 [00:08<00:02, 89.87it/s]Loading weights:  77%|███████▋  | 659/851 [00:08<00:02, 88.07it/s]Loading weights:  79%|███████▊  | 669/851 [00:08<00:02, 84.57it/s]Loading weights:  80%|███████▉  | 678/851 [00:09<00:02, 73.31it/s]Loading weights:  81%|████████  | 686/851 [00:09<00:02, 72.03it/s]Loading weights:  82%|████████▏ | 701/851 [00:09<00:01, 90.10it/s]Loading weights:  84%|████████▎ | 711/851 [00:09<00:01, 83.95it/s]Loading weights:  85%|████████▍ | 720/851 [00:09<00:01, 76.63it/s]Loading weights:  86%|████████▌ | 730/851 [00:09<00:01, 81.79it/s]Loading weights:  87%|████████▋ | 739/851 [00:09<00:01, 67.93it/s]Loading weights:  89%|████████▊ | 754/851 [00:10<00:01, 86.23it/s]Loading weights:  90%|████████▉ | 764/851 [00:10<00:01, 83.02it/s]Loading weights:  91%|█████████ | 773/851 [00:10<00:01, 74.22it/s]Loading weights:  92%|█████████▏| 784/851 [00:10<00:00, 76.75it/s]Loading weights:  93%|█████████▎| 793/851 [00:10<00:00, 70.65it/s]Loading weights:  95%|█████████▍| 807/851 [00:10<00:00, 86.38it/s]Loading weights:  96%|█████████▌| 817/851 [00:10<00:00, 80.71it/s]Loading weights:  97%|█████████▋| 826/851 [00:11<00:00, 74.18it/s]Loading weights:  98%|█████████▊| 837/851 [00:11<00:00, 77.68it/s]Loading weights:  99%|█████████▉| 846/851 [00:11<00:00, 67.98it/s]Loading weights: 100%|██████████| 851/851 [00:11<00:00, 74.89it/s]
+  axes fitted (432 forwards, 96s)
+  pair cat-dress: 460 forwards (105s)
+  pair snake-turtle: 488 forwards (114s)
+  pair airport-fish: 516 forwards (123s)
+  pair library-toy: 544 forwards (131s)
+  pair dish-moon: 572 forwards (140s)
+  pair fort-heart: 600 forwards (148s)
+  pair bubble-rug: 628 forwards (156s)
+  pair bear-coal: 656 forwards (165s)
+  pair card-lake: 684 forwards (174s)
+  pair glass-silver: 712 forwards (182s)
+  pair river-shield: 740 forwards (191s)
+  pair monkey-queen: 768 forwards (199s)
+  pair king-paper: 796 forwards (208s)
+  pair gold-train: 824 forwards (216s)
+  pair cup-engine: 852 forwards (225s)
+  pair letter-sword: 880 forwards (233s)
+{
+ "A_J_NP": 5.057654857635498,
+ "A_R_CB": 2.9487364292144775,
+ "A_RESID_fit": 2.855146884918213,
+ "A_RESID_audit": 2.8968286514282227,
+ "A_LOGITS": 10.712230682373047,
+ "A_J_Y": 2.528827428817749,
+ "A_b": 12.021286964416504,
+ "rho_nat": 8.978072538971901,
+ "T_J": 2.528827428817749,
+ "T_Y": 1.2644137144088745,
+ "eps": {
+  "J_NP": 1.0115309715270997,
+  "R_CB": 0.5897472858428955,
+  "RESID_fit": 0.5710293769836426,
+  "RESID_audit": 0.5793657302856445,
+  "LOGITS": 2.1424461364746095
+ },
+ "eps_b": 2.404257392883301
+}
+[done bank] 880 forwards, 233s
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 1004.62it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<03:51,  3.67it/s]Loading weights:   0%|          | 2/851 [00:00<04:48,  2.94it/s]Loading weights:   2%|▏         | 14/851 [00:00<00:32, 25.73it/s]Loading weights:   3%|▎         | 29/851 [00:00<00:16, 50.28it/s]Loading weights:   5%|▍         | 42/851 [00:00<00:11, 68.19it/s]Loading weights:   6%|▌         | 52/851 [00:01<00:10, 73.63it/s]Loading weights:   8%|▊         | 67/851 [00:01<00:08, 89.27it/s]Loading weights:  10%|▉         | 81/851 [00:01<00:07, 97.20it/s]Loading weights:  11%|█         | 94/851 [00:01<00:07, 105.57it/s]Loading weights:  12%|█▏        | 106/851 [00:01<00:07, 95.32it/s]Loading weights:  14%|█▍        | 120/851 [00:01<00:07, 102.93it/s]Loading weights:  16%|█▌        | 134/851 [00:01<00:06, 105.65it/s]Loading weights:  17%|█▋        | 147/851 [00:01<00:06, 111.82it/s]Loading weights:  19%|█▊        | 159/851 [00:02<00:07, 97.46it/s] Loading weights:  20%|██        | 172/851 [00:02<00:06, 105.05it/s]Loading weights:  22%|██▏       | 185/851 [00:02<00:06, 109.15it/s]Loading weights:  23%|██▎       | 197/851 [00:02<00:06, 104.97it/s]Loading weights:  24%|██▍       | 208/851 [00:02<00:07, 88.26it/s] Loading weights:  26%|██▋       | 225/851 [00:02<00:06, 103.95it/s]Loading weights:  28%|██▊       | 238/851 [00:02<00:05, 110.19it/s]Loading weights:  29%|██▉       | 250/851 [00:02<00:05, 108.05it/s]Loading weights:  31%|███       | 262/851 [00:03<00:06, 88.54it/s] Loading weights:  33%|███▎      | 278/851 [00:03<00:05, 100.84it/s]Loading weights:  34%|███▍      | 292/851 [00:03<00:05, 104.15it/s]Loading weights:  36%|███▌      | 305/851 [00:03<00:05, 109.17it/s]Loading weights:  37%|███▋      | 317/851 [00:03<00:05, 96.24it/s] Loading weights:  39%|███▉      | 332/851 [00:03<00:04, 107.94it/s]Loading weights:  41%|████      | 346/851 [00:03<00:04, 109.99it/s]Loading weights:  42%|████▏     | 360/851 [00:04<00:04, 109.73it/s]Loading weights:  44%|████▎     | 372/851 [00:04<00:04, 102.33it/s]Loading weights:  45%|████▌     | 386/851 [00:04<00:04, 106.27it/s]Loading weights:  47%|████▋     | 400/851 [00:04<00:04, 108.03it/s]Loading weights:  49%|████▊     | 414/851 [00:04<00:04, 109.07it/s]Loading weights:  50%|█████     | 426/851 [00:04<00:04, 102.88it/s]Loading weights:  51%|█████▏    | 438/851 [00:04<00:03, 105.65it/s]Loading weights:  53%|█████▎    | 451/851 [00:04<00:03, 109.02it/s]Loading weights:  55%|█████▍    | 465/851 [00:04<00:03, 116.92it/s]Loading weights:  56%|█████▌    | 477/851 [00:05<00:03, 98.43it/s] Loading weights:  58%|█████▊    | 492/851 [00:05<00:03, 106.63it/s]Loading weights:  59%|█████▉    | 505/851 [00:05<00:03, 104.77it/s]Loading weights:  61%|██████    | 520/851 [00:05<00:02, 115.84it/s]Loading weights:  63%|██████▎   | 533/851 [00:05<00:02, 114.66it/s]Loading weights:  64%|██████▍   | 545/851 [00:05<00:02, 110.42it/s]Loading weights:  66%|██████▌   | 559/851 [00:05<00:02, 112.51it/s]Loading weights:  67%|██████▋   | 573/851 [00:05<00:02, 112.00it/s]Loading weights:  69%|██████▊   | 585/851 [00:06<00:02, 108.88it/s]Loading weights:  70%|███████   | 598/851 [00:06<00:02, 108.10it/s]Loading weights:  72%|███████▏  | 612/851 [00:06<00:02, 109.30it/s]Loading weights:  73%|███████▎  | 625/851 [00:06<00:02, 110.90it/s]Loading weights:  75%|███████▍  | 637/851 [00:06<00:02, 100.59it/s]Loading weights:  76%|███████▋  | 651/851 [00:06<00:01, 103.80it/s]Loading weights:  79%|███████▉  | 672/851 [00:06<00:01, 128.74it/s]Loading weights:  81%|████████  | 686/851 [00:06<00:01, 116.96it/s]Loading weights:  83%|████████▎ | 703/851 [00:07<00:01, 118.57it/s]Loading weights:  84%|████████▍ | 718/851 [00:07<00:01, 125.59it/s]Loading weights:  86%|████████▌ | 732/851 [00:07<00:00, 126.38it/s]Loading weights:  88%|████████▊ | 745/851 [00:07<00:00, 122.23it/s]Loading weights:  89%|████████▉ | 758/851 [00:07<00:00, 113.63it/s]Loading weights:  91%|█████████ | 771/851 [00:07<00:00, 113.81it/s]Loading weights:  92%|█████████▏| 785/851 [00:07<00:00, 118.66it/s]Loading weights:  94%|█████████▍| 798/851 [00:07<00:00, 119.58it/s]Loading weights:  95%|█████████▌| 811/851 [00:08<00:00, 112.55it/s]Loading weights:  97%|█████████▋| 824/851 [00:08<00:00, 113.50it/s]Loading weights:  98%|█████████▊| 838/851 [00:08<00:00, 115.51it/s]Loading weights: 100%|█████████▉| 850/851 [00:08<00:00, 113.15it/s]Loading weights: 100%|██████████| 851/851 [00:08<00:00, 101.58it/s]
+/workspace/projects/ReadableHereUsedThere/H3/trying_to_fool/attack.py:196: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  (-obj / len(cells)).backward(); tot += float(obj) / len(cells)
+  cat->dress r1.0 step 0: obj -0.001 mJ/A -0.00 sY/A -0.00 mP/A +0.00 b/A -0.00 dnll +0.0000 |d| 8.98 (3s)
+  cat->dress r1.0 step 10: obj +2.215 mJ/A +0.81 sY/A +1.49 mP/A +0.05 b/A -0.00 dnll +0.0000 |d| 8.98 (15s)
+  cat->dress r1.0 step 20: obj +4.234 mJ/A +1.47 sY/A +3.26 mP/A +0.56 b/A -0.00 dnll +0.0000 |d| 8.98 (28s)
+  cat->dress r1.0 step 30: obj +4.268 mJ/A +1.63 sY/A +3.69 mP/A +0.91 b/A -0.00 dnll +0.0000 |d| 8.98 (40s)
+  cat->dress r1.0 step 40: obj +4.280 mJ/A +1.58 sY/A +3.60 mP/A +0.83 b/A +0.00 dnll +0.0000 |d| 8.98 (52s)
+  cat->dress r1.0 step 50: obj +4.123 mJ/A +1.55 sY/A +3.54 mP/A +0.88 b/A -0.00 dnll +0.0000 |d| 8.98 (65s)
+  cat->dress r1.0 step 59: obj +4.202 mJ/A +1.36 sY/A +3.18 mP/A +0.42 b/A -0.00 dnll +0.0000 |d| 8.98 (76s)
+  snake->turtle r1.0 step 0: obj -0.001 mJ/A -0.00 sY/A +0.00 mP/A -0.01 b/A -0.00 dnll -0.0000 |d| 8.98 (78s)
+  snake->turtle r1.0 step 10: obj +1.164 mJ/A +0.38 sY/A +0.80 mP/A +0.04 b/A -0.01 dnll +0.0000 |d| 8.98 (90s)
+  snake->turtle r1.0 step 20: obj +1.873 mJ/A +0.29 sY/A +1.60 mP/A -0.10 b/A -0.00 dnll +0.0000 |d| 8.98 (102s)
+  snake->turtle r1.0 step 30: obj +2.380 mJ/A +0.75 sY/A +1.67 mP/A -0.03 b/A +0.01 dnll +0.0001 |d| 8.98 (114s)
+  snake->turtle r1.0 step 40: obj +4.475 mJ/A +1.26 sY/A +3.38 mP/A +0.20 b/A +0.02 dnll +0.0002 |d| 8.98 (126s)
+  snake->turtle r1.0 step 50: obj +5.552 mJ/A +1.55 sY/A +4.29 mP/A +0.28 b/A +0.02 dnll +0.0002 |d| 8.98 (138s)
+  snake->turtle r1.0 step 59: obj +5.360 mJ/A +1.57 sY/A +4.04 mP/A +0.28 b/A +0.01 dnll +0.0003 |d| 8.98 (149s)
+  airport->fish r1.0 step 0: obj +0.001 mJ/A +0.00 sY/A +0.00 mP/A -0.00 b/A +0.00 dnll -0.0000 |d| 8.98 (151s)
+  airport->fish r1.0 step 10: obj +3.535 mJ/A +1.69 sY/A +3.31 mP/A +1.07 b/A +0.02 dnll +0.0000 |d| 8.98 (163s)
+  airport->fish r1.0 step 20: obj +1.617 mJ/A +0.68 sY/A +1.02 mP/A +0.14 b/A +0.00 dnll +0.0000 |d| 8.98 (175s)
+  airport->fish r1.0 step 30: obj +3.958 mJ/A +1.35 sY/A +2.99 mP/A +0.40 b/A +0.00 dnll +0.0000 |d| 8.98 (187s)
+  airport->fish r1.0 step 40: obj +4.193 mJ/A +1.49 sY/A +3.27 mP/A +0.60 b/A +0.02 dnll +0.0000 |d| 8.98 (199s)
+  airport->fish r1.0 step 50: obj +5.276 mJ/A +1.79 sY/A +4.19 mP/A +0.61 b/A +0.02 dnll +0.0000 |d| 8.98 (210s)
+  airport->fish r1.0 step 59: obj +5.728 mJ/A +1.85 sY/A +4.59 mP/A +0.56 b/A +0.02 dnll +0.0000 |d| 8.98 (221s)
+  library->toy r1.0 step 0: obj -0.000 mJ/A -0.00 sY/A +0.00 mP/A -0.01 b/A +0.00 dnll +0.0000 |d| 8.98 (223s)
+  library->toy r1.0 step 10: obj +2.555 mJ/A +1.16 sY/A +1.75 mP/A +0.48 b/A +0.00 dnll +0.0000 |d| 8.98 (235s)
+  library->toy r1.0 step 20: obj +3.763 mJ/A +1.21 sY/A +3.04 mP/A +0.56 b/A +0.01 dnll +0.0000 |d| 8.98 (247s)
+  library->toy r1.0 step 30: obj +3.557 mJ/A +0.90 sY/A +2.83 mP/A +0.20 b/A +0.01 dnll +0.0000 |d| 8.98 (259s)
+  library->toy r1.0 step 40: obj +4.119 mJ/A +1.18 sY/A +3.71 mP/A +0.72 b/A +0.02 dnll +0.0000 |d| 8.98 (271s)
+  library->toy r1.0 step 50: obj +2.938 mJ/A +0.43 sY/A +2.73 mP/A -0.26 b/A +0.02 dnll +0.0000 |d| 8.98 (283s)
+  library->toy r1.0 step 59: obj +3.933 mJ/A +1.23 sY/A +3.53 mP/A +0.77 b/A +0.02 dnll +0.0000 |d| 8.98 (294s)
+  dish->moon r1.0 step 0: obj -0.001 mJ/A -0.00 sY/A -0.00 mP/A +0.00 b/A +0.01 dnll +0.0000 |d| 8.98 (296s)
+  dish->moon r1.0 step 10: obj -2.232 mJ/A +0.04 sY/A +1.75 mP/A -1.96 b/A +0.00 dnll +0.0002 |d| 8.98 (308s)
+  dish->moon r1.0 step 20: obj -5.235 mJ/A -0.53 sY/A +0.62 mP/A -2.16 b/A -0.01 dnll +0.0000 |d| 8.98 (320s)
+  dish->moon r1.0 step 30: obj +1.524 mJ/A +0.56 sY/A +0.97 mP/A -0.01 b/A -0.01 dnll +0.0000 |d| 8.98 (332s)
+  dish->moon r1.0 step 40: obj +3.867 mJ/A +1.49 sY/A +4.03 mP/A -1.15 b/A +0.00 dnll +0.0011 |d| 8.98 (344s)
+  dish->moon r1.0 step 50: obj +1.597 mJ/A +0.54 sY/A +1.07 mP/A +0.04 b/A -0.01 dnll +0.0000 |d| 8.98 (356s)
+  dish->moon r1.0 step 59: obj +5.229 mJ/A +1.36 sY/A +4.23 mP/A -0.56 b/A +0.00 dnll +0.0005 |d| 8.98 (366s)
+  fort->heart r1.0 step 0: obj +0.003 mJ/A +0.00 sY/A +0.00 mP/A +0.01 b/A +0.00 dnll -0.0000 |d| 8.98 (367s)
+  fort->heart r1.0 step 10: obj +2.941 mJ/A +1.18 sY/A +2.36 mP/A +0.54 b/A +0.00 dnll +0.0000 |d| 8.98 (379s)
+  fort->heart r1.0 step 20: obj +4.769 mJ/A +1.73 sY/A +3.76 mP/A +0.66 b/A +0.01 dnll +0.0000 |d| 8.98 (390s)
+  fort->heart r1.0 step 30: obj +5.188 mJ/A +1.67 sY/A +3.92 mP/A +0.27 b/A +0.01 dnll +0.0000 |d| 8.98 (402s)
+  fort->heart r1.0 step 40: obj +5.170 mJ/A +2.05 sY/A +4.43 mP/A +0.94 b/A +0.04 dnll +0.0000 |d| 8.98 (413s)
+  fort->heart r1.0 step 50: obj +6.209 mJ/A +2.31 sY/A +5.12 mP/A +0.89 b/A +0.03 dnll +0.0001 |d| 8.98 (424s)
+  fort->heart r1.0 step 59: obj +6.185 mJ/A +2.18 sY/A +4.80 mP/A +0.62 b/A +0.03 dnll +0.0001 |d| 8.98 (435s)
+  bubble->rug r1.0 step 0: obj -0.003 mJ/A -0.00 sY/A +0.00 mP/A +0.00 b/A -0.00 dnll +0.0000 |d| 8.98 (436s)
+  bubble->rug r1.0 step 10: obj +2.142 mJ/A +1.26 sY/A +1.91 mP/A +0.72 b/A -0.00 dnll +0.0003 |d| 8.98 (447s)
+  bubble->rug r1.0 step 20: obj +2.883 mJ/A +1.20 sY/A +2.04 mP/A +0.45 b/A -0.00 dnll +0.0001 |d| 8.98 (459s)
+  bubble->rug r1.0 step 30: obj +2.396 mJ/A +1.05 sY/A +1.86 mP/A +0.54 b/A +0.00 dnll +0.0010 |d| 8.98 (470s)
+  bubble->rug r1.0 step 40: obj +3.149 mJ/A +1.33 sY/A +2.48 mP/A +0.51 b/A -0.01 dnll +0.0000 |d| 8.98 (481s)
+  bubble->rug r1.0 step 50: obj +4.150 mJ/A +1.32 sY/A +3.00 mP/A +0.31 b/A -0.01 dnll +0.0006 |d| 8.98 (492s)
+  bubble->rug r1.0 step 59: obj +4.104 mJ/A +1.88 sY/A +3.77 mP/A +0.69 b/A -0.00 dnll +0.0003 |d| 8.98 (502s)
+  bear->coal r1.0 step 0: obj -0.002 mJ/A -0.00 sY/A -0.00 mP/A -0.00 b/A -0.01 dnll -0.0000 |d| 8.98 (504s)
+  bear->coal r1.0 step 10: obj +3.482 mJ/A +1.16 sY/A +2.68 mP/A +0.43 b/A -0.00 dnll +0.0001 |d| 8.98 (515s)
+  bear->coal r1.0 step 20: obj +3.664 mJ/A +1.38 sY/A +2.88 mP/A +0.46 b/A -0.00 dnll +0.0000 |d| 8.98 (526s)
+  bear->coal r1.0 step 30: obj +1.564 mJ/A +0.63 sY/A +1.09 mP/A +0.08 b/A -0.00 dnll +0.0000 |d| 8.98 (537s)
+  bear->coal r1.0 step 40: obj +6.531 mJ/A +2.14 sY/A +5.29 mP/A +0.52 b/A +0.02 dnll +0.0001 |d| 8.98 (549s)
+  bear->coal r1.0 step 50: obj +5.910 mJ/A +1.96 sY/A +4.80 mP/A +0.58 b/A +0.02 dnll +0.0001 |d| 8.98 (560s)
+  bear->coal r1.0 step 59: obj +2.173 mJ/A +0.42 sY/A +1.86 mP/A -0.02 b/A +0.01 dnll +0.0000 |d| 8.98 (570s)
+  card->lake r1.0 step 0: obj +0.008 mJ/A +0.01 sY/A -0.00 mP/A +0.03 b/A -0.01 dnll +0.0000 |d| 8.98 (572s)
+  card->lake r1.0 step 10: obj +3.203 mJ/A +1.43 sY/A +2.06 mP/A +0.24 b/A +0.01 dnll +0.0008 |d| 8.98 (583s)
+  card->lake r1.0 step 20: obj +4.159 mJ/A +1.64 sY/A +2.69 mP/A +0.06 b/A +0.00 dnll +0.0004 |d| 8.98 (594s)
+  card->lake r1.0 step 30: obj +3.502 mJ/A +2.20 sY/A +3.60 mP/A +0.77 b/A +0.01 dnll +0.0058 |d| 8.98 (606s)
+  card->lake r1.0 step 40: obj +6.139 mJ/A +2.25 sY/A +4.14 mP/A +0.11 b/A +0.00 dnll +0.0010 |d| 8.98 (617s)
+  card->lake r1.0 step 50: obj +6.898 mJ/A +2.60 sY/A +4.66 mP/A +0.24 b/A -0.01 dnll +0.0010 |d| 8.98 (628s)
+  card->lake r1.0 step 59: obj +0.296 mJ/A +0.19 sY/A +0.14 mP/A +0.14 b/A -0.00 dnll -0.0000 |d| 8.98 (639s)
+  glass->silver r1.0 step 0: obj +0.001 mJ/A +0.00 sY/A -0.00 mP/A +0.00 b/A -0.00 dnll -0.0000 |d| 8.98 (640s)
+  glass->silver r1.0 step 10: obj +5.818 mJ/A +1.39 sY/A +4.82 mP/A +0.41 b/A +0.01 dnll +0.0001 |d| 8.98 (651s)
+  glass->silver r1.0 step 20: obj +6.387 mJ/A +1.56 sY/A +5.14 mP/A +0.13 b/A +0.01 dnll +0.0002 |d| 8.98 (663s)
+  glass->silver r1.0 step 30: obj +6.663 mJ/A +2.43 sY/A +5.64 mP/A +0.83 b/A +0.01 dnll +0.0001 |d| 8.98 (674s)
+  glass->silver r1.0 step 40: obj +8.548 mJ/A +2.44 sY/A +6.79 mP/A +0.42 b/A +0.02 dnll +0.0010 |d| 8.98 (685s)
+  glass->silver r1.0 step 50: obj +6.289 mJ/A +1.67 sY/A +5.03 mP/A +0.21 b/A +0.01 dnll +0.0001 |d| 8.98 (696s)
+  glass->silver r1.0 step 59: obj +7.236 mJ/A +2.12 sY/A +5.75 mP/A +0.37 b/A +0.01 dnll +0.0001 |d| 8.98 (706s)
+  river->shield r1.0 step 0: obj -0.002 mJ/A -0.00 sY/A -0.00 mP/A +0.01 b/A -0.00 dnll +0.0000 |d| 8.98 (708s)
+  river->shield r1.0 step 10: obj +4.201 mJ/A +1.32 sY/A +2.95 mP/A +0.13 b/A +0.00 dnll +0.0000 |d| 8.98 (719s)
+  river->shield r1.0 step 20: obj +6.375 mJ/A +1.87 sY/A +4.97 mP/A +0.52 b/A +0.00 dnll +0.0001 |d| 8.98 (730s)
+  river->shield r1.0 step 30: obj +6.854 mJ/A +1.84 sY/A +5.23 mP/A +0.21 b/A +0.01 dnll +0.0001 |d| 8.98 (742s)
+  river->shield r1.0 step 40: obj +6.756 mJ/A +1.70 sY/A +5.23 mP/A -0.12 b/A -0.00 dnll +0.0001 |d| 8.98 (753s)
+  river->shield r1.0 step 50: obj +6.871 mJ/A +1.76 sY/A +5.29 mP/A -0.06 b/A +0.01 dnll +0.0001 |d| 8.98 (764s)
+  river->shield r1.0 step 59: obj +7.969 mJ/A +2.29 sY/A +6.27 mP/A +0.57 b/A +0.02 dnll +0.0003 |d| 8.98 (774s)
+  monkey->queen r1.0 step 0: obj +0.001 mJ/A +0.00 sY/A -0.00 mP/A +0.00 b/A -0.00 dnll -0.0000 |d| 8.98 (776s)
+  monkey->queen r1.0 step 10: obj +4.140 mJ/A +1.37 sY/A +2.91 mP/A +0.34 b/A -0.02 dnll +0.0002 |d| 8.98 (787s)
+  monkey->queen r1.0 step 20: obj +3.315 mJ/A +1.05 sY/A +2.77 mP/A -0.33 b/A -0.01 dnll +0.0001 |d| 8.98 (799s)
+  monkey->queen r1.0 step 30: obj +5.514 mJ/A +2.18 sY/A +4.27 mP/A +0.85 b/A -0.01 dnll +0.0003 |d| 8.98 (810s)
+  monkey->queen r1.0 step 40: obj +5.739 mJ/A +2.33 sY/A +4.56 mP/A +0.97 b/A -0.01 dnll +0.0002 |d| 8.98 (821s)
+  monkey->queen r1.0 step 50: obj +7.619 mJ/A +2.67 sY/A +5.78 mP/A +0.73 b/A +0.01 dnll +0.0017 |d| 8.98 (833s)
+  monkey->queen r1.0 step 59: obj +4.938 mJ/A +1.44 sY/A +4.01 mP/A -0.36 b/A +0.00 dnll +0.0007 |d| 8.98 (843s)
+  king->paper r1.0 step 0: obj -0.000 mJ/A +0.00 sY/A -0.00 mP/A +0.00 b/A +0.01 dnll +0.0000 |d| 8.98 (844s)
+  king->paper r1.0 step 10: obj +2.471 mJ/A +1.23 sY/A +1.60 mP/A +0.34 b/A +0.00 dnll -0.0000 |d| 8.98 (856s)
+  king->paper r1.0 step 20: obj +4.913 mJ/A +1.86 sY/A +3.92 mP/A +0.72 b/A +0.02 dnll +0.0000 |d| 8.98 (867s)
+  king->paper r1.0 step 30: obj +6.162 mJ/A +2.17 sY/A +4.70 mP/A +0.58 b/A +0.02 dnll +0.0000 |d| 8.98 (878s)
+  king->paper r1.0 step 40: obj +6.558 mJ/A +2.25 sY/A +5.10 mP/A +0.55 b/A +0.02 dnll +0.0001 |d| 8.98 (890s)
+  king->paper r1.0 step 50: obj +6.382 mJ/A +2.54 sY/A +5.37 mP/A +0.95 b/A +0.03 dnll +0.0000 |d| 8.98 (901s)
+  king->paper r1.0 step 59: obj +6.856 mJ/A +2.49 sY/A +5.47 mP/A +0.74 b/A +0.02 dnll +0.0001 |d| 8.98 (911s)
+  gold->train r1.0 step 0: obj -0.003 mJ/A -0.00 sY/A -0.00 mP/A -0.00 b/A -0.01 dnll -0.0000 |d| 8.98 (913s)
+  gold->train r1.0 step 10: obj +2.768 mJ/A +1.13 sY/A +1.87 mP/A +0.36 b/A +0.01 dnll +0.0000 |d| 8.98 (924s)
+  gold->train r1.0 step 20: obj +7.014 mJ/A +2.41 sY/A +5.08 mP/A +0.27 b/A +0.01 dnll +0.0001 |d| 8.98 (935s)
+  gold->train r1.0 step 30: obj +10.816 mJ/A +3.69 sY/A +7.72 mP/A +0.45 b/A +0.00 dnll +0.0008 |d| 8.98 (946s)
+  gold->train r1.0 step 40: obj +12.148 mJ/A +4.18 sY/A +8.94 mP/A +0.78 b/A +0.01 dnll +0.0016 |d| 8.98 (957s)
+  gold->train r1.0 step 50: obj +12.421 mJ/A +4.41 sY/A +9.20 mP/A +0.85 b/A +0.01 dnll +0.0005 |d| 8.98 (968s)
+  gold->train r1.0 step 59: obj +11.908 mJ/A +4.36 sY/A +9.23 mP/A +0.61 b/A +0.01 dnll +0.0152 |d| 8.98 (978s)
+  cup->engine r1.0 step 0: obj -0.001 mJ/A -0.00 sY/A +0.00 mP/A -0.00 b/A -0.01 dnll +0.0000 |d| 8.98 (980s)
+  cup->engine r1.0 step 10: obj +1.230 mJ/A +0.69 sY/A +0.99 mP/A +0.62 b/A -0.01 dnll +0.0000 |d| 8.98 (991s)
+  cup->engine r1.0 step 20: obj +2.492 mJ/A +0.94 sY/A +1.73 mP/A +0.27 b/A -0.01 dnll +0.0000 |d| 8.98 (1002s)
+  cup->engine r1.0 step 30: obj +7.748 mJ/A +2.79 sY/A +5.80 mP/A +0.63 b/A +0.01 dnll +0.0002 |d| 8.98 (1013s)
+  cup->engine r1.0 step 40: obj +8.947 mJ/A +3.32 sY/A +6.61 mP/A -0.42 b/A +0.01 dnll +0.0042 |d| 8.98 (1025s)
+  cup->engine r1.0 step 50: obj +8.215 mJ/A +2.80 sY/A +5.79 mP/A +0.32 b/A +0.01 dnll +0.0001 |d| 8.98 (1038s)
+  cup->engine r1.0 step 59: obj +10.649 mJ/A +3.67 sY/A +7.61 mP/A +0.26 b/A +0.01 dnll +0.0005 |d| 8.98 (1049s)
+  letter->sword r1.0 step 0: obj -0.003 mJ/A -0.00 sY/A +0.00 mP/A -0.00 b/A -0.00 dnll -0.0000 |d| 8.98 (1051s)
+  letter->sword r1.0 step 10: obj +3.508 mJ/A +1.39 sY/A +2.23 mP/A -0.04 b/A +0.00 dnll +0.0003 |d| 8.98 (1063s)
+  letter->sword r1.0 step 20: obj +8.040 mJ/A +3.11 sY/A +5.64 mP/A +0.51 b/A +0.00 dnll +0.0022 |d| 8.98 (1075s)
+  letter->sword r1.0 step 30: obj +7.787 mJ/A +3.49 sY/A +6.25 mP/A +1.08 b/A -0.00 dnll +0.0012 |d| 8.98 (1088s)
+  letter->sword r1.0 step 40: obj +8.860 mJ/A +3.53 sY/A +6.51 mP/A +0.69 b/A +0.01 dnll +0.0029 |d| 8.98 (1100s)
+  letter->sword r1.0 step 50: obj +9.227 mJ/A +3.17 sY/A +6.57 mP/A -0.19 b/A +0.01 dnll +0.0030 |d| 8.98 (1112s)
+  letter->sword r1.0 step 59: obj +8.620 mJ/A +2.99 sY/A +6.13 mP/A -0.10 b/A +0.01 dnll +0.0040 |d| 8.98 (1123s)
+[done search] 1920 forwards, 1123s
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 3578.76it/s]
+Loading weights:   0%|          | 0/851 [00:00<?, ?it/s]Loading weights:   0%|          | 1/851 [00:00<07:42,  1.84it/s]Loading weights:   2%|▏         | 16/851 [00:00<00:25, 32.53it/s]Loading weights:   3%|▎         | 29/851 [00:00<00:15, 53.88it/s]Loading weights:   5%|▌         | 43/851 [00:00<00:10, 74.54it/s]Loading weights:   7%|▋         | 59/851 [00:00<00:08, 93.72it/s]Loading weights:   9%|▊         | 73/851 [00:01<00:07, 104.99it/s]Loading weights:  11%|█         | 93/851 [00:01<00:05, 128.95it/s]Loading weights:  13%|█▎        | 108/851 [00:01<00:06, 115.68it/s]Loading weights:  15%|█▌        | 128/851 [00:01<00:05, 131.50it/s]Loading weights:  17%|█▋        | 143/851 [00:01<00:05, 131.85it/s]Loading weights:  19%|█▊        | 158/851 [00:01<00:05, 117.43it/s]Loading weights:  20%|██        | 172/851 [00:01<00:05, 122.15it/s]Loading weights:  22%|██▏       | 186/851 [00:01<00:05, 123.01it/s]Loading weights:  24%|██▎       | 200/851 [00:02<00:05, 125.48it/s]Loading weights:  25%|██▌       | 213/851 [00:02<00:05, 113.33it/s]Loading weights:  27%|██▋       | 226/851 [00:02<00:05, 114.19it/s]Loading weights:  28%|██▊       | 241/851 [00:02<00:05, 120.67it/s]Loading weights:  30%|██▉       | 254/851 [00:02<00:04, 122.24it/s]Loading weights:  31%|███▏      | 267/851 [00:02<00:04, 123.13it/s]Loading weights:  33%|███▎      | 280/851 [00:02<00:04, 122.13it/s]Loading weights:  35%|███▍      | 294/851 [00:02<00:04, 126.58it/s]Loading weights:  37%|███▋      | 311/851 [00:02<00:04, 133.37it/s]Loading weights:  39%|███▊      | 328/851 [00:03<00:03, 140.42it/s]Loading weights:  40%|████      | 343/851 [00:03<00:03, 141.56it/s]Loading weights:  42%|████▏     | 358/851 [00:03<00:03, 135.29it/s]Loading weights:  44%|████▎     | 372/851 [00:03<00:04, 112.48it/s]Loading weights:  45%|████▌     | 385/851 [00:03<00:04, 109.11it/s]Loading weights:  48%|████▊     | 408/851 [00:03<00:03, 137.84it/s]Loading weights:  50%|████▉     | 423/851 [00:03<00:03, 121.15it/s]Loading weights:  52%|█████▏    | 439/851 [00:03<00:03, 125.30it/s]Loading weights:  53%|█████▎    | 453/851 [00:04<00:03, 125.61it/s]Loading weights:  55%|█████▌    | 470/851 [00:04<00:02, 130.51it/s]Loading weights:  57%|█████▋    | 487/851 [00:04<00:02, 140.57it/s]Loading weights:  59%|█████▉    | 502/851 [00:04<00:02, 142.97it/s]Loading weights:  61%|██████    | 517/851 [00:04<00:02, 142.71it/s]Loading weights:  63%|██████▎   | 532/851 [00:04<00:02, 119.18it/s]Loading weights:  65%|██████▍   | 551/851 [00:04<00:02, 132.99it/s]Loading weights:  67%|██████▋   | 567/851 [00:04<00:02, 138.07it/s]Loading weights:  68%|██████▊   | 582/851 [00:05<00:02, 123.92it/s]Loading weights:  70%|███████   | 597/851 [00:05<00:01, 128.60it/s]Loading weights:  72%|███████▏  | 611/851 [00:05<00:01, 125.94it/s]Loading weights:  74%|███████▎  | 626/851 [00:05<00:01, 126.08it/s]Loading weights:  76%|███████▌  | 644/851 [00:05<00:01, 135.10it/s]Loading weights:  78%|███████▊  | 660/851 [00:05<00:01, 140.39it/s]Loading weights:  79%|███████▉  | 676/851 [00:05<00:01, 143.60it/s]Loading weights:  81%|████████  | 691/851 [00:05<00:01, 125.23it/s]Loading weights:  83%|████████▎ | 710/851 [00:05<00:01, 138.43it/s]Loading weights:  85%|████████▌ | 725/851 [00:06<00:00, 140.18it/s]Loading weights:  87%|████████▋ | 740/851 [00:06<00:00, 129.11it/s]Loading weights:  89%|████████▉ | 757/851 [00:06<00:00, 132.88it/s]Loading weights:  92%|█████████▏| 779/851 [00:06<00:00, 150.53it/s]Loading weights:  93%|█████████▎| 795/851 [00:06<00:00, 133.65it/s]Loading weights:  95%|█████████▌| 810/851 [00:06<00:00, 133.95it/s]Loading weights:  98%|█████████▊| 832/851 [00:06<00:00, 151.72it/s]Loading weights: 100%|█████████▉| 848/851 [00:07<00:00, 129.38it/s]Loading weights: 100%|██████████| 851/851 [00:07<00:00, 121.18it/s]
+  cat->dress|r1.0: 12 forwards (5s)
+  snake->turtle|r1.0: 24 forwards (9s)
+  airport->fish|r1.0: 36 forwards (13s)
+  library->toy|r1.0: 48 forwards (17s)
+  dish->moon|r1.0: 60 forwards (20s)
+  fort->heart|r1.0: 72 forwards (24s)
+  bubble->rug|r1.0: 84 forwards (28s)
+  bear->coal|r1.0: 96 forwards (31s)
+  card->lake|r1.0: 108 forwards (35s)
+  glass->silver|r1.0: 120 forwards (38s)
+  river->shield|r1.0: 132 forwards (42s)
+  monkey->queen|r1.0: 144 forwards (46s)
+  king->paper|r1.0: 156 forwards (49s)
+  gold->train|r1.0: 168 forwards (53s)
+  cup->engine|r1.0: 180 forwards (57s)
+  letter->sword|r1.0: 192 forwards (60s)
+[done audit] 192 forwards, 60s
+[chain exit 0]

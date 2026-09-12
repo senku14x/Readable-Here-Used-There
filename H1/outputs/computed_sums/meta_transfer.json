@@ -1,0 +1,1361 @@
+{
+ "rows": [
+  [
+   0,
+   "A"
+  ],
+  [
+   1,
+   "A"
+  ],
+  [
+   2,
+   "A"
+  ],
+  [
+   3,
+   "A"
+  ],
+  [
+   4,
+   "A"
+  ],
+  [
+   5,
+   "A"
+  ],
+  [
+   6,
+   "A"
+  ],
+  [
+   7,
+   "A"
+  ],
+  [
+   0,
+   "B"
+  ],
+  [
+   1,
+   "B"
+  ],
+  [
+   2,
+   "B"
+  ],
+  [
+   3,
+   "B"
+  ],
+  [
+   4,
+   "B"
+  ],
+  [
+   5,
+   "B"
+  ],
+  [
+   6,
+   "B"
+  ],
+  [
+   7,
+   "B"
+  ]
+ ],
+ "sums": [
+  [
+   "seven",
+   [
+    "two",
+    "five"
+   ],
+   [
+    "three",
+    "four"
+   ]
+  ],
+  [
+   "eight",
+   [
+    "two",
+    "six"
+   ],
+   [
+    "three",
+    "five"
+   ]
+  ],
+  [
+   "nine",
+   [
+    "two",
+    "seven"
+   ],
+   [
+    "four",
+    "five"
+   ]
+  ],
+  [
+   "ten",
+   [
+    "two",
+    "eight"
+   ],
+   [
+    "three",
+    "seven"
+   ]
+  ],
+  [
+   "eleven",
+   [
+    "three",
+    "eight"
+   ],
+   [
+    "four",
+    "seven"
+   ]
+  ],
+  [
+   "twelve",
+   [
+    "four",
+    "eight"
+   ],
+   [
+    "five",
+    "seven"
+   ]
+  ],
+  [
+   "thirteen",
+   [
+    "five",
+    "eight"
+   ],
+   [
+    "six",
+    "seven"
+   ]
+  ],
+  [
+   "fourteen",
+   [
+    "six",
+    "eight"
+   ],
+   [
+    "five",
+    "nine"
+   ]
+  ]
+ ],
+ "columns": [
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "sum_words": [
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers": [
+  "C2",
+  "C3"
+ ],
+ "rank_layers": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59
+ ],
+ "l_x": 36,
+ "stage": "transfer",
+ "cells": {
+  "0A|C2|maintain": {
+   "pair": [
+    "two",
+    "five"
+   ],
+   "sum": "seven",
+   "diff_donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "same_donor": [
+    "three",
+    "four"
+   ],
+   "arm": "maintain"
+  },
+  "0A|C2|control": {
+   "pair": [
+    "two",
+    "five"
+   ],
+   "sum": "seven",
+   "diff_donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "same_donor": [
+    "three",
+    "four"
+   ],
+   "arm": "control"
+  },
+  "1A|C2|maintain": {
+   "pair": [
+    "two",
+    "six"
+   ],
+   "sum": "eight",
+   "diff_donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "same_donor": [
+    "three",
+    "five"
+   ],
+   "arm": "maintain"
+  },
+  "1A|C2|control": {
+   "pair": [
+    "two",
+    "six"
+   ],
+   "sum": "eight",
+   "diff_donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "same_donor": [
+    "three",
+    "five"
+   ],
+   "arm": "control"
+  },
+  "2A|C2|maintain": {
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "sum": "nine",
+   "diff_donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "same_donor": [
+    "four",
+    "five"
+   ],
+   "arm": "maintain"
+  },
+  "2A|C2|control": {
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "sum": "nine",
+   "diff_donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "same_donor": [
+    "four",
+    "five"
+   ],
+   "arm": "control"
+  },
+  "3A|C2|maintain": {
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "sum": "ten",
+   "diff_donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "same_donor": [
+    "three",
+    "seven"
+   ],
+   "arm": "maintain"
+  },
+  "3A|C2|control": {
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "sum": "ten",
+   "diff_donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "same_donor": [
+    "three",
+    "seven"
+   ],
+   "arm": "control"
+  },
+  "4A|C2|maintain": {
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "sum": "eleven",
+   "diff_donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "same_donor": [
+    "four",
+    "seven"
+   ],
+   "arm": "maintain"
+  },
+  "4A|C2|control": {
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "sum": "eleven",
+   "diff_donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "same_donor": [
+    "four",
+    "seven"
+   ],
+   "arm": "control"
+  },
+  "5A|C2|maintain": {
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "sum": "twelve",
+   "diff_donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "same_donor": [
+    "five",
+    "seven"
+   ],
+   "arm": "maintain"
+  },
+  "5A|C2|control": {
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "sum": "twelve",
+   "diff_donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "same_donor": [
+    "five",
+    "seven"
+   ],
+   "arm": "control"
+  },
+  "6A|C2|maintain": {
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "sum": "thirteen",
+   "diff_donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "same_donor": [
+    "six",
+    "seven"
+   ],
+   "arm": "maintain"
+  },
+  "6A|C2|control": {
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "sum": "thirteen",
+   "diff_donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "same_donor": [
+    "six",
+    "seven"
+   ],
+   "arm": "control"
+  },
+  "7A|C2|maintain": {
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "sum": "fourteen",
+   "diff_donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "same_donor": [
+    "five",
+    "nine"
+   ],
+   "arm": "maintain"
+  },
+  "7A|C2|control": {
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "sum": "fourteen",
+   "diff_donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "same_donor": [
+    "five",
+    "nine"
+   ],
+   "arm": "control"
+  },
+  "0B|C2|maintain": {
+   "pair": [
+    "three",
+    "four"
+   ],
+   "sum": "seven",
+   "diff_donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "same_donor": [
+    "two",
+    "five"
+   ],
+   "arm": "maintain"
+  },
+  "0B|C2|control": {
+   "pair": [
+    "three",
+    "four"
+   ],
+   "sum": "seven",
+   "diff_donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "same_donor": [
+    "two",
+    "five"
+   ],
+   "arm": "control"
+  },
+  "1B|C2|maintain": {
+   "pair": [
+    "three",
+    "five"
+   ],
+   "sum": "eight",
+   "diff_donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "same_donor": [
+    "two",
+    "six"
+   ],
+   "arm": "maintain"
+  },
+  "1B|C2|control": {
+   "pair": [
+    "three",
+    "five"
+   ],
+   "sum": "eight",
+   "diff_donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "same_donor": [
+    "two",
+    "six"
+   ],
+   "arm": "control"
+  },
+  "2B|C2|maintain": {
+   "pair": [
+    "four",
+    "five"
+   ],
+   "sum": "nine",
+   "diff_donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "same_donor": [
+    "two",
+    "seven"
+   ],
+   "arm": "maintain"
+  },
+  "2B|C2|control": {
+   "pair": [
+    "four",
+    "five"
+   ],
+   "sum": "nine",
+   "diff_donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "same_donor": [
+    "two",
+    "seven"
+   ],
+   "arm": "control"
+  },
+  "3B|C2|maintain": {
+   "pair": [
+    "three",
+    "seven"
+   ],
+   "sum": "ten",
+   "diff_donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "same_donor": [
+    "two",
+    "eight"
+   ],
+   "arm": "maintain"
+  },
+  "3B|C2|control": {
+   "pair": [
+    "three",
+    "seven"
+   ],
+   "sum": "ten",
+   "diff_donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "same_donor": [
+    "two",
+    "eight"
+   ],
+   "arm": "control"
+  },
+  "4B|C2|maintain": {
+   "pair": [
+    "four",
+    "seven"
+   ],
+   "sum": "eleven",
+   "diff_donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "same_donor": [
+    "three",
+    "eight"
+   ],
+   "arm": "maintain"
+  },
+  "4B|C2|control": {
+   "pair": [
+    "four",
+    "seven"
+   ],
+   "sum": "eleven",
+   "diff_donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "same_donor": [
+    "three",
+    "eight"
+   ],
+   "arm": "control"
+  },
+  "5B|C2|maintain": {
+   "pair": [
+    "five",
+    "seven"
+   ],
+   "sum": "twelve",
+   "diff_donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "same_donor": [
+    "four",
+    "eight"
+   ],
+   "arm": "maintain"
+  },
+  "5B|C2|control": {
+   "pair": [
+    "five",
+    "seven"
+   ],
+   "sum": "twelve",
+   "diff_donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "same_donor": [
+    "four",
+    "eight"
+   ],
+   "arm": "control"
+  },
+  "6B|C2|maintain": {
+   "pair": [
+    "six",
+    "seven"
+   ],
+   "sum": "thirteen",
+   "diff_donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "same_donor": [
+    "five",
+    "eight"
+   ],
+   "arm": "maintain"
+  },
+  "6B|C2|control": {
+   "pair": [
+    "six",
+    "seven"
+   ],
+   "sum": "thirteen",
+   "diff_donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "same_donor": [
+    "five",
+    "eight"
+   ],
+   "arm": "control"
+  },
+  "7B|C2|maintain": {
+   "pair": [
+    "five",
+    "nine"
+   ],
+   "sum": "fourteen",
+   "diff_donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "same_donor": [
+    "six",
+    "eight"
+   ],
+   "arm": "maintain"
+  },
+  "7B|C2|control": {
+   "pair": [
+    "five",
+    "nine"
+   ],
+   "sum": "fourteen",
+   "diff_donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "same_donor": [
+    "six",
+    "eight"
+   ],
+   "arm": "control"
+  },
+  "0A|C3|maintain": {
+   "pair": [
+    "two",
+    "five"
+   ],
+   "sum": "seven",
+   "diff_donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "same_donor": [
+    "three",
+    "four"
+   ],
+   "arm": "maintain"
+  },
+  "0A|C3|control": {
+   "pair": [
+    "two",
+    "five"
+   ],
+   "sum": "seven",
+   "diff_donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "same_donor": [
+    "three",
+    "four"
+   ],
+   "arm": "control"
+  },
+  "1A|C3|maintain": {
+   "pair": [
+    "two",
+    "six"
+   ],
+   "sum": "eight",
+   "diff_donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "same_donor": [
+    "three",
+    "five"
+   ],
+   "arm": "maintain"
+  },
+  "1A|C3|control": {
+   "pair": [
+    "two",
+    "six"
+   ],
+   "sum": "eight",
+   "diff_donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "same_donor": [
+    "three",
+    "five"
+   ],
+   "arm": "control"
+  },
+  "2A|C3|maintain": {
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "sum": "nine",
+   "diff_donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "same_donor": [
+    "four",
+    "five"
+   ],
+   "arm": "maintain"
+  },
+  "2A|C3|control": {
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "sum": "nine",
+   "diff_donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "same_donor": [
+    "four",
+    "five"
+   ],
+   "arm": "control"
+  },
+  "3A|C3|maintain": {
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "sum": "ten",
+   "diff_donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "same_donor": [
+    "three",
+    "seven"
+   ],
+   "arm": "maintain"
+  },
+  "3A|C3|control": {
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "sum": "ten",
+   "diff_donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "same_donor": [
+    "three",
+    "seven"
+   ],
+   "arm": "control"
+  },
+  "4A|C3|maintain": {
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "sum": "eleven",
+   "diff_donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "same_donor": [
+    "four",
+    "seven"
+   ],
+   "arm": "maintain"
+  },
+  "4A|C3|control": {
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "sum": "eleven",
+   "diff_donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "same_donor": [
+    "four",
+    "seven"
+   ],
+   "arm": "control"
+  },
+  "5A|C3|maintain": {
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "sum": "twelve",
+   "diff_donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "same_donor": [
+    "five",
+    "seven"
+   ],
+   "arm": "maintain"
+  },
+  "5A|C3|control": {
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "sum": "twelve",
+   "diff_donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "same_donor": [
+    "five",
+    "seven"
+   ],
+   "arm": "control"
+  },
+  "6A|C3|maintain": {
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "sum": "thirteen",
+   "diff_donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "same_donor": [
+    "six",
+    "seven"
+   ],
+   "arm": "maintain"
+  },
+  "6A|C3|control": {
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "sum": "thirteen",
+   "diff_donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "same_donor": [
+    "six",
+    "seven"
+   ],
+   "arm": "control"
+  },
+  "7A|C3|maintain": {
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "sum": "fourteen",
+   "diff_donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "same_donor": [
+    "five",
+    "nine"
+   ],
+   "arm": "maintain"
+  },
+  "7A|C3|control": {
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "sum": "fourteen",
+   "diff_donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "same_donor": [
+    "five",
+    "nine"
+   ],
+   "arm": "control"
+  },
+  "0B|C3|maintain": {
+   "pair": [
+    "three",
+    "four"
+   ],
+   "sum": "seven",
+   "diff_donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "same_donor": [
+    "two",
+    "five"
+   ],
+   "arm": "maintain"
+  },
+  "0B|C3|control": {
+   "pair": [
+    "three",
+    "four"
+   ],
+   "sum": "seven",
+   "diff_donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "same_donor": [
+    "two",
+    "five"
+   ],
+   "arm": "control"
+  },
+  "1B|C3|maintain": {
+   "pair": [
+    "three",
+    "five"
+   ],
+   "sum": "eight",
+   "diff_donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "same_donor": [
+    "two",
+    "six"
+   ],
+   "arm": "maintain"
+  },
+  "1B|C3|control": {
+   "pair": [
+    "three",
+    "five"
+   ],
+   "sum": "eight",
+   "diff_donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "same_donor": [
+    "two",
+    "six"
+   ],
+   "arm": "control"
+  },
+  "2B|C3|maintain": {
+   "pair": [
+    "four",
+    "five"
+   ],
+   "sum": "nine",
+   "diff_donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "same_donor": [
+    "two",
+    "seven"
+   ],
+   "arm": "maintain"
+  },
+  "2B|C3|control": {
+   "pair": [
+    "four",
+    "five"
+   ],
+   "sum": "nine",
+   "diff_donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "same_donor": [
+    "two",
+    "seven"
+   ],
+   "arm": "control"
+  },
+  "3B|C3|maintain": {
+   "pair": [
+    "three",
+    "seven"
+   ],
+   "sum": "ten",
+   "diff_donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "same_donor": [
+    "two",
+    "eight"
+   ],
+   "arm": "maintain"
+  },
+  "3B|C3|control": {
+   "pair": [
+    "three",
+    "seven"
+   ],
+   "sum": "ten",
+   "diff_donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "same_donor": [
+    "two",
+    "eight"
+   ],
+   "arm": "control"
+  },
+  "4B|C3|maintain": {
+   "pair": [
+    "four",
+    "seven"
+   ],
+   "sum": "eleven",
+   "diff_donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "same_donor": [
+    "three",
+    "eight"
+   ],
+   "arm": "maintain"
+  },
+  "4B|C3|control": {
+   "pair": [
+    "four",
+    "seven"
+   ],
+   "sum": "eleven",
+   "diff_donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "same_donor": [
+    "three",
+    "eight"
+   ],
+   "arm": "control"
+  },
+  "5B|C3|maintain": {
+   "pair": [
+    "five",
+    "seven"
+   ],
+   "sum": "twelve",
+   "diff_donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "same_donor": [
+    "four",
+    "eight"
+   ],
+   "arm": "maintain"
+  },
+  "5B|C3|control": {
+   "pair": [
+    "five",
+    "seven"
+   ],
+   "sum": "twelve",
+   "diff_donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "same_donor": [
+    "four",
+    "eight"
+   ],
+   "arm": "control"
+  },
+  "6B|C3|maintain": {
+   "pair": [
+    "six",
+    "seven"
+   ],
+   "sum": "thirteen",
+   "diff_donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "same_donor": [
+    "five",
+    "eight"
+   ],
+   "arm": "maintain"
+  },
+  "6B|C3|control": {
+   "pair": [
+    "six",
+    "seven"
+   ],
+   "sum": "thirteen",
+   "diff_donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "same_donor": [
+    "five",
+    "eight"
+   ],
+   "arm": "control"
+  },
+  "7B|C3|maintain": {
+   "pair": [
+    "five",
+    "nine"
+   ],
+   "sum": "fourteen",
+   "diff_donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "same_donor": [
+    "six",
+    "eight"
+   ],
+   "arm": "maintain"
+  },
+  "7B|C3|control": {
+   "pair": [
+    "five",
+    "nine"
+   ],
+   "sum": "fourteen",
+   "diff_donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "same_donor": [
+    "six",
+    "eight"
+   ],
+   "arm": "control"
+  }
+ },
+ "run_id": "20260907T044151Z",
+ "n_forwards": 384,
+ "elapsed_s": 106.3,
+ "token_ids": {
+  "two": 1330,
+  "three": 2250,
+  "four": 2943,
+  "five": 4097,
+  "six": 4590,
+  "seven": 7840,
+  "eight": 7810,
+  "nine": 11292,
+  "ten": 5600,
+  "eleven": 42744,
+  "twelve": 28279,
+  "thirteen": 58614,
+  "fourteen": 60163,
+  "anchor": 16602,
+  "apple": 22544,
+  "arrow": 17385,
+  "badge": 23213,
+  "basket": 13621,
+  "bread": 15530,
+  "brick": 24051,
+  "bridge": 13759
+ }
+}

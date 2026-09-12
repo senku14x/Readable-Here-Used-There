@@ -1,0 +1,5497 @@
+{
+ "cells": {
+  "sel|C0|T0|rot0|A": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T0|rot0|B": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T0|rot0|C": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T0|rot0|ctrl": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T0|rot1|A": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T0|rot1|B": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T0|rot1|C": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T0|rot1|ctrl": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T0|rot2|A": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T0|rot2|B": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T0|rot2|C": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T0|rot2|ctrl": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot0|A": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot0|B": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot0|C": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot0|ctrl": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot1|A": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot1|B": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot1|C": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot1|ctrl": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot2|A": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot2|B": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot2|C": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T1|rot2|ctrl": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot0|A": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot0|B": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot0|C": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot0|ctrl": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot1|A": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot1|B": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot1|C": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot1|ctrl": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot2|A": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot2|B": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot2|C": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T2|rot2|ctrl": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot0|A": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot0|B": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot0|C": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot0|ctrl": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot1|A": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot1|B": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot1|C": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot1|ctrl": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot2|A": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot2|B": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot2|C": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T3|rot2|ctrl": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot0|A": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot0|B": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot0|C": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot0|ctrl": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot1|A": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot1|B": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot1|C": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot1|ctrl": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot2|A": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot2|B": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot2|C": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T4|rot2|ctrl": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot0|A": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot0|B": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot0|C": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot0|ctrl": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot1|A": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot1|B": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot1|C": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot1|ctrl": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot2|A": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot2|B": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot2|C": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T5|rot2|ctrl": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot0|A": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot0|B": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot0|C": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot0|ctrl": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot1|A": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot1|B": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot1|C": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot1|ctrl": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot2|A": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot2|B": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot2|C": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T6|rot2|ctrl": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot0|A": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot0|B": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot0|C": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot0|ctrl": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot1|A": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot1|B": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot1|C": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot1|ctrl": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot2|A": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot2|B": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot2|C": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C0|T7|rot2|ctrl": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 100,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot0|A": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot0|B": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot0|C": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot0|ctrl": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot1|A": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot1|B": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot1|C": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot1|ctrl": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot2|A": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot2|B": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot2|C": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R0|rot2|ctrl": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot0|A": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot0|B": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot0|C": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot0|ctrl": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot1|A": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot1|B": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot1|C": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot1|ctrl": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot2|A": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot2|B": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot2|C": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 19
+  },
+  "ro|C0|R1|rot2|ctrl": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 102,
+   "interior_n": 19
+  },
+  "sel|C1|T0|rot0|A": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T0|rot0|B": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T0|rot0|C": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T0|rot0|ctrl": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T0|rot1|A": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T0|rot1|B": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T0|rot1|C": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T0|rot1|ctrl": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T0|rot2|A": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T0|rot2|B": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T0|rot2|C": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T0|rot2|ctrl": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot0|A": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot0|B": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot0|C": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot0|ctrl": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot1|A": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot1|B": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot1|C": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot1|ctrl": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot2|A": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot2|B": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot2|C": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T1|rot2|ctrl": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot0|A": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot0|B": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot0|C": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot0|ctrl": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot1|A": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot1|B": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot1|C": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot1|ctrl": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot2|A": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot2|B": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot2|C": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T2|rot2|ctrl": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot0|A": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot0|B": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot0|C": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot0|ctrl": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot1|A": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot1|B": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot1|C": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot1|ctrl": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot2|A": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot2|B": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot2|C": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T3|rot2|ctrl": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot0|A": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot0|B": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot0|C": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot0|ctrl": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot1|A": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot1|B": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot1|C": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot1|ctrl": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot2|A": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot2|B": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot2|C": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T4|rot2|ctrl": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot0|A": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot0|B": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot0|C": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot0|ctrl": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot1|A": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot1|B": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot1|C": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot1|ctrl": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot2|A": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot2|B": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot2|C": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T5|rot2|ctrl": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot0|A": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot0|B": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot0|C": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot0|ctrl": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot1|A": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot1|B": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot1|C": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot1|ctrl": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot2|A": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot2|B": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot2|C": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T6|rot2|ctrl": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot0|A": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot0|B": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot0|C": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot0|ctrl": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot1|A": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot1|B": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot1|C": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot1|ctrl": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot2|A": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot2|B": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot2|C": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C1|T7|rot2|ctrl": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 102,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot0|A": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot0|B": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot0|C": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot0|ctrl": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot1|A": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot1|B": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot1|C": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot1|ctrl": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot2|A": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot2|B": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot2|C": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R0|rot2|ctrl": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot0|A": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot0|B": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot0|C": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot0|ctrl": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot1|A": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot1|B": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot1|C": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot1|ctrl": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot2|A": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot2|B": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot2|C": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 106,
+   "interior_n": 20
+  },
+  "ro|C1|R1|rot2|ctrl": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 104,
+   "interior_n": 20
+  },
+  "sel|C3|T0|rot0|A": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T0|rot0|B": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T0|rot0|C": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T0|rot0|ctrl": {
+   "cats": [
+    "birds",
+    "fish",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T0|rot1|A": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T0|rot1|B": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T0|rot1|C": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T0|rot1|ctrl": {
+   "cats": [
+    "fish",
+    "insects",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "tools"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T0|rot2|A": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T0|rot2|B": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T0|rot2|C": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T0|rot2|ctrl": {
+   "cats": [
+    "insects",
+    "birds",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot0|A": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot0|B": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot0|C": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot0|ctrl": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot1|A": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot1|B": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot1|C": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot1|ctrl": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "birds"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot2|A": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot2|B": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot2|C": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T1|rot2|ctrl": {
+   "cats": [
+    "furniture",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot0|A": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot0|B": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot0|C": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot0|ctrl": {
+   "cats": [
+    "fish",
+    "insects",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot1|A": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot1|B": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot1|C": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot1|ctrl": {
+   "cats": [
+    "insects",
+    "tools",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "vehicles"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot2|A": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot2|B": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot2|C": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T2|rot2|ctrl": {
+   "cats": [
+    "tools",
+    "fish",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "vehicles",
+    "2": "furniture"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot0|A": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot0|B": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot0|C": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot0|ctrl": {
+   "cats": [
+    "vehicles",
+    "furniture",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot1|A": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot1|B": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot1|C": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot1|ctrl": {
+   "cats": [
+    "furniture",
+    "birds",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "fish"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot2|A": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot2|B": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot2|C": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T3|rot2|ctrl": {
+   "cats": [
+    "birds",
+    "vehicles",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "fish",
+    "2": "insects"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot0|A": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot0|B": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot0|C": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot0|ctrl": {
+   "cats": [
+    "birds",
+    "insects",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "furniture",
+    "2": "fish"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot1|A": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot1|B": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot1|C": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot1|ctrl": {
+   "cats": [
+    "insects",
+    "vehicles",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "fish",
+    "2": "tools"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot2|A": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot2|B": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot2|C": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T4|rot2|ctrl": {
+   "cats": [
+    "vehicles",
+    "birds",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "tools",
+    "2": "furniture"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot0|A": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot0|B": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot0|C": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot0|ctrl": {
+   "cats": [
+    "tools",
+    "furniture",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "insects",
+    "2": "vehicles"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot1|A": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot1|B": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot1|C": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot1|ctrl": {
+   "cats": [
+    "furniture",
+    "fish",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "vehicles",
+    "2": "birds"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot2|A": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot2|B": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot2|C": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T5|rot2|ctrl": {
+   "cats": [
+    "fish",
+    "tools",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "birds",
+    "2": "insects"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot0|A": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot0|B": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot0|C": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot0|ctrl": {
+   "cats": [
+    "birds",
+    "fish",
+    "furniture"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "tools",
+    "1": "vehicles",
+    "2": "insects"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot1|A": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot1|B": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot1|C": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot1|ctrl": {
+   "cats": [
+    "fish",
+    "furniture",
+    "birds"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "vehicles",
+    "1": "insects",
+    "2": "tools"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot2|A": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot2|B": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot2|C": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T6|rot2|ctrl": {
+   "cats": [
+    "furniture",
+    "birds",
+    "fish"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "insects",
+    "1": "tools",
+    "2": "vehicles"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot0|A": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot0|B": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot0|C": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot0|ctrl": {
+   "cats": [
+    "tools",
+    "vehicles",
+    "insects"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "birds",
+    "1": "fish",
+    "2": "furniture"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot1|A": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot1|B": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot1|C": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot1|ctrl": {
+   "cats": [
+    "vehicles",
+    "insects",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "fish",
+    "1": "furniture",
+    "2": "birds"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot2|A": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot2|B": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot2|C": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "sel|C3|T7|rot2|ctrl": {
+   "cats": [
+    "insects",
+    "tools",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {
+    "0": "furniture",
+    "1": "birds",
+    "2": "fish"
+   },
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot0|A": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot0|B": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot0|C": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot0|ctrl": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "tools"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot1|A": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot1|B": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot1|C": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot1|ctrl": {
+   "cats": [
+    "vegetables",
+    "tools",
+    "mammals"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot2|A": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot2|B": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot2|C": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R0|rot2|ctrl": {
+   "cats": [
+    "tools",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot0|A": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot0|B": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot0|C": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot0|ctrl": {
+   "cats": [
+    "mammals",
+    "vegetables",
+    "vehicles"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot1|A": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot1|B": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot1|C": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot1|ctrl": {
+   "cats": [
+    "vegetables",
+    "vehicles",
+    "mammals"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 122,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot2|A": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "A",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot2|B": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "B",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot2|C": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "C",
+   "donor": {},
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "ro|C3|R1|rot2|ctrl": {
+   "cats": [
+    "vehicles",
+    "mammals",
+    "vegetables"
+   ],
+   "arm": "ctrl",
+   "donor": {},
+   "n_tokens": 122,
+   "interior_n": 29
+  }
+ },
+ "members": {
+  "birds": [
+   "owl",
+   "duck",
+   "goose",
+   "pigeon"
+  ],
+  "fish": [
+   "cod",
+   "carp",
+   "bass",
+   "perch"
+  ],
+  "insects": [
+   "beetle",
+   "moth",
+   "fly",
+   "mosquito"
+  ],
+  "tools": [
+   "hammer",
+   "saw",
+   "drill",
+   "axe"
+  ],
+  "vehicles": [
+   "car",
+   "bicycle",
+   "motorcycle",
+   "scooter"
+  ],
+  "furniture": [
+   "desk",
+   "bed",
+   "stool",
+   "dresser"
+  ],
+  "mammals": [
+   "horse",
+   "rabbit",
+   "mouse",
+   "camel"
+  ],
+  "vegetables": [
+   "cabbage",
+   "spinach",
+   "broccoli",
+   "celery"
+  ]
+ },
+ "eligible": [
+  "birds",
+  "fish",
+  "insects",
+  "tools",
+  "vehicles",
+  "furniture",
+  "mammals",
+  "vegetables"
+ ],
+ "primary": [
+  "birds",
+  "fish",
+  "insects",
+  "tools",
+  "vehicles",
+  "furniture"
+ ],
+ "readout_only": [
+  "mammals",
+  "vegetables"
+ ],
+ "triples": [
+  [
+   "birds",
+   "fish",
+   "insects"
+  ],
+  [
+   "tools",
+   "vehicles",
+   "furniture"
+  ],
+  [
+   "fish",
+   "insects",
+   "tools"
+  ],
+  [
+   "vehicles",
+   "furniture",
+   "birds"
+  ],
+  [
+   "birds",
+   "insects",
+   "vehicles"
+  ],
+  [
+   "tools",
+   "furniture",
+   "fish"
+  ],
+  [
+   "birds",
+   "fish",
+   "furniture"
+  ],
+  [
+   "tools",
+   "vehicles",
+   "insects"
+  ]
+ ],
+ "ro_triples": [
+  [
+   "mammals",
+   "vegetables",
+   "tools"
+  ],
+  [
+   "mammals",
+   "vegetables",
+   "vehicles"
+  ]
+ ],
+ "partner": {
+  "birds fish insects": [
+   "tools",
+   "vehicles",
+   "furniture"
+  ],
+  "tools vehicles furniture": [
+   "birds",
+   "fish",
+   "insects"
+  ],
+  "fish insects tools": [
+   "vehicles",
+   "furniture",
+   "birds"
+  ],
+  "vehicles furniture birds": [
+   "fish",
+   "insects",
+   "tools"
+  ],
+  "birds insects vehicles": [
+   "tools",
+   "furniture",
+   "fish"
+  ],
+  "tools furniture fish": [
+   "birds",
+   "insects",
+   "vehicles"
+  ],
+  "birds fish furniture": [
+   "tools",
+   "vehicles",
+   "insects"
+  ],
+  "tools vehicles insects": [
+   "birds",
+   "fish",
+   "furniture"
+  ]
+ },
+ "columns": [
+  "owl",
+  "duck",
+  "goose",
+  "pigeon",
+  "cod",
+  "carp",
+  "bass",
+  "perch",
+  "beetle",
+  "moth",
+  "fly",
+  "mosquito",
+  "hammer",
+  "saw",
+  "drill",
+  "axe",
+  "car",
+  "bicycle",
+  "motorcycle",
+  "scooter",
+  "desk",
+  "bed",
+  "stool",
+  "dresser",
+  "horse",
+  "rabbit",
+  "mouse",
+  "camel",
+  "cabbage",
+  "spinach",
+  "broccoli",
+  "celery",
+  "birds",
+  "fish",
+  "insects",
+  "tools",
+  "vehicles",
+  "furniture",
+  "mammals",
+  "vegetables",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers": [
+  "C0",
+  "C1",
+  "C3"
+ ],
+ "arms": [
+  "A",
+  "B",
+  "C",
+  "ctrl"
+ ],
+ "rank_layers": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59
+ ],
+ "l_state": 35,
+ "l_x": 36,
+ "axis_heldout_margin_L36_50": {
+  "birds->fish": 38.29955291748047,
+  "birds->insects": 32.08632278442383,
+  "birds->tools": 39.740989685058594,
+  "birds->vehicles": 42.68113327026367,
+  "birds->furniture": 42.48094940185547,
+  "birds->mammals": 27.266122817993164,
+  "birds->vegetables": 44.747135162353516,
+  "fish->birds": 38.29955291748047,
+  "fish->insects": 40.16444396972656,
+  "fish->tools": 32.67238998413086,
+  "fish->vehicles": 44.597015380859375,
+  "fish->furniture": 37.64540481567383,
+  "fish->mammals": 39.091365814208984,
+  "fish->vegetables": 43.41908645629883,
+  "insects->birds": 32.08632278442383,
+  "insects->fish": 40.16444396972656,
+  "insects->tools": 39.41719055175781,
+  "insects->vehicles": 42.47545623779297,
+  "insects->furniture": 42.66422653198242,
+  "insects->mammals": 33.8565788269043,
+  "insects->vegetables": 44.98707962036133,
+  "tools->birds": 39.740989685058594,
+  "tools->fish": 32.67238998413086,
+  "tools->insects": 39.41719055175781,
+  "tools->vehicles": 42.5608024597168,
+  "tools->furniture": 35.36328125,
+  "tools->mammals": 38.96887969970703,
+  "tools->vegetables": 46.90679931640625,
+  "vehicles->birds": 42.68113327026367,
+  "vehicles->fish": 44.597015380859375,
+  "vehicles->insects": 42.47545623779297,
+  "vehicles->tools": 42.5608024597168,
+  "vehicles->furniture": 40.956398010253906,
+  "vehicles->mammals": 36.446929931640625,
+  "vehicles->vegetables": 48.09710693359375,
+  "furniture->birds": 42.48094940185547,
+  "furniture->fish": 37.64540481567383,
+  "furniture->insects": 42.66422653198242,
+  "furniture->tools": 35.36328125,
+  "furniture->vehicles": 40.956398010253906,
+  "furniture->mammals": 41.25503158569336,
+  "furniture->vegetables": 47.289127349853516,
+  "mammals->birds": 27.266122817993164,
+  "mammals->fish": 39.091365814208984,
+  "mammals->insects": 33.8565788269043,
+  "mammals->tools": 38.96887969970703,
+  "mammals->vehicles": 36.446929931640625,
+  "mammals->furniture": 41.25503158569336,
+  "mammals->vegetables": 45.504791259765625,
+  "vegetables->birds": 44.747135162353516,
+  "vegetables->fish": 43.41908645629883,
+  "vegetables->insects": 44.98707962036133,
+  "vegetables->tools": 46.90679931640625,
+  "vegetables->vehicles": 48.09710693359375,
+  "vegetables->furniture": 47.289127349853516,
+  "vegetables->mammals": 45.504791259765625
+ },
+ "stage": "select",
+ "run_id": "20260907T020900Z",
+ "n_forwards": 2376,
+ "elapsed_s": 703.8,
+ "token_ids": {
+  "owl": 50514,
+  "duck": 34793,
+  "goose": 60042,
+  "pigeon": 89350,
+  "cod": 19712,
+  "carp": 37357,
+  "bass": 20869,
+  "perch": 40502,
+  "beetle": 94027,
+  "moth": 93732,
+  "fly": 11137,
+  "mosquito": 47881,
+  "hammer": 22725,
+  "saw": 5312,
+  "drill": 29548,
+  "axe": 48765,
+  "car": 1740,
+  "bicycle": 33828,
+  "motorcycle": 33168,
+  "scooter": 72486,
+  "desk": 17471,
+  "bed": 4690,
+  "stool": 60945,
+  "dresser": 92233,
+  "horse": 14780,
+  "rabbit": 37442,
+  "mouse": 8380,
+  "camel": 47502,
+  "cabbage": 71265,
+  "spinach": 65416,
+  "broccoli": 75498,
+  "celery": 66686,
+  "birds": 19053,
+  "fish": 7397,
+  "insects": 39465,
+  "tools": 7141,
+  "vehicles": 11145,
+  "furniture": 14130,
+  "mammals": 53702,
+  "vegetables": 23133,
+  "anchor": 16602,
+  "apple": 22544,
+  "arrow": 17385,
+  "badge": 23213,
+  "basket": 13621,
+  "bread": 15530,
+  "brick": 24051,
+  "bridge": 13759
+ }
+}

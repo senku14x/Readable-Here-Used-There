@@ -1,0 +1,133 @@
+{
+ "columns": [
+  "Canada",
+  "Spain",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers": [
+  "C0"
+ ],
+ "swap_layers": [
+  36,
+  62
+ ],
+ "fp32_from": 35,
+ "seed": 20260911,
+ "stage": "smoke",
+ "cells": {
+  "ex-city-capital-Barcelona-Toronto|C0": {
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "q": [
+    94,
+    121
+   ],
+   "q_pre": [
+    94,
+    120
+   ],
+   "scoring": 121,
+   "n_tokens": 122,
+   "cos_int_swap_max_abs": 0.5149497985839844,
+   "cos_int_swap": {
+    "36": 0.5149497985839844,
+    "37": 0.4965207278728485,
+    "38": 0.4777238965034485,
+    "39": 0.45305174589157104,
+    "40": 0.4159187078475952,
+    "41": 0.41494035720825195,
+    "42": 0.4069105386734009,
+    "43": 0.4100243151187897,
+    "44": 0.4165930151939392,
+    "45": 0.4126695692539215,
+    "46": 0.399875283241272,
+    "47": 0.40090107917785645,
+    "48": 0.4136083126068115,
+    "49": 0.4224923551082611,
+    "50": 0.4040786325931549,
+    "51": 0.37993738055229187,
+    "52": 0.41306057572364807,
+    "53": 0.39609143137931824,
+    "54": 0.368609756231308,
+    "55": 0.3863760232925415,
+    "56": 0.3796403110027313,
+    "57": 0.369841992855072,
+    "58": 0.35993438959121704,
+    "59": 0.34636688232421875,
+    "60": 0.33224135637283325,
+    "61": 0.3996327519416809,
+    "62": 0.39567917585372925
+   },
+   "plane_degenerate": false,
+   "random_seed": 20260911,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ]
+  }
+ },
+ "items": [
+  {
+   "name": "ex-city-capital-Barcelona-Toronto",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Barcelona is located is",
+   "intermediate": "Spain",
+   "answer": "Madrid",
+   "swap_to": "Canada",
+   "swap_answer": "Ottawa",
+   "donor_prompt": "Fact: The capital of the country where Toronto is located is",
+   "donor_name": "ex-city-capital-Toronto-Lyon"
+  }
+ ],
+ "question": "Complete the fact from the clue you were given, using one word.",
+ "s_donor0_seq_bf16_quoted": 23.87764283021291,
+ "readout_band": [
+  51,
+  59
+ ],
+ "materials": "anthropics/jacobian-lens@581d398 data/experiments/probe-swap.json",
+ "run_id": "20260911T030511Z",
+ "n_forwards": 32,
+ "elapsed_s": 8.8
+}

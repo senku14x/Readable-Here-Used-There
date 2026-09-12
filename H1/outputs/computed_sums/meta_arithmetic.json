@@ -1,0 +1,418 @@
+{
+ "rows": [
+  [
+   0,
+   "A"
+  ],
+  [
+   1,
+   "A"
+  ],
+  [
+   2,
+   "A"
+  ],
+  [
+   3,
+   "A"
+  ],
+  [
+   4,
+   "A"
+  ],
+  [
+   5,
+   "A"
+  ],
+  [
+   6,
+   "A"
+  ],
+  [
+   7,
+   "A"
+  ],
+  [
+   0,
+   "B"
+  ],
+  [
+   1,
+   "B"
+  ],
+  [
+   2,
+   "B"
+  ],
+  [
+   3,
+   "B"
+  ],
+  [
+   4,
+   "B"
+  ],
+  [
+   5,
+   "B"
+  ],
+  [
+   6,
+   "B"
+  ],
+  [
+   7,
+   "B"
+  ]
+ ],
+ "sums": [
+  [
+   "seven",
+   [
+    "two",
+    "five"
+   ],
+   [
+    "three",
+    "four"
+   ]
+  ],
+  [
+   "eight",
+   [
+    "two",
+    "six"
+   ],
+   [
+    "three",
+    "five"
+   ]
+  ],
+  [
+   "nine",
+   [
+    "two",
+    "seven"
+   ],
+   [
+    "four",
+    "five"
+   ]
+  ],
+  [
+   "ten",
+   [
+    "two",
+    "eight"
+   ],
+   [
+    "three",
+    "seven"
+   ]
+  ],
+  [
+   "eleven",
+   [
+    "three",
+    "eight"
+   ],
+   [
+    "four",
+    "seven"
+   ]
+  ],
+  [
+   "twelve",
+   [
+    "four",
+    "eight"
+   ],
+   [
+    "five",
+    "seven"
+   ]
+  ],
+  [
+   "thirteen",
+   [
+    "five",
+    "eight"
+   ],
+   [
+    "six",
+    "seven"
+   ]
+  ],
+  [
+   "fourteen",
+   [
+    "six",
+    "eight"
+   ],
+   [
+    "five",
+    "nine"
+   ]
+  ]
+ ],
+ "columns": [
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "sum_words": [
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers": [
+  "C2",
+  "C3"
+ ],
+ "rank_layers": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59
+ ],
+ "l_x": 36,
+ "stage": "arithmetic",
+ "arithmetic": {
+  "0A": {
+   "pair": [
+    "two",
+    "five"
+   ],
+   "sum": "seven",
+   "answer": "seven<|im_end|>",
+   "correct": true
+  },
+  "1A": {
+   "pair": [
+    "two",
+    "six"
+   ],
+   "sum": "eight",
+   "answer": "eight<|im_end|>",
+   "correct": true
+  },
+  "2A": {
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "sum": "nine",
+   "answer": "nine<|im_end|>",
+   "correct": true
+  },
+  "3A": {
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "sum": "ten",
+   "answer": "ten<|im_end|>",
+   "correct": true
+  },
+  "4A": {
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "sum": "eleven",
+   "answer": "eleven<|im_end|>",
+   "correct": true
+  },
+  "5A": {
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "sum": "twelve",
+   "answer": "twelve<|im_end|>",
+   "correct": true
+  },
+  "6A": {
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "sum": "thirteen",
+   "answer": "thirteen<|im_end|>",
+   "correct": true
+  },
+  "7A": {
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "sum": "fourteen",
+   "answer": "fourteen<|im_end|>",
+   "correct": true
+  },
+  "0B": {
+   "pair": [
+    "three",
+    "four"
+   ],
+   "sum": "seven",
+   "answer": "seven<|im_end|>",
+   "correct": true
+  },
+  "1B": {
+   "pair": [
+    "three",
+    "five"
+   ],
+   "sum": "eight",
+   "answer": "eight<|im_end|>",
+   "correct": true
+  },
+  "2B": {
+   "pair": [
+    "four",
+    "five"
+   ],
+   "sum": "nine",
+   "answer": "nine<|im_end|>",
+   "correct": true
+  },
+  "3B": {
+   "pair": [
+    "three",
+    "seven"
+   ],
+   "sum": "ten",
+   "answer": "ten<|im_end|>",
+   "correct": true
+  },
+  "4B": {
+   "pair": [
+    "four",
+    "seven"
+   ],
+   "sum": "eleven",
+   "answer": "eleven<|im_end|>",
+   "correct": true
+  },
+  "5B": {
+   "pair": [
+    "five",
+    "seven"
+   ],
+   "sum": "twelve",
+   "answer": "twelve<|im_end|>",
+   "correct": true
+  },
+  "6B": {
+   "pair": [
+    "six",
+    "seven"
+   ],
+   "sum": "thirteen",
+   "answer": "13<|im_end|>",
+   "correct": true
+  },
+  "7B": {
+   "pair": [
+    "five",
+    "nine"
+   ],
+   "sum": "fourteen",
+   "answer": "fourteen<|im_end|>",
+   "correct": true
+  }
+ },
+ "accuracy": 1.0,
+ "run_id": "20260907T044036Z",
+ "n_forwards": 48,
+ "elapsed_s": 22.7,
+ "token_ids": {
+  "two": 1330,
+  "three": 2250,
+  "four": 2943,
+  "five": 4097,
+  "six": 4590,
+  "seven": 7840,
+  "eight": 7810,
+  "nine": 11292,
+  "ten": 5600,
+  "eleven": 42744,
+  "twelve": 28279,
+  "thirteen": 58614,
+  "fourteen": 60163,
+  "anchor": 16602,
+  "apple": 22544,
+  "arrow": 17385,
+  "badge": 23213,
+  "basket": 13621,
+  "bread": 15530,
+  "brick": 24051,
+  "bridge": 13759
+ }
+}

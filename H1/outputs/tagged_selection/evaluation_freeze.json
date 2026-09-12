@@ -1,0 +1,11 @@
+{
+ "frozen": true,
+ "date": "2026-09-07",
+ "triples_rule": "consecutive words of Bank 1 then Bank 2, first 8 triples; geometry asserted at render",
+ "carriers": [
+  "C2",
+  "C3"
+ ],
+ "directions": "pilot-fit d_shared and d_pointer_AB transferred (identity holdout) + native refits on the evaluation cells",
+ "decoys": "8 fitting words"
+}

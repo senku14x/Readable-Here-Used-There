@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.log
+.ipynb_checkpoints/
+H1/outputs/task_state_modulation/raw_*.npz
+H1/outputs/natural_modulation/raw_evaluate.npz
+H1/outputs/tagged_selection/raw_evaluate.npz
+H1/outputs/tagged_categories/raw_select.npz
+H1/outputs/scaffold_generality/raw_tagged.npz
+H3/outputs/selection_to_behavior/log_evaluate.txt
+H3/outputs/selection_to_behavior/log_pilot_v2.txt
+H3/outputs/selection_to_behavior/log_evaluate_v2.txt
+H3/trying_to_fool/outputs/bank_axes.pt

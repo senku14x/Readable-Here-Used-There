@@ -1,0 +1,1551 @@
+{
+ "carriers": [
+  "C0",
+  "C1",
+  "C2",
+  "C3"
+ ],
+ "lx": 36,
+ "swap_layers": [
+  36,
+  62
+ ],
+ "seed": 20260909,
+ "cells": {
+  "ex-city-capital-Barcelona-Toronto|C0": {
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "n_tokens": 122,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ]
+  },
+  "ex-city-capital-Barcelona-Toronto|C1": {
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "n_tokens": 124,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ]
+  },
+  "ex-city-capital-Barcelona-Toronto|C2": {
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "n_tokens": 108,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ]
+  },
+  "ex-city-capital-Barcelona-Toronto|C3": {
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "n_tokens": 142,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C0": {
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "n_tokens": 122,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C1": {
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "n_tokens": 124,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C2": {
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "n_tokens": 108,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C3": {
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "n_tokens": 142,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C0": {
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "n_tokens": 122,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C1": {
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "n_tokens": 124,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C2": {
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "n_tokens": 108,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C3": {
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "n_tokens": 142,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C0": {
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "n_tokens": 122,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C1": {
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "n_tokens": 124,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C2": {
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "n_tokens": 108,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C3": {
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "n_tokens": 142,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ]
+  },
+  "ex2-city-capital-Munich|C0": {
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "n_tokens": 122,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ]
+  },
+  "ex2-city-capital-Munich|C1": {
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "n_tokens": 124,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ]
+  },
+  "ex2-city-capital-Munich|C2": {
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "n_tokens": 108,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ]
+  },
+  "ex2-city-capital-Munich|C3": {
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "n_tokens": 142,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ]
+  },
+  "ex2-city-capital-Osaka|C0": {
+   "answer": "Tokyo",
+   "swap_answer": "Berlin",
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "n_tokens": 122,
+   "spellings_answer": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ]
+  },
+  "ex2-city-capital-Osaka|C1": {
+   "answer": "Tokyo",
+   "swap_answer": "Berlin",
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "n_tokens": 124,
+   "spellings_answer": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ]
+  },
+  "ex2-city-capital-Osaka|C2": {
+   "answer": "Tokyo",
+   "swap_answer": "Berlin",
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "n_tokens": 108,
+   "spellings_answer": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ]
+  },
+  "ex2-city-capital-Osaka|C3": {
+   "answer": "Tokyo",
+   "swap_answer": "Berlin",
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "n_tokens": 142,
+   "spellings_answer": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ]
+  },
+  "ex2-city-language-Cairo|C0": {
+   "answer": "Arabic",
+   "swap_answer": "Russian",
+   "intermediate": "Egypt",
+   "swap_to": "Russia",
+   "n_tokens": 123,
+   "spellings_answer": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ]
+  },
+  "ex2-city-language-Cairo|C1": {
+   "answer": "Arabic",
+   "swap_answer": "Russian",
+   "intermediate": "Egypt",
+   "swap_to": "Russia",
+   "n_tokens": 125,
+   "spellings_answer": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ]
+  },
+  "ex2-city-language-Cairo|C2": {
+   "answer": "Arabic",
+   "swap_answer": "Russian",
+   "intermediate": "Egypt",
+   "swap_to": "Russia",
+   "n_tokens": 109,
+   "spellings_answer": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ]
+  },
+  "ex2-city-language-Cairo|C3": {
+   "answer": "Arabic",
+   "swap_answer": "Russian",
+   "intermediate": "Egypt",
+   "swap_to": "Russia",
+   "n_tokens": 143,
+   "spellings_answer": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ]
+  },
+  "ex2-city-language-Moscow|C0": {
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "n_tokens": 123,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ]
+  },
+  "ex2-city-language-Moscow|C1": {
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "n_tokens": 125,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ]
+  },
+  "ex2-city-language-Moscow|C2": {
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "n_tokens": 109,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ]
+  },
+  "ex2-city-language-Moscow|C3": {
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "n_tokens": 143,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ]
+  },
+  "ex2-language-capital-Hungarian|C0": {
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "n_tokens": 124,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ]
+  },
+  "ex2-language-capital-Hungarian|C1": {
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "n_tokens": 126,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ]
+  },
+  "ex2-language-capital-Hungarian|C2": {
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "n_tokens": 110,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ]
+  },
+  "ex2-language-capital-Hungarian|C3": {
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "n_tokens": 144,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ]
+  },
+  "ex2-language-capital-Polish|C0": {
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "n_tokens": 124,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ]
+  },
+  "ex2-language-capital-Polish|C1": {
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "n_tokens": 126,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ]
+  },
+  "ex2-language-capital-Polish|C2": {
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "n_tokens": 110,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ]
+  },
+  "ex2-language-capital-Polish|C3": {
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "n_tokens": 144,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ]
+  },
+  "food-animal-butter|C0": {
+   "answer": "cow",
+   "swap_answer": "bee",
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "n_tokens": 124,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ]
+  },
+  "food-animal-butter|C1": {
+   "answer": "cow",
+   "swap_answer": "bee",
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "n_tokens": 126,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ]
+  },
+  "food-animal-butter|C2": {
+   "answer": "cow",
+   "swap_answer": "bee",
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "n_tokens": 110,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ]
+  },
+  "food-animal-butter|C3": {
+   "answer": "cow",
+   "swap_answer": "bee",
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "n_tokens": 144,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ]
+  },
+  "food-animal-honey|C0": {
+   "answer": "bee",
+   "swap_answer": "cow",
+   "intermediate": "honey",
+   "swap_to": "butter",
+   "n_tokens": 124,
+   "spellings_answer": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ]
+  },
+  "food-animal-honey|C1": {
+   "answer": "bee",
+   "swap_answer": "cow",
+   "intermediate": "honey",
+   "swap_to": "butter",
+   "n_tokens": 126,
+   "spellings_answer": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ]
+  },
+  "food-animal-honey|C2": {
+   "answer": "bee",
+   "swap_answer": "cow",
+   "intermediate": "honey",
+   "swap_to": "butter",
+   "n_tokens": 110,
+   "spellings_answer": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ]
+  },
+  "food-animal-honey|C3": {
+   "answer": "bee",
+   "swap_answer": "cow",
+   "intermediate": "honey",
+   "swap_to": "butter",
+   "n_tokens": 144,
+   "spellings_answer": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ]
+  }
+ },
+ "items": [
+  {
+   "name": "ex-city-capital-Barcelona-Toronto",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Barcelona is located is",
+   "intermediate": "Spain",
+   "answer": "Madrid",
+   "swap_to": "Canada",
+   "swap_answer": "Ottawa",
+   "donor_prompt": "Fact: The capital of the country where Toronto is located is",
+   "donor_name": "ex-city-capital-Toronto-Lyon"
+  },
+  {
+   "name": "ex-city-capital-Lyon-Naples",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Lyon is located is",
+   "intermediate": "France",
+   "answer": "Paris",
+   "swap_to": "Italy",
+   "swap_answer": "Rome",
+   "donor_prompt": "Fact: The capital of the country where Naples is located is",
+   "donor_name": "ex-city-capital-Naples-Barcelona"
+  },
+  {
+   "name": "ex-city-capital-Naples-Barcelona",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Naples is located is",
+   "intermediate": "Italy",
+   "answer": "Rome",
+   "swap_to": "Spain",
+   "swap_answer": "Madrid",
+   "donor_prompt": "Fact: The capital of the country where Barcelona is located is",
+   "donor_name": "ex-city-capital-Barcelona-Toronto"
+  },
+  {
+   "name": "ex-city-capital-Toronto-Lyon",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Toronto is located is",
+   "intermediate": "Canada",
+   "answer": "Ottawa",
+   "swap_to": "France",
+   "swap_answer": "Paris",
+   "donor_prompt": "Fact: The capital of the country where Lyon is located is",
+   "donor_name": "ex-city-capital-Lyon-Naples"
+  },
+  {
+   "name": "ex2-city-capital-Munich",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Munich is located is",
+   "intermediate": "Germany",
+   "answer": "Berlin",
+   "swap_to": "Japan",
+   "swap_answer": "Tokyo",
+   "donor_prompt": "Fact: The capital of the country where Osaka is located is",
+   "donor_name": "ex2-city-capital-Osaka"
+  },
+  {
+   "name": "ex2-city-capital-Osaka",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Osaka is located is",
+   "intermediate": "Japan",
+   "answer": "Tokyo",
+   "swap_to": "Germany",
+   "swap_answer": "Berlin",
+   "donor_prompt": "Fact: The capital of the country where Munich is located is",
+   "donor_name": "ex2-city-capital-Munich"
+  },
+  {
+   "name": "ex2-city-language-Cairo",
+   "category": "city-language",
+   "prompt": "Fact: The language spoken in the country where Cairo is located is",
+   "intermediate": "Egypt",
+   "answer": "Arabic",
+   "swap_to": "Russia",
+   "swap_answer": "Russian",
+   "donor_prompt": "Fact: The language spoken in the country where Moscow is located is",
+   "donor_name": "ex2-city-language-Moscow"
+  },
+  {
+   "name": "ex2-city-language-Moscow",
+   "category": "city-language",
+   "prompt": "Fact: The language spoken in the country where Moscow is located is",
+   "intermediate": "Russia",
+   "answer": "Russian",
+   "swap_to": "Egypt",
+   "swap_answer": "Arabic",
+   "donor_prompt": "Fact: The language spoken in the country where Cairo is located is",
+   "donor_name": "ex2-city-language-Cairo"
+  },
+  {
+   "name": "ex2-language-capital-Hungarian",
+   "category": "language-capital",
+   "prompt": "Fact: The capital of the country where Hungarian is the primary language is",
+   "intermediate": "Hungary",
+   "answer": "Budapest",
+   "swap_to": "Poland",
+   "swap_answer": "Warsaw",
+   "donor_prompt": "Fact: The capital of the country where Polish is the primary language is",
+   "donor_name": "ex2-language-capital-Polish"
+  },
+  {
+   "name": "ex2-language-capital-Polish",
+   "category": "language-capital",
+   "prompt": "Fact: The capital of the country where Polish is the primary language is",
+   "intermediate": "Poland",
+   "answer": "Warsaw",
+   "swap_to": "Greece",
+   "swap_answer": "Athens",
+   "donor_prompt": "Fact: The capital of the country where Greek is the primary language is",
+   "donor_name": "ex2-language-capital-Greek"
+  },
+  {
+   "name": "food-animal-butter",
+   "category": "food-animal",
+   "prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+   "intermediate": "butter",
+   "answer": "cow",
+   "swap_to": "honey",
+   "swap_answer": "bee",
+   "donor_prompt": "Fact: The insect that produces the sweet golden substance spread on toast is the",
+   "donor_name": "food-animal-honey"
+  },
+  {
+   "name": "food-animal-honey",
+   "category": "food-animal",
+   "prompt": "Fact: The insect that produces the sweet golden substance spread on toast is the",
+   "intermediate": "honey",
+   "answer": "bee",
+   "swap_to": "butter",
+   "swap_answer": "cow",
+   "donor_prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+   "donor_name": "food-animal-butter"
+  }
+ ],
+ "competence_seq": 1.0,
+ "rows": [
+  {
+   "cond": "S_donor0",
+   "margin_seq": [
+    23.87764283021291,
+    21.930161839733838,
+    25.82512382069198,
+    12,
+    12
+   ],
+   "share_of_ceiling": 1.0,
+   "flips_seq": 48,
+   "n": 48
+  },
+  {
+   "cond": "int_tail",
+   "margin_seq": [
+    9.848487277825674,
+    7.142997958801978,
+    12.55397659684937,
+    12,
+    12
+   ],
+   "share_of_ceiling": 0.41245642829384166,
+   "flips_seq": 16,
+   "n": 48
+  },
+  {
+   "cond": "int_clue",
+   "margin_seq": [
+    2.2027282814184823,
+    1.4638855074639143,
+    2.9415710553730503,
+    12,
+    12
+   ],
+   "share_of_ceiling": 0.0922506587891214,
+   "flips_seq": 0,
+   "n": 48
+  },
+  {
+   "cond": "int_carr",
+   "margin_seq": [
+    1.6594617664813995,
+    0.9855343741970986,
+    2.3333891587657005,
+    12,
+    12
+   ],
+   "share_of_ceiling": 0.06949855889383041,
+   "flips_seq": 0,
+   "n": 48
+  },
+  {
+   "cond": "int_q",
+   "margin_seq": [
+    4.739015609025955,
+    3.5009475161051347,
+    5.977083701946776,
+    12,
+    12
+   ],
+   "share_of_ceiling": 0.19847083075677696,
+   "flips_seq": 0,
+   "n": 48
+  },
+  {
+   "cond": "ans_tail",
+   "margin_seq": [
+    12.90702020128568,
+    9.75911069614174,
+    16.054929706429622,
+    12,
+    12
+   ],
+   "share_of_ceiling": 0.540548340263895,
+   "flips_seq": 29,
+   "n": 48
+  },
+  {
+   "cond": "ans_clue",
+   "margin_seq": [
+    1.314961274464925,
+    0.7228974241691328,
+    1.9070251247607173,
+    12,
+    12
+   ],
+   "share_of_ceiling": 0.05507081598528124,
+   "flips_seq": 0,
+   "n": 48
+  },
+  {
+   "cond": "ans_carr",
+   "margin_seq": [
+    1.3861637810866039,
+    0.9128974036855086,
+    1.859430158487699,
+    12,
+    12
+   ],
+   "share_of_ceiling": 0.05805278983956742,
+   "flips_seq": 0,
+   "n": 48
+  },
+  {
+   "cond": "ans_q",
+   "margin_seq": [
+    10.220148742198944,
+    7.849061526061543,
+    12.591235958336345,
+    12,
+    12
+   ],
+   "share_of_ceiling": 0.42802167763675414,
+   "flips_seq": 17,
+   "n": 48
+  },
+  {
+   "cond": "rand_tail",
+   "margin_seq": [
+    0.13492064674695334,
+    -0.008855131168633706,
+    0.2786964246625404,
+    11,
+    12
+   ],
+   "share_of_ceiling": 0.005650501086155593,
+   "flips_seq": 0,
+   "n": 48
+  }
+ ],
+ "ceiling_margin_seq": 23.87764283021291,
+ "run_id": "20260909T204612Z",
+ "n_forwards": 2512,
+ "elapsed_s": 655.2
+}

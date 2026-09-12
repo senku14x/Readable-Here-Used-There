@@ -1,0 +1,576 @@
+{
+ "columns": [
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "sum_words": [
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen"
+ ],
+ "letters": [
+  "B",
+  "D",
+  "F",
+  "H",
+  "K",
+  "M",
+  "Q",
+  "V"
+ ],
+ "letter_ids": {
+  "B": [
+   33,
+   425
+  ],
+  "D": [
+   35,
+   422
+  ],
+  "F": [
+   37,
+   434
+  ],
+  "H": [
+   39,
+   472
+  ],
+  "K": [
+   42,
+   730
+  ],
+  "M": [
+   44,
+   386
+  ],
+  "Q": [
+   48,
+   1207
+  ],
+  "V": [
+   53,
+   647
+  ]
+ },
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "seed": 20260908,
+ "stage": "calibrate",
+ "queries": {
+  "sum_pair": "Using the code, give the letter for the sum of the pair. Answer with the letter only.",
+  "sum_two": "Using the code, give the letter for the sum of the two numbers. Answer with the letter only.",
+  "total_pair": "Using the code, give the letter for the total of the pair. Answer with the letter only."
+ },
+ "token_ids": {
+  "two": 1378,
+  "three": 2326,
+  "four": 3040,
+  "five": 4236,
+  "six": 4743,
+  "seven": 8094,
+  "eight": 8063,
+  "nine": 11627,
+  "ten": 5779,
+  "eleven": 44214,
+  "twelve": 29235,
+  "thirteen": 60659,
+  "fourteen": 62260,
+  "anchor": 17105,
+  "apple": 23268,
+  "arrow": 17921,
+  "badge": 23961,
+  "basket": 14024,
+  "bread": 16002,
+  "brick": 24837,
+  "bridge": 14164
+ },
+ "calibrate": {
+  "A_lookup": {
+   "A|0|C0|latent": {
+    "sum": "seven",
+    "cond": "latent",
+    "target": "D",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|0|C0|explicit": {
+    "sum": "seven",
+    "cond": "explicit",
+    "target": "D",
+    "greedy": "H",
+    "correct": false
+   },
+   "A|1|C0|latent": {
+    "sum": "eight",
+    "cond": "latent",
+    "target": "H",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|1|C0|explicit": {
+    "sum": "eight",
+    "cond": "explicit",
+    "target": "H",
+    "greedy": "H",
+    "correct": true
+   },
+   "A|2|C0|latent": {
+    "sum": "nine",
+    "cond": "latent",
+    "target": "D",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|2|C0|explicit": {
+    "sum": "nine",
+    "cond": "explicit",
+    "target": "D",
+    "greedy": "D",
+    "correct": true
+   },
+   "A|3|C0|latent": {
+    "sum": "ten",
+    "cond": "latent",
+    "target": "V",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|3|C0|explicit": {
+    "sum": "ten",
+    "cond": "explicit",
+    "target": "V",
+    "greedy": "V",
+    "correct": true
+   },
+   "A|4|C0|latent": {
+    "sum": "eleven",
+    "cond": "latent",
+    "target": "V",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|4|C0|explicit": {
+    "sum": "eleven",
+    "cond": "explicit",
+    "target": "V",
+    "greedy": "V",
+    "correct": true
+   },
+   "A|5|C0|latent": {
+    "sum": "twelve",
+    "cond": "latent",
+    "target": "V",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|5|C0|explicit": {
+    "sum": "twelve",
+    "cond": "explicit",
+    "target": "V",
+    "greedy": "V",
+    "correct": true
+   },
+   "A|6|C0|latent": {
+    "sum": "thirteen",
+    "cond": "latent",
+    "target": "K",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|6|C0|explicit": {
+    "sum": "thirteen",
+    "cond": "explicit",
+    "target": "K",
+    "greedy": "K",
+    "correct": true
+   },
+   "A|7|C0|latent": {
+    "sum": "fourteen",
+    "cond": "latent",
+    "target": "M",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|7|C0|explicit": {
+    "sum": "fourteen",
+    "cond": "explicit",
+    "target": "M",
+    "greedy": "M",
+    "correct": true
+   },
+   "A|0|C1|latent": {
+    "sum": "seven",
+    "cond": "latent",
+    "target": "V",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|0|C1|explicit": {
+    "sum": "seven",
+    "cond": "explicit",
+    "target": "V",
+    "greedy": "V",
+    "correct": true
+   },
+   "A|1|C1|latent": {
+    "sum": "eight",
+    "cond": "latent",
+    "target": "B",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|1|C1|explicit": {
+    "sum": "eight",
+    "cond": "explicit",
+    "target": "B",
+    "greedy": "B",
+    "correct": true
+   },
+   "A|2|C1|latent": {
+    "sum": "nine",
+    "cond": "latent",
+    "target": "F",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|2|C1|explicit": {
+    "sum": "nine",
+    "cond": "explicit",
+    "target": "F",
+    "greedy": "F",
+    "correct": true
+   },
+   "A|3|C1|latent": {
+    "sum": "ten",
+    "cond": "latent",
+    "target": "Q",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|3|C1|explicit": {
+    "sum": "ten",
+    "cond": "explicit",
+    "target": "Q",
+    "greedy": "Q",
+    "correct": true
+   },
+   "A|4|C1|latent": {
+    "sum": "eleven",
+    "cond": "latent",
+    "target": "K",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|4|C1|explicit": {
+    "sum": "eleven",
+    "cond": "explicit",
+    "target": "K",
+    "greedy": "K",
+    "correct": true
+   },
+   "A|5|C1|latent": {
+    "sum": "twelve",
+    "cond": "latent",
+    "target": "V",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|5|C1|explicit": {
+    "sum": "twelve",
+    "cond": "explicit",
+    "target": "V",
+    "greedy": "V",
+    "correct": true
+   },
+   "A|6|C1|latent": {
+    "sum": "thirteen",
+    "cond": "latent",
+    "target": "K",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|6|C1|explicit": {
+    "sum": "thirteen",
+    "cond": "explicit",
+    "target": "K",
+    "greedy": "K",
+    "correct": true
+   },
+   "A|7|C1|latent": {
+    "sum": "fourteen",
+    "cond": "latent",
+    "target": "H",
+    "greedy": "The",
+    "correct": false
+   },
+   "A|7|C1|explicit": {
+    "sum": "fourteen",
+    "cond": "explicit",
+    "target": "H",
+    "greedy": "H",
+    "correct": true
+   }
+  },
+  "BC_predicate": {
+   "gt10|0|C0": {
+    "sum": "seven",
+    "truth": "no",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": false
+   },
+   "gt10|1|C0": {
+    "sum": "eight",
+    "truth": "no",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": false
+   },
+   "gt10|2|C0": {
+    "sum": "nine",
+    "truth": "no",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": false
+   },
+   "gt10|3|C0": {
+    "sum": "ten",
+    "truth": "no",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": false
+   },
+   "gt10|4|C0": {
+    "sum": "eleven",
+    "truth": "yes",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": true
+   },
+   "gt10|5|C0": {
+    "sum": "twelve",
+    "truth": "yes",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": true
+   },
+   "gt10|6|C0": {
+    "sum": "thirteen",
+    "truth": "yes",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": true
+   },
+   "gt10|7|C0": {
+    "sum": "fourteen",
+    "truth": "yes",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": true
+   },
+   "gt10|0|C1": {
+    "sum": "seven",
+    "truth": "no",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": false
+   },
+   "gt10|1|C1": {
+    "sum": "eight",
+    "truth": "no",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": false
+   },
+   "gt10|2|C1": {
+    "sum": "nine",
+    "truth": "no",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": false
+   },
+   "gt10|3|C1": {
+    "sum": "ten",
+    "truth": "no",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": false
+   },
+   "gt10|4|C1": {
+    "sum": "eleven",
+    "truth": "yes",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": true
+   },
+   "gt10|5|C1": {
+    "sum": "twelve",
+    "truth": "yes",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": true
+   },
+   "gt10|6|C1": {
+    "sum": "thirteen",
+    "truth": "yes",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": true
+   },
+   "gt10|7|C1": {
+    "sum": "fourteen",
+    "truth": "yes",
+    "pred": "yes",
+    "greedy": "Yes",
+    "correct": true
+   },
+   "parity|0|C0": {
+    "sum": "seven",
+    "truth": "odd",
+    "pred": "odd",
+    "greedy": "Odd",
+    "correct": true
+   },
+   "parity|1|C0": {
+    "sum": "eight",
+    "truth": "even",
+    "pred": "even",
+    "greedy": "Even",
+    "correct": true
+   },
+   "parity|2|C0": {
+    "sum": "nine",
+    "truth": "odd",
+    "pred": "odd",
+    "greedy": "Odd",
+    "correct": true
+   },
+   "parity|3|C0": {
+    "sum": "ten",
+    "truth": "even",
+    "pred": "even",
+    "greedy": "Even",
+    "correct": true
+   },
+   "parity|4|C0": {
+    "sum": "eleven",
+    "truth": "odd",
+    "pred": "odd",
+    "greedy": "Odd",
+    "correct": true
+   },
+   "parity|5|C0": {
+    "sum": "twelve",
+    "truth": "even",
+    "pred": "even",
+    "greedy": "Even",
+    "correct": true
+   },
+   "parity|6|C0": {
+    "sum": "thirteen",
+    "truth": "odd",
+    "pred": "odd",
+    "greedy": "Odd",
+    "correct": true
+   },
+   "parity|7|C0": {
+    "sum": "fourteen",
+    "truth": "even",
+    "pred": "even",
+    "greedy": "Even",
+    "correct": true
+   },
+   "parity|0|C1": {
+    "sum": "seven",
+    "truth": "odd",
+    "pred": "odd",
+    "greedy": "Two",
+    "correct": true
+   },
+   "parity|1|C1": {
+    "sum": "eight",
+    "truth": "even",
+    "pred": "even",
+    "greedy": "Even",
+    "correct": true
+   },
+   "parity|2|C1": {
+    "sum": "nine",
+    "truth": "odd",
+    "pred": "odd",
+    "greedy": "Two",
+    "correct": true
+   },
+   "parity|3|C1": {
+    "sum": "ten",
+    "truth": "even",
+    "pred": "even",
+    "greedy": "Even",
+    "correct": true
+   },
+   "parity|4|C1": {
+    "sum": "eleven",
+    "truth": "odd",
+    "pred": "odd",
+    "greedy": "Three",
+    "correct": true
+   },
+   "parity|5|C1": {
+    "sum": "twelve",
+    "truth": "even",
+    "pred": "even",
+    "greedy": "Even",
+    "correct": true
+   },
+   "parity|6|C1": {
+    "sum": "thirteen",
+    "truth": "odd",
+    "pred": "odd",
+    "greedy": "Five",
+    "correct": true
+   },
+   "parity|7|C1": {
+    "sum": "fourteen",
+    "truth": "even",
+    "pred": "even",
+    "greedy": "Even",
+    "correct": true
+   }
+  }
+ },
+ "run_id": "20260909T162537Z",
+ "n_forwards": 64,
+ "elapsed_s": 5.2
+}

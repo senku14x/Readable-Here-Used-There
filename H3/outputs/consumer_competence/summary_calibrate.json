@@ -1,0 +1,41 @@
+{
+ "instructed": {
+  "n": 36,
+  "bare_letter": 1.0,
+  "greedy_acc": 1.0,
+  "forced_vs_unpointed": 1.0,
+  "forced_vs_all": 1.0,
+  "mean_b_vs_unpointed": 5.3472222090284856,
+  "by_tag": {
+   "A": 1.0,
+   "B": 1.0,
+   "C": 1.0
+  }
+ },
+ "kept": {
+  "n": 36,
+  "bare_letter": 1.0,
+  "greedy_acc": 1.0,
+  "forced_vs_unpointed": 1.0,
+  "forced_vs_all": 1.0,
+  "mean_b_vs_unpointed": 5.44791669310588,
+  "by_tag": {
+   "A": 1.0,
+   "B": 1.0,
+   "C": 1.0
+  }
+ },
+ "tagged_word": {
+  "n": 36,
+  "bare_letter": 1.0,
+  "greedy_acc": 1.0,
+  "forced_vs_unpointed": 1.0,
+  "forced_vs_all": 1.0,
+  "mean_b_vs_unpointed": 5.553819406156738,
+  "by_tag": {
+   "A": 1.0,
+   "B": 1.0,
+   "C": 1.0
+  }
+ }
+}

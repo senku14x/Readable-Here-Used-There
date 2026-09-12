@@ -1,0 +1,9416 @@
+{
+ "cells": {
+  "quoted_copy|C2|T0|rot0|A": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T0|rot0|B": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T0|rot0|C": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T0|rot0|ctrl": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T0|rot1|A": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T0|rot1|B": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T0|rot1|C": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T0|rot1|ctrl": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T0|rot2|A": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T0|rot2|B": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T0|rot2|C": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T0|rot2|ctrl": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot0|A": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot0|B": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot0|C": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot0|ctrl": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot1|A": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot1|B": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot1|C": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot1|ctrl": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot2|A": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot2|B": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot2|C": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T1|rot2|ctrl": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot0|A": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot0|B": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot0|C": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot0|ctrl": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot1|A": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot1|B": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot1|C": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot1|ctrl": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot2|A": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot2|B": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot2|C": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T2|rot2|ctrl": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot0|A": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot0|B": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot0|C": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot0|ctrl": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot1|A": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot1|B": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot1|C": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot1|ctrl": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot2|A": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot2|B": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot2|C": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T3|rot2|ctrl": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot0|A": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot0|B": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot0|C": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot0|ctrl": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot1|A": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot1|B": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot1|C": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot1|ctrl": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot2|A": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot2|B": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot2|C": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T4|rot2|ctrl": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot0|A": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot0|B": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot0|C": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot0|ctrl": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot1|A": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot1|B": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot1|C": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot1|ctrl": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot2|A": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot2|B": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot2|C": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T5|rot2|ctrl": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot0|A": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot0|B": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot0|C": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot0|ctrl": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot1|A": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot1|B": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot1|C": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot1|ctrl": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot2|A": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot2|B": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot2|C": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T6|rot2|ctrl": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot0|A": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot0|B": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot0|C": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot0|ctrl": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot1|A": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot1|B": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot1|C": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot1|ctrl": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot2|A": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot2|B": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot2|C": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "quoted_copy|C2|T7|rot2|ctrl": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 85,
+   "interior_n": 12
+  },
+  "quoted_copy|C3|T0|rot0|A": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T0|rot0|B": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T0|rot0|C": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T0|rot0|ctrl": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T0|rot1|A": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T0|rot1|B": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T0|rot1|C": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T0|rot1|ctrl": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T0|rot2|A": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T0|rot2|B": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T0|rot2|C": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T0|rot2|ctrl": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot0|A": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot0|B": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot0|C": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot0|ctrl": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot1|A": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot1|B": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot1|C": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot1|ctrl": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot2|A": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot2|B": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot2|C": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T1|rot2|ctrl": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot0|A": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot0|B": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot0|C": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot0|ctrl": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot1|A": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot1|B": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot1|C": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot1|ctrl": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot2|A": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot2|B": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot2|C": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T2|rot2|ctrl": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot0|A": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot0|B": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot0|C": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot0|ctrl": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot1|A": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot1|B": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot1|C": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot1|ctrl": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot2|A": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot2|B": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot2|C": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T3|rot2|ctrl": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot0|A": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot0|B": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot0|C": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot0|ctrl": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot1|A": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot1|B": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot1|C": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot1|ctrl": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot2|A": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot2|B": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot2|C": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T4|rot2|ctrl": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot0|A": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot0|B": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot0|C": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot0|ctrl": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot1|A": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot1|B": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot1|C": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot1|ctrl": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot2|A": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot2|B": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot2|C": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T5|rot2|ctrl": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot0|A": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot0|B": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot0|C": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot0|ctrl": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot1|A": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot1|B": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot1|C": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot1|ctrl": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot2|A": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot2|B": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot2|C": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T6|rot2|ctrl": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot0|A": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot0|B": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot0|C": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot0|ctrl": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot1|A": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot1|B": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot1|C": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot1|ctrl": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot2|A": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot2|B": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot2|C": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "quoted_copy|C3|T7|rot2|ctrl": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 119,
+   "interior_n": 29
+  },
+  "quoted_directed|C2|T0|rot0|A": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T0|rot0|B": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T0|rot0|C": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T0|rot0|ctrl": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T0|rot1|A": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T0|rot1|B": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T0|rot1|C": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T0|rot1|ctrl": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T0|rot2|A": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T0|rot2|B": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T0|rot2|C": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T0|rot2|ctrl": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot0|A": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot0|B": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot0|C": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot0|ctrl": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot1|A": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot1|B": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot1|C": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot1|ctrl": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot2|A": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot2|B": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot2|C": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T1|rot2|ctrl": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot0|A": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot0|B": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot0|C": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot0|ctrl": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot1|A": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot1|B": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot1|C": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot1|ctrl": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot2|A": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot2|B": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot2|C": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T2|rot2|ctrl": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot0|A": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot0|B": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot0|C": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot0|ctrl": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot1|A": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot1|B": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot1|C": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot1|ctrl": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot2|A": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot2|B": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot2|C": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T3|rot2|ctrl": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot0|A": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot0|B": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot0|C": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot0|ctrl": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot1|A": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot1|B": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot1|C": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot1|ctrl": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot2|A": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot2|B": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot2|C": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T4|rot2|ctrl": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot0|A": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot0|B": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot0|C": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot0|ctrl": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot1|A": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot1|B": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot1|C": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot1|ctrl": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot2|A": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot2|B": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot2|C": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T5|rot2|ctrl": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot0|A": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot0|B": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot0|C": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot0|ctrl": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot1|A": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot1|B": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot1|C": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot1|ctrl": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot2|A": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot2|B": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot2|C": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T6|rot2|ctrl": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot0|A": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot0|B": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot0|C": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot0|ctrl": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot1|A": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot1|B": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot1|C": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot1|ctrl": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot2|A": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot2|B": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot2|C": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 90,
+   "interior_n": 12
+  },
+  "quoted_directed|C2|T7|rot2|ctrl": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 86,
+   "interior_n": 12
+  },
+  "quoted_directed|C3|T0|rot0|A": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T0|rot0|B": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T0|rot0|C": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T0|rot0|ctrl": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T0|rot1|A": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T0|rot1|B": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T0|rot1|C": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T0|rot1|ctrl": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T0|rot2|A": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T0|rot2|B": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T0|rot2|C": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T0|rot2|ctrl": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot0|A": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot0|B": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot0|C": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot0|ctrl": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot1|A": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot1|B": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot1|C": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot1|ctrl": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot2|A": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot2|B": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot2|C": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T1|rot2|ctrl": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot0|A": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot0|B": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot0|C": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot0|ctrl": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot1|A": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot1|B": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot1|C": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot1|ctrl": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot2|A": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot2|B": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot2|C": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T2|rot2|ctrl": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot0|A": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot0|B": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot0|C": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot0|ctrl": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot1|A": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot1|B": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot1|C": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot1|ctrl": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot2|A": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot2|B": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot2|C": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T3|rot2|ctrl": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot0|A": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot0|B": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot0|C": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot0|ctrl": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot1|A": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot1|B": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot1|C": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot1|ctrl": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot2|A": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot2|B": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot2|C": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T4|rot2|ctrl": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot0|A": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot0|B": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot0|C": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot0|ctrl": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot1|A": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot1|B": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot1|C": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot1|ctrl": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot2|A": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot2|B": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot2|C": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T5|rot2|ctrl": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot0|A": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot0|B": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot0|C": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot0|ctrl": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot1|A": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot1|B": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot1|C": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot1|ctrl": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot2|A": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot2|B": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot2|C": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T6|rot2|ctrl": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot0|A": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot0|B": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot0|C": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot0|ctrl": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot1|A": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot1|B": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot1|C": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot1|ctrl": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot2|A": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot2|B": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot2|C": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 124,
+   "interior_n": 29
+  },
+  "quoted_directed|C3|T7|rot2|ctrl": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "quoted",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 120,
+   "interior_n": 29
+  },
+  "bare_copy|C2|T0|rot0|A": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T0|rot0|B": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T0|rot0|C": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T0|rot0|ctrl": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T0|rot1|A": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T0|rot1|B": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T0|rot1|C": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T0|rot1|ctrl": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T0|rot2|A": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T0|rot2|B": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T0|rot2|C": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T0|rot2|ctrl": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot0|A": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot0|B": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot0|C": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot0|ctrl": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot1|A": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot1|B": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot1|C": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot1|ctrl": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot2|A": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot2|B": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot2|C": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T1|rot2|ctrl": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot0|A": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot0|B": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot0|C": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot0|ctrl": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot1|A": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot1|B": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot1|C": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot1|ctrl": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot2|A": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot2|B": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot2|C": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T2|rot2|ctrl": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot0|A": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot0|B": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot0|C": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot0|ctrl": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot1|A": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot1|B": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot1|C": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot1|ctrl": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot2|A": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot2|B": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot2|C": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T3|rot2|ctrl": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot0|A": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot0|B": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot0|C": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot0|ctrl": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot1|A": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot1|B": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot1|C": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot1|ctrl": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot2|A": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot2|B": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot2|C": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T4|rot2|ctrl": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot0|A": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot0|B": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot0|C": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot0|ctrl": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot1|A": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot1|B": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot1|C": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot1|ctrl": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot2|A": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot2|B": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot2|C": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T5|rot2|ctrl": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot0|A": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot0|B": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot0|C": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot0|ctrl": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot1|A": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot1|B": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot1|C": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot1|ctrl": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot2|A": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot2|B": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot2|C": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T6|rot2|ctrl": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot0|A": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot0|B": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot0|C": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot0|ctrl": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot1|A": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot1|B": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot1|C": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot1|ctrl": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot2|A": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot2|B": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot2|C": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 84,
+   "interior_n": 12
+  },
+  "bare_copy|C2|T7|rot2|ctrl": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 82,
+   "interior_n": 12
+  },
+  "bare_copy|C3|T0|rot0|A": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T0|rot0|B": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T0|rot0|C": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T0|rot0|ctrl": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T0|rot1|A": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T0|rot1|B": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T0|rot1|C": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T0|rot1|ctrl": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T0|rot2|A": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T0|rot2|B": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T0|rot2|C": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T0|rot2|ctrl": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot0|A": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot0|B": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot0|C": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot0|ctrl": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot1|A": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot1|B": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot1|C": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot1|ctrl": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot2|A": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot2|B": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot2|C": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T1|rot2|ctrl": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot0|A": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot0|B": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot0|C": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot0|ctrl": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot1|A": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot1|B": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot1|C": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot1|ctrl": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot2|A": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot2|B": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot2|C": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T2|rot2|ctrl": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot0|A": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot0|B": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot0|C": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot0|ctrl": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot1|A": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot1|B": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot1|C": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot1|ctrl": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot2|A": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot2|B": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot2|C": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T3|rot2|ctrl": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot0|A": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot0|B": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot0|C": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot0|ctrl": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot1|A": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot1|B": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot1|C": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot1|ctrl": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot2|A": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot2|B": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot2|C": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T4|rot2|ctrl": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot0|A": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot0|B": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot0|C": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot0|ctrl": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot1|A": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot1|B": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot1|C": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot1|ctrl": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot2|A": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot2|B": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot2|C": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T5|rot2|ctrl": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot0|A": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot0|B": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot0|C": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot0|ctrl": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot1|A": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot1|B": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot1|C": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot1|ctrl": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot2|A": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot2|B": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot2|C": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T6|rot2|ctrl": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot0|A": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot0|B": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot0|C": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot0|ctrl": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot1|A": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot1|B": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot1|C": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot1|ctrl": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot2|A": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "A",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot2|B": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "B",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot2|C": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "C",
+   "n_tokens": 118,
+   "interior_n": 29
+  },
+  "bare_copy|C3|T7|rot2|ctrl": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "copy",
+   "arm": "ctrl",
+   "n_tokens": 116,
+   "interior_n": 29
+  },
+  "bare_directed|C2|T0|rot0|A": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T0|rot0|B": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T0|rot0|C": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T0|rot0|ctrl": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T0|rot1|A": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T0|rot1|B": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T0|rot1|C": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T0|rot1|ctrl": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T0|rot2|A": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T0|rot2|B": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T0|rot2|C": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T0|rot2|ctrl": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot0|A": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot0|B": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot0|C": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot0|ctrl": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot1|A": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot1|B": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot1|C": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot1|ctrl": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot2|A": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot2|B": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot2|C": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T1|rot2|ctrl": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot0|A": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot0|B": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot0|C": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot0|ctrl": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot1|A": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot1|B": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot1|C": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot1|ctrl": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot2|A": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot2|B": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot2|C": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T2|rot2|ctrl": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot0|A": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot0|B": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot0|C": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot0|ctrl": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot1|A": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot1|B": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot1|C": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot1|ctrl": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot2|A": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot2|B": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot2|C": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T3|rot2|ctrl": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot0|A": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot0|B": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot0|C": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot0|ctrl": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot1|A": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot1|B": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot1|C": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot1|ctrl": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot2|A": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot2|B": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot2|C": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T4|rot2|ctrl": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot0|A": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot0|B": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot0|C": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot0|ctrl": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot1|A": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot1|B": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot1|C": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot1|ctrl": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot2|A": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot2|B": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot2|C": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T5|rot2|ctrl": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot0|A": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot0|B": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot0|C": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot0|ctrl": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot1|A": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot1|B": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot1|C": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot1|ctrl": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot2|A": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot2|B": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot2|C": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T6|rot2|ctrl": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot0|A": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot0|B": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot0|C": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot0|ctrl": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot1|A": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot1|B": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot1|C": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot1|ctrl": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot2|A": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot2|B": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot2|C": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 87,
+   "interior_n": 12
+  },
+  "bare_directed|C2|T7|rot2|ctrl": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 83,
+   "interior_n": 12
+  },
+  "bare_directed|C3|T0|rot0|A": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T0|rot0|B": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T0|rot0|C": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T0|rot0|ctrl": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T0|rot1|A": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T0|rot1|B": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T0|rot1|C": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T0|rot1|ctrl": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T0|rot2|A": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T0|rot2|B": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T0|rot2|C": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T0|rot2|ctrl": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot0|A": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot0|B": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot0|C": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot0|ctrl": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot1|A": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot1|B": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot1|C": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot1|ctrl": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot2|A": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot2|B": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot2|C": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T1|rot2|ctrl": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot0|A": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot0|B": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot0|C": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot0|ctrl": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot1|A": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot1|B": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot1|C": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot1|ctrl": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot2|A": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot2|B": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot2|C": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T2|rot2|ctrl": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot0|A": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot0|B": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot0|C": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot0|ctrl": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot1|A": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot1|B": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot1|C": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot1|ctrl": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot2|A": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot2|B": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot2|C": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T3|rot2|ctrl": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot0|A": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot0|B": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot0|C": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot0|ctrl": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot1|A": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot1|B": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot1|C": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot1|ctrl": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot2|A": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot2|B": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot2|C": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T4|rot2|ctrl": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot0|A": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot0|B": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot0|C": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot0|ctrl": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot1|A": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot1|B": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot1|C": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot1|ctrl": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot2|A": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot2|B": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot2|C": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T5|rot2|ctrl": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot0|A": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot0|B": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot0|C": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot0|ctrl": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot1|A": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot1|B": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot1|C": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot1|ctrl": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot2|A": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot2|B": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot2|C": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T6|rot2|ctrl": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot0|A": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot0|B": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot0|C": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot0|ctrl": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot1|A": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot1|B": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot1|C": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot1|ctrl": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot2|A": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "A",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot2|B": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "B",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot2|C": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "C",
+   "n_tokens": 121,
+   "interior_n": 29
+  },
+  "bare_directed|C3|T7|rot2|ctrl": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "pres": "bare",
+   "wording": "directed",
+   "arm": "ctrl",
+   "n_tokens": 117,
+   "interior_n": 29
+  }
+ },
+ "renderings": [
+  "quoted_copy",
+  "quoted_directed",
+  "bare_copy",
+  "bare_directed"
+ ],
+ "triples": [
+  [
+   "cat",
+   "dress",
+   "snake"
+  ],
+  [
+   "turtle",
+   "airport",
+   "fish"
+  ],
+  [
+   "library",
+   "toy",
+   "dish"
+  ],
+  [
+   "moon",
+   "fort",
+   "heart"
+  ],
+  [
+   "bubble",
+   "rug",
+   "bear"
+  ],
+  [
+   "coal",
+   "card",
+   "lake"
+  ],
+  [
+   "glass",
+   "silver",
+   "river"
+  ],
+  [
+   "shield",
+   "monkey",
+   "queen"
+  ]
+ ],
+ "donor": {
+  "cat": "turtle",
+  "dress": "airport",
+  "snake": "fish",
+  "turtle": "library",
+  "airport": "toy",
+  "fish": "dish",
+  "library": "moon",
+  "toy": "fort",
+  "dish": "heart",
+  "moon": "bubble",
+  "fort": "rug",
+  "heart": "bear",
+  "bubble": "coal",
+  "rug": "card",
+  "bear": "lake",
+  "coal": "glass",
+  "card": "silver",
+  "lake": "river",
+  "glass": "shield",
+  "silver": "monkey",
+  "river": "queen",
+  "shield": "cat",
+  "monkey": "dress",
+  "queen": "snake"
+ },
+ "columns": [
+  "cat",
+  "dress",
+  "snake",
+  "turtle",
+  "airport",
+  "fish",
+  "library",
+  "toy",
+  "dish",
+  "moon",
+  "fort",
+  "heart",
+  "bubble",
+  "rug",
+  "bear",
+  "coal",
+  "card",
+  "lake",
+  "glass",
+  "silver",
+  "river",
+  "shield",
+  "monkey",
+  "queen",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers": [
+  "C2",
+  "C3"
+ ],
+ "arms": [
+  "A",
+  "B",
+  "C",
+  "ctrl"
+ ],
+ "rank_layers": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59
+ ],
+ "l_state": 35,
+ "l_x": 36,
+ "stage": "tagged",
+ "run_id": "20260907T031044Z",
+ "n_forwards": 6144,
+ "elapsed_s": 1638.4,
+ "token_ids": {
+  "cat": 7993,
+  "dress": 8250,
+  "snake": 24463,
+  "turtle": 34895,
+  "airport": 16242,
+  "fish": 7397,
+  "library": 6522,
+  "toy": 20701,
+  "dish": 11659,
+  "moon": 17257,
+  "fort": 11506,
+  "heart": 4593,
+  "bubble": 22873,
+  "rug": 27706,
+  "bear": 11385,
+  "coal": 11166,
+  "card": 3575,
+  "lake": 21128,
+  "glass": 8720,
+  "silver": 14527,
+  "river": 14367,
+  "shield": 19629,
+  "monkey": 37421,
+  "queen": 27000,
+  "anchor": 16602,
+  "apple": 22544,
+  "arrow": 17385,
+  "badge": 23213,
+  "basket": 13621,
+  "bread": 15530,
+  "brick": 24051,
+  "bridge": 13759
+ }
+}

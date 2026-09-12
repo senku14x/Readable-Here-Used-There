@@ -1,0 +1,961 @@
+{
+ "cells": {
+  "gate|C0|birds|maintain": {
+   "cats": [
+    "birds"
+   ],
+   "cond": "maintain",
+   "n_tokens": 83,
+   "interior_n": 19
+  },
+  "gate|C0|birds|mention": {
+   "cats": [
+    "birds"
+   ],
+   "cond": "mention",
+   "n_tokens": 83,
+   "interior_n": 19
+  },
+  "gate|C0|birds|absent": {
+   "cats": [
+    "birds"
+   ],
+   "cond": "absent",
+   "n_tokens": 79,
+   "interior_n": 19
+  },
+  "gate|C0|fish|maintain": {
+   "cats": [
+    "fish"
+   ],
+   "cond": "maintain",
+   "n_tokens": 83,
+   "interior_n": 19
+  },
+  "gate|C0|fish|mention": {
+   "cats": [
+    "fish"
+   ],
+   "cond": "mention",
+   "n_tokens": 83,
+   "interior_n": 19
+  },
+  "gate|C0|fish|absent": {
+   "cats": [
+    "fish"
+   ],
+   "cond": "absent",
+   "n_tokens": 79,
+   "interior_n": 19
+  },
+  "gate|C0|insects|maintain": {
+   "cats": [
+    "insects"
+   ],
+   "cond": "maintain",
+   "n_tokens": 84,
+   "interior_n": 19
+  },
+  "gate|C0|insects|mention": {
+   "cats": [
+    "insects"
+   ],
+   "cond": "mention",
+   "n_tokens": 84,
+   "interior_n": 19
+  },
+  "gate|C0|insects|absent": {
+   "cats": [
+    "insects"
+   ],
+   "cond": "absent",
+   "n_tokens": 79,
+   "interior_n": 19
+  },
+  "gate|C0|tools|maintain": {
+   "cats": [
+    "tools"
+   ],
+   "cond": "maintain",
+   "n_tokens": 83,
+   "interior_n": 19
+  },
+  "gate|C0|tools|mention": {
+   "cats": [
+    "tools"
+   ],
+   "cond": "mention",
+   "n_tokens": 83,
+   "interior_n": 19
+  },
+  "gate|C0|tools|absent": {
+   "cats": [
+    "tools"
+   ],
+   "cond": "absent",
+   "n_tokens": 79,
+   "interior_n": 19
+  },
+  "gate|C0|vehicles|maintain": {
+   "cats": [
+    "vehicles"
+   ],
+   "cond": "maintain",
+   "n_tokens": 83,
+   "interior_n": 19
+  },
+  "gate|C0|vehicles|mention": {
+   "cats": [
+    "vehicles"
+   ],
+   "cond": "mention",
+   "n_tokens": 83,
+   "interior_n": 19
+  },
+  "gate|C0|vehicles|absent": {
+   "cats": [
+    "vehicles"
+   ],
+   "cond": "absent",
+   "n_tokens": 79,
+   "interior_n": 19
+  },
+  "gate|C0|furniture|maintain": {
+   "cats": [
+    "furniture"
+   ],
+   "cond": "maintain",
+   "n_tokens": 84,
+   "interior_n": 19
+  },
+  "gate|C0|furniture|mention": {
+   "cats": [
+    "furniture"
+   ],
+   "cond": "mention",
+   "n_tokens": 84,
+   "interior_n": 19
+  },
+  "gate|C0|furniture|absent": {
+   "cats": [
+    "furniture"
+   ],
+   "cond": "absent",
+   "n_tokens": 79,
+   "interior_n": 19
+  },
+  "gate|C0|mammals|maintain": {
+   "cats": [
+    "mammals"
+   ],
+   "cond": "maintain",
+   "n_tokens": 85,
+   "interior_n": 19
+  },
+  "gate|C0|mammals|mention": {
+   "cats": [
+    "mammals"
+   ],
+   "cond": "mention",
+   "n_tokens": 85,
+   "interior_n": 19
+  },
+  "gate|C0|mammals|absent": {
+   "cats": [
+    "mammals"
+   ],
+   "cond": "absent",
+   "n_tokens": 79,
+   "interior_n": 19
+  },
+  "gate|C0|vegetables|maintain": {
+   "cats": [
+    "vegetables"
+   ],
+   "cond": "maintain",
+   "n_tokens": 84,
+   "interior_n": 19
+  },
+  "gate|C0|vegetables|mention": {
+   "cats": [
+    "vegetables"
+   ],
+   "cond": "mention",
+   "n_tokens": 84,
+   "interior_n": 19
+  },
+  "gate|C0|vegetables|absent": {
+   "cats": [
+    "vegetables"
+   ],
+   "cond": "absent",
+   "n_tokens": 79,
+   "interior_n": 19
+  },
+  "gate|C1|birds|maintain": {
+   "cats": [
+    "birds"
+   ],
+   "cond": "maintain",
+   "n_tokens": 85,
+   "interior_n": 20
+  },
+  "gate|C1|birds|mention": {
+   "cats": [
+    "birds"
+   ],
+   "cond": "mention",
+   "n_tokens": 85,
+   "interior_n": 20
+  },
+  "gate|C1|birds|absent": {
+   "cats": [
+    "birds"
+   ],
+   "cond": "absent",
+   "n_tokens": 81,
+   "interior_n": 20
+  },
+  "gate|C1|fish|maintain": {
+   "cats": [
+    "fish"
+   ],
+   "cond": "maintain",
+   "n_tokens": 85,
+   "interior_n": 20
+  },
+  "gate|C1|fish|mention": {
+   "cats": [
+    "fish"
+   ],
+   "cond": "mention",
+   "n_tokens": 85,
+   "interior_n": 20
+  },
+  "gate|C1|fish|absent": {
+   "cats": [
+    "fish"
+   ],
+   "cond": "absent",
+   "n_tokens": 81,
+   "interior_n": 20
+  },
+  "gate|C1|insects|maintain": {
+   "cats": [
+    "insects"
+   ],
+   "cond": "maintain",
+   "n_tokens": 86,
+   "interior_n": 20
+  },
+  "gate|C1|insects|mention": {
+   "cats": [
+    "insects"
+   ],
+   "cond": "mention",
+   "n_tokens": 86,
+   "interior_n": 20
+  },
+  "gate|C1|insects|absent": {
+   "cats": [
+    "insects"
+   ],
+   "cond": "absent",
+   "n_tokens": 81,
+   "interior_n": 20
+  },
+  "gate|C1|tools|maintain": {
+   "cats": [
+    "tools"
+   ],
+   "cond": "maintain",
+   "n_tokens": 85,
+   "interior_n": 20
+  },
+  "gate|C1|tools|mention": {
+   "cats": [
+    "tools"
+   ],
+   "cond": "mention",
+   "n_tokens": 85,
+   "interior_n": 20
+  },
+  "gate|C1|tools|absent": {
+   "cats": [
+    "tools"
+   ],
+   "cond": "absent",
+   "n_tokens": 81,
+   "interior_n": 20
+  },
+  "gate|C1|vehicles|maintain": {
+   "cats": [
+    "vehicles"
+   ],
+   "cond": "maintain",
+   "n_tokens": 85,
+   "interior_n": 20
+  },
+  "gate|C1|vehicles|mention": {
+   "cats": [
+    "vehicles"
+   ],
+   "cond": "mention",
+   "n_tokens": 85,
+   "interior_n": 20
+  },
+  "gate|C1|vehicles|absent": {
+   "cats": [
+    "vehicles"
+   ],
+   "cond": "absent",
+   "n_tokens": 81,
+   "interior_n": 20
+  },
+  "gate|C1|furniture|maintain": {
+   "cats": [
+    "furniture"
+   ],
+   "cond": "maintain",
+   "n_tokens": 86,
+   "interior_n": 20
+  },
+  "gate|C1|furniture|mention": {
+   "cats": [
+    "furniture"
+   ],
+   "cond": "mention",
+   "n_tokens": 86,
+   "interior_n": 20
+  },
+  "gate|C1|furniture|absent": {
+   "cats": [
+    "furniture"
+   ],
+   "cond": "absent",
+   "n_tokens": 81,
+   "interior_n": 20
+  },
+  "gate|C1|mammals|maintain": {
+   "cats": [
+    "mammals"
+   ],
+   "cond": "maintain",
+   "n_tokens": 87,
+   "interior_n": 20
+  },
+  "gate|C1|mammals|mention": {
+   "cats": [
+    "mammals"
+   ],
+   "cond": "mention",
+   "n_tokens": 87,
+   "interior_n": 20
+  },
+  "gate|C1|mammals|absent": {
+   "cats": [
+    "mammals"
+   ],
+   "cond": "absent",
+   "n_tokens": 81,
+   "interior_n": 20
+  },
+  "gate|C1|vegetables|maintain": {
+   "cats": [
+    "vegetables"
+   ],
+   "cond": "maintain",
+   "n_tokens": 86,
+   "interior_n": 20
+  },
+  "gate|C1|vegetables|mention": {
+   "cats": [
+    "vegetables"
+   ],
+   "cond": "mention",
+   "n_tokens": 86,
+   "interior_n": 20
+  },
+  "gate|C1|vegetables|absent": {
+   "cats": [
+    "vegetables"
+   ],
+   "cond": "absent",
+   "n_tokens": 81,
+   "interior_n": 20
+  },
+  "gate|C3|birds|maintain": {
+   "cats": [
+    "birds"
+   ],
+   "cond": "maintain",
+   "n_tokens": 103,
+   "interior_n": 29
+  },
+  "gate|C3|birds|mention": {
+   "cats": [
+    "birds"
+   ],
+   "cond": "mention",
+   "n_tokens": 103,
+   "interior_n": 29
+  },
+  "gate|C3|birds|absent": {
+   "cats": [
+    "birds"
+   ],
+   "cond": "absent",
+   "n_tokens": 99,
+   "interior_n": 29
+  },
+  "gate|C3|fish|maintain": {
+   "cats": [
+    "fish"
+   ],
+   "cond": "maintain",
+   "n_tokens": 103,
+   "interior_n": 29
+  },
+  "gate|C3|fish|mention": {
+   "cats": [
+    "fish"
+   ],
+   "cond": "mention",
+   "n_tokens": 103,
+   "interior_n": 29
+  },
+  "gate|C3|fish|absent": {
+   "cats": [
+    "fish"
+   ],
+   "cond": "absent",
+   "n_tokens": 99,
+   "interior_n": 29
+  },
+  "gate|C3|insects|maintain": {
+   "cats": [
+    "insects"
+   ],
+   "cond": "maintain",
+   "n_tokens": 104,
+   "interior_n": 29
+  },
+  "gate|C3|insects|mention": {
+   "cats": [
+    "insects"
+   ],
+   "cond": "mention",
+   "n_tokens": 104,
+   "interior_n": 29
+  },
+  "gate|C3|insects|absent": {
+   "cats": [
+    "insects"
+   ],
+   "cond": "absent",
+   "n_tokens": 99,
+   "interior_n": 29
+  },
+  "gate|C3|tools|maintain": {
+   "cats": [
+    "tools"
+   ],
+   "cond": "maintain",
+   "n_tokens": 103,
+   "interior_n": 29
+  },
+  "gate|C3|tools|mention": {
+   "cats": [
+    "tools"
+   ],
+   "cond": "mention",
+   "n_tokens": 103,
+   "interior_n": 29
+  },
+  "gate|C3|tools|absent": {
+   "cats": [
+    "tools"
+   ],
+   "cond": "absent",
+   "n_tokens": 99,
+   "interior_n": 29
+  },
+  "gate|C3|vehicles|maintain": {
+   "cats": [
+    "vehicles"
+   ],
+   "cond": "maintain",
+   "n_tokens": 103,
+   "interior_n": 29
+  },
+  "gate|C3|vehicles|mention": {
+   "cats": [
+    "vehicles"
+   ],
+   "cond": "mention",
+   "n_tokens": 103,
+   "interior_n": 29
+  },
+  "gate|C3|vehicles|absent": {
+   "cats": [
+    "vehicles"
+   ],
+   "cond": "absent",
+   "n_tokens": 99,
+   "interior_n": 29
+  },
+  "gate|C3|furniture|maintain": {
+   "cats": [
+    "furniture"
+   ],
+   "cond": "maintain",
+   "n_tokens": 104,
+   "interior_n": 29
+  },
+  "gate|C3|furniture|mention": {
+   "cats": [
+    "furniture"
+   ],
+   "cond": "mention",
+   "n_tokens": 104,
+   "interior_n": 29
+  },
+  "gate|C3|furniture|absent": {
+   "cats": [
+    "furniture"
+   ],
+   "cond": "absent",
+   "n_tokens": 99,
+   "interior_n": 29
+  },
+  "gate|C3|mammals|maintain": {
+   "cats": [
+    "mammals"
+   ],
+   "cond": "maintain",
+   "n_tokens": 105,
+   "interior_n": 29
+  },
+  "gate|C3|mammals|mention": {
+   "cats": [
+    "mammals"
+   ],
+   "cond": "mention",
+   "n_tokens": 105,
+   "interior_n": 29
+  },
+  "gate|C3|mammals|absent": {
+   "cats": [
+    "mammals"
+   ],
+   "cond": "absent",
+   "n_tokens": 99,
+   "interior_n": 29
+  },
+  "gate|C3|vegetables|maintain": {
+   "cats": [
+    "vegetables"
+   ],
+   "cond": "maintain",
+   "n_tokens": 104,
+   "interior_n": 29
+  },
+  "gate|C3|vegetables|mention": {
+   "cats": [
+    "vegetables"
+   ],
+   "cond": "mention",
+   "n_tokens": 104,
+   "interior_n": 29
+  },
+  "gate|C3|vegetables|absent": {
+   "cats": [
+    "vegetables"
+   ],
+   "cond": "absent",
+   "n_tokens": 99,
+   "interior_n": 29
+  }
+ },
+ "members": {
+  "birds": [
+   "owl",
+   "duck",
+   "goose",
+   "pigeon"
+  ],
+  "fish": [
+   "cod",
+   "carp",
+   "bass",
+   "perch"
+  ],
+  "insects": [
+   "beetle",
+   "moth",
+   "fly",
+   "mosquito"
+  ],
+  "tools": [
+   "hammer",
+   "saw",
+   "drill",
+   "axe"
+  ],
+  "vehicles": [
+   "car",
+   "bicycle",
+   "motorcycle",
+   "scooter"
+  ],
+  "furniture": [
+   "desk",
+   "bed",
+   "stool",
+   "dresser"
+  ],
+  "mammals": [
+   "horse",
+   "rabbit",
+   "mouse",
+   "camel"
+  ],
+  "vegetables": [
+   "cabbage",
+   "spinach",
+   "broccoli",
+   "celery"
+  ]
+ },
+ "eligible": [
+  "birds",
+  "fish",
+  "insects",
+  "tools",
+  "vehicles",
+  "furniture",
+  "mammals",
+  "vegetables"
+ ],
+ "primary": [
+  "birds",
+  "fish",
+  "insects",
+  "tools",
+  "vehicles",
+  "furniture"
+ ],
+ "readout_only": [
+  "mammals",
+  "vegetables"
+ ],
+ "triples": [
+  [
+   "birds",
+   "fish",
+   "insects"
+  ],
+  [
+   "tools",
+   "vehicles",
+   "furniture"
+  ],
+  [
+   "fish",
+   "insects",
+   "tools"
+  ],
+  [
+   "vehicles",
+   "furniture",
+   "birds"
+  ],
+  [
+   "birds",
+   "insects",
+   "vehicles"
+  ],
+  [
+   "tools",
+   "furniture",
+   "fish"
+  ],
+  [
+   "birds",
+   "fish",
+   "furniture"
+  ],
+  [
+   "tools",
+   "vehicles",
+   "insects"
+  ]
+ ],
+ "ro_triples": [
+  [
+   "mammals",
+   "vegetables",
+   "tools"
+  ],
+  [
+   "mammals",
+   "vegetables",
+   "vehicles"
+  ]
+ ],
+ "partner": {
+  "birds fish insects": [
+   "tools",
+   "vehicles",
+   "furniture"
+  ],
+  "tools vehicles furniture": [
+   "birds",
+   "fish",
+   "insects"
+  ],
+  "fish insects tools": [
+   "vehicles",
+   "furniture",
+   "birds"
+  ],
+  "vehicles furniture birds": [
+   "fish",
+   "insects",
+   "tools"
+  ],
+  "birds insects vehicles": [
+   "tools",
+   "furniture",
+   "fish"
+  ],
+  "tools furniture fish": [
+   "birds",
+   "insects",
+   "vehicles"
+  ],
+  "birds fish furniture": [
+   "tools",
+   "vehicles",
+   "insects"
+  ],
+  "tools vehicles insects": [
+   "birds",
+   "fish",
+   "furniture"
+  ]
+ },
+ "columns": [
+  "owl",
+  "duck",
+  "goose",
+  "pigeon",
+  "cod",
+  "carp",
+  "bass",
+  "perch",
+  "beetle",
+  "moth",
+  "fly",
+  "mosquito",
+  "hammer",
+  "saw",
+  "drill",
+  "axe",
+  "car",
+  "bicycle",
+  "motorcycle",
+  "scooter",
+  "desk",
+  "bed",
+  "stool",
+  "dresser",
+  "horse",
+  "rabbit",
+  "mouse",
+  "camel",
+  "cabbage",
+  "spinach",
+  "broccoli",
+  "celery",
+  "birds",
+  "fish",
+  "insects",
+  "tools",
+  "vehicles",
+  "furniture",
+  "mammals",
+  "vegetables",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers": [
+  "C0",
+  "C1",
+  "C3"
+ ],
+ "arms": [
+  "A",
+  "B",
+  "C",
+  "ctrl"
+ ],
+ "rank_layers": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59
+ ],
+ "l_state": 35,
+ "l_x": 36,
+ "axis_heldout_margin_L36_50": {
+  "birds->fish": 38.29955291748047,
+  "birds->insects": 32.08632278442383,
+  "birds->tools": 39.740989685058594,
+  "birds->vehicles": 42.68113327026367,
+  "birds->furniture": 42.48094940185547,
+  "birds->mammals": 27.266122817993164,
+  "birds->vegetables": 44.747135162353516,
+  "fish->birds": 38.29955291748047,
+  "fish->insects": 40.16444396972656,
+  "fish->tools": 32.67238998413086,
+  "fish->vehicles": 44.597015380859375,
+  "fish->furniture": 37.64540481567383,
+  "fish->mammals": 39.091365814208984,
+  "fish->vegetables": 43.41908645629883,
+  "insects->birds": 32.08632278442383,
+  "insects->fish": 40.16444396972656,
+  "insects->tools": 39.41719055175781,
+  "insects->vehicles": 42.47545623779297,
+  "insects->furniture": 42.66422653198242,
+  "insects->mammals": 33.8565788269043,
+  "insects->vegetables": 44.98707962036133,
+  "tools->birds": 39.740989685058594,
+  "tools->fish": 32.67238998413086,
+  "tools->insects": 39.41719055175781,
+  "tools->vehicles": 42.5608024597168,
+  "tools->furniture": 35.36328125,
+  "tools->mammals": 38.96887969970703,
+  "tools->vegetables": 46.90679931640625,
+  "vehicles->birds": 42.68113327026367,
+  "vehicles->fish": 44.597015380859375,
+  "vehicles->insects": 42.47545623779297,
+  "vehicles->tools": 42.5608024597168,
+  "vehicles->furniture": 40.956398010253906,
+  "vehicles->mammals": 36.446929931640625,
+  "vehicles->vegetables": 48.09710693359375,
+  "furniture->birds": 42.48094940185547,
+  "furniture->fish": 37.64540481567383,
+  "furniture->insects": 42.66422653198242,
+  "furniture->tools": 35.36328125,
+  "furniture->vehicles": 40.956398010253906,
+  "furniture->mammals": 41.25503158569336,
+  "furniture->vegetables": 47.289127349853516,
+  "mammals->birds": 27.266122817993164,
+  "mammals->fish": 39.091365814208984,
+  "mammals->insects": 33.8565788269043,
+  "mammals->tools": 38.96887969970703,
+  "mammals->vehicles": 36.446929931640625,
+  "mammals->furniture": 41.25503158569336,
+  "mammals->vegetables": 45.504791259765625,
+  "vegetables->birds": 44.747135162353516,
+  "vegetables->fish": 43.41908645629883,
+  "vegetables->insects": 44.98707962036133,
+  "vegetables->tools": 46.90679931640625,
+  "vegetables->vehicles": 48.09710693359375,
+  "vegetables->furniture": 47.289127349853516,
+  "vegetables->mammals": 45.504791259765625
+ },
+ "stage": "gate",
+ "run_id": "20260907T020651Z",
+ "n_forwards": 72,
+ "elapsed_s": 126.2,
+ "token_ids": {
+  "owl": 50514,
+  "duck": 34793,
+  "goose": 60042,
+  "pigeon": 89350,
+  "cod": 19712,
+  "carp": 37357,
+  "bass": 20869,
+  "perch": 40502,
+  "beetle": 94027,
+  "moth": 93732,
+  "fly": 11137,
+  "mosquito": 47881,
+  "hammer": 22725,
+  "saw": 5312,
+  "drill": 29548,
+  "axe": 48765,
+  "car": 1740,
+  "bicycle": 33828,
+  "motorcycle": 33168,
+  "scooter": 72486,
+  "desk": 17471,
+  "bed": 4690,
+  "stool": 60945,
+  "dresser": 92233,
+  "horse": 14780,
+  "rabbit": 37442,
+  "mouse": 8380,
+  "camel": 47502,
+  "cabbage": 71265,
+  "spinach": 65416,
+  "broccoli": 75498,
+  "celery": 66686,
+  "birds": 19053,
+  "fish": 7397,
+  "insects": 39465,
+  "tools": 7141,
+  "vehicles": 11145,
+  "furniture": 14130,
+  "mammals": 53702,
+  "vegetables": 23133,
+  "anchor": 16602,
+  "apple": 22544,
+  "arrow": 17385,
+  "badge": 23213,
+  "basket": 13621,
+  "bread": 15530,
+  "brick": 24051,
+  "bridge": 13759
+ }
+}

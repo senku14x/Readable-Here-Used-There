@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<02:24,  4.88it/s]Loading weights:   0%|          | 2/707 [00:00<02:33,  4.60it/s]Loading weights:   1%|          | 6/707 [00:00<00:50, 13.82it/s]Loading weights:   2%|▏         | 15/707 [00:00<00:21, 32.52it/s]Loading weights:   4%|▎         | 26/707 [00:00<00:13, 51.47it/s]Loading weights:   5%|▍         | 33/707 [00:00<00:12, 53.62it/s]Loading weights:   6%|▌         | 39/707 [00:01<00:13, 48.04it/s]Loading weights:   7%|▋         | 49/707 [00:01<00:12, 54.43it/s]Loading weights:   8%|▊         | 58/707 [00:01<00:11, 58.10it/s]Loading weights:   9%|▉         | 65/707 [00:01<00:11, 54.39it/s]Loading weights:  10%|█         | 72/707 [00:01<00:12, 51.98it/s]Loading weights:  12%|█▏        | 82/707 [00:01<00:10, 59.08it/s]Loading weights:  13%|█▎        | 92/707 [00:01<00:09, 62.43it/s]Loading weights:  14%|█▍        | 99/707 [00:02<00:09, 62.13it/s]Loading weights:  15%|█▍        | 106/707 [00:02<00:11, 52.57it/s]Loading weights:  16%|█▋        | 115/707 [00:02<00:10, 56.30it/s]Loading weights:  18%|█▊        | 124/707 [00:02<00:09, 59.27it/s]Loading weights:  19%|█▊        | 131/707 [00:02<00:09, 59.14it/s]Loading weights:  20%|█▉        | 138/707 [00:02<00:10, 51.95it/s]Loading weights:  21%|██        | 148/707 [00:02<00:09, 57.11it/s]Loading weights:  22%|██▏       | 158/707 [00:03<00:09, 55.39it/s]Loading weights:  24%|██▍       | 169/707 [00:03<00:08, 60.33it/s]Loading weights:  25%|██▍       | 176/707 [00:03<00:09, 58.26it/s]Loading weights:  26%|██▌       | 182/707 [00:03<00:10, 49.22it/s]Loading weights:  27%|██▋       | 192/707 [00:03<00:09, 53.48it/s]Loading weights:  29%|██▊       | 202/707 [00:03<00:08, 58.42it/s]Loading weights:  29%|██▉       | 208/707 [00:04<00:09, 54.91it/s]Loading weights:  30%|███       | 214/707 [00:04<00:09, 52.60it/s]Loading weights:  32%|███▏      | 224/707 [00:04<00:08, 57.50it/s]Loading weights:  33%|███▎      | 230/707 [00:04<00:09, 52.99it/s]Loading weights:  33%|███▎      | 236/707 [00:04<00:09, 49.94it/s]Loading weights:  34%|███▍      | 243/707 [00:04<00:08, 54.45it/s]Loading weights:  35%|███▌      | 249/707 [00:04<00:09, 47.39it/s]Loading weights:  36%|███▋      | 258/707 [00:05<00:08, 50.37it/s]Loading weights:  37%|███▋      | 265/707 [00:05<00:08, 54.34it/s]Loading weights:  38%|███▊      | 271/707 [00:05<00:09, 46.74it/s]Loading weights:  39%|███▉      | 279/707 [00:05<00:07, 53.95it/s]Loading weights:  40%|████      | 285/707 [00:05<00:08, 50.49it/s]Loading weights:  41%|████      | 291/707 [00:05<00:08, 48.98it/s]Loading weights:  42%|████▏     | 298/707 [00:05<00:07, 53.75it/s]Loading weights:  43%|████▎     | 304/707 [00:05<00:08, 46.50it/s]Loading weights:  44%|████▍     | 312/707 [00:06<00:08, 47.77it/s]Loading weights:  45%|████▌     | 321/707 [00:06<00:06, 57.19it/s]Loading weights:  46%|████▋     | 328/707 [00:06<00:07, 50.18it/s]Loading weights:  47%|████▋     | 335/707 [00:06<00:07, 48.96it/s]Loading weights:  48%|████▊     | 342/707 [00:06<00:06, 53.65it/s]Loading weights:  49%|████▉     | 348/707 [00:06<00:07, 47.20it/s]Loading weights:  50%|█████     | 356/707 [00:06<00:06, 54.22it/s]Loading weights:  51%|█████     | 362/707 [00:07<00:06, 50.72it/s]Loading weights:  52%|█████▏    | 368/707 [00:07<00:06, 49.31it/s]Loading weights:  53%|█████▎    | 375/707 [00:07<00:06, 54.26it/s]Loading weights:  54%|█████▍    | 381/707 [00:07<00:06, 49.20it/s]Loading weights:  55%|█████▌    | 390/707 [00:07<00:05, 53.34it/s]Loading weights:  57%|█████▋    | 400/707 [00:07<00:04, 61.99it/s]Loading weights:  58%|█████▊    | 407/707 [00:07<00:05, 58.68it/s]Loading weights:  59%|█████▊    | 414/707 [00:07<00:05, 55.69it/s]Loading weights:  60%|█████▉    | 423/707 [00:08<00:04, 57.35it/s]Loading weights:  61%|██████    | 433/707 [00:08<00:04, 63.48it/s]Loading weights:  62%|██████▏   | 440/707 [00:08<00:04, 59.55it/s]Loading weights:  63%|██████▎   | 447/707 [00:08<00:04, 52.01it/s]Loading weights:  64%|██████▍   | 456/707 [00:08<00:04, 55.36it/s]Loading weights:  65%|██████▌   | 463/707 [00:08<00:04, 58.40it/s]Loading weights:  66%|██████▋   | 470/707 [00:08<00:04, 51.52it/s]Loading weights:  68%|██████▊   | 478/707 [00:09<00:04, 52.15it/s]Loading weights:  69%|██████▊   | 485/707 [00:09<00:03, 55.81it/s]Loading weights:  69%|██████▉   | 491/707 [00:09<00:04, 48.48it/s]Loading weights:  71%|███████   | 499/707 [00:09<00:03, 55.46it/s]Loading weights:  71%|███████▏  | 505/707 [00:09<00:03, 50.74it/s]Loading weights:  72%|███████▏  | 511/707 [00:09<00:04, 48.40it/s]Loading weights:  73%|███████▎  | 519/707 [00:09<00:03, 55.83it/s]Loading weights:  74%|███████▍  | 525/707 [00:10<00:03, 48.21it/s]Loading weights:  75%|███████▌  | 533/707 [00:10<00:03, 49.02it/s]Loading weights:  76%|███████▋  | 540/707 [00:10<00:03, 53.59it/s]Loading weights:  77%|███████▋  | 546/707 [00:10<00:03, 46.58it/s]Loading weights:  79%|███████▊  | 555/707 [00:10<00:02, 51.12it/s]Loading weights:  80%|███████▉  | 564/707 [00:10<00:02, 59.95it/s]Loading weights:  81%|████████  | 571/707 [00:10<00:02, 50.66it/s]Loading weights:  82%|████████▏ | 577/707 [00:11<00:02, 48.99it/s]Loading weights:  83%|████████▎ | 587/707 [00:11<00:02, 55.19it/s]Loading weights:  84%|████████▍ | 593/707 [00:11<00:02, 51.58it/s]Loading weights:  85%|████████▍ | 599/707 [00:11<00:02, 52.47it/s]Loading weights:  86%|████████▌ | 608/707 [00:11<00:01, 56.25it/s]Loading weights:  87%|████████▋ | 614/707 [00:11<00:01, 54.60it/s]Loading weights:  88%|████████▊ | 620/707 [00:11<00:01, 55.60it/s]Loading weights:  89%|████████▊ | 626/707 [00:11<00:01, 51.67it/s]Loading weights:  89%|████████▉ | 632/707 [00:12<00:01, 49.71it/s]Loading weights:  90%|█████████ | 639/707 [00:12<00:01, 54.25it/s]Loading weights:  91%|█████████ | 645/707 [00:12<00:01, 47.56it/s]Loading weights:  93%|█████████▎| 654/707 [00:12<00:01, 51.88it/s]Loading weights:  94%|█████████▍| 664/707 [00:12<00:00, 49.52it/s]Loading weights:  95%|█████████▌| 675/707 [00:12<00:00, 56.28it/s]Loading weights:  96%|█████████▋| 681/707 [00:13<00:00, 52.75it/s]Loading weights:  97%|█████████▋| 687/707 [00:13<00:00, 50.39it/s]Loading weights:  98%|█████████▊| 694/707 [00:13<00:00, 53.13it/s]Loading weights:  99%|█████████▉| 700/707 [00:13<00:00, 44.05it/s]Loading weights: 100%|██████████| 707/707 [00:13<00:00, 52.29it/s]
+  ex-city-capital-Barcelona-Toronto|C0: 45 forwards (5s)
+  ex-city-capital-Barcelona-Toronto|C1: 90 forwards (9s)
+  ex-city-capital-Barcelona-Toronto|C2: 135 forwards (13s)
+  ex-city-capital-Barcelona-Toronto|C3: 180 forwards (17s)
+  ex-city-capital-Lyon-Naples|C0: 225 forwards (21s)
+  ex-city-capital-Lyon-Naples|C1: 270 forwards (26s)
+  ex-city-capital-Lyon-Naples|C2: 315 forwards (30s)
+  ex-city-capital-Lyon-Naples|C3: 360 forwards (34s)
+  ex-city-capital-Naples-Barcelona|C0: 405 forwards (38s)
+  ex-city-capital-Naples-Barcelona|C1: 450 forwards (42s)
+  ex-city-capital-Naples-Barcelona|C2: 495 forwards (47s)
+  ex-city-capital-Naples-Barcelona|C3: 540 forwards (51s)
+  ex-city-capital-Toronto-Lyon|C0: 585 forwards (55s)
+  ex-city-capital-Toronto-Lyon|C1: 630 forwards (59s)
+  ex-city-capital-Toronto-Lyon|C2: 675 forwards (63s)
+  ex-city-capital-Toronto-Lyon|C3: 720 forwards (68s)
+  ex2-city-capital-Munich|C0: 765 forwards (72s)
+  ex2-city-capital-Munich|C1: 810 forwards (76s)
+  ex2-city-capital-Munich|C2: 855 forwards (80s)
+  ex2-city-capital-Munich|C3: 900 forwards (85s)
+  ex2-city-capital-Osaka|C0: 945 forwards (89s)
+  ex2-city-capital-Osaka|C1: 990 forwards (93s)
+  ex2-city-capital-Osaka|C2: 1035 forwards (97s)
+  ex2-city-capital-Osaka|C3: 1080 forwards (101s)
+  ex2-city-language-Cairo|C0: 1125 forwards (106s)
+  ex2-city-language-Cairo|C1: 1170 forwards (110s)
+  ex2-city-language-Cairo|C2: 1215 forwards (114s)
+  ex2-city-language-Cairo|C3: 1260 forwards (118s)
+  ex2-city-language-Moscow|C0: 1305 forwards (122s)
+  ex2-city-language-Moscow|C1: 1350 forwards (127s)
+  ex2-city-language-Moscow|C2: 1395 forwards (131s)
+  ex2-city-language-Moscow|C3: 1440 forwards (135s)
+  ex2-language-capital-Hungarian|C0: 1485 forwards (139s)
+  ex2-language-capital-Hungarian|C1: 1530 forwards (143s)
+  ex2-language-capital-Hungarian|C2: 1575 forwards (148s)
+  ex2-language-capital-Hungarian|C3: 1620 forwards (152s)
+  ex2-language-capital-Polish|C0: 1665 forwards (156s)
+  ex2-language-capital-Polish|C1: 1710 forwards (160s)
+  ex2-language-capital-Polish|C2: 1755 forwards (165s)
+  ex2-language-capital-Polish|C3: 1800 forwards (169s)
+  food-animal-butter|C0: 1889 forwards (177s)
+  food-animal-butter|C1: 1978 forwards (185s)
+  food-animal-butter|C2: 2067 forwards (194s)
+  food-animal-butter|C3: 2156 forwards (202s)
+  food-animal-honey|C0: 2245 forwards (210s)
+  food-animal-honey|C1: 2334 forwards (219s)
+  food-animal-honey|C2: 2423 forwards (227s)
+  food-animal-honey|C3: 2512 forwards (235s)
+  [S_donor0 ] seq margin +33.73 [+28.42,+39.04] (12/12>0) share +1.00 flips 44/48
+  [int_tail ] seq margin +12.33 [ +7.26,+17.40] (12/12>0) share +0.37 flips 20/48
+  [int_clue ] seq margin  +7.28 [ +1.82,+12.73] (12/12>0) share +0.22 flips 8/48
+  [int_carr ] seq margin  +1.47 [ +0.88, +2.07] (11/12>0) share +0.04 flips 4/48
+  [int_q    ] seq margin  +6.39 [ +3.76, +9.01] (12/12>0) share +0.19 flips 5/48
+  [ans_tail ] seq margin +14.78 [ +9.96,+19.60] (11/12>0) share +0.44 flips 18/48
+  [ans_clue ] seq margin  +6.08 [ +1.04,+11.11] (12/12>0) share +0.18 flips 11/48
+  [ans_carr ] seq margin  +1.96 [ +1.33, +2.60] (12/12>0) share +0.06 flips 4/48
+  [ans_q    ] seq margin +14.21 [ +9.41,+19.00] (11/12>0) share +0.42 flips 14/48
+  [rand_tail] seq margin  -0.17 [ -0.34, +0.00] (3/12>0) share -0.01 flips 4/48
+[done bridgeswap_seq] 2512 forwards, 236s

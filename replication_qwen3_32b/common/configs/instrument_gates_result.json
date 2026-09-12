@@ -1,0 +1,2396 @@
+{
+ "meta": {
+  "started": "2026-09-09T16:21:48Z",
+  "elapsed_s": 27.9
+ },
+ "A": {
+  "word_eligibility": {
+   "anchor": {
+    "role": "fit",
+    "space_token_id": 17105,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "apple": {
+    "role": "fit",
+    "space_token_id": 23268,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "arrow": {
+    "role": "fit",
+    "space_token_id": 17921,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "badge": {
+    "role": "fit",
+    "space_token_id": 23961,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "basket": {
+    "role": "fit",
+    "space_token_id": 14024,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "bread": {
+    "role": "fit",
+    "space_token_id": 16002,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "brick": {
+    "role": "fit",
+    "space_token_id": 24837,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "bridge": {
+    "role": "fit",
+    "space_token_id": 14164,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "bucket": {
+    "role": "fit",
+    "space_token_id": 15621,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "button": {
+    "role": "fit",
+    "space_token_id": 3137,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "camel": {
+    "role": "fit",
+    "space_token_id": 49152,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "camera": {
+    "role": "fit",
+    "space_token_id": 6249,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "church": {
+    "role": "fit",
+    "space_token_id": 8817,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "cloud": {
+    "role": "fit",
+    "space_token_id": 9437,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "coffee": {
+    "role": "fit",
+    "space_token_id": 10799,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "compass": {
+    "role": "fit",
+    "space_token_id": 23721,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "orange": {
+    "role": "calibration",
+    "space_token_id": 18575,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "guitar": {
+    "role": "calibration",
+    "space_token_id": 16986,
+    "single_token_space": true,
+    "n_pieces_bare": 2,
+    "carrier_overlap": []
+   },
+   "tiger": {
+    "role": "calibration",
+    "space_token_id": 51735,
+    "single_token_space": true,
+    "n_pieces_bare": 2,
+    "carrier_overlap": []
+   },
+   "mountain": {
+    "role": "calibration",
+    "space_token_id": 16301,
+    "single_token_space": true,
+    "n_pieces_bare": 2,
+    "carrier_overlap": []
+   },
+   "diamond": {
+    "role": "calibration",
+    "space_token_id": 22205,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "thunder": {
+    "role": "calibration",
+    "space_token_id": 36843,
+    "single_token_space": true,
+    "n_pieces_bare": 2,
+    "carrier_overlap": []
+   },
+   "castle": {
+    "role": "calibration",
+    "space_token_id": 32584,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "rocket": {
+    "role": "calibration",
+    "space_token_id": 24306,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "dragon": {
+    "role": "decoys",
+    "space_token_id": 25105,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "drawer": {
+    "role": "decoys",
+    "space_token_id": 26482,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": [
+     "D5"
+    ]
+   },
+   "forest": {
+    "role": "decoys",
+    "space_token_id": 13638,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "fork": {
+    "role": "decoys",
+    "space_token_id": 22435,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "hammer": {
+    "role": "decoys",
+    "space_token_id": 23457,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "horse": {
+    "role": "decoys",
+    "space_token_id": 15223,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "knife": {
+    "role": "decoys",
+    "space_token_id": 21430,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "lion": {
+    "role": "decoys",
+    "space_token_id": 39032,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "cat": {
+    "role": "bank1",
+    "space_token_id": 8251,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "dress": {
+    "role": "bank1",
+    "space_token_id": 8511,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "snake": {
+    "role": "bank1",
+    "space_token_id": 25265,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "turtle": {
+    "role": "bank1",
+    "space_token_id": 36089,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "airport": {
+    "role": "bank1",
+    "space_token_id": 16733,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "fish": {
+    "role": "bank1",
+    "space_token_id": 7640,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "library": {
+    "role": "bank1",
+    "space_token_id": 6733,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": [
+     "D16"
+    ]
+   },
+   "toy": {
+    "role": "bank1",
+    "space_token_id": 21357,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "dish": {
+    "role": "bank1",
+    "space_token_id": 12000,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "moon": {
+    "role": "bank1",
+    "space_token_id": 17788,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "fort": {
+    "role": "bank1",
+    "space_token_id": 11845,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "heart": {
+    "role": "bank1",
+    "space_token_id": 4746,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "bubble": {
+    "role": "bank1",
+    "space_token_id": 23611,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "rug": {
+    "role": "bank1",
+    "space_token_id": 28642,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "bear": {
+    "role": "bank1",
+    "space_token_id": 11722,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "coal": {
+    "role": "bank1",
+    "space_token_id": 11497,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "card": {
+    "role": "bank2",
+    "space_token_id": 3701,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "lake": {
+    "role": "bank2",
+    "space_token_id": 21800,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "glass": {
+    "role": "bank2",
+    "space_token_id": 8991,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "silver": {
+    "role": "bank2",
+    "space_token_id": 14961,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "river": {
+    "role": "bank2",
+    "space_token_id": 14796,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "shield": {
+    "role": "bank2",
+    "space_token_id": 20245,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "monkey": {
+    "role": "bank2",
+    "space_token_id": 38703,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "queen": {
+    "role": "bank2",
+    "space_token_id": 27906,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "king": {
+    "role": "bank2",
+    "space_token_id": 11477,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "paper": {
+    "role": "bank2",
+    "space_token_id": 5567,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "gold": {
+    "role": "bank2",
+    "space_token_id": 6623,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "train": {
+    "role": "bank2",
+    "space_token_id": 5426,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "cup": {
+    "role": "bank2",
+    "space_token_id": 10525,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "engine": {
+    "role": "bank2",
+    "space_token_id": 4712,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   },
+   "letter": {
+    "role": "bank2",
+    "space_token_id": 6524,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": [
+     "D5"
+    ]
+   },
+   "sword": {
+    "role": "bank2",
+    "space_token_id": 20214,
+    "single_token_space": true,
+    "n_pieces_bare": 1,
+    "carrier_overlap": []
+   }
+  },
+  "categories": {
+   "birds": {
+    "shown": [
+     "sparrow",
+     "robin",
+     "eagle"
+    ],
+    "members": {
+     "owl": {
+      "single_token_space": true,
+      "space_token_id": 52269,
+      "carrier_overlap": []
+     },
+     "duck": {
+      "single_token_space": true,
+      "space_token_id": 35985,
+      "carrier_overlap": []
+     },
+     "goose": {
+      "single_token_space": true,
+      "space_token_id": 62137,
+      "carrier_overlap": []
+     },
+     "raven": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "pigeon": {
+      "single_token_space": true,
+      "space_token_id": 92544,
+      "carrier_overlap": []
+     },
+     "swan": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": true,
+    "eligible_unshown_in_order": [
+     "owl",
+     "duck",
+     "goose",
+     "pigeon"
+    ],
+    "K4_ok": true,
+    "K4": [
+     "owl",
+     "duck",
+     "goose",
+     "pigeon"
+    ]
+   },
+   "fish": {
+    "shown": [
+     "salmon",
+     "tuna",
+     "trout"
+    ],
+    "members": {
+     "cod": {
+      "single_token_space": true,
+      "space_token_id": 20329,
+      "carrier_overlap": []
+     },
+     "carp": {
+      "single_token_space": true,
+      "space_token_id": 38639,
+      "carrier_overlap": []
+     },
+     "bass": {
+      "single_token_space": true,
+      "space_token_id": 21529,
+      "carrier_overlap": []
+     },
+     "herring": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "perch": {
+      "single_token_space": true,
+      "space_token_id": 41883,
+      "carrier_overlap": []
+     },
+     "sardine": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": true,
+    "eligible_unshown_in_order": [
+     "cod",
+     "carp",
+     "bass",
+     "perch"
+    ],
+    "K4_ok": true,
+    "K4": [
+     "cod",
+     "carp",
+     "bass",
+     "perch"
+    ]
+   },
+   "insects": {
+    "shown": [
+     "ant",
+     "bee",
+     "wasp"
+    ],
+    "members": {
+     "beetle": {
+      "single_token_space": true,
+      "space_token_id": 97386,
+      "carrier_overlap": []
+     },
+     "moth": {
+      "single_token_space": true,
+      "space_token_id": 97078,
+      "carrier_overlap": []
+     },
+     "fly": {
+      "single_token_space": true,
+      "space_token_id": 11466,
+      "carrier_overlap": []
+     },
+     "mosquito": {
+      "single_token_space": true,
+      "space_token_id": 49546,
+      "carrier_overlap": []
+     },
+     "cricket": {
+      "single_token_space": true,
+      "space_token_id": 35999,
+      "carrier_overlap": []
+     },
+     "butterfly": {
+      "single_token_space": true,
+      "space_token_id": 55169,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": true,
+    "eligible_unshown_in_order": [
+     "beetle",
+     "moth",
+     "fly",
+     "mosquito",
+     "cricket",
+     "butterfly"
+    ],
+    "K4_ok": true,
+    "K4": [
+     "beetle",
+     "moth",
+     "fly",
+     "mosquito"
+    ]
+   },
+   "reptiles": {
+    "shown": [
+     "lizard",
+     "cobra",
+     "python"
+    ],
+    "members": {
+     "turtle": {
+      "single_token_space": true,
+      "space_token_id": 36089,
+      "carrier_overlap": []
+     },
+     "snake": {
+      "single_token_space": true,
+      "space_token_id": 25265,
+      "carrier_overlap": []
+     },
+     "crocodile": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "gecko": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "iguana": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "alligator": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": false,
+    "eligible_unshown_in_order": [
+     "turtle",
+     "snake"
+    ],
+    "K4_ok": false,
+    "K4": [
+     "turtle",
+     "snake"
+    ]
+   },
+   "citrus fruits": {
+    "shown": [
+     "lemon",
+     "lime",
+     "grapefruit"
+    ],
+    "members": {
+     "orange": {
+      "single_token_space": true,
+      "space_token_id": 18575,
+      "carrier_overlap": []
+     },
+     "mandarin": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "tangerine": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "pomelo": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "citron": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "kumquat": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": false,
+    "eligible_unshown_in_order": [
+     "orange"
+    ],
+    "K4_ok": false,
+    "K4": [
+     "orange"
+    ]
+   },
+   "nuts": {
+    "shown": [
+     "almond",
+     "walnut",
+     "cashew"
+    ],
+    "members": {
+     "pecan": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "hazelnut": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "pistachio": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "macadamia": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "chestnut": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "peanut": {
+      "single_token_space": true,
+      "space_token_id": 49833,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": true,
+    "eligible_unshown_in_order": [
+     "peanut"
+    ],
+    "K4_ok": false,
+    "K4": [
+     "peanut"
+    ]
+   },
+   "flowers": {
+    "shown": [
+     "rose",
+     "tulip",
+     "daisy"
+    ],
+    "members": {
+     "lily": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "orchid": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "violet": {
+      "single_token_space": true,
+      "space_token_id": 79736,
+      "carrier_overlap": []
+     },
+     "iris": {
+      "single_token_space": true,
+      "space_token_id": 63942,
+      "carrier_overlap": []
+     },
+     "poppy": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "lotus": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": true,
+    "eligible_unshown_in_order": [
+     "violet",
+     "iris"
+    ],
+    "K4_ok": false,
+    "K4": [
+     "violet",
+     "iris"
+    ]
+   },
+   "trees": {
+    "shown": [
+     "oak",
+     "pine",
+     "birch"
+    ],
+    "members": {
+     "maple": {
+      "single_token_space": true,
+      "space_token_id": 54380,
+      "carrier_overlap": []
+     },
+     "elm": {
+      "single_token_space": true,
+      "space_token_id": 42205,
+      "carrier_overlap": []
+     },
+     "cedar": {
+      "single_token_space": true,
+      "space_token_id": 75296,
+      "carrier_overlap": []
+     },
+     "willow": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "beech": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "spruce": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": true,
+    "eligible_unshown_in_order": [
+     "maple",
+     "elm",
+     "cedar"
+    ],
+    "K4_ok": false,
+    "K4": [
+     "maple",
+     "elm",
+     "cedar"
+    ]
+   },
+   "tools": {
+    "shown": [
+     "wrench",
+     "chisel",
+     "screwdriver"
+    ],
+    "members": {
+     "hammer": {
+      "single_token_space": true,
+      "space_token_id": 23457,
+      "carrier_overlap": []
+     },
+     "saw": {
+      "single_token_space": true,
+      "space_token_id": 5485,
+      "carrier_overlap": []
+     },
+     "drill": {
+      "single_token_space": true,
+      "space_token_id": 30546,
+      "carrier_overlap": []
+     },
+     "pliers": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "axe": {
+      "single_token_space": true,
+      "space_token_id": 50464,
+      "carrier_overlap": []
+     },
+     "shovel": {
+      "single_token_space": true,
+      "space_token_id": 91991,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": true,
+    "eligible_unshown_in_order": [
+     "hammer",
+     "saw",
+     "drill",
+     "axe",
+     "shovel"
+    ],
+    "K4_ok": true,
+    "K4": [
+     "hammer",
+     "saw",
+     "drill",
+     "axe"
+    ]
+   },
+   "mammals": {
+    "shown": [
+     "elephant",
+     "giraffe",
+     "zebra"
+    ],
+    "members": {
+     "horse": {
+      "single_token_space": true,
+      "space_token_id": 15223,
+      "carrier_overlap": []
+     },
+     "rabbit": {
+      "single_token_space": true,
+      "space_token_id": 38724,
+      "carrier_overlap": []
+     },
+     "mouse": {
+      "single_token_space": true,
+      "space_token_id": 8644,
+      "carrier_overlap": []
+     },
+     "camel": {
+      "single_token_space": true,
+      "space_token_id": 49152,
+      "carrier_overlap": []
+     },
+     "cow": {
+      "single_token_space": true,
+      "space_token_id": 19362,
+      "carrier_overlap": []
+     },
+     "sheep": {
+      "single_token_space": true,
+      "space_token_id": 31912,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": true,
+    "eligible_unshown_in_order": [
+     "horse",
+     "rabbit",
+     "mouse",
+     "camel",
+     "cow",
+     "sheep"
+    ],
+    "K4_ok": true,
+    "K4": [
+     "horse",
+     "rabbit",
+     "mouse",
+     "camel"
+    ]
+   },
+   "musical instruments": {
+    "shown": [
+     "piano",
+     "flute",
+     "violin"
+    ],
+    "members": {
+     "guitar": {
+      "single_token_space": true,
+      "space_token_id": 16986,
+      "carrier_overlap": []
+     },
+     "trumpet": {
+      "single_token_space": true,
+      "space_token_id": 91259,
+      "carrier_overlap": []
+     },
+     "drum": {
+      "single_token_space": true,
+      "space_token_id": 23196,
+      "carrier_overlap": []
+     },
+     "harp": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "cello": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "clarinet": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": false,
+    "eligible_unshown_in_order": [
+     "guitar",
+     "trumpet",
+     "drum"
+    ],
+    "K4_ok": false,
+    "K4": [
+     "guitar",
+     "trumpet",
+     "drum"
+    ]
+   },
+   "vegetables": {
+    "shown": [
+     "carrot",
+     "potato",
+     "onion"
+    ],
+    "members": {
+     "cabbage": {
+      "single_token_space": true,
+      "space_token_id": 73773,
+      "carrier_overlap": []
+     },
+     "spinach": {
+      "single_token_space": true,
+      "space_token_id": 67698,
+      "carrier_overlap": []
+     },
+     "broccoli": {
+      "single_token_space": true,
+      "space_token_id": 78176,
+      "carrier_overlap": []
+     },
+     "celery": {
+      "single_token_space": true,
+      "space_token_id": 69021,
+      "carrier_overlap": []
+     },
+     "leek": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "turnip": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": true,
+    "eligible_unshown_in_order": [
+     "cabbage",
+     "spinach",
+     "broccoli",
+     "celery"
+    ],
+    "K4_ok": true,
+    "K4": [
+     "cabbage",
+     "spinach",
+     "broccoli",
+     "celery"
+    ]
+   },
+   "vehicles": {
+    "shown": [
+     "truck",
+     "bus",
+     "tractor"
+    ],
+    "members": {
+     "car": {
+      "single_token_space": true,
+      "space_token_id": 1803,
+      "carrier_overlap": []
+     },
+     "bicycle": {
+      "single_token_space": true,
+      "space_token_id": 34986,
+      "carrier_overlap": []
+     },
+     "motorcycle": {
+      "single_token_space": true,
+      "space_token_id": 34304,
+      "carrier_overlap": []
+     },
+     "scooter": {
+      "single_token_space": true,
+      "space_token_id": 75040,
+      "carrier_overlap": []
+     },
+     "van": {
+      "single_token_space": true,
+      "space_token_id": 5242,
+      "carrier_overlap": []
+     },
+     "train": {
+      "single_token_space": true,
+      "space_token_id": 5426,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": true,
+    "eligible_unshown_in_order": [
+     "car",
+     "bicycle",
+     "motorcycle",
+     "scooter",
+     "van",
+     "train"
+    ],
+    "K4_ok": true,
+    "K4": [
+     "car",
+     "bicycle",
+     "motorcycle",
+     "scooter"
+    ]
+   },
+   "gemstones": {
+    "shown": [
+     "ruby",
+     "jade",
+     "pearl"
+    ],
+    "members": {
+     "diamond": {
+      "single_token_space": true,
+      "space_token_id": 22205,
+      "carrier_overlap": []
+     },
+     "emerald": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "sapphire": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "opal": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "amethyst": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "topaz": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": false,
+    "eligible_unshown_in_order": [
+     "diamond"
+    ],
+    "K4_ok": false,
+    "K4": [
+     "diamond"
+    ]
+   },
+   "furniture": {
+    "shown": [
+     "sofa",
+     "chair",
+     "table"
+    ],
+    "members": {
+     "desk": {
+      "single_token_space": true,
+      "space_token_id": 18010,
+      "carrier_overlap": []
+     },
+     "bed": {
+      "single_token_space": true,
+      "space_token_id": 4845,
+      "carrier_overlap": []
+     },
+     "cabinet": {
+      "single_token_space": true,
+      "space_token_id": 21921,
+      "carrier_overlap": [
+       "C3"
+      ]
+     },
+     "stool": {
+      "single_token_space": true,
+      "space_token_id": 63072,
+      "carrier_overlap": []
+     },
+     "dresser": {
+      "single_token_space": true,
+      "space_token_id": 95537,
+      "carrier_overlap": []
+     },
+     "bench": {
+      "single_token_space": true,
+      "space_token_id": 13425,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": true,
+    "eligible_unshown_in_order": [
+     "desk",
+     "bed",
+     "stool",
+     "dresser",
+     "bench"
+    ],
+    "K4_ok": true,
+    "K4": [
+     "desk",
+     "bed",
+     "stool",
+     "dresser"
+    ]
+   },
+   "ocean creatures": {
+    "shown": [
+     "whale",
+     "dolphin",
+     "squid"
+    ],
+    "members": {
+     "octopus": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "crab": {
+      "single_token_space": true,
+      "space_token_id": 59412,
+      "carrier_overlap": []
+     },
+     "lobster": {
+      "single_token_space": true,
+      "space_token_id": 79715,
+      "carrier_overlap": []
+     },
+     "shrimp": {
+      "single_token_space": true,
+      "space_token_id": 55526,
+      "carrier_overlap": []
+     },
+     "jellyfish": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     },
+     "starfish": {
+      "single_token_space": false,
+      "space_token_id": null,
+      "carrier_overlap": []
+     }
+    },
+    "label_single_token": false,
+    "eligible_unshown_in_order": [
+     "crab",
+     "lobster",
+     "shrimp"
+    ],
+    "K4_ok": false,
+    "K4": [
+     "crab",
+     "lobster",
+     "shrimp"
+    ]
+   }
+  },
+  "ineligible_words": [],
+  "carrier_overlap_words": {
+   "drawer": [
+    "D5"
+   ],
+   "library": [
+    "D16"
+   ],
+   "letter": [
+    "D5"
+   ]
+  },
+  "categories_K4_fail": [
+   "reptiles",
+   "citrus fruits",
+   "nuts",
+   "flowers",
+   "trees",
+   "musical instruments",
+   "gemstones",
+   "ocean creatures"
+  ],
+  "rendering": {
+   "maintain|orange|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 82,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 8,
+     "close": 9,
+     "content": [
+      8
+     ],
+     "full": [
+      7,
+      8,
+      9
+     ]
+    },
+    "carrier": [
+     59,
+     82
+    ],
+    "interior_n": 19,
+    "span_pieces": 1
+   },
+   "mention|orange|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 82,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 8,
+     "close": 9,
+     "content": [
+      8
+     ],
+     "full": [
+      7,
+      8,
+      9
+     ]
+    },
+    "carrier": [
+     59,
+     82
+    ],
+    "interior_n": 19,
+    "span_pieces": 1
+   },
+   "ignore|orange|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 82,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 8,
+     "close": 9,
+     "content": [
+      8
+     ],
+     "full": [
+      7,
+      8,
+      9
+     ]
+    },
+    "carrier": [
+     59,
+     82
+    ],
+    "interior_n": 19,
+    "span_pieces": 1
+   },
+   "do_not_think|orange|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 83,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 8,
+     "close": 9,
+     "content": [
+      8
+     ],
+     "full": [
+      7,
+      8,
+      9
+     ]
+    },
+    "carrier": [
+     60,
+     83
+    ],
+    "interior_n": 19,
+    "span_pieces": 1
+   },
+   "never_think|orange|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 82,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 8,
+     "close": 9,
+     "content": [
+      8
+     ],
+     "full": [
+      7,
+      8,
+      9
+     ]
+    },
+    "carrier": [
+     59,
+     82
+    ],
+    "interior_n": 19,
+    "span_pieces": 1
+   },
+   "plain_mention|orange|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 71,
+    "span": {
+     "open": null,
+     "first": 3,
+     "last": 3,
+     "close": 3,
+     "content": [
+      3
+     ],
+     "full": [
+      3
+     ]
+    }
+   },
+   "absent|orange|C0": {
+    "gates": {
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 78
+   },
+   "pulse_base|orange|C0": {
+    "gates": {
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 68
+   },
+   "direct|hold|orange": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 31
+   },
+   "direct_copy|hold|orange": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 53
+   },
+   "direct|conversation|orange": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 29
+   },
+   "direct_copy|conversation|orange": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 51
+   },
+   "maintain|orange|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 68,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 8,
+     "close": 9,
+     "content": [
+      8
+     ],
+     "full": [
+      7,
+      8,
+      9
+     ]
+    },
+    "carrier": [
+     52,
+     68
+    ],
+    "interior_n": 12,
+    "span_pieces": 1
+   },
+   "mention|orange|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 68,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 8,
+     "close": 9,
+     "content": [
+      8
+     ],
+     "full": [
+      7,
+      8,
+      9
+     ]
+    },
+    "carrier": [
+     52,
+     68
+    ],
+    "interior_n": 12,
+    "span_pieces": 1
+   },
+   "ignore|orange|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 68,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 8,
+     "close": 9,
+     "content": [
+      8
+     ],
+     "full": [
+      7,
+      8,
+      9
+     ]
+    },
+    "carrier": [
+     52,
+     68
+    ],
+    "interior_n": 12,
+    "span_pieces": 1
+   },
+   "do_not_think|orange|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 69,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 8,
+     "close": 9,
+     "content": [
+      8
+     ],
+     "full": [
+      7,
+      8,
+      9
+     ]
+    },
+    "carrier": [
+     53,
+     69
+    ],
+    "interior_n": 12,
+    "span_pieces": 1
+   },
+   "never_think|orange|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 68,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 8,
+     "close": 9,
+     "content": [
+      8
+     ],
+     "full": [
+      7,
+      8,
+      9
+     ]
+    },
+    "carrier": [
+     52,
+     68
+    ],
+    "interior_n": 12,
+    "span_pieces": 1
+   },
+   "plain_mention|orange|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 57,
+    "span": {
+     "open": null,
+     "first": 3,
+     "last": 3,
+     "close": 3,
+     "content": [
+      3
+     ],
+     "full": [
+      3
+     ]
+    }
+   },
+   "absent|orange|C2": {
+    "gates": {
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 64
+   },
+   "pulse_base|orange|C2": {
+    "gates": {
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 54
+   },
+   "maintain|guitar|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 83,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 9,
+     "close": 10,
+     "content": [
+      8,
+      9
+     ],
+     "full": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    "carrier": [
+     60,
+     83
+    ],
+    "interior_n": 19,
+    "span_pieces": 2
+   },
+   "mention|guitar|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 83,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 9,
+     "close": 10,
+     "content": [
+      8,
+      9
+     ],
+     "full": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    "carrier": [
+     60,
+     83
+    ],
+    "interior_n": 19,
+    "span_pieces": 2
+   },
+   "ignore|guitar|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 83,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 9,
+     "close": 10,
+     "content": [
+      8,
+      9
+     ],
+     "full": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    "carrier": [
+     60,
+     83
+    ],
+    "interior_n": 19,
+    "span_pieces": 2
+   },
+   "do_not_think|guitar|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 84,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 9,
+     "close": 10,
+     "content": [
+      8,
+      9
+     ],
+     "full": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    "carrier": [
+     61,
+     84
+    ],
+    "interior_n": 19,
+    "span_pieces": 2
+   },
+   "never_think|guitar|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 83,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 9,
+     "close": 10,
+     "content": [
+      8,
+      9
+     ],
+     "full": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    "carrier": [
+     60,
+     83
+    ],
+    "interior_n": 19,
+    "span_pieces": 2
+   },
+   "plain_mention|guitar|C0": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 72,
+    "span": {
+     "open": null,
+     "first": 3,
+     "last": 4,
+     "close": 4,
+     "content": [
+      3,
+      4
+     ],
+     "full": [
+      3,
+      4
+     ]
+    }
+   },
+   "absent|guitar|C0": {
+    "gates": {
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 78
+   },
+   "pulse_base|guitar|C0": {
+    "gates": {
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 68
+   },
+   "direct|hold|guitar": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 31
+   },
+   "direct_copy|hold|guitar": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 53
+   },
+   "direct|conversation|guitar": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 30
+   },
+   "direct_copy|conversation|guitar": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 52
+   },
+   "maintain|guitar|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 69,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 9,
+     "close": 10,
+     "content": [
+      8,
+      9
+     ],
+     "full": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    "carrier": [
+     53,
+     69
+    ],
+    "interior_n": 12,
+    "span_pieces": 2
+   },
+   "mention|guitar|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 69,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 9,
+     "close": 10,
+     "content": [
+      8,
+      9
+     ],
+     "full": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    "carrier": [
+     53,
+     69
+    ],
+    "interior_n": 12,
+    "span_pieces": 2
+   },
+   "ignore|guitar|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 69,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 9,
+     "close": 10,
+     "content": [
+      8,
+      9
+     ],
+     "full": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    "carrier": [
+     53,
+     69
+    ],
+    "interior_n": 12,
+    "span_pieces": 2
+   },
+   "do_not_think|guitar|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 70,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 9,
+     "close": 10,
+     "content": [
+      8,
+      9
+     ],
+     "full": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    "carrier": [
+     54,
+     70
+    ],
+    "interior_n": 12,
+    "span_pieces": 2
+   },
+   "never_think|guitar|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 69,
+    "span": {
+     "open": 7,
+     "first": 8,
+     "last": 9,
+     "close": 10,
+     "content": [
+      8,
+      9
+     ],
+     "full": [
+      7,
+      8,
+      9,
+      10
+     ]
+    },
+    "carrier": [
+     53,
+     69
+    ],
+    "interior_n": 12,
+    "span_pieces": 2
+   },
+   "plain_mention|guitar|C2": {
+    "gates": {
+     "span_X": true,
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 58,
+    "span": {
+     "open": null,
+     "first": 3,
+     "last": 4,
+     "close": 4,
+     "content": [
+      3,
+      4
+     ],
+     "full": [
+      3,
+      4
+     ]
+    }
+   },
+   "absent|guitar|C2": {
+    "gates": {
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 64
+   },
+   "pulse_base|guitar|C2": {
+    "gates": {
+     "assistant_carrier": true,
+     "user_carrier": true,
+     "no_padding": true
+    },
+    "n_tokens": 54
+   }
+  },
+  "donor_geometry": {
+   "maintain|orange-guitar": {
+    "len": [
+     82,
+     83
+    ],
+    "span_full": [
+     [
+      7,
+      8,
+      9
+     ],
+     [
+      7,
+      8,
+      9,
+      10
+     ]
+    ],
+    "match": false
+   },
+   "maintain|tiger-castle": {
+    "len": [
+     83,
+     82
+    ],
+    "span_full": [
+     [
+      7,
+      8,
+      9,
+      10
+     ],
+     [
+      7,
+      8,
+      9
+     ]
+    ],
+    "match": false
+   },
+   "maintain|diamond-rocket": {
+    "len": [
+     82,
+     82
+    ],
+    "span_full": [
+     [
+      7,
+      8,
+      9
+     ],
+     [
+      7,
+      8,
+      9
+     ]
+    ],
+    "match": true
+   },
+   "maintain|mountain-thunder": {
+    "len": [
+     83,
+     83
+    ],
+    "span_full": [
+     [
+      7,
+      8,
+      9,
+      10
+     ],
+     [
+      7,
+      8,
+      9,
+      10
+     ]
+    ],
+    "match": true
+   },
+   "mention|orange-guitar": {
+    "len": [
+     82,
+     83
+    ],
+    "span_full": [
+     [
+      7,
+      8,
+      9
+     ],
+     [
+      7,
+      8,
+      9,
+      10
+     ]
+    ],
+    "match": false
+   },
+   "mention|tiger-castle": {
+    "len": [
+     83,
+     82
+    ],
+    "span_full": [
+     [
+      7,
+      8,
+      9,
+      10
+     ],
+     [
+      7,
+      8,
+      9
+     ]
+    ],
+    "match": false
+   },
+   "mention|diamond-rocket": {
+    "len": [
+     82,
+     82
+    ],
+    "span_full": [
+     [
+      7,
+      8,
+      9
+     ],
+     [
+      7,
+      8,
+      9
+     ]
+    ],
+    "match": true
+   },
+   "mention|mountain-thunder": {
+    "len": [
+     83,
+     83
+    ],
+    "span_full": [
+     [
+      7,
+      8,
+      9,
+      10
+     ],
+     [
+      7,
+      8,
+      9,
+      10
+     ]
+    ],
+    "match": true
+   }
+  },
+  "pass": true
+ },
+ "B": {
+  "model": {
+   "class": "Qwen3ForCausalLM",
+   "load_s": 19.5,
+   "n_full_attention": 64,
+   "n_linear_attention": 0,
+   "full_attention_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+   ],
+   "attn_impl": "eager",
+   "gpu_mem_GB": 65.5
+  },
+  "attention_weights_reachable": {
+   "all_present": true,
+   "shape": "(1, 64, 82, 82)"
+  },
+  "repeat_bitwise": true,
+  "empty_patch_bitwise": true,
+  "same_source_bitwise": true,
+  "subprojection_max_abs_diff": 0.03125,
+  "z32_vs_impl_max_abs_diff": 0.035024166107177734,
+  "rms_median": 4.2362060546875,
+  "seqlen_nondeterminism_max_abs_dz_L48": 0.578125,
+  "seqlen_nondeterminism_max_abs_dh_L48": 3.0,
+  "state_move_realized": {
+   "rho": 1.0129136252872686,
+   "kappa": 0.9750672578811646,
+   "req_norm": 4.3588995933532715,
+   "real_norm": 4.415188789367676
+  },
+  "state_move_layer35_delta_vs_recorded": 0.03472983092069626,
+  "forward_s_all_layers_recorded": 0.47,
+  "pass": false
+ }
+}

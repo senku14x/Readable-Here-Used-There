@@ -1,0 +1,2240 @@
+{
+ "columns": [
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "fifteen",
+  "sixteen",
+  "seventeen",
+  "eighteen",
+  "nineteen",
+  "twenty",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers": [
+  "C0",
+  "C1",
+  "C2",
+  "C3"
+ ],
+ "lx": 36,
+ "seed": 20260909,
+ "cells": {
+  "t1_memorised|i0|C0": {
+   "tier": "t1_memorised",
+   "item": 0,
+   "src": "two and two",
+   "donor_src": "three and four",
+   "latent": "four",
+   "donor_latent": "seven",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    62,
+    85
+   ],
+   "Q": [
+    85,
+    112
+   ]
+  },
+  "t1_memorised|i0|C1": {
+   "tier": "t1_memorised",
+   "item": 0,
+   "src": "two and two",
+   "donor_src": "three and four",
+   "latent": "four",
+   "donor_latent": "seven",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t1_memorised|i0|C2": {
+   "tier": "t1_memorised",
+   "item": 0,
+   "src": "two and two",
+   "donor_src": "three and four",
+   "latent": "four",
+   "donor_latent": "seven",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    55,
+    71
+   ],
+   "Q": [
+    71,
+    98
+   ]
+  },
+  "t1_memorised|i0|C3": {
+   "tier": "t1_memorised",
+   "item": 0,
+   "src": "two and two",
+   "donor_src": "three and four",
+   "latent": "four",
+   "donor_latent": "seven",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    72,
+    105
+   ],
+   "Q": [
+    105,
+    132
+   ]
+  },
+  "t1_memorised|i1|C0": {
+   "tier": "t1_memorised",
+   "item": 1,
+   "src": "two and three",
+   "donor_src": "three and five",
+   "latent": "five",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    62,
+    85
+   ],
+   "Q": [
+    85,
+    112
+   ]
+  },
+  "t1_memorised|i1|C1": {
+   "tier": "t1_memorised",
+   "item": 1,
+   "src": "two and three",
+   "donor_src": "three and five",
+   "latent": "five",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t1_memorised|i1|C2": {
+   "tier": "t1_memorised",
+   "item": 1,
+   "src": "two and three",
+   "donor_src": "three and five",
+   "latent": "five",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    55,
+    71
+   ],
+   "Q": [
+    71,
+    98
+   ]
+  },
+  "t1_memorised|i1|C3": {
+   "tier": "t1_memorised",
+   "item": 1,
+   "src": "two and three",
+   "donor_src": "three and five",
+   "latent": "five",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    72,
+    105
+   ],
+   "Q": [
+    105,
+    132
+   ]
+  },
+  "t1_memorised|i2|C0": {
+   "tier": "t1_memorised",
+   "item": 2,
+   "src": "two and four",
+   "donor_src": "four and five",
+   "latent": "six",
+   "donor_latent": "nine",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    62,
+    85
+   ],
+   "Q": [
+    85,
+    112
+   ]
+  },
+  "t1_memorised|i2|C1": {
+   "tier": "t1_memorised",
+   "item": 2,
+   "src": "two and four",
+   "donor_src": "four and five",
+   "latent": "six",
+   "donor_latent": "nine",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t1_memorised|i2|C2": {
+   "tier": "t1_memorised",
+   "item": 2,
+   "src": "two and four",
+   "donor_src": "four and five",
+   "latent": "six",
+   "donor_latent": "nine",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    55,
+    71
+   ],
+   "Q": [
+    71,
+    98
+   ]
+  },
+  "t1_memorised|i2|C3": {
+   "tier": "t1_memorised",
+   "item": 2,
+   "src": "two and four",
+   "donor_src": "four and five",
+   "latent": "six",
+   "donor_latent": "nine",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    72,
+    105
+   ],
+   "Q": [
+    105,
+    132
+   ]
+  },
+  "t1_memorised|i3|C0": {
+   "tier": "t1_memorised",
+   "item": 3,
+   "src": "three and four",
+   "donor_src": "four and six",
+   "latent": "seven",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    62,
+    85
+   ],
+   "Q": [
+    85,
+    112
+   ]
+  },
+  "t1_memorised|i3|C1": {
+   "tier": "t1_memorised",
+   "item": 3,
+   "src": "three and four",
+   "donor_src": "four and six",
+   "latent": "seven",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t1_memorised|i3|C2": {
+   "tier": "t1_memorised",
+   "item": 3,
+   "src": "three and four",
+   "donor_src": "four and six",
+   "latent": "seven",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    55,
+    71
+   ],
+   "Q": [
+    71,
+    98
+   ]
+  },
+  "t1_memorised|i3|C3": {
+   "tier": "t1_memorised",
+   "item": 3,
+   "src": "three and four",
+   "donor_src": "four and six",
+   "latent": "seven",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    72,
+    105
+   ],
+   "Q": [
+    105,
+    132
+   ]
+  },
+  "t1_memorised|i4|C0": {
+   "tier": "t1_memorised",
+   "item": 4,
+   "src": "three and five",
+   "donor_src": "five and five",
+   "latent": "eight",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    62,
+    85
+   ],
+   "Q": [
+    85,
+    112
+   ]
+  },
+  "t1_memorised|i4|C1": {
+   "tier": "t1_memorised",
+   "item": 4,
+   "src": "three and five",
+   "donor_src": "five and five",
+   "latent": "eight",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t1_memorised|i4|C2": {
+   "tier": "t1_memorised",
+   "item": 4,
+   "src": "three and five",
+   "donor_src": "five and five",
+   "latent": "eight",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    55,
+    71
+   ],
+   "Q": [
+    71,
+    98
+   ]
+  },
+  "t1_memorised|i4|C3": {
+   "tier": "t1_memorised",
+   "item": 4,
+   "src": "three and five",
+   "donor_src": "five and five",
+   "latent": "eight",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    72,
+    105
+   ],
+   "Q": [
+    105,
+    132
+   ]
+  },
+  "t1_memorised|i5|C0": {
+   "tier": "t1_memorised",
+   "item": 5,
+   "src": "four and five",
+   "donor_src": "two and two",
+   "latent": "nine",
+   "donor_latent": "four",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    62,
+    85
+   ],
+   "Q": [
+    85,
+    112
+   ]
+  },
+  "t1_memorised|i5|C1": {
+   "tier": "t1_memorised",
+   "item": 5,
+   "src": "four and five",
+   "donor_src": "two and two",
+   "latent": "nine",
+   "donor_latent": "four",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t1_memorised|i5|C2": {
+   "tier": "t1_memorised",
+   "item": 5,
+   "src": "four and five",
+   "donor_src": "two and two",
+   "latent": "nine",
+   "donor_latent": "four",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    55,
+    71
+   ],
+   "Q": [
+    71,
+    98
+   ]
+  },
+  "t1_memorised|i5|C3": {
+   "tier": "t1_memorised",
+   "item": 5,
+   "src": "four and five",
+   "donor_src": "two and two",
+   "latent": "nine",
+   "donor_latent": "four",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    72,
+    105
+   ],
+   "Q": [
+    105,
+    132
+   ]
+  },
+  "t1_memorised|i6|C0": {
+   "tier": "t1_memorised",
+   "item": 6,
+   "src": "four and six",
+   "donor_src": "two and three",
+   "latent": "ten",
+   "donor_latent": "five",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    62,
+    85
+   ],
+   "Q": [
+    85,
+    112
+   ]
+  },
+  "t1_memorised|i6|C1": {
+   "tier": "t1_memorised",
+   "item": 6,
+   "src": "four and six",
+   "donor_src": "two and three",
+   "latent": "ten",
+   "donor_latent": "five",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t1_memorised|i6|C2": {
+   "tier": "t1_memorised",
+   "item": 6,
+   "src": "four and six",
+   "donor_src": "two and three",
+   "latent": "ten",
+   "donor_latent": "five",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    55,
+    71
+   ],
+   "Q": [
+    71,
+    98
+   ]
+  },
+  "t1_memorised|i6|C3": {
+   "tier": "t1_memorised",
+   "item": 6,
+   "src": "four and six",
+   "donor_src": "two and three",
+   "latent": "ten",
+   "donor_latent": "five",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    72,
+    105
+   ],
+   "Q": [
+    105,
+    132
+   ]
+  },
+  "t1_memorised|i7|C0": {
+   "tier": "t1_memorised",
+   "item": 7,
+   "src": "five and five",
+   "donor_src": "two and four",
+   "latent": "ten",
+   "donor_latent": "six",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    62,
+    85
+   ],
+   "Q": [
+    85,
+    112
+   ]
+  },
+  "t1_memorised|i7|C1": {
+   "tier": "t1_memorised",
+   "item": 7,
+   "src": "five and five",
+   "donor_src": "two and four",
+   "latent": "ten",
+   "donor_latent": "six",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t1_memorised|i7|C2": {
+   "tier": "t1_memorised",
+   "item": 7,
+   "src": "five and five",
+   "donor_src": "two and four",
+   "latent": "ten",
+   "donor_latent": "six",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    55,
+    71
+   ],
+   "Q": [
+    71,
+    98
+   ]
+  },
+  "t1_memorised|i7|C3": {
+   "tier": "t1_memorised",
+   "item": 7,
+   "src": "five and five",
+   "donor_src": "two and four",
+   "latent": "ten",
+   "donor_latent": "six",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    72,
+    105
+   ],
+   "Q": [
+    105,
+    132
+   ]
+  },
+  "t3_chained|i0|C0": {
+   "tier": "t3_chained",
+   "item": 0,
+   "src": "two and two",
+   "donor_src": "three and four",
+   "latent": "eight",
+   "donor_latent": "fourteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    86
+   ],
+   "Q": [
+    86,
+    114
+   ]
+  },
+  "t3_chained|i0|C1": {
+   "tier": "t3_chained",
+   "item": 0,
+   "src": "two and two",
+   "donor_src": "three and four",
+   "latent": "eight",
+   "donor_latent": "fourteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    64,
+    88
+   ],
+   "Q": [
+    88,
+    116
+   ]
+  },
+  "t3_chained|i0|C2": {
+   "tier": "t3_chained",
+   "item": 0,
+   "src": "two and two",
+   "donor_src": "three and four",
+   "latent": "eight",
+   "donor_latent": "fourteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    56,
+    72
+   ],
+   "Q": [
+    72,
+    100
+   ]
+  },
+  "t3_chained|i0|C3": {
+   "tier": "t3_chained",
+   "item": 0,
+   "src": "two and two",
+   "donor_src": "three and four",
+   "latent": "eight",
+   "donor_latent": "fourteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    73,
+    106
+   ],
+   "Q": [
+    106,
+    134
+   ]
+  },
+  "t3_chained|i1|C0": {
+   "tier": "t3_chained",
+   "item": 1,
+   "src": "two and three",
+   "donor_src": "three and five",
+   "latent": "ten",
+   "donor_latent": "sixteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    86
+   ],
+   "Q": [
+    86,
+    114
+   ]
+  },
+  "t3_chained|i1|C1": {
+   "tier": "t3_chained",
+   "item": 1,
+   "src": "two and three",
+   "donor_src": "three and five",
+   "latent": "ten",
+   "donor_latent": "sixteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    64,
+    88
+   ],
+   "Q": [
+    88,
+    116
+   ]
+  },
+  "t3_chained|i1|C2": {
+   "tier": "t3_chained",
+   "item": 1,
+   "src": "two and three",
+   "donor_src": "three and five",
+   "latent": "ten",
+   "donor_latent": "sixteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    56,
+    72
+   ],
+   "Q": [
+    72,
+    100
+   ]
+  },
+  "t3_chained|i1|C3": {
+   "tier": "t3_chained",
+   "item": 1,
+   "src": "two and three",
+   "donor_src": "three and five",
+   "latent": "ten",
+   "donor_latent": "sixteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    73,
+    106
+   ],
+   "Q": [
+    106,
+    134
+   ]
+  },
+  "t3_chained|i2|C0": {
+   "tier": "t3_chained",
+   "item": 2,
+   "src": "two and four",
+   "donor_src": "four and five",
+   "latent": "twelve",
+   "donor_latent": "eighteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    86
+   ],
+   "Q": [
+    86,
+    114
+   ]
+  },
+  "t3_chained|i2|C1": {
+   "tier": "t3_chained",
+   "item": 2,
+   "src": "two and four",
+   "donor_src": "four and five",
+   "latent": "twelve",
+   "donor_latent": "eighteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    64,
+    88
+   ],
+   "Q": [
+    88,
+    116
+   ]
+  },
+  "t3_chained|i2|C2": {
+   "tier": "t3_chained",
+   "item": 2,
+   "src": "two and four",
+   "donor_src": "four and five",
+   "latent": "twelve",
+   "donor_latent": "eighteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    56,
+    72
+   ],
+   "Q": [
+    72,
+    100
+   ]
+  },
+  "t3_chained|i2|C3": {
+   "tier": "t3_chained",
+   "item": 2,
+   "src": "two and four",
+   "donor_src": "four and five",
+   "latent": "twelve",
+   "donor_latent": "eighteen",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    73,
+    106
+   ],
+   "Q": [
+    106,
+    134
+   ]
+  },
+  "t3_chained|i3|C0": {
+   "tier": "t3_chained",
+   "item": 3,
+   "src": "three and four",
+   "donor_src": "four and six",
+   "latent": "fourteen",
+   "donor_latent": "twenty",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    86
+   ],
+   "Q": [
+    86,
+    114
+   ]
+  },
+  "t3_chained|i3|C1": {
+   "tier": "t3_chained",
+   "item": 3,
+   "src": "three and four",
+   "donor_src": "four and six",
+   "latent": "fourteen",
+   "donor_latent": "twenty",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    64,
+    88
+   ],
+   "Q": [
+    88,
+    116
+   ]
+  },
+  "t3_chained|i3|C2": {
+   "tier": "t3_chained",
+   "item": 3,
+   "src": "three and four",
+   "donor_src": "four and six",
+   "latent": "fourteen",
+   "donor_latent": "twenty",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    56,
+    72
+   ],
+   "Q": [
+    72,
+    100
+   ]
+  },
+  "t3_chained|i3|C3": {
+   "tier": "t3_chained",
+   "item": 3,
+   "src": "three and four",
+   "donor_src": "four and six",
+   "latent": "fourteen",
+   "donor_latent": "twenty",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    73,
+    106
+   ],
+   "Q": [
+    106,
+    134
+   ]
+  },
+  "t3_chained|i4|C0": {
+   "tier": "t3_chained",
+   "item": 4,
+   "src": "three and five",
+   "donor_src": "five and five",
+   "latent": "sixteen",
+   "donor_latent": "twenty",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    86
+   ],
+   "Q": [
+    86,
+    114
+   ]
+  },
+  "t3_chained|i4|C1": {
+   "tier": "t3_chained",
+   "item": 4,
+   "src": "three and five",
+   "donor_src": "five and five",
+   "latent": "sixteen",
+   "donor_latent": "twenty",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    64,
+    88
+   ],
+   "Q": [
+    88,
+    116
+   ]
+  },
+  "t3_chained|i4|C2": {
+   "tier": "t3_chained",
+   "item": 4,
+   "src": "three and five",
+   "donor_src": "five and five",
+   "latent": "sixteen",
+   "donor_latent": "twenty",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    56,
+    72
+   ],
+   "Q": [
+    72,
+    100
+   ]
+  },
+  "t3_chained|i4|C3": {
+   "tier": "t3_chained",
+   "item": 4,
+   "src": "three and five",
+   "donor_src": "five and five",
+   "latent": "sixteen",
+   "donor_latent": "twenty",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    73,
+    106
+   ],
+   "Q": [
+    106,
+    134
+   ]
+  },
+  "t3_chained|i5|C0": {
+   "tier": "t3_chained",
+   "item": 5,
+   "src": "four and five",
+   "donor_src": "two and two",
+   "latent": "eighteen",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    86
+   ],
+   "Q": [
+    86,
+    114
+   ]
+  },
+  "t3_chained|i5|C1": {
+   "tier": "t3_chained",
+   "item": 5,
+   "src": "four and five",
+   "donor_src": "two and two",
+   "latent": "eighteen",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    64,
+    88
+   ],
+   "Q": [
+    88,
+    116
+   ]
+  },
+  "t3_chained|i5|C2": {
+   "tier": "t3_chained",
+   "item": 5,
+   "src": "four and five",
+   "donor_src": "two and two",
+   "latent": "eighteen",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    56,
+    72
+   ],
+   "Q": [
+    72,
+    100
+   ]
+  },
+  "t3_chained|i5|C3": {
+   "tier": "t3_chained",
+   "item": 5,
+   "src": "four and five",
+   "donor_src": "two and two",
+   "latent": "eighteen",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    73,
+    106
+   ],
+   "Q": [
+    106,
+    134
+   ]
+  },
+  "t3_chained|i6|C0": {
+   "tier": "t3_chained",
+   "item": 6,
+   "src": "four and six",
+   "donor_src": "two and three",
+   "latent": "twenty",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    86
+   ],
+   "Q": [
+    86,
+    114
+   ]
+  },
+  "t3_chained|i6|C1": {
+   "tier": "t3_chained",
+   "item": 6,
+   "src": "four and six",
+   "donor_src": "two and three",
+   "latent": "twenty",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    64,
+    88
+   ],
+   "Q": [
+    88,
+    116
+   ]
+  },
+  "t3_chained|i6|C2": {
+   "tier": "t3_chained",
+   "item": 6,
+   "src": "four and six",
+   "donor_src": "two and three",
+   "latent": "twenty",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    56,
+    72
+   ],
+   "Q": [
+    72,
+    100
+   ]
+  },
+  "t3_chained|i6|C3": {
+   "tier": "t3_chained",
+   "item": 6,
+   "src": "four and six",
+   "donor_src": "two and three",
+   "latent": "twenty",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    73,
+    106
+   ],
+   "Q": [
+    106,
+    134
+   ]
+  },
+  "t3_chained|i7|C0": {
+   "tier": "t3_chained",
+   "item": 7,
+   "src": "five and five",
+   "donor_src": "two and four",
+   "latent": "twenty",
+   "donor_latent": "twelve",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    63,
+    86
+   ],
+   "Q": [
+    86,
+    114
+   ]
+  },
+  "t3_chained|i7|C1": {
+   "tier": "t3_chained",
+   "item": 7,
+   "src": "five and five",
+   "donor_src": "two and four",
+   "latent": "twenty",
+   "donor_latent": "twelve",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    64,
+    88
+   ],
+   "Q": [
+    88,
+    116
+   ]
+  },
+  "t3_chained|i7|C2": {
+   "tier": "t3_chained",
+   "item": 7,
+   "src": "five and five",
+   "donor_src": "two and four",
+   "latent": "twenty",
+   "donor_latent": "twelve",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    56,
+    72
+   ],
+   "Q": [
+    72,
+    100
+   ]
+  },
+  "t3_chained|i7|C3": {
+   "tier": "t3_chained",
+   "item": 7,
+   "src": "five and five",
+   "donor_src": "two and four",
+   "latent": "twenty",
+   "donor_latent": "twelve",
+   "span": [
+    7,
+    11
+   ],
+   "carrier": [
+    73,
+    106
+   ],
+   "Q": [
+    106,
+    134
+   ]
+  },
+  "t2_composed|i0|C0": {
+   "tier": "t2_composed",
+   "item": 0,
+   "src": "two and two and three",
+   "donor_src": "three and three and four",
+   "latent": "seven",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    64,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t2_composed|i0|C1": {
+   "tier": "t2_composed",
+   "item": 0,
+   "src": "two and two and three",
+   "donor_src": "three and three and four",
+   "latent": "seven",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    65,
+    89
+   ],
+   "Q": [
+    89,
+    116
+   ]
+  },
+  "t2_composed|i0|C2": {
+   "tier": "t2_composed",
+   "item": 0,
+   "src": "two and two and three",
+   "donor_src": "three and three and four",
+   "latent": "seven",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    57,
+    73
+   ],
+   "Q": [
+    73,
+    100
+   ]
+  },
+  "t2_composed|i0|C3": {
+   "tier": "t2_composed",
+   "item": 0,
+   "src": "two and two and three",
+   "donor_src": "three and three and four",
+   "latent": "seven",
+   "donor_latent": "ten",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    74,
+    107
+   ],
+   "Q": [
+    107,
+    134
+   ]
+  },
+  "t2_composed|i1|C0": {
+   "tier": "t2_composed",
+   "item": 1,
+   "src": "two and three and three",
+   "donor_src": "two and four and five",
+   "latent": "eight",
+   "donor_latent": "eleven",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    64,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t2_composed|i1|C1": {
+   "tier": "t2_composed",
+   "item": 1,
+   "src": "two and three and three",
+   "donor_src": "two and four and five",
+   "latent": "eight",
+   "donor_latent": "eleven",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    65,
+    89
+   ],
+   "Q": [
+    89,
+    116
+   ]
+  },
+  "t2_composed|i1|C2": {
+   "tier": "t2_composed",
+   "item": 1,
+   "src": "two and three and three",
+   "donor_src": "two and four and five",
+   "latent": "eight",
+   "donor_latent": "eleven",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    57,
+    73
+   ],
+   "Q": [
+    73,
+    100
+   ]
+  },
+  "t2_composed|i1|C3": {
+   "tier": "t2_composed",
+   "item": 1,
+   "src": "two and three and three",
+   "donor_src": "two and four and five",
+   "latent": "eight",
+   "donor_latent": "eleven",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    74,
+    107
+   ],
+   "Q": [
+    107,
+    134
+   ]
+  },
+  "t2_composed|i2|C0": {
+   "tier": "t2_composed",
+   "item": 2,
+   "src": "two and three and four",
+   "donor_src": "three and four and five",
+   "latent": "nine",
+   "donor_latent": "twelve",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    64,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t2_composed|i2|C1": {
+   "tier": "t2_composed",
+   "item": 2,
+   "src": "two and three and four",
+   "donor_src": "three and four and five",
+   "latent": "nine",
+   "donor_latent": "twelve",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    65,
+    89
+   ],
+   "Q": [
+    89,
+    116
+   ]
+  },
+  "t2_composed|i2|C2": {
+   "tier": "t2_composed",
+   "item": 2,
+   "src": "two and three and four",
+   "donor_src": "three and four and five",
+   "latent": "nine",
+   "donor_latent": "twelve",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    57,
+    73
+   ],
+   "Q": [
+    73,
+    100
+   ]
+  },
+  "t2_composed|i2|C3": {
+   "tier": "t2_composed",
+   "item": 2,
+   "src": "two and three and four",
+   "donor_src": "three and four and five",
+   "latent": "nine",
+   "donor_latent": "twelve",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    74,
+    107
+   ],
+   "Q": [
+    107,
+    134
+   ]
+  },
+  "t2_composed|i3|C0": {
+   "tier": "t2_composed",
+   "item": 3,
+   "src": "three and three and four",
+   "donor_src": "four and four and five",
+   "latent": "ten",
+   "donor_latent": "thirteen",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    64,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t2_composed|i3|C1": {
+   "tier": "t2_composed",
+   "item": 3,
+   "src": "three and three and four",
+   "donor_src": "four and four and five",
+   "latent": "ten",
+   "donor_latent": "thirteen",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    65,
+    89
+   ],
+   "Q": [
+    89,
+    116
+   ]
+  },
+  "t2_composed|i3|C2": {
+   "tier": "t2_composed",
+   "item": 3,
+   "src": "three and three and four",
+   "donor_src": "four and four and five",
+   "latent": "ten",
+   "donor_latent": "thirteen",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    57,
+    73
+   ],
+   "Q": [
+    73,
+    100
+   ]
+  },
+  "t2_composed|i3|C3": {
+   "tier": "t2_composed",
+   "item": 3,
+   "src": "three and three and four",
+   "donor_src": "four and four and five",
+   "latent": "ten",
+   "donor_latent": "thirteen",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    74,
+    107
+   ],
+   "Q": [
+    107,
+    134
+   ]
+  },
+  "t2_composed|i4|C0": {
+   "tier": "t2_composed",
+   "item": 4,
+   "src": "two and four and five",
+   "donor_src": "four and five and five",
+   "latent": "eleven",
+   "donor_latent": "fourteen",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    64,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t2_composed|i4|C1": {
+   "tier": "t2_composed",
+   "item": 4,
+   "src": "two and four and five",
+   "donor_src": "four and five and five",
+   "latent": "eleven",
+   "donor_latent": "fourteen",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    65,
+    89
+   ],
+   "Q": [
+    89,
+    116
+   ]
+  },
+  "t2_composed|i4|C2": {
+   "tier": "t2_composed",
+   "item": 4,
+   "src": "two and four and five",
+   "donor_src": "four and five and five",
+   "latent": "eleven",
+   "donor_latent": "fourteen",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    57,
+    73
+   ],
+   "Q": [
+    73,
+    100
+   ]
+  },
+  "t2_composed|i4|C3": {
+   "tier": "t2_composed",
+   "item": 4,
+   "src": "two and four and five",
+   "donor_src": "four and five and five",
+   "latent": "eleven",
+   "donor_latent": "fourteen",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    74,
+    107
+   ],
+   "Q": [
+    107,
+    134
+   ]
+  },
+  "t2_composed|i5|C0": {
+   "tier": "t2_composed",
+   "item": 5,
+   "src": "three and four and five",
+   "donor_src": "two and two and three",
+   "latent": "twelve",
+   "donor_latent": "seven",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    64,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t2_composed|i5|C1": {
+   "tier": "t2_composed",
+   "item": 5,
+   "src": "three and four and five",
+   "donor_src": "two and two and three",
+   "latent": "twelve",
+   "donor_latent": "seven",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    65,
+    89
+   ],
+   "Q": [
+    89,
+    116
+   ]
+  },
+  "t2_composed|i5|C2": {
+   "tier": "t2_composed",
+   "item": 5,
+   "src": "three and four and five",
+   "donor_src": "two and two and three",
+   "latent": "twelve",
+   "donor_latent": "seven",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    57,
+    73
+   ],
+   "Q": [
+    73,
+    100
+   ]
+  },
+  "t2_composed|i5|C3": {
+   "tier": "t2_composed",
+   "item": 5,
+   "src": "three and four and five",
+   "donor_src": "two and two and three",
+   "latent": "twelve",
+   "donor_latent": "seven",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    74,
+    107
+   ],
+   "Q": [
+    107,
+    134
+   ]
+  },
+  "t2_composed|i6|C0": {
+   "tier": "t2_composed",
+   "item": 6,
+   "src": "four and four and five",
+   "donor_src": "two and three and three",
+   "latent": "thirteen",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    64,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t2_composed|i6|C1": {
+   "tier": "t2_composed",
+   "item": 6,
+   "src": "four and four and five",
+   "donor_src": "two and three and three",
+   "latent": "thirteen",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    65,
+    89
+   ],
+   "Q": [
+    89,
+    116
+   ]
+  },
+  "t2_composed|i6|C2": {
+   "tier": "t2_composed",
+   "item": 6,
+   "src": "four and four and five",
+   "donor_src": "two and three and three",
+   "latent": "thirteen",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    57,
+    73
+   ],
+   "Q": [
+    73,
+    100
+   ]
+  },
+  "t2_composed|i6|C3": {
+   "tier": "t2_composed",
+   "item": 6,
+   "src": "four and four and five",
+   "donor_src": "two and three and three",
+   "latent": "thirteen",
+   "donor_latent": "eight",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    74,
+    107
+   ],
+   "Q": [
+    107,
+    134
+   ]
+  },
+  "t2_composed|i7|C0": {
+   "tier": "t2_composed",
+   "item": 7,
+   "src": "four and five and five",
+   "donor_src": "two and three and four",
+   "latent": "fourteen",
+   "donor_latent": "nine",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    64,
+    87
+   ],
+   "Q": [
+    87,
+    114
+   ]
+  },
+  "t2_composed|i7|C1": {
+   "tier": "t2_composed",
+   "item": 7,
+   "src": "four and five and five",
+   "donor_src": "two and three and four",
+   "latent": "fourteen",
+   "donor_latent": "nine",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    65,
+    89
+   ],
+   "Q": [
+    89,
+    116
+   ]
+  },
+  "t2_composed|i7|C2": {
+   "tier": "t2_composed",
+   "item": 7,
+   "src": "four and five and five",
+   "donor_src": "two and three and four",
+   "latent": "fourteen",
+   "donor_latent": "nine",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    57,
+    73
+   ],
+   "Q": [
+    73,
+    100
+   ]
+  },
+  "t2_composed|i7|C3": {
+   "tier": "t2_composed",
+   "item": 7,
+   "src": "four and five and five",
+   "donor_src": "two and three and four",
+   "latent": "fourteen",
+   "donor_latent": "nine",
+   "span": [
+    7,
+    13
+   ],
+   "carrier": [
+    74,
+    107
+   ],
+   "Q": [
+    107,
+    134
+   ]
+  }
+ },
+ "tiers": {
+  "t1_memorised": [
+   {
+    "src": "two and two",
+    "donor_src": "three and four",
+    "latent": "four",
+    "donor_latent": "seven",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "two and three",
+    "donor_src": "three and five",
+    "latent": "five",
+    "donor_latent": "eight",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "two and four",
+    "donor_src": "four and five",
+    "latent": "six",
+    "donor_latent": "nine",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "three and four",
+    "donor_src": "four and six",
+    "latent": "seven",
+    "donor_latent": "ten",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "three and five",
+    "donor_src": "five and five",
+    "latent": "eight",
+    "donor_latent": "ten",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "four and five",
+    "donor_src": "two and two",
+    "latent": "nine",
+    "donor_latent": "four",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "four and six",
+    "donor_src": "two and three",
+    "latent": "ten",
+    "donor_latent": "five",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "five and five",
+    "donor_src": "two and four",
+    "latent": "ten",
+    "donor_latent": "six",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   }
+  ],
+  "t3_chained": [
+   {
+    "src": "two and two",
+    "donor_src": "three and four",
+    "latent": "eight",
+    "donor_latent": "fourteen",
+    "instr": "Keep double their sum in mind",
+    "question": "What is double the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "two and three",
+    "donor_src": "three and five",
+    "latent": "ten",
+    "donor_latent": "sixteen",
+    "instr": "Keep double their sum in mind",
+    "question": "What is double the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "two and four",
+    "donor_src": "four and five",
+    "latent": "twelve",
+    "donor_latent": "eighteen",
+    "instr": "Keep double their sum in mind",
+    "question": "What is double the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "three and four",
+    "donor_src": "four and six",
+    "latent": "fourteen",
+    "donor_latent": "twenty",
+    "instr": "Keep double their sum in mind",
+    "question": "What is double the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "three and five",
+    "donor_src": "five and five",
+    "latent": "sixteen",
+    "donor_latent": "twenty",
+    "instr": "Keep double their sum in mind",
+    "question": "What is double the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "four and five",
+    "donor_src": "two and two",
+    "latent": "eighteen",
+    "donor_latent": "eight",
+    "instr": "Keep double their sum in mind",
+    "question": "What is double the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "four and six",
+    "donor_src": "two and three",
+    "latent": "twenty",
+    "donor_latent": "ten",
+    "instr": "Keep double their sum in mind",
+    "question": "What is double the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   },
+   {
+    "src": "five and five",
+    "donor_src": "two and four",
+    "latent": "twenty",
+    "donor_latent": "twelve",
+    "instr": "Keep double their sum in mind",
+    "question": "What is double the sum of the pair? Answer with one word.",
+    "noun": "pair"
+   }
+  ],
+  "t2_composed": [
+   {
+    "src": "two and two and three",
+    "donor_src": "three and three and four",
+    "latent": "seven",
+    "donor_latent": "ten",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the triple? Answer with one word.",
+    "noun": "triple"
+   },
+   {
+    "src": "two and three and three",
+    "donor_src": "two and four and five",
+    "latent": "eight",
+    "donor_latent": "eleven",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the triple? Answer with one word.",
+    "noun": "triple"
+   },
+   {
+    "src": "two and three and four",
+    "donor_src": "three and four and five",
+    "latent": "nine",
+    "donor_latent": "twelve",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the triple? Answer with one word.",
+    "noun": "triple"
+   },
+   {
+    "src": "three and three and four",
+    "donor_src": "four and four and five",
+    "latent": "ten",
+    "donor_latent": "thirteen",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the triple? Answer with one word.",
+    "noun": "triple"
+   },
+   {
+    "src": "two and four and five",
+    "donor_src": "four and five and five",
+    "latent": "eleven",
+    "donor_latent": "fourteen",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the triple? Answer with one word.",
+    "noun": "triple"
+   },
+   {
+    "src": "three and four and five",
+    "donor_src": "two and two and three",
+    "latent": "twelve",
+    "donor_latent": "seven",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the triple? Answer with one word.",
+    "noun": "triple"
+   },
+   {
+    "src": "four and four and five",
+    "donor_src": "two and three and three",
+    "latent": "thirteen",
+    "donor_latent": "eight",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the triple? Answer with one word.",
+    "noun": "triple"
+   },
+   {
+    "src": "four and five and five",
+    "donor_src": "two and three and four",
+    "latent": "fourteen",
+    "donor_latent": "nine",
+    "instr": "Keep their sum in mind",
+    "question": "What is the sum of the triple? Answer with one word.",
+    "noun": "triple"
+   }
+  ]
+ },
+ "answer_set": [
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "fifteen",
+  "sixteen",
+  "seventeen",
+  "eighteen",
+  "nineteen",
+  "twenty"
+ ],
+ "answer_order": [
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "fifteen",
+  "sixteen",
+  "seventeen",
+  "eighteen",
+  "nineteen",
+  "twenty"
+ ],
+ "run_id": "20260909T154529Z",
+ "n_forwards": 768,
+ "elapsed_s": 207.8
+}

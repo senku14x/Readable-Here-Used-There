@@ -1,0 +1,38 @@
+{
+ "model": {
+  "repo": "Qwen/Qwen3-32B",
+  "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "dtype": "bfloat16",
+  "attn_implementation": "eager",
+  "enable_thinking": false,
+  "hf_home": "/workspace/.hf_home",
+  "n_blocks": 64,
+  "d_model": 5120,
+  "vocab_size": 151936,
+  "layer_types_note": "Qwen3ForCausalLM has no layer_types field: every block is full attention (dense transformer). registry.layer_types() falls back to all-full_attention and records the fallback.",
+  "block_indexing": "zero-based block-output indexing; ActivationRecorder stores the output of block l; hooks write block outputs"
+ },
+ "instruments": {
+  "J_NP": {
+   "hf_repo": "neuronpedia/jacobian-lens",
+   "hf_revision": "0731326edff4ae730ffc5356fe1a4728c748b3a6",
+   "file": "qwen3-32b/jlens/Salesforce-wikitext/Qwen3-32B_jacobian_lens.pt",
+   "sha256": "04e3cbf932d5903e9729bd5878c721df1db280816fabe8c00e0a38ea736643b8",
+   "note": "released Qwen3-32B Jacobian lens (Salesforce-wikitext); note this is the default-n fit, not the n1000 fit used for the primary model",
+   "local_path": "/workspace/.hf_home/qwen3_32b_jlens_from_ckpt_n80.pt",
+   "n_prompts": 80,
+   "provenance": "neuronpedia/jacobian-lens qwen3-32b/jlens/Salesforce-wikitext/Qwen3-32B_jacobian_lens.pt is a fit() CHECKPOINT (jacobian_sum, n_done=80); finalised here as J = jacobian_sum / n_done and saved locally. n_prompts=80 vs 1000 for the primary model's lens; the review's own replication used n=25, so a partial fit is usable, and lens quality is a scope note, not a confound, because every contrast is within-model.",
+   "source_ckpt_sha256": "305404153debd77522da69f87ae32642c25cb50820f6dcb137bbeaebde78ff4d"
+  }
+ },
+ "software": {
+  "torch": "2.11.0+cu128",
+  "transformers": "5.15.0",
+  "jlens_commit": "581d398"
+ },
+ "run_id": "20260909T165735Z",
+ "stage": "run",
+ "script": "H3/scripts/recompute_cost_ladder.py",
+ "design": "H3/design_specs/recompute_cost_ladder.md",
+ "raw_sha256": "488cbaafef021ad53d87cf0b546f590fb932690f6213c28f428ab5f5d0326835"
+}

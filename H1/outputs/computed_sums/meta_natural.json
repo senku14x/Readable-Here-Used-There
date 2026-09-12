@@ -1,0 +1,1041 @@
+{
+ "rows": [
+  [
+   0,
+   "A"
+  ],
+  [
+   1,
+   "A"
+  ],
+  [
+   2,
+   "A"
+  ],
+  [
+   3,
+   "A"
+  ],
+  [
+   4,
+   "A"
+  ],
+  [
+   5,
+   "A"
+  ],
+  [
+   6,
+   "A"
+  ],
+  [
+   7,
+   "A"
+  ],
+  [
+   0,
+   "B"
+  ],
+  [
+   1,
+   "B"
+  ],
+  [
+   2,
+   "B"
+  ],
+  [
+   3,
+   "B"
+  ],
+  [
+   4,
+   "B"
+  ],
+  [
+   5,
+   "B"
+  ],
+  [
+   6,
+   "B"
+  ],
+  [
+   7,
+   "B"
+  ]
+ ],
+ "sums": [
+  [
+   "seven",
+   [
+    "two",
+    "five"
+   ],
+   [
+    "three",
+    "four"
+   ]
+  ],
+  [
+   "eight",
+   [
+    "two",
+    "six"
+   ],
+   [
+    "three",
+    "five"
+   ]
+  ],
+  [
+   "nine",
+   [
+    "two",
+    "seven"
+   ],
+   [
+    "four",
+    "five"
+   ]
+  ],
+  [
+   "ten",
+   [
+    "two",
+    "eight"
+   ],
+   [
+    "three",
+    "seven"
+   ]
+  ],
+  [
+   "eleven",
+   [
+    "three",
+    "eight"
+   ],
+   [
+    "four",
+    "seven"
+   ]
+  ],
+  [
+   "twelve",
+   [
+    "four",
+    "eight"
+   ],
+   [
+    "five",
+    "seven"
+   ]
+  ],
+  [
+   "thirteen",
+   [
+    "five",
+    "eight"
+   ],
+   [
+    "six",
+    "seven"
+   ]
+  ],
+  [
+   "fourteen",
+   [
+    "six",
+    "eight"
+   ],
+   [
+    "five",
+    "nine"
+   ]
+  ]
+ ],
+ "columns": [
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "sum_words": [
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers": [
+  "C2",
+  "C3"
+ ],
+ "rank_layers": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59
+ ],
+ "l_x": 36,
+ "stage": "natural",
+ "cells": {
+  "0A|C2|maintain": {
+   "pair": [
+    "two",
+    "five"
+   ],
+   "sum": "seven",
+   "cond": "maintain"
+  },
+  "0A|C2|control": {
+   "pair": [
+    "two",
+    "five"
+   ],
+   "sum": "seven",
+   "cond": "control"
+  },
+  "0A|C2|absent": {
+   "pair": [
+    "two",
+    "five"
+   ],
+   "sum": "seven",
+   "cond": "absent"
+  },
+  "1A|C2|maintain": {
+   "pair": [
+    "two",
+    "six"
+   ],
+   "sum": "eight",
+   "cond": "maintain"
+  },
+  "1A|C2|control": {
+   "pair": [
+    "two",
+    "six"
+   ],
+   "sum": "eight",
+   "cond": "control"
+  },
+  "1A|C2|absent": {
+   "pair": [
+    "two",
+    "six"
+   ],
+   "sum": "eight",
+   "cond": "absent"
+  },
+  "2A|C2|maintain": {
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "sum": "nine",
+   "cond": "maintain"
+  },
+  "2A|C2|control": {
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "sum": "nine",
+   "cond": "control"
+  },
+  "2A|C2|absent": {
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "sum": "nine",
+   "cond": "absent"
+  },
+  "3A|C2|maintain": {
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "sum": "ten",
+   "cond": "maintain"
+  },
+  "3A|C2|control": {
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "sum": "ten",
+   "cond": "control"
+  },
+  "3A|C2|absent": {
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "sum": "ten",
+   "cond": "absent"
+  },
+  "4A|C2|maintain": {
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "sum": "eleven",
+   "cond": "maintain"
+  },
+  "4A|C2|control": {
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "sum": "eleven",
+   "cond": "control"
+  },
+  "4A|C2|absent": {
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "sum": "eleven",
+   "cond": "absent"
+  },
+  "5A|C2|maintain": {
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "sum": "twelve",
+   "cond": "maintain"
+  },
+  "5A|C2|control": {
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "sum": "twelve",
+   "cond": "control"
+  },
+  "5A|C2|absent": {
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "sum": "twelve",
+   "cond": "absent"
+  },
+  "6A|C2|maintain": {
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "sum": "thirteen",
+   "cond": "maintain"
+  },
+  "6A|C2|control": {
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "sum": "thirteen",
+   "cond": "control"
+  },
+  "6A|C2|absent": {
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "sum": "thirteen",
+   "cond": "absent"
+  },
+  "7A|C2|maintain": {
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "sum": "fourteen",
+   "cond": "maintain"
+  },
+  "7A|C2|control": {
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "sum": "fourteen",
+   "cond": "control"
+  },
+  "7A|C2|absent": {
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "sum": "fourteen",
+   "cond": "absent"
+  },
+  "0B|C2|maintain": {
+   "pair": [
+    "three",
+    "four"
+   ],
+   "sum": "seven",
+   "cond": "maintain"
+  },
+  "0B|C2|control": {
+   "pair": [
+    "three",
+    "four"
+   ],
+   "sum": "seven",
+   "cond": "control"
+  },
+  "0B|C2|absent": {
+   "pair": [
+    "three",
+    "four"
+   ],
+   "sum": "seven",
+   "cond": "absent"
+  },
+  "1B|C2|maintain": {
+   "pair": [
+    "three",
+    "five"
+   ],
+   "sum": "eight",
+   "cond": "maintain"
+  },
+  "1B|C2|control": {
+   "pair": [
+    "three",
+    "five"
+   ],
+   "sum": "eight",
+   "cond": "control"
+  },
+  "1B|C2|absent": {
+   "pair": [
+    "three",
+    "five"
+   ],
+   "sum": "eight",
+   "cond": "absent"
+  },
+  "2B|C2|maintain": {
+   "pair": [
+    "four",
+    "five"
+   ],
+   "sum": "nine",
+   "cond": "maintain"
+  },
+  "2B|C2|control": {
+   "pair": [
+    "four",
+    "five"
+   ],
+   "sum": "nine",
+   "cond": "control"
+  },
+  "2B|C2|absent": {
+   "pair": [
+    "four",
+    "five"
+   ],
+   "sum": "nine",
+   "cond": "absent"
+  },
+  "3B|C2|maintain": {
+   "pair": [
+    "three",
+    "seven"
+   ],
+   "sum": "ten",
+   "cond": "maintain"
+  },
+  "3B|C2|control": {
+   "pair": [
+    "three",
+    "seven"
+   ],
+   "sum": "ten",
+   "cond": "control"
+  },
+  "3B|C2|absent": {
+   "pair": [
+    "three",
+    "seven"
+   ],
+   "sum": "ten",
+   "cond": "absent"
+  },
+  "4B|C2|maintain": {
+   "pair": [
+    "four",
+    "seven"
+   ],
+   "sum": "eleven",
+   "cond": "maintain"
+  },
+  "4B|C2|control": {
+   "pair": [
+    "four",
+    "seven"
+   ],
+   "sum": "eleven",
+   "cond": "control"
+  },
+  "4B|C2|absent": {
+   "pair": [
+    "four",
+    "seven"
+   ],
+   "sum": "eleven",
+   "cond": "absent"
+  },
+  "5B|C2|maintain": {
+   "pair": [
+    "five",
+    "seven"
+   ],
+   "sum": "twelve",
+   "cond": "maintain"
+  },
+  "5B|C2|control": {
+   "pair": [
+    "five",
+    "seven"
+   ],
+   "sum": "twelve",
+   "cond": "control"
+  },
+  "5B|C2|absent": {
+   "pair": [
+    "five",
+    "seven"
+   ],
+   "sum": "twelve",
+   "cond": "absent"
+  },
+  "6B|C2|maintain": {
+   "pair": [
+    "six",
+    "seven"
+   ],
+   "sum": "thirteen",
+   "cond": "maintain"
+  },
+  "6B|C2|control": {
+   "pair": [
+    "six",
+    "seven"
+   ],
+   "sum": "thirteen",
+   "cond": "control"
+  },
+  "6B|C2|absent": {
+   "pair": [
+    "six",
+    "seven"
+   ],
+   "sum": "thirteen",
+   "cond": "absent"
+  },
+  "7B|C2|maintain": {
+   "pair": [
+    "five",
+    "nine"
+   ],
+   "sum": "fourteen",
+   "cond": "maintain"
+  },
+  "7B|C2|control": {
+   "pair": [
+    "five",
+    "nine"
+   ],
+   "sum": "fourteen",
+   "cond": "control"
+  },
+  "7B|C2|absent": {
+   "pair": [
+    "five",
+    "nine"
+   ],
+   "sum": "fourteen",
+   "cond": "absent"
+  },
+  "0A|C3|maintain": {
+   "pair": [
+    "two",
+    "five"
+   ],
+   "sum": "seven",
+   "cond": "maintain"
+  },
+  "0A|C3|control": {
+   "pair": [
+    "two",
+    "five"
+   ],
+   "sum": "seven",
+   "cond": "control"
+  },
+  "0A|C3|absent": {
+   "pair": [
+    "two",
+    "five"
+   ],
+   "sum": "seven",
+   "cond": "absent"
+  },
+  "1A|C3|maintain": {
+   "pair": [
+    "two",
+    "six"
+   ],
+   "sum": "eight",
+   "cond": "maintain"
+  },
+  "1A|C3|control": {
+   "pair": [
+    "two",
+    "six"
+   ],
+   "sum": "eight",
+   "cond": "control"
+  },
+  "1A|C3|absent": {
+   "pair": [
+    "two",
+    "six"
+   ],
+   "sum": "eight",
+   "cond": "absent"
+  },
+  "2A|C3|maintain": {
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "sum": "nine",
+   "cond": "maintain"
+  },
+  "2A|C3|control": {
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "sum": "nine",
+   "cond": "control"
+  },
+  "2A|C3|absent": {
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "sum": "nine",
+   "cond": "absent"
+  },
+  "3A|C3|maintain": {
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "sum": "ten",
+   "cond": "maintain"
+  },
+  "3A|C3|control": {
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "sum": "ten",
+   "cond": "control"
+  },
+  "3A|C3|absent": {
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "sum": "ten",
+   "cond": "absent"
+  },
+  "4A|C3|maintain": {
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "sum": "eleven",
+   "cond": "maintain"
+  },
+  "4A|C3|control": {
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "sum": "eleven",
+   "cond": "control"
+  },
+  "4A|C3|absent": {
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "sum": "eleven",
+   "cond": "absent"
+  },
+  "5A|C3|maintain": {
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "sum": "twelve",
+   "cond": "maintain"
+  },
+  "5A|C3|control": {
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "sum": "twelve",
+   "cond": "control"
+  },
+  "5A|C3|absent": {
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "sum": "twelve",
+   "cond": "absent"
+  },
+  "6A|C3|maintain": {
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "sum": "thirteen",
+   "cond": "maintain"
+  },
+  "6A|C3|control": {
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "sum": "thirteen",
+   "cond": "control"
+  },
+  "6A|C3|absent": {
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "sum": "thirteen",
+   "cond": "absent"
+  },
+  "7A|C3|maintain": {
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "sum": "fourteen",
+   "cond": "maintain"
+  },
+  "7A|C3|control": {
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "sum": "fourteen",
+   "cond": "control"
+  },
+  "7A|C3|absent": {
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "sum": "fourteen",
+   "cond": "absent"
+  },
+  "0B|C3|maintain": {
+   "pair": [
+    "three",
+    "four"
+   ],
+   "sum": "seven",
+   "cond": "maintain"
+  },
+  "0B|C3|control": {
+   "pair": [
+    "three",
+    "four"
+   ],
+   "sum": "seven",
+   "cond": "control"
+  },
+  "0B|C3|absent": {
+   "pair": [
+    "three",
+    "four"
+   ],
+   "sum": "seven",
+   "cond": "absent"
+  },
+  "1B|C3|maintain": {
+   "pair": [
+    "three",
+    "five"
+   ],
+   "sum": "eight",
+   "cond": "maintain"
+  },
+  "1B|C3|control": {
+   "pair": [
+    "three",
+    "five"
+   ],
+   "sum": "eight",
+   "cond": "control"
+  },
+  "1B|C3|absent": {
+   "pair": [
+    "three",
+    "five"
+   ],
+   "sum": "eight",
+   "cond": "absent"
+  },
+  "2B|C3|maintain": {
+   "pair": [
+    "four",
+    "five"
+   ],
+   "sum": "nine",
+   "cond": "maintain"
+  },
+  "2B|C3|control": {
+   "pair": [
+    "four",
+    "five"
+   ],
+   "sum": "nine",
+   "cond": "control"
+  },
+  "2B|C3|absent": {
+   "pair": [
+    "four",
+    "five"
+   ],
+   "sum": "nine",
+   "cond": "absent"
+  },
+  "3B|C3|maintain": {
+   "pair": [
+    "three",
+    "seven"
+   ],
+   "sum": "ten",
+   "cond": "maintain"
+  },
+  "3B|C3|control": {
+   "pair": [
+    "three",
+    "seven"
+   ],
+   "sum": "ten",
+   "cond": "control"
+  },
+  "3B|C3|absent": {
+   "pair": [
+    "three",
+    "seven"
+   ],
+   "sum": "ten",
+   "cond": "absent"
+  },
+  "4B|C3|maintain": {
+   "pair": [
+    "four",
+    "seven"
+   ],
+   "sum": "eleven",
+   "cond": "maintain"
+  },
+  "4B|C3|control": {
+   "pair": [
+    "four",
+    "seven"
+   ],
+   "sum": "eleven",
+   "cond": "control"
+  },
+  "4B|C3|absent": {
+   "pair": [
+    "four",
+    "seven"
+   ],
+   "sum": "eleven",
+   "cond": "absent"
+  },
+  "5B|C3|maintain": {
+   "pair": [
+    "five",
+    "seven"
+   ],
+   "sum": "twelve",
+   "cond": "maintain"
+  },
+  "5B|C3|control": {
+   "pair": [
+    "five",
+    "seven"
+   ],
+   "sum": "twelve",
+   "cond": "control"
+  },
+  "5B|C3|absent": {
+   "pair": [
+    "five",
+    "seven"
+   ],
+   "sum": "twelve",
+   "cond": "absent"
+  },
+  "6B|C3|maintain": {
+   "pair": [
+    "six",
+    "seven"
+   ],
+   "sum": "thirteen",
+   "cond": "maintain"
+  },
+  "6B|C3|control": {
+   "pair": [
+    "six",
+    "seven"
+   ],
+   "sum": "thirteen",
+   "cond": "control"
+  },
+  "6B|C3|absent": {
+   "pair": [
+    "six",
+    "seven"
+   ],
+   "sum": "thirteen",
+   "cond": "absent"
+  },
+  "7B|C3|maintain": {
+   "pair": [
+    "five",
+    "nine"
+   ],
+   "sum": "fourteen",
+   "cond": "maintain"
+  },
+  "7B|C3|control": {
+   "pair": [
+    "five",
+    "nine"
+   ],
+   "sum": "fourteen",
+   "cond": "control"
+  },
+  "7B|C3|absent": {
+   "pair": [
+    "five",
+    "nine"
+   ],
+   "sum": "fourteen",
+   "cond": "absent"
+  }
+ },
+ "run_id": "20260907T044111Z",
+ "n_forwards": 96,
+ "elapsed_s": 39.0,
+ "token_ids": {
+  "two": 1330,
+  "three": 2250,
+  "four": 2943,
+  "five": 4097,
+  "six": 4590,
+  "seven": 7840,
+  "eight": 7810,
+  "nine": 11292,
+  "ten": 5600,
+  "eleven": 42744,
+  "twelve": 28279,
+  "thirteen": 58614,
+  "fourteen": 60163,
+  "anchor": 16602,
+  "apple": 22544,
+  "arrow": 17385,
+  "badge": 23213,
+  "basket": 13621,
+  "bread": 15530,
+  "brick": 24051,
+  "bridge": 13759
+ }
+}

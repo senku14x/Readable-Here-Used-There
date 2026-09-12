@@ -1,0 +1,1573 @@
+{
+ "columns": [
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "sum_words": [
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen"
+ ],
+ "letters": [
+  "B",
+  "D",
+  "F",
+  "H",
+  "K",
+  "M",
+  "Q",
+  "V"
+ ],
+ "letter_ids": {
+  "B": [
+   33,
+   425
+  ],
+  "D": [
+   35,
+   422
+  ],
+  "F": [
+   37,
+   434
+  ],
+  "H": [
+   39,
+   472
+  ],
+  "K": [
+   42,
+   730
+  ],
+  "M": [
+   44,
+   386
+  ],
+  "Q": [
+   48,
+   1207
+  ],
+  "V": [
+   53,
+   647
+  ]
+ },
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "seed": 20260908,
+ "stage": "global",
+ "queries": {
+  "sum_pair": "Using the code, give the letter for the sum of the pair. Answer with the letter only.",
+  "sum_two": "Using the code, give the letter for the sum of the two numbers. Answer with the letter only.",
+  "total_pair": "Using the code, give the letter for the total of the pair. Answer with the letter only."
+ },
+ "token_ids": {
+  "two": 1378,
+  "three": 2326,
+  "four": 3040,
+  "five": 4236,
+  "six": 4743,
+  "seven": 8094,
+  "eight": 8063,
+  "nine": 11627,
+  "ten": 5779,
+  "eleven": 44214,
+  "twelve": 29235,
+  "thirteen": 60659,
+  "fourteen": 62260,
+  "anchor": 17105,
+  "apple": 23268,
+  "arrow": 17921,
+  "badge": 23961,
+  "basket": 14024,
+  "bread": 16002,
+  "brick": 24837,
+  "bridge": 14164
+ },
+ "lx": 36,
+ "carriers": [
+  "C0",
+  "C1",
+  "C2",
+  "C3"
+ ],
+ "map": 3,
+ "cells": {
+  "S0|C0": {
+   "sum": "seven",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     110
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     111
+    ]
+   }
+  },
+  "S1|C0": {
+   "sum": "eight",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     110
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     111
+    ]
+   }
+  },
+  "S2|C0": {
+   "sum": "nine",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     110
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     111
+    ]
+   }
+  },
+  "S3|C0": {
+   "sum": "ten",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     110
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     111
+    ]
+   }
+  },
+  "S4|C0": {
+   "sum": "eleven",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     110
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     111
+    ]
+   }
+  },
+  "S5|C0": {
+   "sum": "twelve",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     110
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     111
+    ]
+   }
+  },
+  "S6|C0": {
+   "sum": "thirteen",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     110
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     111
+    ]
+   }
+  },
+  "S7|C0": {
+   "sum": "fourteen",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     110
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     61,
+     84
+    ],
+    "decision": [
+     84,
+     111
+    ]
+   }
+  },
+  "S0|C1": {
+   "sum": "seven",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     112
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     113
+    ]
+   }
+  },
+  "S1|C1": {
+   "sum": "eight",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     112
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     113
+    ]
+   }
+  },
+  "S2|C1": {
+   "sum": "nine",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     112
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     113
+    ]
+   }
+  },
+  "S3|C1": {
+   "sum": "ten",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     112
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     113
+    ]
+   }
+  },
+  "S4|C1": {
+   "sum": "eleven",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     112
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     113
+    ]
+   }
+  },
+  "S5|C1": {
+   "sum": "twelve",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     112
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     113
+    ]
+   }
+  },
+  "S6|C1": {
+   "sum": "thirteen",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     112
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     113
+    ]
+   }
+  },
+  "S7|C1": {
+   "sum": "fourteen",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     112
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     62,
+     86
+    ],
+    "decision": [
+     86,
+     113
+    ]
+   }
+  },
+  "S0|C2": {
+   "sum": "seven",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     96
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     97
+    ]
+   }
+  },
+  "S1|C2": {
+   "sum": "eight",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     96
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     97
+    ]
+   }
+  },
+  "S2|C2": {
+   "sum": "nine",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     96
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     97
+    ]
+   }
+  },
+  "S3|C2": {
+   "sum": "ten",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     96
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     97
+    ]
+   }
+  },
+  "S4|C2": {
+   "sum": "eleven",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     96
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     97
+    ]
+   }
+  },
+  "S5|C2": {
+   "sum": "twelve",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     96
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     97
+    ]
+   }
+  },
+  "S6|C2": {
+   "sum": "thirteen",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     96
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     97
+    ]
+   }
+  },
+  "S7|C2": {
+   "sum": "fourteen",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     96
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     54,
+     70
+    ],
+    "decision": [
+     70,
+     97
+    ]
+   }
+  },
+  "S0|C3": {
+   "sum": "seven",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "two",
+    "eight"
+   ],
+   "diff_sum": "ten",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     130
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     131
+    ]
+   }
+  },
+  "S1|C3": {
+   "sum": "eight",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "three",
+    "eight"
+   ],
+   "diff_sum": "eleven",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     130
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     131
+    ]
+   }
+  },
+  "S2|C3": {
+   "sum": "nine",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "four",
+    "eight"
+   ],
+   "diff_sum": "twelve",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     130
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     131
+    ]
+   }
+  },
+  "S3|C3": {
+   "sum": "ten",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "five",
+    "eight"
+   ],
+   "diff_sum": "thirteen",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     130
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     131
+    ]
+   }
+  },
+  "S4|C3": {
+   "sum": "eleven",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "six",
+    "eight"
+   ],
+   "diff_sum": "fourteen",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     130
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     131
+    ]
+   }
+  },
+  "S5|C3": {
+   "sum": "twelve",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "two",
+    "five"
+   ],
+   "diff_sum": "seven",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     130
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     131
+    ]
+   }
+  },
+  "S6|C3": {
+   "sum": "thirteen",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "own_parity": "odd",
+   "donor": [
+    "two",
+    "six"
+   ],
+   "diff_sum": "eight",
+   "diff_parity": "even",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     130
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     131
+    ]
+   }
+  },
+  "S7|C3": {
+   "sum": "fourteen",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "own_parity": "even",
+   "donor": [
+    "two",
+    "seven"
+   ],
+   "diff_sum": "nine",
+   "diff_parity": "odd",
+   "parity_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     130
+    ]
+   },
+   "report_positions": {
+    "span": [
+     7,
+     11
+    ],
+    "carrier": [
+     71,
+     104
+    ],
+    "decision": [
+     104,
+     131
+    ]
+   }
+  }
+ },
+ "design": "Amendment 3",
+ "smoke": false,
+ "full_attention_layers": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63
+ ],
+ "swap_layers": [
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62
+ ],
+ "run_id": "20260909T164647Z",
+ "n_forwards": 958,
+ "elapsed_s": 100.0
+}

@@ -1,0 +1,568 @@
+{
+ "columns": [
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "sum_words": [
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "seed": 20260909,
+ "stage": "nosource",
+ "carriers": [
+  "C0",
+  "C1",
+  "C2",
+  "C3"
+ ],
+ "map": 3,
+ "lx": 36,
+ "q_layers": [
+  36,
+  62
+ ],
+ "cells": {
+  "S0|C0": {
+   "sum": "seven",
+   "donor_sum": "ten",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "donor": [
+    "two",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S1|C0": {
+   "sum": "eight",
+   "donor_sum": "eleven",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "donor": [
+    "three",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S2|C0": {
+   "sum": "nine",
+   "donor_sum": "twelve",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "donor": [
+    "four",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S3|C0": {
+   "sum": "ten",
+   "donor_sum": "thirteen",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "donor": [
+    "five",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S4|C0": {
+   "sum": "eleven",
+   "donor_sum": "fourteen",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "donor": [
+    "six",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S5|C0": {
+   "sum": "twelve",
+   "donor_sum": "seven",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "five"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S6|C0": {
+   "sum": "thirteen",
+   "donor_sum": "eight",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "six"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S7|C0": {
+   "sum": "fourteen",
+   "donor_sum": "nine",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "seven"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S0|C1": {
+   "sum": "seven",
+   "donor_sum": "ten",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "donor": [
+    "two",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S1|C1": {
+   "sum": "eight",
+   "donor_sum": "eleven",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "donor": [
+    "three",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S2|C1": {
+   "sum": "nine",
+   "donor_sum": "twelve",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "donor": [
+    "four",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S3|C1": {
+   "sum": "ten",
+   "donor_sum": "thirteen",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "donor": [
+    "five",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S4|C1": {
+   "sum": "eleven",
+   "donor_sum": "fourteen",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "donor": [
+    "six",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S5|C1": {
+   "sum": "twelve",
+   "donor_sum": "seven",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "five"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S6|C1": {
+   "sum": "thirteen",
+   "donor_sum": "eight",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "six"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S7|C1": {
+   "sum": "fourteen",
+   "donor_sum": "nine",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "seven"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S0|C2": {
+   "sum": "seven",
+   "donor_sum": "ten",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "donor": [
+    "two",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S1|C2": {
+   "sum": "eight",
+   "donor_sum": "eleven",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "donor": [
+    "three",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S2|C2": {
+   "sum": "nine",
+   "donor_sum": "twelve",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "donor": [
+    "four",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S3|C2": {
+   "sum": "ten",
+   "donor_sum": "thirteen",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "donor": [
+    "five",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S4|C2": {
+   "sum": "eleven",
+   "donor_sum": "fourteen",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "donor": [
+    "six",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S5|C2": {
+   "sum": "twelve",
+   "donor_sum": "seven",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "five"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S6|C2": {
+   "sum": "thirteen",
+   "donor_sum": "eight",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "six"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S7|C2": {
+   "sum": "fourteen",
+   "donor_sum": "nine",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "seven"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S0|C3": {
+   "sum": "seven",
+   "donor_sum": "ten",
+   "pair": [
+    "two",
+    "five"
+   ],
+   "donor": [
+    "two",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S1|C3": {
+   "sum": "eight",
+   "donor_sum": "eleven",
+   "pair": [
+    "two",
+    "six"
+   ],
+   "donor": [
+    "three",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S2|C3": {
+   "sum": "nine",
+   "donor_sum": "twelve",
+   "pair": [
+    "two",
+    "seven"
+   ],
+   "donor": [
+    "four",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S3|C3": {
+   "sum": "ten",
+   "donor_sum": "thirteen",
+   "pair": [
+    "two",
+    "eight"
+   ],
+   "donor": [
+    "five",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S4|C3": {
+   "sum": "eleven",
+   "donor_sum": "fourteen",
+   "pair": [
+    "three",
+    "eight"
+   ],
+   "donor": [
+    "six",
+    "eight"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S5|C3": {
+   "sum": "twelve",
+   "donor_sum": "seven",
+   "pair": [
+    "four",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "five"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  },
+  "S6|C3": {
+   "sum": "thirteen",
+   "donor_sum": "eight",
+   "pair": [
+    "five",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "six"
+   ],
+   "filler": "a and b",
+   "own_parity": "odd",
+   "donor_parity": "even"
+  },
+  "S7|C3": {
+   "sum": "fourteen",
+   "donor_sum": "nine",
+   "pair": [
+    "six",
+    "eight"
+   ],
+   "donor": [
+    "two",
+    "seven"
+   ],
+   "filler": "a and b",
+   "own_parity": "even",
+   "donor_parity": "odd"
+  }
+ },
+ "token_ids": {
+  "two": 1330,
+  "three": 2250,
+  "four": 2943,
+  "five": 4097,
+  "six": 4590,
+  "seven": 7840,
+  "eight": 7810,
+  "nine": 11292,
+  "ten": 5600,
+  "eleven": 42744,
+  "twelve": 28279,
+  "thirteen": 58614,
+  "fourteen": 60163,
+  "anchor": 16602,
+  "apple": 22544,
+  "arrow": 17385,
+  "badge": 23213,
+  "basket": 13621,
+  "bread": 15530,
+  "brick": 24051,
+  "bridge": 13759
+ },
+ "primary_consumer": "parity (report is steering-susceptible for coordinate writes)",
+ "n_forwards": 574,
+ "run_id": "20260909T142306Z",
+ "elapsed_s": 149.9
+}

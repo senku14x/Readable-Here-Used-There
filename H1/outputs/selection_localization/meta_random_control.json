@@ -1,0 +1,603 @@
+{
+ "cells": {
+  "T0|C2|rot0": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T0|C2|rot1": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T0|C2|rot2": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T1|C2|rot0": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T1|C2|rot1": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T1|C2|rot2": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T2|C2|rot0": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T2|C2|rot1": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T2|C2|rot2": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T3|C2|rot0": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T3|C2|rot1": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T3|C2|rot2": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T4|C2|rot0": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T4|C2|rot1": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T4|C2|rot2": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T5|C2|rot0": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T5|C2|rot1": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T5|C2|rot2": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T6|C2|rot0": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T6|C2|rot1": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T6|C2|rot2": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T7|C2|rot0": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T7|C2|rot1": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T7|C2|rot2": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 71,
+   "instr_len": 41
+  },
+  "T0|C3|rot0": {
+   "words": [
+    "cat",
+    "dress",
+    "snake"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T0|C3|rot1": {
+   "words": [
+    "dress",
+    "snake",
+    "cat"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T0|C3|rot2": {
+   "words": [
+    "snake",
+    "cat",
+    "dress"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T1|C3|rot0": {
+   "words": [
+    "turtle",
+    "airport",
+    "fish"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T1|C3|rot1": {
+   "words": [
+    "airport",
+    "fish",
+    "turtle"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T1|C3|rot2": {
+   "words": [
+    "fish",
+    "turtle",
+    "airport"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T2|C3|rot0": {
+   "words": [
+    "library",
+    "toy",
+    "dish"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T2|C3|rot1": {
+   "words": [
+    "toy",
+    "dish",
+    "library"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T2|C3|rot2": {
+   "words": [
+    "dish",
+    "library",
+    "toy"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T3|C3|rot0": {
+   "words": [
+    "moon",
+    "fort",
+    "heart"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T3|C3|rot1": {
+   "words": [
+    "fort",
+    "heart",
+    "moon"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T3|C3|rot2": {
+   "words": [
+    "heart",
+    "moon",
+    "fort"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T4|C3|rot0": {
+   "words": [
+    "bubble",
+    "rug",
+    "bear"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T4|C3|rot1": {
+   "words": [
+    "rug",
+    "bear",
+    "bubble"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T4|C3|rot2": {
+   "words": [
+    "bear",
+    "bubble",
+    "rug"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T5|C3|rot0": {
+   "words": [
+    "coal",
+    "card",
+    "lake"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T5|C3|rot1": {
+   "words": [
+    "card",
+    "lake",
+    "coal"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T5|C3|rot2": {
+   "words": [
+    "lake",
+    "coal",
+    "card"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T6|C3|rot0": {
+   "words": [
+    "glass",
+    "silver",
+    "river"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T6|C3|rot1": {
+   "words": [
+    "silver",
+    "river",
+    "glass"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T6|C3|rot2": {
+   "words": [
+    "river",
+    "glass",
+    "silver"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T7|C3|rot0": {
+   "words": [
+    "shield",
+    "monkey",
+    "queen"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T7|C3|rot1": {
+   "words": [
+    "monkey",
+    "queen",
+    "shield"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  },
+  "T7|C3|rot2": {
+   "words": [
+    "queen",
+    "shield",
+    "monkey"
+   ],
+   "tag_pos": 30,
+   "carrier_start": 88,
+   "instr_len": 58
+  }
+ },
+ "triples": [
+  [
+   "cat",
+   "dress",
+   "snake"
+  ],
+  [
+   "turtle",
+   "airport",
+   "fish"
+  ],
+  [
+   "library",
+   "toy",
+   "dish"
+  ],
+  [
+   "moon",
+   "fort",
+   "heart"
+  ],
+  [
+   "bubble",
+   "rug",
+   "bear"
+  ],
+  [
+   "coal",
+   "card",
+   "lake"
+  ],
+  [
+   "glass",
+   "silver",
+   "river"
+  ],
+  [
+   "shield",
+   "monkey",
+   "queen"
+  ]
+ ],
+ "columns": [
+  "cat",
+  "dress",
+  "snake",
+  "turtle",
+  "airport",
+  "fish",
+  "library",
+  "toy",
+  "dish",
+  "moon",
+  "fort",
+  "heart",
+  "bubble",
+  "rug",
+  "bear",
+  "coal",
+  "card",
+  "lake",
+  "glass",
+  "silver",
+  "river",
+  "shield",
+  "monkey",
+  "queen",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers": [
+  "C2",
+  "C3"
+ ],
+ "tags": [
+  "A",
+  "B",
+  "C"
+ ],
+ "l_transplant": 36,
+ "seeds": [
+  0,
+  1
+ ],
+ "conds": [
+  "cleanA",
+  "cleanB",
+  "cleanC",
+  "BtoA",
+  "CtoA",
+  "randB_s0",
+  "randB_s1",
+  "randC_s0",
+  "randC_s1",
+  "shuffB",
+  "shuffC",
+  "flipB",
+  "flipC"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "stage": "random_control",
+ "run_id": "20260907T194352Z",
+ "n_forwards": 624,
+ "elapsed_s": 371.1
+}

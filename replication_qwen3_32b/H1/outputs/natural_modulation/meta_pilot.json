@@ -1,0 +1,7315 @@
+{
+ "cells": {
+  "controlled|maintain|orange|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"orange\". Keep that word in mind while you copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|guitar|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"guitar\". Keep that word in mind while you copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|tiger|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"tiger\". Keep that word in mind while you copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|mountain|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"mountain\". Keep that word in mind while you copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|diamond|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"diamond\". Keep that word in mind while you copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|thunder|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"thunder\". Keep that word in mind while you copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|castle|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"castle\". Keep that word in mind while you copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|rocket|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"rocket\". Keep that word in mind while you copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|orange|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"orange\". That word occurs one time. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|guitar|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"guitar\". That word occurs one time. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|tiger|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"tiger\". That word occurs one time. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|mountain|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"mountain\". That word occurs one time. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|diamond|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"diamond\". That word occurs one time. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|thunder|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"thunder\". That word occurs one time. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|castle|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"castle\". That word occurs one time. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|rocket|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"rocket\". That word occurs one time. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|orange|C0": {
+   "n_tokens": 71,
+   "interior": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+   ],
+   "carrier": [
+    48,
+    71
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "orange. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|guitar|C0": {
+   "n_tokens": 72,
+   "interior": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+   ],
+   "carrier": [
+    49,
+    72
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "guitar. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|tiger|C0": {
+   "n_tokens": 72,
+   "interior": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+   ],
+   "carrier": [
+    49,
+    72
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "tiger. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|mountain|C0": {
+   "n_tokens": 72,
+   "interior": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+   ],
+   "carrier": [
+    49,
+    72
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "mountain. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|diamond|C0": {
+   "n_tokens": 71,
+   "interior": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+   ],
+   "carrier": [
+    48,
+    71
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "diamond. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|thunder|C0": {
+   "n_tokens": 72,
+   "interior": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+   ],
+   "carrier": [
+    49,
+    72
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "thunder. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|castle|C0": {
+   "n_tokens": 71,
+   "interior": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+   ],
+   "carrier": [
+    48,
+    71
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "castle. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|rocket|C0": {
+   "n_tokens": 71,
+   "interior": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+   ],
+   "carrier": [
+    48,
+    71
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "rocket. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|orange|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"orange\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|guitar|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"guitar\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|tiger|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"tiger\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|mountain|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"mountain\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|diamond|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"diamond\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|thunder|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"thunder\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|castle|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"castle\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|rocket|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"rocket\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|orange|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"orange\". Do not think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|guitar|C0": {
+   "n_tokens": 84,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    61,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"guitar\". Do not think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|tiger|C0": {
+   "n_tokens": 84,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    61,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"tiger\". Do not think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|mountain|C0": {
+   "n_tokens": 84,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    61,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"mountain\". Do not think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|diamond|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"diamond\". Do not think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|thunder|C0": {
+   "n_tokens": 84,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    61,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"thunder\". Do not think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|castle|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"castle\". Do not think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|rocket|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"rocket\". Do not think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|orange|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"orange\". Never think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|guitar|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"guitar\". Never think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|tiger|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"tiger\". Never think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|mountain|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"mountain\". Never think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|diamond|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"diamond\". Never think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|thunder|C0": {
+   "n_tokens": 83,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "carrier": [
+    60,
+    83
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"thunder\". Never think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|castle|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"castle\". Never think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|rocket|C0": {
+   "n_tokens": 82,
+   "interior": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "carrier": [
+    59,
+    82
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"rocket\". Never think about that word. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|absent|NONE|C0": {
+   "n_tokens": 78,
+   "interior": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
+   ],
+   "carrier": [
+    55,
+    78
+   ],
+   "span": null,
+   "user_text": "A single passage of text is given below. Now copy the following text exactly, word for word:\n\nThe committee reviewed the annual budget and approved funding for several new community programs before the long meeting finally adjourned.",
+   "gates": {
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|orange|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"orange\". Keep that word in mind while you copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|guitar|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"guitar\". Keep that word in mind while you copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|tiger|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"tiger\". Keep that word in mind while you copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|mountain|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"mountain\". Keep that word in mind while you copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|diamond|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"diamond\". Keep that word in mind while you copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|thunder|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"thunder\". Keep that word in mind while you copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|castle|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"castle\". Keep that word in mind while you copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|maintain|rocket|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"rocket\". Keep that word in mind while you copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|orange|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"orange\". That word occurs one time. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|guitar|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"guitar\". That word occurs one time. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|tiger|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"tiger\". That word occurs one time. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|mountain|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"mountain\". That word occurs one time. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|diamond|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"diamond\". That word occurs one time. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|thunder|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"thunder\". That word occurs one time. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|castle|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"castle\". That word occurs one time. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|mention|rocket|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"rocket\". That word occurs one time. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|orange|C1": {
+   "n_tokens": 73,
+   "interior": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+   ],
+   "carrier": [
+    49,
+    73
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "orange. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|guitar|C1": {
+   "n_tokens": 74,
+   "interior": [
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+   ],
+   "carrier": [
+    50,
+    74
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "guitar. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|tiger|C1": {
+   "n_tokens": 74,
+   "interior": [
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+   ],
+   "carrier": [
+    50,
+    74
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "tiger. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|mountain|C1": {
+   "n_tokens": 74,
+   "interior": [
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+   ],
+   "carrier": [
+    50,
+    74
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "mountain. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|diamond|C1": {
+   "n_tokens": 73,
+   "interior": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+   ],
+   "carrier": [
+    49,
+    73
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "diamond. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|thunder|C1": {
+   "n_tokens": 74,
+   "interior": [
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+   ],
+   "carrier": [
+    50,
+    74
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "thunder. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|castle|C1": {
+   "n_tokens": 73,
+   "interior": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+   ],
+   "carrier": [
+    49,
+    73
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "castle. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|plain_mention|rocket|C1": {
+   "n_tokens": 73,
+   "interior": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+   ],
+   "carrier": [
+    49,
+    73
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "rocket. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|orange|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"orange\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|guitar|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"guitar\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|tiger|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"tiger\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|mountain|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"mountain\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|diamond|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"diamond\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|thunder|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"thunder\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|castle|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"castle\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|ignore|rocket|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"rocket\". That word is irrelevant here. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|orange|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"orange\". Do not think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|guitar|C1": {
+   "n_tokens": 86,
+   "interior": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83
+   ],
+   "carrier": [
+    62,
+    86
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"guitar\". Do not think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|tiger|C1": {
+   "n_tokens": 86,
+   "interior": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83
+   ],
+   "carrier": [
+    62,
+    86
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"tiger\". Do not think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|mountain|C1": {
+   "n_tokens": 86,
+   "interior": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83
+   ],
+   "carrier": [
+    62,
+    86
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"mountain\". Do not think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|diamond|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"diamond\". Do not think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|thunder|C1": {
+   "n_tokens": 86,
+   "interior": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83
+   ],
+   "carrier": [
+    62,
+    86
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"thunder\". Do not think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|castle|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"castle\". Do not think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|do_not_think|rocket|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"rocket\". Do not think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|orange|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"orange\". Never think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|guitar|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"guitar\". Never think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|tiger|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"tiger\". Never think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|mountain|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"mountain\". Never think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|diamond|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"diamond\". Never think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|thunder|C1": {
+   "n_tokens": 85,
+   "interior": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "carrier": [
+    61,
+    85
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 9,
+    "close": 10,
+    "content": [
+     8,
+     9
+    ],
+    "full": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "user_text": "Here is the word \"thunder\". Never think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|castle|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"castle\". Never think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|never_think|rocket|C1": {
+   "n_tokens": 84,
+   "interior": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "carrier": [
+    60,
+    84
+   ],
+   "span": {
+    "open": 7,
+    "first": 8,
+    "last": 8,
+    "close": 9,
+    "content": [
+     8
+    ],
+    "full": [
+     7,
+     8,
+     9
+    ]
+   },
+   "user_text": "Here is the word \"rocket\". Never think about that word. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "controlled|absent|NONE|C1": {
+   "n_tokens": 80,
+   "interior": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77
+   ],
+   "carrier": [
+    56,
+    80
+   ],
+   "span": null,
+   "user_text": "A single passage of text is given below. Now copy the following text exactly, word for word:\n\nAfter a brief announcement the passengers boarded quietly and the doors slid shut, and soon the whole platform stood empty and silent.",
+   "gates": {
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|orange|D0": {
+   "n_tokens": 31,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "carrier": [
+    20,
+    31
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold orange in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|orange|D0": {
+   "n_tokens": 53,
+   "interior": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "carrier": [
+    42,
+    53
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold orange in mind as you write. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|guitar|D0": {
+   "n_tokens": 31,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "carrier": [
+    20,
+    31
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold guitar in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|guitar|D0": {
+   "n_tokens": 53,
+   "interior": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "carrier": [
+    42,
+    53
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold guitar in mind as you write. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|tiger|D0": {
+   "n_tokens": 31,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "carrier": [
+    20,
+    31
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold tiger in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|tiger|D0": {
+   "n_tokens": 53,
+   "interior": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "carrier": [
+    42,
+    53
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold tiger in mind as you write. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|mountain|D0": {
+   "n_tokens": 31,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "carrier": [
+    20,
+    31
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold mountain in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|mountain|D0": {
+   "n_tokens": 53,
+   "interior": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "carrier": [
+    42,
+    53
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold mountain in mind as you write. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|diamond|D0": {
+   "n_tokens": 31,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "carrier": [
+    20,
+    31
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold diamond in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|diamond|D0": {
+   "n_tokens": 53,
+   "interior": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "carrier": [
+    42,
+    53
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold diamond in mind as you write. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|thunder|D0": {
+   "n_tokens": 31,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "carrier": [
+    20,
+    31
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold thunder in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|thunder|D0": {
+   "n_tokens": 53,
+   "interior": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "carrier": [
+    42,
+    53
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold thunder in mind as you write. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|castle|D0": {
+   "n_tokens": 31,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "carrier": [
+    20,
+    31
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold castle in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|castle|D0": {
+   "n_tokens": 53,
+   "interior": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "carrier": [
+    42,
+    53
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold castle in mind as you write. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|rocket|D0": {
+   "n_tokens": 31,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "carrier": [
+    20,
+    31
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold rocket in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|rocket|D0": {
+   "n_tokens": 53,
+   "interior": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "carrier": [
+    42,
+    53
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold rocket in mind as you write. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|orange|D0": {
+   "n_tokens": 29,
+   "interior": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    18,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "orange came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|orange|D0": {
+   "n_tokens": 51,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+   ],
+   "carrier": [
+    40,
+    51
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "orange came up in conversation. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|guitar|D0": {
+   "n_tokens": 30,
+   "interior": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+   ],
+   "carrier": [
+    19,
+    30
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "guitar came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|guitar|D0": {
+   "n_tokens": 52,
+   "interior": [
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+   ],
+   "carrier": [
+    41,
+    52
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "guitar came up in conversation. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|tiger|D0": {
+   "n_tokens": 30,
+   "interior": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+   ],
+   "carrier": [
+    19,
+    30
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "tiger came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|tiger|D0": {
+   "n_tokens": 52,
+   "interior": [
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+   ],
+   "carrier": [
+    41,
+    52
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "tiger came up in conversation. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|mountain|D0": {
+   "n_tokens": 30,
+   "interior": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+   ],
+   "carrier": [
+    19,
+    30
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "mountain came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|mountain|D0": {
+   "n_tokens": 52,
+   "interior": [
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+   ],
+   "carrier": [
+    41,
+    52
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "mountain came up in conversation. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|diamond|D0": {
+   "n_tokens": 29,
+   "interior": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    18,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "diamond came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|diamond|D0": {
+   "n_tokens": 51,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+   ],
+   "carrier": [
+    40,
+    51
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "diamond came up in conversation. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|thunder|D0": {
+   "n_tokens": 30,
+   "interior": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+   ],
+   "carrier": [
+    19,
+    30
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "thunder came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|thunder|D0": {
+   "n_tokens": 52,
+   "interior": [
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+   ],
+   "carrier": [
+    41,
+    52
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "thunder came up in conversation. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|castle|D0": {
+   "n_tokens": 29,
+   "interior": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    18,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "castle came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|castle|D0": {
+   "n_tokens": 51,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+   ],
+   "carrier": [
+    40,
+    51
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "castle came up in conversation. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|rocket|D0": {
+   "n_tokens": 29,
+   "interior": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    18,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "rocket came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|rocket|D0": {
+   "n_tokens": 51,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+   ],
+   "carrier": [
+    40,
+    51
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "rocket came up in conversation. Now copy the following text exactly, word for word:\n\nThe old painting hung crookedly on the wall.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|orange|D3": {
+   "n_tokens": 29,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    20,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold orange in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|orange|D3": {
+   "n_tokens": 49,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "carrier": [
+    40,
+    49
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold orange in mind as you write. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|guitar|D3": {
+   "n_tokens": 29,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    20,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold guitar in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|guitar|D3": {
+   "n_tokens": 49,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "carrier": [
+    40,
+    49
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold guitar in mind as you write. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|tiger|D3": {
+   "n_tokens": 29,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    20,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold tiger in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|tiger|D3": {
+   "n_tokens": 49,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "carrier": [
+    40,
+    49
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold tiger in mind as you write. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|mountain|D3": {
+   "n_tokens": 29,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    20,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold mountain in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|mountain|D3": {
+   "n_tokens": 49,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "carrier": [
+    40,
+    49
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold mountain in mind as you write. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|diamond|D3": {
+   "n_tokens": 29,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    20,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold diamond in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|diamond|D3": {
+   "n_tokens": 49,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "carrier": [
+    40,
+    49
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold diamond in mind as you write. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|thunder|D3": {
+   "n_tokens": 29,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    20,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold thunder in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|thunder|D3": {
+   "n_tokens": 49,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "carrier": [
+    40,
+    49
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold thunder in mind as you write. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|castle|D3": {
+   "n_tokens": 29,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    20,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold castle in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|castle|D3": {
+   "n_tokens": 49,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "carrier": [
+    40,
+    49
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold castle in mind as you write. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|hold|rocket|D3": {
+   "n_tokens": 29,
+   "interior": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "carrier": [
+    20,
+    29
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold rocket in mind as you write.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|hold|rocket|D3": {
+   "n_tokens": 49,
+   "interior": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "carrier": [
+    40,
+    49
+   ],
+   "span": {
+    "open": null,
+    "first": 4,
+    "last": 4,
+    "close": 4,
+    "content": [
+     4
+    ],
+    "full": [
+     4
+    ]
+   },
+   "user_text": "Hold rocket in mind as you write. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|orange|D3": {
+   "n_tokens": 27,
+   "interior": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "carrier": [
+    18,
+    27
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "orange came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|orange|D3": {
+   "n_tokens": 47,
+   "interior": [
+    40,
+    41,
+    42,
+    43,
+    44
+   ],
+   "carrier": [
+    38,
+    47
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "orange came up in conversation. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|guitar|D3": {
+   "n_tokens": 28,
+   "interior": [
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "carrier": [
+    19,
+    28
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "guitar came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|guitar|D3": {
+   "n_tokens": 48,
+   "interior": [
+    41,
+    42,
+    43,
+    44,
+    45
+   ],
+   "carrier": [
+    39,
+    48
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "guitar came up in conversation. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|tiger|D3": {
+   "n_tokens": 28,
+   "interior": [
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "carrier": [
+    19,
+    28
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "tiger came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|tiger|D3": {
+   "n_tokens": 48,
+   "interior": [
+    41,
+    42,
+    43,
+    44,
+    45
+   ],
+   "carrier": [
+    39,
+    48
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "tiger came up in conversation. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|mountain|D3": {
+   "n_tokens": 28,
+   "interior": [
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "carrier": [
+    19,
+    28
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "mountain came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|mountain|D3": {
+   "n_tokens": 48,
+   "interior": [
+    41,
+    42,
+    43,
+    44,
+    45
+   ],
+   "carrier": [
+    39,
+    48
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "mountain came up in conversation. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|diamond|D3": {
+   "n_tokens": 27,
+   "interior": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "carrier": [
+    18,
+    27
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "diamond came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|diamond|D3": {
+   "n_tokens": 47,
+   "interior": [
+    40,
+    41,
+    42,
+    43,
+    44
+   ],
+   "carrier": [
+    38,
+    47
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "diamond came up in conversation. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|thunder|D3": {
+   "n_tokens": 28,
+   "interior": [
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "carrier": [
+    19,
+    28
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "thunder came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|thunder|D3": {
+   "n_tokens": 48,
+   "interior": [
+    41,
+    42,
+    43,
+    44,
+    45
+   ],
+   "carrier": [
+    39,
+    48
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 4,
+    "close": 4,
+    "content": [
+     3,
+     4
+    ],
+    "full": [
+     3,
+     4
+    ]
+   },
+   "user_text": "thunder came up in conversation. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|castle|D3": {
+   "n_tokens": 27,
+   "interior": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "carrier": [
+    18,
+    27
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "castle came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|castle|D3": {
+   "n_tokens": 47,
+   "interior": [
+    40,
+    41,
+    42,
+    43,
+    44
+   ],
+   "carrier": [
+    38,
+    47
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "castle came up in conversation. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "direct|conversation|rocket|D3": {
+   "n_tokens": 27,
+   "interior": [
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "carrier": [
+    18,
+    27
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "rocket came up in conversation.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  },
+  "copy_adapted|conversation|rocket|D3": {
+   "n_tokens": 47,
+   "interior": [
+    40,
+    41,
+    42,
+    43,
+    44
+   ],
+   "carrier": [
+    38,
+    47
+   ],
+   "span": {
+    "open": null,
+    "first": 3,
+    "last": 3,
+    "close": 3,
+    "content": [
+     3
+    ],
+    "full": [
+     3
+    ]
+   },
+   "user_text": "rocket came up in conversation. Now copy the following text exactly, word for word:\n\nI forgot my umbrella at work yesterday afternoon.",
+   "gates": {
+    "span_X": true,
+    "assistant_carrier": true,
+    "user_carrier": true,
+    "no_padding": true
+   }
+  }
+ },
+ "columns": [
+  "orange",
+  "guitar",
+  "tiger",
+  "mountain",
+  "diamond",
+  "thunder",
+  "castle",
+  "rocket",
+  "dragon",
+  "drawer",
+  "forest",
+  "fork",
+  "hammer",
+  "horse",
+  "knife",
+  "lion"
+ ],
+ "layers": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62
+ ],
+ "qual_random_cells": [
+  "controlled|mention|diamond|C0",
+  "controlled|plain_mention|tiger|C0",
+  "controlled|never_think|castle|C0",
+  "controlled|mention|guitar|C1",
+  "controlled|mention|diamond|C1",
+  "controlled|plain_mention|orange|C1"
+ ],
+ "run_id": "20260909T163300Z",
+ "stage": "pilot",
+ "n_forwards": 168,
+ "elapsed_s": 68.4,
+ "words": [
+  "orange",
+  "guitar",
+  "tiger",
+  "mountain",
+  "diamond",
+  "thunder",
+  "castle",
+  "rocket"
+ ],
+ "decoys": [
+  "dragon",
+  "drawer",
+  "forest",
+  "fork",
+  "hammer",
+  "horse",
+  "knife",
+  "lion"
+ ],
+ "carriers": [
+  "C0",
+  "C1"
+ ],
+ "direct_carriers": [
+  "D0",
+  "D3"
+ ],
+ "conditions": [
+  "maintain",
+  "mention",
+  "plain_mention",
+  "ignore",
+  "do_not_think",
+  "never_think",
+  "absent"
+ ],
+ "direct_pair": [
+  "hold",
+  "conversation"
+ ],
+ "token_ids": {
+  "orange": 18575,
+  "guitar": 16986,
+  "tiger": 51735,
+  "mountain": 16301,
+  "diamond": 22205,
+  "thunder": 36843,
+  "castle": 32584,
+  "rocket": 24306,
+  "dragon": 25105,
+  "drawer": 26482,
+  "forest": 13638,
+  "fork": 22435,
+  "hammer": 23457,
+  "horse": 15223,
+  "knife": 21430,
+  "lion": 39032
+ },
+ "resid_axis": {
+  "fit_templates": [
+   "I saw a {m} yesterday.",
+   "The {m} was the first thing she mentioned.",
+   "Nobody expected the {m} to be there.",
+   "He wrote a short note about the {m}.",
+   "A picture of a {m} hung on the wall.",
+   "They talked about the {m} for an hour.",
+   "The {m} appeared in the last chapter.",
+   "My neighbor keeps asking about the {m}."
+  ],
+  "val_templates": [
+   "There was a {m} in the old photograph.",
+   "The story began with a {m}.",
+   "She drew a {m} in her notebook.",
+   "The word {m} was printed on the label."
+  ],
+  "heldout_margin_L36_50": {
+   "orange": 167.40890502929688,
+   "guitar": 170.2745819091797,
+   "tiger": 146.1177215576172,
+   "mountain": 145.20989990234375,
+   "diamond": 150.30909729003906,
+   "thunder": 181.74635314941406,
+   "castle": 159.1157684326172,
+   "rocket": 157.46270751953125
+  },
+  "construction": "unit(mu_X^fit - centroid(mu_decoys^fit)) per layer; presence = p.h - p.centroid"
+ },
+ "topk_cells": [
+  [
+   "maintain",
+   "orange",
+   "C0"
+  ],
+  [
+   "mention",
+   "orange",
+   "C0"
+  ],
+  [
+   "plain_mention",
+   "orange",
+   "C0"
+  ],
+  [
+   "absent",
+   "orange",
+   "C0"
+  ],
+  [
+   "maintain",
+   "castle",
+   "C1"
+  ],
+  [
+   "mention",
+   "castle",
+   "C1"
+  ]
+ ],
+ "qual_seed": 20260907
+}

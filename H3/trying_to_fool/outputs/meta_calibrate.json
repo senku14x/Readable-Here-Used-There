@@ -1,0 +1,315 @@
+{
+ "pairs": [
+  [
+   "orange",
+   "tiger"
+  ],
+  [
+   "guitar",
+   "mountain"
+  ],
+  [
+   "diamond",
+   "castle"
+  ],
+  [
+   "thunder",
+   "rocket"
+  ]
+ ],
+ "carriers": [
+  "C0",
+  "C1"
+ ],
+ "decoys": [
+  "dragon",
+  "drawer",
+  "forest",
+  "fork"
+ ],
+ "words": [
+  "castle",
+  "diamond",
+  "dragon",
+  "drawer",
+  "forest",
+  "fork",
+  "guitar",
+  "mountain",
+  "orange",
+  "rocket",
+  "thunder",
+  "tiger"
+ ],
+ "l_inj": 35,
+ "seed": 20260909,
+ "cells": {
+  "orange->tiger|C0": {
+   "X": "orange",
+   "Y": "tiger",
+   "F": {
+    "orange": "B",
+    "tiger": "H",
+    "dragon": "D",
+    "drawer": "M",
+    "forest": "K",
+    "fork": "Q"
+   },
+   "span": [
+    7,
+    9
+   ],
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147
+  },
+  "orange->tiger|C1": {
+   "X": "orange",
+   "Y": "tiger",
+   "F": {
+    "orange": "Q",
+    "tiger": "D",
+    "dragon": "H",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "M"
+   },
+   "span": [
+    7,
+    9
+   ],
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149
+  },
+  "tiger->orange|C0": {
+   "X": "tiger",
+   "Y": "orange",
+   "F": {
+    "tiger": "B",
+    "orange": "H",
+    "dragon": "D",
+    "drawer": "M",
+    "forest": "K",
+    "fork": "Q"
+   },
+   "span": [
+    7,
+    9
+   ],
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147
+  },
+  "tiger->orange|C1": {
+   "X": "tiger",
+   "Y": "orange",
+   "F": {
+    "tiger": "Q",
+    "orange": "D",
+    "dragon": "H",
+    "drawer": "V",
+    "forest": "B",
+    "fork": "M"
+   },
+   "span": [
+    7,
+    9
+   ],
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149
+  },
+  "guitar->mountain|C0": {
+   "X": "guitar",
+   "Y": "mountain",
+   "F": {
+    "guitar": "V",
+    "mountain": "F",
+    "dragon": "D",
+    "drawer": "H",
+    "forest": "K",
+    "fork": "M"
+   },
+   "span": [
+    7,
+    10
+   ],
+   "interior": [
+    63,
+    81
+   ],
+   "n_tokens": 148
+  },
+  "guitar->mountain|C1": {
+   "X": "guitar",
+   "Y": "mountain",
+   "F": {
+    "guitar": "Q",
+    "mountain": "H",
+    "dragon": "B",
+    "drawer": "F",
+    "forest": "K",
+    "fork": "D"
+   },
+   "span": [
+    7,
+    10
+   ],
+   "interior": [
+    64,
+    83
+   ],
+   "n_tokens": 150
+  },
+  "mountain->guitar|C0": {
+   "X": "mountain",
+   "Y": "guitar",
+   "F": {
+    "mountain": "V",
+    "guitar": "F",
+    "dragon": "D",
+    "drawer": "H",
+    "forest": "K",
+    "fork": "M"
+   },
+   "span": [
+    7,
+    10
+   ],
+   "interior": [
+    63,
+    81
+   ],
+   "n_tokens": 148
+  },
+  "mountain->guitar|C1": {
+   "X": "mountain",
+   "Y": "guitar",
+   "F": {
+    "mountain": "Q",
+    "guitar": "H",
+    "dragon": "B",
+    "drawer": "F",
+    "forest": "K",
+    "fork": "D"
+   },
+   "span": [
+    7,
+    10
+   ],
+   "interior": [
+    64,
+    83
+   ],
+   "n_tokens": 150
+  },
+  "diamond->castle|C0": {
+   "X": "diamond",
+   "Y": "castle",
+   "F": {
+    "diamond": "K",
+    "castle": "F",
+    "dragon": "V",
+    "drawer": "D",
+    "forest": "H",
+    "fork": "M"
+   },
+   "span": [
+    7,
+    9
+   ],
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147
+  },
+  "diamond->castle|C1": {
+   "X": "diamond",
+   "Y": "castle",
+   "F": {
+    "diamond": "K",
+    "castle": "M",
+    "dragon": "V",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "Q"
+   },
+   "span": [
+    7,
+    9
+   ],
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149
+  },
+  "castle->diamond|C0": {
+   "X": "castle",
+   "Y": "diamond",
+   "F": {
+    "castle": "K",
+    "diamond": "F",
+    "dragon": "V",
+    "drawer": "D",
+    "forest": "H",
+    "fork": "M"
+   },
+   "span": [
+    7,
+    9
+   ],
+   "interior": [
+    62,
+    80
+   ],
+   "n_tokens": 147
+  },
+  "castle->diamond|C1": {
+   "X": "castle",
+   "Y": "diamond",
+   "F": {
+    "castle": "K",
+    "diamond": "M",
+    "dragon": "V",
+    "drawer": "B",
+    "forest": "H",
+    "fork": "Q"
+   },
+   "span": [
+    7,
+    9
+   ],
+   "interior": [
+    63,
+    82
+   ],
+   "n_tokens": 149
+  },
+  "thunder->rocket|C0": {
+   "excluded": "donor geometry"
+  },
+  "thunder->rocket|C1": {
+   "excluded": "donor geometry"
+  },
+  "rocket->thunder|C0": {
+   "excluded": "donor geometry"
+  },
+  "rocket->thunder|C1": {
+   "excluded": "donor geometry"
+  }
+ },
+ "run_id": "20260909T191034Z",
+ "n_forwards": 284,
+ "elapsed_s": 78.0
+}

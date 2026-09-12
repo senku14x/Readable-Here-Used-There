@@ -1,0 +1,96 @@
+{
+ "model": {
+  "repo": "Qwen/Qwen3.6-27B",
+  "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+  "dtype": "bfloat16",
+  "attn_implementation": "eager",
+  "enable_thinking": false,
+  "hf_home": "/workspace/.hf_home",
+  "n_blocks": 64,
+  "d_model": 5120,
+  "vocab_size": 248320,
+  "layer_types_note": "full_attention at block indices i%4==3 (16 blocks), linear_attention (GatedDeltaNet) elsewhere (48); read from config at load, never hard-coded",
+  "block_indexing": "zero-based block-output indexing; ActivationRecorder stores the output of block l; hooks write block outputs"
+ },
+ "instruments": {
+  "J_NP": {
+   "key": "np",
+   "kind": "jacobian_lens",
+   "hf_repo": "neuronpedia/jacobian-lens",
+   "hf_revision": "0731326edff4ae730ffc5356fe1a4728c748b3a6",
+   "file": "qwen3.6-27b/jlens/Salesforce-wikitext/Qwen3.6-27B_jacobian_lens_n1000.pt",
+   "sha256": "1718c8c52dd8a9dad03738d4d625937c1fbba10be325b872ed446c7290fc11e1",
+   "n_prompts": 1000,
+   "d_model": 5120,
+   "source_layers": [
+    0,
+    62
+   ],
+   "n_source_layers": 63,
+   "jacobian_dtype": "torch.float32",
+   "size_bytes": 3303032772,
+   "meaning": "J_l maps block-output l to the final-block-output coordinate system; readout = final_norm(J_l h) @ W_U^T",
+   "fit_provenance": "neuronpedia README: fitted with anthropics/jacobian-lens on Salesforce/wikitext; target layer and skip settings are not stored in the checkpoint (only J, n_prompts, source_layers, d_model)"
+  },
+  "J_CB": {
+   "key": "cbj",
+   "kind": "jacobian_lens",
+   "hf_repo": "camilablank/workspace-lenses",
+   "hf_revision": "d740106d1e0f95456dc8718fba2895e9c8ffd6ef",
+   "file": "qwen3.6-27b/j-lens/lens.pt",
+   "sha256": "a036b35843d389b6655df721711917436fb79c83358c1861a4d58ad103a02724",
+   "n_prompts": 25,
+   "d_model": 5120,
+   "source_layers": [
+    0,
+    62
+   ],
+   "n_source_layers": 63,
+   "jacobian_dtype": "torch.float32",
+   "size_bytes": 3303028503,
+   "meaning": "J_l maps block-output l to the final-block-output coordinate system; readout = final_norm(J_l h) @ W_U^T",
+   "fit_provenance": "camilablank/workspace-lenses README; construction details not stored in the checkpoint"
+  },
+  "R_CB": {
+   "key": "cbr",
+   "kind": "r_lens",
+   "hf_repo": "camilablank/workspace-lenses",
+   "hf_revision": "d740106d1e0f95456dc8718fba2895e9c8ffd6ef",
+   "file": "qwen3.6-27b/r-lens/lens.pt",
+   "sha256": "fe4d0b6a17318760e67e7a5ed417fc5dbb8e66129c6944656f506b2f10ce6192",
+   "n_prompts": 25,
+   "d_model": 5120,
+   "source_layers": [
+    0,
+    62
+   ],
+   "n_source_layers": 63,
+   "jacobian_dtype": "torch.float32",
+   "size_bytes": 3303028567,
+   "meaning": "J_l maps block-output l to the final-block-output coordinate system; readout = final_norm(J_l h) @ W_U^T",
+   "fit_provenance": "camilablank/workspace-lenses README; construction details not stored in the checkpoint"
+  },
+  "RESID_P": {
+   "key": "s_p",
+   "kind": "plain_sentence_residual_axis",
+   "meaning": "unit(mu_Y - mu_X) fitted from Appendix C plain-sentence contexts at the target token, per layer; fitted per run manifest, never loaded from the earlier pilot",
+   "artifact": "fitted per experiment; stored under the experiment's outputs/ with fit-context list and hash"
+  },
+  "LOGITS": {
+   "key": "z_out",
+   "kind": "model_output_logits",
+   "meaning": "the model's own final logits (after block 63 and final norm); used at output/consumer sites",
+   "artifact": "none"
+  }
+ },
+ "software": {
+  "torch": "2.11.0+cu128",
+  "transformers": "5.15.0",
+  "jlens_commit": "581d398"
+ },
+ "run_id": "20260907T214007Z",
+ "stage": "pilot_v2",
+ "script": "H3/scripts/selection_to_behavior.py",
+ "design": "H3/design_specs/selection_to_behavior.md",
+ "raw_sha256": "898cf1e068416a5a87e412ae7109008ad5d8878655b27fac957869000a6e8017"
+}

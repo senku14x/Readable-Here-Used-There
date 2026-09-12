@@ -1,0 +1,545 @@
+{
+ "source": "anthropics/jacobian-lens@581d398 data/experiments/probe-swap.json",
+ "filter": "single-token intermediate/swap_to/answer/swap_answer; len(intermediate)==len(swap_to); answer!=intermediate",
+ "pilot": [
+  "ex-city-capital-Barcelona-Toronto",
+  "ex-city-capital-Lyon-Naples",
+  "ex-city-capital-Naples-Barcelona",
+  "ex-city-capital-Toronto-Lyon",
+  "ex2-city-capital-Munich",
+  "ex2-city-capital-Osaka",
+  "ex2-city-language-Cairo",
+  "ex2-city-language-Moscow",
+  "ex2-language-capital-Hungarian",
+  "ex2-language-capital-Polish",
+  "food-animal-butter",
+  "food-animal-honey"
+ ],
+ "eval": [
+  "amazon-language",
+  "animal-cover-turtle",
+  "animal-legs-buffalo2",
+  "beverage-source-wine",
+  "city-state-Philadelphia",
+  "colosseum-currency",
+  "element-color-gold2",
+  "ex-city-continent-Toronto-Lyon",
+  "ex-city-currency-Toronto-Beijing",
+  "ex-city-language-Lyon-Naples",
+  "ex-element-state-8-80",
+  "ex-element-state-80-8",
+  "ex-element-symbol-26-79",
+  "ex2-river-capital-Thames",
+  "greatwall-ocean",
+  "instr-hit-drums",
+  "month-3-godof",
+  "organ-location-heart",
+  "paper-continent",
+  "person-country-napoleon",
+  "person-country-shakespeare",
+  "person-firstname-darwin",
+  "planet-rings-saturn2",
+  "rhyme-spoon-orbit",
+  "season-next-winter",
+  "spaceneedle-border",
+  "sport-equip-tennis",
+  "super-populous-capital"
+ ],
+ "items": [
+  {
+   "name": "amazon-language",
+   "category": "multihop",
+   "prompt": "Fact: The language spoken in the country where the Amazon River ends is ",
+   "intermediate": "Brazil",
+   "answer": "Portuguese",
+   "swap_to": "Mexico",
+   "swap_answer": "Spanish"
+  },
+  {
+   "name": "animal-cover-turtle",
+   "category": "animal-cover",
+   "prompt": "Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a",
+   "intermediate": "turtle",
+   "answer": "shell",
+   "swap_to": "snake",
+   "swap_answer": "scale"
+  },
+  {
+   "name": "animal-legs-buffalo2",
+   "category": "animal-legs",
+   "prompt": "Fact: The number of legs on the large horned animal that roamed the American plains in huge herds is",
+   "intermediate": "buffalo",
+   "answer": "four",
+   "swap_to": "spider",
+   "swap_answer": "eight"
+  },
+  {
+   "name": "beverage-source-wine",
+   "category": "beverage-source",
+   "prompt": "Fact: The fruit that the alcoholic drink served at communion is made from is the",
+   "intermediate": "wine",
+   "answer": "grape",
+   "swap_to": "beer",
+   "swap_answer": "barley"
+  },
+  {
+   "name": "city-state-Philadelphia",
+   "category": "city-state",
+   "prompt": "Fact: The US state where the city famous for the Liberty Bell is located is",
+   "intermediate": "Philadelphia",
+   "answer": "Pennsylvania",
+   "swap_to": "Seattle",
+   "swap_answer": "Washington"
+  },
+  {
+   "name": "colosseum-currency",
+   "category": "multihop",
+   "prompt": "Fact: The currency used in the country where the Colosseum stands is the ",
+   "intermediate": "Italy",
+   "answer": "Euro",
+   "swap_to": "Mexico",
+   "swap_answer": "peso"
+  },
+  {
+   "name": "element-color-gold2",
+   "category": "element-color",
+   "prompt": "Fact: The color of the precious metal with atomic number 79 is",
+   "intermediate": "gold",
+   "answer": "yellow",
+   "swap_to": "silver",
+   "swap_answer": "gray"
+  },
+  {
+   "name": "ex-city-capital-Barcelona-Toronto",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Barcelona is located is",
+   "intermediate": "Spain",
+   "answer": "Madrid",
+   "swap_to": "Canada",
+   "swap_answer": "Ottawa"
+  },
+  {
+   "name": "ex-city-capital-Lyon-Naples",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Lyon is located is",
+   "intermediate": "France",
+   "answer": "Paris",
+   "swap_to": "Italy",
+   "swap_answer": "Rome"
+  },
+  {
+   "name": "ex-city-capital-Naples-Barcelona",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Naples is located is",
+   "intermediate": "Italy",
+   "answer": "Rome",
+   "swap_to": "Spain",
+   "swap_answer": "Madrid"
+  },
+  {
+   "name": "ex-city-capital-Toronto-Lyon",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Toronto is located is",
+   "intermediate": "Canada",
+   "answer": "Ottawa",
+   "swap_to": "France",
+   "swap_answer": "Paris"
+  },
+  {
+   "name": "ex-city-continent-Toronto-Lyon",
+   "category": "city-continent",
+   "prompt": "Fact: The continent of the country where Toronto is located is",
+   "intermediate": "Canada",
+   "answer": "North",
+   "swap_to": "France",
+   "swap_answer": "Europe"
+  },
+  {
+   "name": "ex-city-currency-Toronto-Beijing",
+   "category": "city-currency",
+   "prompt": "Fact: The currency used in the country where Toronto is located is the",
+   "intermediate": "Canada",
+   "answer": "Canadian",
+   "swap_to": "China",
+   "swap_answer": "yuan"
+  },
+  {
+   "name": "ex-city-language-Lyon-Naples",
+   "category": "city-language",
+   "prompt": "Fact: The language spoken in the country where Lyon is located is",
+   "intermediate": "France",
+   "answer": "French",
+   "swap_to": "Italy",
+   "swap_answer": "Italian"
+  },
+  {
+   "name": "ex-element-state-8-80",
+   "category": "element-state",
+   "prompt": "Fact: The state of matter at room temperature of the element with atomic number 8 is",
+   "intermediate": "oxygen",
+   "answer": "gas",
+   "swap_to": "mercury",
+   "swap_answer": "liquid"
+  },
+  {
+   "name": "ex-element-state-80-8",
+   "category": "element-state",
+   "prompt": "Fact: The state of matter at room temperature of the element with atomic number 80 is",
+   "intermediate": "mercury",
+   "answer": "liquid",
+   "swap_to": "oxygen",
+   "swap_answer": "gas"
+  },
+  {
+   "name": "ex-element-symbol-26-79",
+   "category": "element-symbol",
+   "prompt": "Fact: The chemical symbol for the element with atomic number 26 is",
+   "intermediate": "iron",
+   "answer": "Fe",
+   "swap_to": "gold",
+   "swap_answer": "Au"
+  },
+  {
+   "name": "ex2-city-capital-Munich",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Munich is located is",
+   "intermediate": "Germany",
+   "answer": "Berlin",
+   "swap_to": "Japan",
+   "swap_answer": "Tokyo"
+  },
+  {
+   "name": "ex2-city-capital-Osaka",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Osaka is located is",
+   "intermediate": "Japan",
+   "answer": "Tokyo",
+   "swap_to": "Germany",
+   "swap_answer": "Berlin"
+  },
+  {
+   "name": "ex2-city-language-Cairo",
+   "category": "city-language",
+   "prompt": "Fact: The language spoken in the country where Cairo is located is",
+   "intermediate": "Egypt",
+   "answer": "Arabic",
+   "swap_to": "Russia",
+   "swap_answer": "Russian"
+  },
+  {
+   "name": "ex2-city-language-Moscow",
+   "category": "city-language",
+   "prompt": "Fact: The language spoken in the country where Moscow is located is",
+   "intermediate": "Russia",
+   "answer": "Russian",
+   "swap_to": "Egypt",
+   "swap_answer": "Arabic"
+  },
+  {
+   "name": "ex2-language-capital-Hungarian",
+   "category": "language-capital",
+   "prompt": "Fact: The capital of the country where Hungarian is the primary language is",
+   "intermediate": "Hungary",
+   "answer": "Budapest",
+   "swap_to": "Poland",
+   "swap_answer": "Warsaw"
+  },
+  {
+   "name": "ex2-language-capital-Polish",
+   "category": "language-capital",
+   "prompt": "Fact: The capital of the country where Polish is the primary language is",
+   "intermediate": "Poland",
+   "answer": "Warsaw",
+   "swap_to": "Greece",
+   "swap_answer": "Athens"
+  },
+  {
+   "name": "ex2-river-capital-Thames",
+   "category": "river-capital",
+   "prompt": "Fact: The capital of the country where the Thames River reaches the sea is",
+   "intermediate": "England",
+   "answer": "London",
+   "swap_to": "Germany",
+   "swap_answer": "Berlin"
+  },
+  {
+   "name": "food-animal-butter",
+   "category": "food-animal",
+   "prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+   "intermediate": "butter",
+   "answer": "cow",
+   "swap_to": "honey",
+   "swap_answer": "bee"
+  },
+  {
+   "name": "food-animal-honey",
+   "category": "food-animal",
+   "prompt": "Fact: The insect that produces the sweet golden substance spread on toast is the",
+   "intermediate": "honey",
+   "answer": "bee",
+   "swap_to": "butter",
+   "swap_answer": "cow"
+  },
+  {
+   "name": "greatwall-ocean",
+   "category": "multihop",
+   "prompt": "Fact: The ocean east of the country that built the Great Wall is the ",
+   "intermediate": "China",
+   "answer": "Pacific",
+   "swap_to": "Brazil",
+   "swap_answer": "Atlantic"
+  },
+  {
+   "name": "instr-hit-drums",
+   "category": "instr-played",
+   "prompt": "Fact: The pair of wooden objects used to strike the instrument that keeps the beat at the back of a rock band is called",
+   "intermediate": "drums",
+   "answer": "sticks",
+   "swap_to": "piano",
+   "swap_answer": "keys"
+  },
+  {
+   "name": "month-3-godof",
+   "category": "multihop",
+   "prompt": "Fact: The third month of the year is named after the Roman god of ",
+   "intermediate": "Mars",
+   "answer": "war",
+   "swap_to": "Venus",
+   "swap_answer": "love"
+  },
+  {
+   "name": "organ-location-heart",
+   "category": "organ-location",
+   "prompt": "Fact: The part of the body that contains the organ that pumps blood is the",
+   "intermediate": "heart",
+   "answer": "chest",
+   "swap_to": "brain",
+   "swap_answer": "head"
+  },
+  {
+   "name": "paper-continent",
+   "category": "multihop",
+   "prompt": "Fact: The continent where the country that invented paper is located is ",
+   "intermediate": "China",
+   "answer": "Asia",
+   "swap_to": "France",
+   "swap_answer": "Europe"
+  },
+  {
+   "name": "person-country-napoleon",
+   "category": "person-country",
+   "prompt": "Fact: The country whose army was led by the emperor defeated at Waterloo is",
+   "intermediate": "Napoleon",
+   "answer": "France",
+   "swap_to": "Lincoln",
+   "swap_answer": "America"
+  },
+  {
+   "name": "person-country-shakespeare",
+   "category": "person-country",
+   "prompt": "Fact: The country where the playwright who wrote Hamlet and Macbeth was born is",
+   "intermediate": "Shakespeare",
+   "answer": "England",
+   "swap_to": "Einstein",
+   "swap_answer": "Germany"
+  },
+  {
+   "name": "person-firstname-darwin",
+   "category": "person-firstname",
+   "prompt": "Fact: The first name of the naturalist who proposed evolution by natural selection was",
+   "intermediate": "Darwin",
+   "answer": "Charles",
+   "swap_to": "Einstein",
+   "swap_answer": "Albert"
+  },
+  {
+   "name": "planet-rings-saturn2",
+   "category": "planet-feature",
+   "prompt": "Fact: The most famous feature of the sixth planet from the Sun is its",
+   "intermediate": "Saturn",
+   "answer": "rings",
+   "swap_to": "Jupiter",
+   "swap_answer": "spot"
+  },
+  {
+   "name": "rhyme-spoon-orbit",
+   "category": "multihop",
+   "prompt": "Fact: The celestial body whose name rhymes with 'spoon' orbits the planet called ",
+   "intermediate": "moon",
+   "answer": "Earth",
+   "swap_to": "Europa",
+   "swap_answer": "Jupiter"
+  },
+  {
+   "name": "season-next-winter",
+   "category": "season-next",
+   "prompt": "Fact: The season that comes immediately after the coldest season of the year is",
+   "intermediate": "winter",
+   "answer": "spring",
+   "swap_to": "summer",
+   "swap_answer": "autumn"
+  },
+  {
+   "name": "spaceneedle-border",
+   "category": "multihop",
+   "prompt": "Fact: The US state where the Space Needle is located shares its northern border with ",
+   "intermediate": "Seattle",
+   "answer": "Canada",
+   "swap_to": "Philadelphia",
+   "swap_answer": "New"
+  },
+  {
+   "name": "sport-equip-tennis",
+   "category": "sport-equip",
+   "prompt": "Fact: The piece of equipment used to strike the ball in the sport played at Wimbledon is a",
+   "intermediate": "tennis",
+   "answer": "racket",
+   "swap_to": "golf",
+   "swap_answer": "club"
+  },
+  {
+   "name": "super-populous-capital",
+   "category": "multihop",
+   "prompt": "Fact: The capital city of the most populous country in the world is ",
+   "intermediate": "China",
+   "answer": "Beijing",
+   "swap_to": "India",
+   "swap_answer": "Delhi"
+  }
+ ],
+ "pilot_items": [
+  {
+   "name": "ex-city-capital-Barcelona-Toronto",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Barcelona is located is",
+   "intermediate": "Spain",
+   "answer": "Madrid",
+   "swap_to": "Canada",
+   "swap_answer": "Ottawa",
+   "donor_prompt": "Fact: The capital of the country where Toronto is located is",
+   "donor_name": "ex-city-capital-Toronto-Lyon"
+  },
+  {
+   "name": "ex-city-capital-Lyon-Naples",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Lyon is located is",
+   "intermediate": "France",
+   "answer": "Paris",
+   "swap_to": "Italy",
+   "swap_answer": "Rome",
+   "donor_prompt": "Fact: The capital of the country where Naples is located is",
+   "donor_name": "ex-city-capital-Naples-Barcelona"
+  },
+  {
+   "name": "ex-city-capital-Naples-Barcelona",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Naples is located is",
+   "intermediate": "Italy",
+   "answer": "Rome",
+   "swap_to": "Spain",
+   "swap_answer": "Madrid",
+   "donor_prompt": "Fact: The capital of the country where Barcelona is located is",
+   "donor_name": "ex-city-capital-Barcelona-Toronto"
+  },
+  {
+   "name": "ex-city-capital-Toronto-Lyon",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Toronto is located is",
+   "intermediate": "Canada",
+   "answer": "Ottawa",
+   "swap_to": "France",
+   "swap_answer": "Paris",
+   "donor_prompt": "Fact: The capital of the country where Lyon is located is",
+   "donor_name": "ex-city-capital-Lyon-Naples"
+  },
+  {
+   "name": "ex2-city-capital-Munich",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Munich is located is",
+   "intermediate": "Germany",
+   "answer": "Berlin",
+   "swap_to": "Japan",
+   "swap_answer": "Tokyo",
+   "donor_prompt": "Fact: The capital of the country where Osaka is located is",
+   "donor_name": "ex2-city-capital-Osaka"
+  },
+  {
+   "name": "ex2-city-capital-Osaka",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Osaka is located is",
+   "intermediate": "Japan",
+   "answer": "Tokyo",
+   "swap_to": "Germany",
+   "swap_answer": "Berlin",
+   "donor_prompt": "Fact: The capital of the country where Munich is located is",
+   "donor_name": "ex2-city-capital-Munich"
+  },
+  {
+   "name": "ex2-city-language-Cairo",
+   "category": "city-language",
+   "prompt": "Fact: The language spoken in the country where Cairo is located is",
+   "intermediate": "Egypt",
+   "answer": "Arabic",
+   "swap_to": "Russia",
+   "swap_answer": "Russian",
+   "donor_prompt": "Fact: The language spoken in the country where Moscow is located is",
+   "donor_name": "ex2-city-language-Moscow"
+  },
+  {
+   "name": "ex2-city-language-Moscow",
+   "category": "city-language",
+   "prompt": "Fact: The language spoken in the country where Moscow is located is",
+   "intermediate": "Russia",
+   "answer": "Russian",
+   "swap_to": "Egypt",
+   "swap_answer": "Arabic",
+   "donor_prompt": "Fact: The language spoken in the country where Cairo is located is",
+   "donor_name": "ex2-city-language-Cairo"
+  },
+  {
+   "name": "ex2-language-capital-Hungarian",
+   "category": "language-capital",
+   "prompt": "Fact: The capital of the country where Hungarian is the primary language is",
+   "intermediate": "Hungary",
+   "answer": "Budapest",
+   "swap_to": "Poland",
+   "swap_answer": "Warsaw",
+   "donor_prompt": "Fact: The capital of the country where Polish is the primary language is",
+   "donor_name": "ex2-language-capital-Polish"
+  },
+  {
+   "name": "ex2-language-capital-Polish",
+   "category": "language-capital",
+   "prompt": "Fact: The capital of the country where Polish is the primary language is",
+   "intermediate": "Poland",
+   "answer": "Warsaw",
+   "swap_to": "Greece",
+   "swap_answer": "Athens",
+   "donor_prompt": "Fact: The capital of the country where Greek is the primary language is",
+   "donor_name": "ex2-language-capital-Greek"
+  },
+  {
+   "name": "food-animal-butter",
+   "category": "food-animal",
+   "prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+   "intermediate": "butter",
+   "answer": "cow",
+   "swap_to": "honey",
+   "swap_answer": "bee",
+   "donor_prompt": "Fact: The insect that produces the sweet golden substance spread on toast is the",
+   "donor_name": "food-animal-honey"
+  },
+  {
+   "name": "food-animal-honey",
+   "category": "food-animal",
+   "prompt": "Fact: The insect that produces the sweet golden substance spread on toast is the",
+   "intermediate": "honey",
+   "answer": "bee",
+   "swap_to": "butter",
+   "swap_answer": "cow",
+   "donor_prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+   "donor_name": "food-animal-butter"
+  }
+ ],
+ "pilot_rule": "items with a released same-category clue whose intermediate == swap_to and whose token count equals the item's (12/40); the rest are held out"
+}

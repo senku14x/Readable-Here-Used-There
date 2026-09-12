@@ -1,0 +1,1084 @@
+{
+ "columns": [
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "sum_words": [
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+  "eleven",
+  "twelve",
+  "thirteen",
+  "fourteen"
+ ],
+ "letters": [
+  "B",
+  "D",
+  "F",
+  "H",
+  "K",
+  "M",
+  "Q",
+  "V"
+ ],
+ "letter_ids": {
+  "B": [
+   33,
+   417
+  ],
+  "D": [
+   35,
+   414
+  ],
+  "F": [
+   37,
+   426
+  ],
+  "H": [
+   39,
+   462
+  ],
+  "K": [
+   42,
+   710
+  ],
+  "M": [
+   44,
+   380
+  ],
+  "Q": [
+   48,
+   1167
+  ],
+  "V": [
+   53,
+   629
+  ]
+ },
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "seed": 20260908,
+ "stage": "competence",
+ "queries": {
+  "sum_pair": "Using the code, give the letter for the sum of the pair. Answer with the letter only.",
+  "sum_two": "Using the code, give the letter for the sum of the two numbers. Answer with the letter only.",
+  "total_pair": "Using the code, give the letter for the total of the pair. Answer with the letter only."
+ },
+ "token_ids": {
+  "two": 1330,
+  "three": 2250,
+  "four": 2943,
+  "five": 4097,
+  "six": 4590,
+  "seven": 7840,
+  "eight": 7810,
+  "nine": 11292,
+  "ten": 5600,
+  "eleven": 42744,
+  "twelve": 28279,
+  "thirteen": 58614,
+  "fourteen": 60163,
+  "anchor": 16602,
+  "apple": 22544,
+  "arrow": 17385,
+  "badge": 23213,
+  "basket": 13621,
+  "bread": 15530,
+  "brick": 24051,
+  "bridge": 13759
+ },
+ "competence": {
+  "0|C0|sum_pair": {
+   "sum": "seven",
+   "target_letter": "D",
+   "greedy": "Q",
+   "correct": false,
+   "assign": {
+    "seven": "D",
+    "eight": "H",
+    "nine": "M",
+    "ten": "Q",
+    "eleven": "F",
+    "twelve": "V",
+    "thirteen": "B",
+    "fourteen": "K"
+   },
+   "pair": [
+    "two",
+    "five"
+   ]
+  },
+  "0|C0|sum_two": {
+   "sum": "seven",
+   "target_letter": "B",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "B",
+    "eight": "H",
+    "nine": "D",
+    "ten": "M",
+    "eleven": "K",
+    "twelve": "Q",
+    "thirteen": "V",
+    "fourteen": "F"
+   },
+   "pair": [
+    "two",
+    "five"
+   ]
+  },
+  "0|C0|total_pair": {
+   "sum": "seven",
+   "target_letter": "Q",
+   "greedy": "Q",
+   "correct": true,
+   "assign": {
+    "seven": "Q",
+    "eight": "D",
+    "nine": "H",
+    "ten": "V",
+    "eleven": "B",
+    "twelve": "M",
+    "thirteen": "F",
+    "fourteen": "K"
+   },
+   "pair": [
+    "two",
+    "five"
+   ]
+  },
+  "1|C0|sum_pair": {
+   "sum": "eight",
+   "target_letter": "H",
+   "greedy": "B",
+   "correct": false,
+   "assign": {
+    "seven": "Q",
+    "eight": "H",
+    "nine": "V",
+    "ten": "B",
+    "eleven": "K",
+    "twelve": "D",
+    "thirteen": "F",
+    "fourteen": "M"
+   },
+   "pair": [
+    "two",
+    "six"
+   ]
+  },
+  "1|C0|sum_two": {
+   "sum": "eight",
+   "target_letter": "D",
+   "greedy": "H",
+   "correct": false,
+   "assign": {
+    "seven": "Q",
+    "eight": "D",
+    "nine": "H",
+    "ten": "V",
+    "eleven": "B",
+    "twelve": "F",
+    "thirteen": "M",
+    "fourteen": "K"
+   },
+   "pair": [
+    "two",
+    "six"
+   ]
+  },
+  "1|C0|total_pair": {
+   "sum": "eight",
+   "target_letter": "F",
+   "greedy": "F",
+   "correct": true,
+   "assign": {
+    "seven": "D",
+    "eight": "F",
+    "nine": "H",
+    "ten": "K",
+    "eleven": "M",
+    "twelve": "Q",
+    "thirteen": "V",
+    "fourteen": "B"
+   },
+   "pair": [
+    "two",
+    "six"
+   ]
+  },
+  "2|C0|sum_pair": {
+   "sum": "nine",
+   "target_letter": "D",
+   "greedy": "B",
+   "correct": false,
+   "assign": {
+    "seven": "F",
+    "eight": "K",
+    "nine": "D",
+    "ten": "H",
+    "eleven": "V",
+    "twelve": "B",
+    "thirteen": "M",
+    "fourteen": "Q"
+   },
+   "pair": [
+    "two",
+    "seven"
+   ]
+  },
+  "2|C0|sum_two": {
+   "sum": "nine",
+   "target_letter": "H",
+   "greedy": "B",
+   "correct": false,
+   "assign": {
+    "seven": "K",
+    "eight": "M",
+    "nine": "H",
+    "ten": "Q",
+    "eleven": "D",
+    "twelve": "V",
+    "thirteen": "F",
+    "fourteen": "B"
+   },
+   "pair": [
+    "two",
+    "seven"
+   ]
+  },
+  "2|C0|total_pair": {
+   "sum": "nine",
+   "target_letter": "D",
+   "greedy": "F",
+   "correct": false,
+   "assign": {
+    "seven": "B",
+    "eight": "V",
+    "nine": "D",
+    "ten": "M",
+    "eleven": "H",
+    "twelve": "K",
+    "thirteen": "Q",
+    "fourteen": "F"
+   },
+   "pair": [
+    "two",
+    "seven"
+   ]
+  },
+  "3|C0|sum_pair": {
+   "sum": "ten",
+   "target_letter": "V",
+   "greedy": "V",
+   "correct": true,
+   "assign": {
+    "seven": "Q",
+    "eight": "B",
+    "nine": "F",
+    "ten": "V",
+    "eleven": "M",
+    "twelve": "H",
+    "thirteen": "K",
+    "fourteen": "D"
+   },
+   "pair": [
+    "two",
+    "eight"
+   ]
+  },
+  "3|C0|sum_two": {
+   "sum": "ten",
+   "target_letter": "F",
+   "greedy": "B",
+   "correct": false,
+   "assign": {
+    "seven": "Q",
+    "eight": "D",
+    "nine": "V",
+    "ten": "F",
+    "eleven": "B",
+    "twelve": "H",
+    "thirteen": "K",
+    "fourteen": "M"
+   },
+   "pair": [
+    "two",
+    "eight"
+   ]
+  },
+  "3|C0|total_pair": {
+   "sum": "ten",
+   "target_letter": "K",
+   "greedy": "F",
+   "correct": false,
+   "assign": {
+    "seven": "H",
+    "eight": "D",
+    "nine": "Q",
+    "ten": "K",
+    "eleven": "V",
+    "twelve": "F",
+    "thirteen": "B",
+    "fourteen": "M"
+   },
+   "pair": [
+    "two",
+    "eight"
+   ]
+  },
+  "4|C0|sum_pair": {
+   "sum": "eleven",
+   "target_letter": "V",
+   "greedy": "B",
+   "correct": false,
+   "assign": {
+    "seven": "D",
+    "eight": "M",
+    "nine": "B",
+    "ten": "H",
+    "eleven": "V",
+    "twelve": "Q",
+    "thirteen": "K",
+    "fourteen": "F"
+   },
+   "pair": [
+    "three",
+    "eight"
+   ]
+  },
+  "4|C0|sum_two": {
+   "sum": "eleven",
+   "target_letter": "D",
+   "greedy": "K",
+   "correct": false,
+   "assign": {
+    "seven": "Q",
+    "eight": "H",
+    "nine": "M",
+    "ten": "F",
+    "eleven": "D",
+    "twelve": "B",
+    "thirteen": "K",
+    "fourteen": "V"
+   },
+   "pair": [
+    "three",
+    "eight"
+   ]
+  },
+  "4|C0|total_pair": {
+   "sum": "eleven",
+   "target_letter": "M",
+   "greedy": "F",
+   "correct": false,
+   "assign": {
+    "seven": "K",
+    "eight": "D",
+    "nine": "V",
+    "ten": "Q",
+    "eleven": "M",
+    "twelve": "B",
+    "thirteen": "H",
+    "fourteen": "F"
+   },
+   "pair": [
+    "three",
+    "eight"
+   ]
+  },
+  "5|C0|sum_pair": {
+   "sum": "twelve",
+   "target_letter": "V",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "Q",
+    "eight": "D",
+    "nine": "K",
+    "ten": "H",
+    "eleven": "M",
+    "twelve": "V",
+    "thirteen": "F",
+    "fourteen": "B"
+   },
+   "pair": [
+    "four",
+    "eight"
+   ]
+  },
+  "5|C0|sum_two": {
+   "sum": "twelve",
+   "target_letter": "F",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "V",
+    "eight": "B",
+    "nine": "H",
+    "ten": "Q",
+    "eleven": "D",
+    "twelve": "F",
+    "thirteen": "K",
+    "fourteen": "M"
+   },
+   "pair": [
+    "four",
+    "eight"
+   ]
+  },
+  "5|C0|total_pair": {
+   "sum": "twelve",
+   "target_letter": "Q",
+   "greedy": "D",
+   "correct": false,
+   "assign": {
+    "seven": "V",
+    "eight": "M",
+    "nine": "F",
+    "ten": "K",
+    "eleven": "B",
+    "twelve": "Q",
+    "thirteen": "H",
+    "fourteen": "D"
+   },
+   "pair": [
+    "four",
+    "eight"
+   ]
+  },
+  "6|C0|sum_pair": {
+   "sum": "thirteen",
+   "target_letter": "K",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "Q",
+    "eight": "D",
+    "nine": "B",
+    "ten": "H",
+    "eleven": "M",
+    "twelve": "F",
+    "thirteen": "K",
+    "fourteen": "V"
+   },
+   "pair": [
+    "five",
+    "eight"
+   ]
+  },
+  "6|C0|sum_two": {
+   "sum": "thirteen",
+   "target_letter": "B",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "D",
+    "eight": "F",
+    "nine": "H",
+    "ten": "M",
+    "eleven": "K",
+    "twelve": "Q",
+    "thirteen": "B",
+    "fourteen": "V"
+   },
+   "pair": [
+    "five",
+    "eight"
+   ]
+  },
+  "6|C0|total_pair": {
+   "sum": "thirteen",
+   "target_letter": "B",
+   "greedy": "F",
+   "correct": false,
+   "assign": {
+    "seven": "M",
+    "eight": "F",
+    "nine": "V",
+    "ten": "H",
+    "eleven": "Q",
+    "twelve": "K",
+    "thirteen": "B",
+    "fourteen": "D"
+   },
+   "pair": [
+    "five",
+    "eight"
+   ]
+  },
+  "7|C0|sum_pair": {
+   "sum": "fourteen",
+   "target_letter": "M",
+   "greedy": "M",
+   "correct": true,
+   "assign": {
+    "seven": "F",
+    "eight": "D",
+    "nine": "B",
+    "ten": "K",
+    "eleven": "Q",
+    "twelve": "V",
+    "thirteen": "H",
+    "fourteen": "M"
+   },
+   "pair": [
+    "six",
+    "eight"
+   ]
+  },
+  "7|C0|sum_two": {
+   "sum": "fourteen",
+   "target_letter": "K",
+   "greedy": "F",
+   "correct": false,
+   "assign": {
+    "seven": "H",
+    "eight": "B",
+    "nine": "M",
+    "ten": "D",
+    "eleven": "V",
+    "twelve": "F",
+    "thirteen": "Q",
+    "fourteen": "K"
+   },
+   "pair": [
+    "six",
+    "eight"
+   ]
+  },
+  "7|C0|total_pair": {
+   "sum": "fourteen",
+   "target_letter": "V",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "F",
+    "eight": "B",
+    "nine": "Q",
+    "ten": "D",
+    "eleven": "K",
+    "twelve": "M",
+    "thirteen": "H",
+    "fourteen": "V"
+   },
+   "pair": [
+    "six",
+    "eight"
+   ]
+  },
+  "0|C1|sum_pair": {
+   "sum": "seven",
+   "target_letter": "V",
+   "greedy": "Q",
+   "correct": false,
+   "assign": {
+    "seven": "V",
+    "eight": "K",
+    "nine": "F",
+    "ten": "Q",
+    "eleven": "D",
+    "twelve": "H",
+    "thirteen": "B",
+    "fourteen": "M"
+   },
+   "pair": [
+    "two",
+    "five"
+   ]
+  },
+  "0|C1|sum_two": {
+   "sum": "seven",
+   "target_letter": "K",
+   "greedy": "B",
+   "correct": false,
+   "assign": {
+    "seven": "K",
+    "eight": "D",
+    "nine": "B",
+    "ten": "V",
+    "eleven": "H",
+    "twelve": "M",
+    "thirteen": "F",
+    "fourteen": "Q"
+   },
+   "pair": [
+    "two",
+    "five"
+   ]
+  },
+  "0|C1|total_pair": {
+   "sum": "seven",
+   "target_letter": "F",
+   "greedy": "H",
+   "correct": false,
+   "assign": {
+    "seven": "F",
+    "eight": "B",
+    "nine": "Q",
+    "ten": "H",
+    "eleven": "K",
+    "twelve": "V",
+    "thirteen": "M",
+    "fourteen": "D"
+   },
+   "pair": [
+    "two",
+    "five"
+   ]
+  },
+  "1|C1|sum_pair": {
+   "sum": "eight",
+   "target_letter": "B",
+   "greedy": "Q",
+   "correct": false,
+   "assign": {
+    "seven": "V",
+    "eight": "B",
+    "nine": "M",
+    "ten": "Q",
+    "eleven": "D",
+    "twelve": "H",
+    "thirteen": "F",
+    "fourteen": "K"
+   },
+   "pair": [
+    "two",
+    "six"
+   ]
+  },
+  "1|C1|sum_two": {
+   "sum": "eight",
+   "target_letter": "D",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "M",
+    "eight": "D",
+    "nine": "F",
+    "ten": "K",
+    "eleven": "H",
+    "twelve": "V",
+    "thirteen": "Q",
+    "fourteen": "B"
+   },
+   "pair": [
+    "two",
+    "six"
+   ]
+  },
+  "1|C1|total_pair": {
+   "sum": "eight",
+   "target_letter": "V",
+   "greedy": "B",
+   "correct": false,
+   "assign": {
+    "seven": "B",
+    "eight": "V",
+    "nine": "M",
+    "ten": "Q",
+    "eleven": "H",
+    "twelve": "D",
+    "thirteen": "K",
+    "fourteen": "F"
+   },
+   "pair": [
+    "two",
+    "six"
+   ]
+  },
+  "2|C1|sum_pair": {
+   "sum": "nine",
+   "target_letter": "F",
+   "greedy": "F",
+   "correct": true,
+   "assign": {
+    "seven": "M",
+    "eight": "Q",
+    "nine": "F",
+    "ten": "B",
+    "eleven": "D",
+    "twelve": "H",
+    "thirteen": "K",
+    "fourteen": "V"
+   },
+   "pair": [
+    "two",
+    "seven"
+   ]
+  },
+  "2|C1|sum_two": {
+   "sum": "nine",
+   "target_letter": "M",
+   "greedy": "B",
+   "correct": false,
+   "assign": {
+    "seven": "K",
+    "eight": "V",
+    "nine": "M",
+    "ten": "Q",
+    "eleven": "D",
+    "twelve": "F",
+    "thirteen": "B",
+    "fourteen": "H"
+   },
+   "pair": [
+    "two",
+    "seven"
+   ]
+  },
+  "2|C1|total_pair": {
+   "sum": "nine",
+   "target_letter": "V",
+   "greedy": "Q",
+   "correct": false,
+   "assign": {
+    "seven": "M",
+    "eight": "H",
+    "nine": "V",
+    "ten": "B",
+    "eleven": "Q",
+    "twelve": "D",
+    "thirteen": "K",
+    "fourteen": "F"
+   },
+   "pair": [
+    "two",
+    "seven"
+   ]
+  },
+  "3|C1|sum_pair": {
+   "sum": "ten",
+   "target_letter": "Q",
+   "greedy": "F",
+   "correct": false,
+   "assign": {
+    "seven": "V",
+    "eight": "H",
+    "nine": "F",
+    "ten": "Q",
+    "eleven": "K",
+    "twelve": "M",
+    "thirteen": "B",
+    "fourteen": "D"
+   },
+   "pair": [
+    "two",
+    "eight"
+   ]
+  },
+  "3|C1|sum_two": {
+   "sum": "ten",
+   "target_letter": "Q",
+   "greedy": "F",
+   "correct": false,
+   "assign": {
+    "seven": "B",
+    "eight": "D",
+    "nine": "V",
+    "ten": "Q",
+    "eleven": "K",
+    "twelve": "H",
+    "thirteen": "M",
+    "fourteen": "F"
+   },
+   "pair": [
+    "two",
+    "eight"
+   ]
+  },
+  "3|C1|total_pair": {
+   "sum": "ten",
+   "target_letter": "M",
+   "greedy": "Q",
+   "correct": false,
+   "assign": {
+    "seven": "K",
+    "eight": "Q",
+    "nine": "H",
+    "ten": "M",
+    "eleven": "B",
+    "twelve": "D",
+    "thirteen": "F",
+    "fourteen": "V"
+   },
+   "pair": [
+    "two",
+    "eight"
+   ]
+  },
+  "4|C1|sum_pair": {
+   "sum": "eleven",
+   "target_letter": "K",
+   "greedy": "K",
+   "correct": true,
+   "assign": {
+    "seven": "F",
+    "eight": "Q",
+    "nine": "B",
+    "ten": "M",
+    "eleven": "K",
+    "twelve": "V",
+    "thirteen": "D",
+    "fourteen": "H"
+   },
+   "pair": [
+    "three",
+    "eight"
+   ]
+  },
+  "4|C1|sum_two": {
+   "sum": "eleven",
+   "target_letter": "D",
+   "greedy": "K",
+   "correct": false,
+   "assign": {
+    "seven": "F",
+    "eight": "M",
+    "nine": "B",
+    "ten": "Q",
+    "eleven": "D",
+    "twelve": "V",
+    "thirteen": "K",
+    "fourteen": "H"
+   },
+   "pair": [
+    "three",
+    "eight"
+   ]
+  },
+  "4|C1|total_pair": {
+   "sum": "eleven",
+   "target_letter": "H",
+   "greedy": "V",
+   "correct": false,
+   "assign": {
+    "seven": "B",
+    "eight": "V",
+    "nine": "F",
+    "ten": "D",
+    "eleven": "H",
+    "twelve": "Q",
+    "thirteen": "K",
+    "fourteen": "M"
+   },
+   "pair": [
+    "three",
+    "eight"
+   ]
+  },
+  "5|C1|sum_pair": {
+   "sum": "twelve",
+   "target_letter": "V",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "F",
+    "eight": "B",
+    "nine": "H",
+    "ten": "M",
+    "eleven": "D",
+    "twelve": "V",
+    "thirteen": "Q",
+    "fourteen": "K"
+   },
+   "pair": [
+    "four",
+    "eight"
+   ]
+  },
+  "5|C1|sum_two": {
+   "sum": "twelve",
+   "target_letter": "Q",
+   "greedy": "B",
+   "correct": false,
+   "assign": {
+    "seven": "K",
+    "eight": "B",
+    "nine": "H",
+    "ten": "F",
+    "eleven": "D",
+    "twelve": "Q",
+    "thirteen": "V",
+    "fourteen": "M"
+   },
+   "pair": [
+    "four",
+    "eight"
+   ]
+  },
+  "5|C1|total_pair": {
+   "sum": "twelve",
+   "target_letter": "D",
+   "greedy": "B",
+   "correct": false,
+   "assign": {
+    "seven": "M",
+    "eight": "B",
+    "nine": "F",
+    "ten": "K",
+    "eleven": "V",
+    "twelve": "D",
+    "thirteen": "H",
+    "fourteen": "Q"
+   },
+   "pair": [
+    "four",
+    "eight"
+   ]
+  },
+  "6|C1|sum_pair": {
+   "sum": "thirteen",
+   "target_letter": "K",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "F",
+    "eight": "D",
+    "nine": "B",
+    "ten": "V",
+    "eleven": "M",
+    "twelve": "Q",
+    "thirteen": "K",
+    "fourteen": "H"
+   },
+   "pair": [
+    "five",
+    "eight"
+   ]
+  },
+  "6|C1|sum_two": {
+   "sum": "thirteen",
+   "target_letter": "K",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "F",
+    "eight": "H",
+    "nine": "D",
+    "ten": "V",
+    "eleven": "Q",
+    "twelve": "B",
+    "thirteen": "K",
+    "fourteen": "M"
+   },
+   "pair": [
+    "five",
+    "eight"
+   ]
+  },
+  "6|C1|total_pair": {
+   "sum": "thirteen",
+   "target_letter": "Q",
+   "greedy": "D",
+   "correct": false,
+   "assign": {
+    "seven": "M",
+    "eight": "K",
+    "nine": "F",
+    "ten": "V",
+    "eleven": "B",
+    "twelve": "D",
+    "thirteen": "Q",
+    "fourteen": "H"
+   },
+   "pair": [
+    "five",
+    "eight"
+   ]
+  },
+  "7|C1|sum_pair": {
+   "sum": "fourteen",
+   "target_letter": "H",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "V",
+    "eight": "Q",
+    "nine": "D",
+    "ten": "F",
+    "eleven": "B",
+    "twelve": "M",
+    "thirteen": "K",
+    "fourteen": "H"
+   },
+   "pair": [
+    "six",
+    "eight"
+   ]
+  },
+  "7|C1|sum_two": {
+   "sum": "fourteen",
+   "target_letter": "H",
+   "greedy": "F",
+   "correct": false,
+   "assign": {
+    "seven": "D",
+    "eight": "B",
+    "nine": "Q",
+    "ten": "F",
+    "eleven": "K",
+    "twelve": "M",
+    "thirteen": "V",
+    "fourteen": "H"
+   },
+   "pair": [
+    "six",
+    "eight"
+   ]
+  },
+  "7|C1|total_pair": {
+   "sum": "fourteen",
+   "target_letter": "B",
+   "greedy": "M",
+   "correct": false,
+   "assign": {
+    "seven": "H",
+    "eight": "M",
+    "nine": "Q",
+    "ten": "F",
+    "eleven": "K",
+    "twelve": "D",
+    "thirteen": "V",
+    "fourteen": "B"
+   },
+   "pair": [
+    "six",
+    "eight"
+   ]
+  }
+ },
+ "run_id": "20260907T230953Z",
+ "n_forwards": 48,
+ "elapsed_s": 29.5
+}

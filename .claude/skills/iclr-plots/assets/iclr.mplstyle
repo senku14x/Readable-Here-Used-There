@@ -1,0 +1,82 @@
+# ICLR-style matplotlib defaults.
+# Matches the iclr20xx_conference.sty body: Times, 10pt body, 9pt captions,
+# 5.5in text width, single column, figures centered on a white background.
+
+# --- Typography (Times-like serif, sizes match \small / \footnotesize) ---
+font.family:          serif
+font.serif:           Times New Roman, TeX Gyre Termes, Nimbus Roman, Liberation Serif, STIXGeneral, DejaVu Serif
+mathtext.fontset:     stix
+font.size:            9
+axes.titlesize:       9
+axes.labelsize:       9
+xtick.labelsize:      8
+ytick.labelsize:      8
+legend.fontsize:      8
+legend.title_fontsize: 8
+figure.titlesize:     9
+
+# --- Canvas ---
+figure.facecolor:     white
+figure.edgecolor:     white
+axes.facecolor:       white
+savefig.facecolor:    white
+savefig.edgecolor:    white
+figure.dpi:           150
+savefig.dpi:          300
+savefig.bbox:         tight
+savefig.pad_inches:   0.02
+pdf.fonttype:         42
+ps.fonttype:          42
+
+# --- Axes / spines ---
+axes.edgecolor:       0.25
+axes.linewidth:       0.6
+axes.spines.top:      False
+axes.spines.right:    False
+axes.grid:            True
+axes.axisbelow:       True
+grid.color:           0.88
+grid.linewidth:       0.5
+grid.linestyle:       -
+axes.titlepad:        4
+axes.labelpad:        3
+axes.xmargin:         0.02
+axes.ymargin:         0.05
+axes.formatter.use_mathtext: True
+axes.formatter.limits: -3, 4
+
+# --- Ticks ---
+xtick.direction:      out
+ytick.direction:      out
+xtick.major.size:     2.5
+ytick.major.size:     2.5
+xtick.major.width:    0.6
+ytick.major.width:    0.6
+xtick.minor.visible:  False
+ytick.minor.visible:  False
+xtick.color:          0.25
+ytick.color:          0.25
+
+# --- Lines / markers ---
+lines.linewidth:      1.4
+lines.markersize:     4
+lines.markeredgewidth: 0.6
+errorbar.capsize:     2
+patch.linewidth:      0.5
+patch.edgecolor:      white
+hatch.linewidth:      0.5
+
+# --- Legend ---
+legend.frameon:       False
+legend.handlelength:  1.6
+legend.handletextpad: 0.5
+legend.columnspacing: 1.0
+legend.borderaxespad: 0.3
+legend.labelspacing:  0.3
+
+# --- Images / colorbars ---
+image.cmap:           viridis
+image.interpolation:  nearest
+
+# --- Default categorical cycle (vivid, colorblind-safe; see references/palettes.md) ---
+axes.prop_cycle: cycler('color', ['0072B2', 'D55E00', '009E73', 'CC79A7', 'E69F00', '56B4E9', '7A4FBF', '333333'])
