@@ -1,5 +1,7 @@
-# Read Here, Used There
-Doc: https://docs.google.com/document/d/1w4wG2P08Ic6ZH5UDrTg52DLaErTmTXb6j0x3dJEYVXg/edit?usp=sharing 
+# Readable Here, Used There
+
+Doc: https://docs.google.com/document/d/1w4wG2P08Ic6ZH5UDrTg52DLaErTmTXb6j0x3dJEYVXg/edit?usp=sharing
+
 *Where a delayed answer draws its information, and how much of it is in the naming plane.*
 
 An empirical mechanistic-interpretability study of **where the information that drives a delayed answer sits**, on
