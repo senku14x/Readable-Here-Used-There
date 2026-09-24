@@ -1,4 +1,4 @@
-# TCSIF evidence ledger (2026-09-07)
+# TCSIF evidence ledger (2026-09-07; §E maintained to 2026-09-24)
 
 One consolidated matrix of every load-bearing finding, calibrated to the evidence ladder. Companion to `context/h1_stopping_point.md` (the eight prose verdicts) and `context/project_status_2026-09-07.md` (full numbers). **All findings are on Qwen3.6-27B (`6a9e13bd`), teacher-forced copy/direct organisms, readouts at interior carrier positions, windows L48–50 & L51–59.** Instruments: **J_NP** (Neuronpedia J-lens, primary), **RESID_P** (plain-sentence axis), **LOGITS** (model output), J_CB/R_CB (robustness subset). Agreement across instruments on the same forwards is **robustness, not independent samples**. **Nothing here is about behavior (H3) or a maintenance mechanism (H2).**
 
