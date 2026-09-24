@@ -1,6 +1,6 @@
 # Backup figures for the write-up and the form answers
 
-All regenerated from committed tables (or, for B2, from `raw_nosource2.npz`) by `common/scripts/make_figures.py`, `paper_draft/make_exec_figures.py` and `paper_draft/make_backup_figures.py`. PNG for docs, PDF for LaTeX.
+All regenerated from committed tables (or, for B2, from `raw_nosource2.npz`) by `common/scripts/make_figures.py`, `application_figures/make_exec_figures.py` and `application_figures/make_backup_figures.py`. PNG for docs, PDF for LaTeX.
 
 | file | what it shows | where it could go |
 |---|---|---|
