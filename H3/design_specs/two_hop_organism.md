@@ -402,3 +402,81 @@ Stage 2 (Amendment 7) reproduced Stage 1 on 35 admitted items over six relation 
 - Raw outputs: `raw_probe3.npz`, `raw_probe3_zq.npz`, `raw_pursuit_probe3.npz`, `meta_probe3.json`, `manifest_probe3.json`.
 - Report `H3/results/reports/two_hop_probe3.md`, tables `two_hop_probe3_tables.json`, figure `h3_probe3`.
 - No rows beyond this set without a new amendment. A gate failure ends the stage as a gate failure.
+
+## Amendment 9 — where the bypass enters, the consumer clamp over every scored answer position, and country or city (registered 2026-09-24, before any forward)
+
+**Stage `probe4`. Script `H3/scripts/two_hop_probe4.py` (stages `smoke4`, `probe4`), analysis `two_hop_probe4_analysis.py`. Same model, float32 residual from block 35, sequence-log-prob endpoint (primary, as always), writes at blocks 36–62 on `q_pre`. Scheduled by the researcher on 2026-09-24 ("okay do it"), covering the three candidates listed after Amendment 8; the dense model is not used (researcher: no dense model for now).**
+
+### Why
+
+1. **Silly mistake 5.** Every consumer clamp in Amendments 6–8 pinned the first answer position s only. The sequence endpoint also scores the later tokens of multi-token spellings, and 51 of the 70 answer words in the admitted set have at least one; `R`+`ome` and `Tok`+`yo` are typical. Those positions read the question tokens at every layer and were never clamped. Stage 2's first-token candidate endpoint already hints at the size: the partial clamp leaves 0.42 there against 0.51 on the sequence endpoint. Amendment 8's surviving share (0.434) may therefore include a route through the unclamped continuation positions. This amendment repairs the clamp to cover every scored position and logs per-token log-probs, so the first-token and continuation parts of each margin are separated.
+2. **Where the bypass enters.** Under the verified clamp, the surviving effect appears as an answer write in the final block, block 63, which no clamp covers. Block 63 is a full-attention layer; the full-attention layers are 43, 47, 51, 55, 59 and 63. Its read from the question tokens can therefore be cut exactly with the project's `AttnReadBlock` construction, and no linear-attention channel is involved at that layer.
+3. **Country or city.** Amendment 8 (c) found content upstream of the answer that another question reuses, and could not separate the country from the cue city. All ten cue cities of the seven pairs are single tokens in leading-space form, so their readable planes can be installed or removed exactly like the country's.
+
+### How (frozen)
+
+**Answer positions.** A_j = {s, s+1, …, s+len_j−1} for spelling j of the word being scored. The clean reference at every position in A_j is the clean run's state for the same spelling.
+
+**Part 1: the repaired clamp and the route split.** Runs on the 35 admitted items × C0–C3 = 140 cells. The J25 targets and pinned spans come from Amendment 8's stored pursuit (`raw_pursuit_probe3.npz`, identical to Stage 2's), with the cell list asserted equal; translation atoms are recomputed by the Amendment 8 rule.
+
+- **References** (reproduction gate against `probe3`, ≤ 0.01 nats per cell): `q_full_pre`, `q_J25rem_pre`, `q_J25rem_pre_ccs` (the s-only clamp as registered in Amendment 8).
+- **`q_J25rem_pre_ccsA`**: `q_J25rem_pre` plus the Amendment 8 pinned span held at clean at every position of A_j, blocks 36–62. The span is the same at every position, and the clean reference is per position and per spelling. Control **`q_J25rem_pre_ccsrA`**: the Amendment 8 random frame (orthogonal to the span, same rank), rescaled per block and position to the `ccsA` realized norm for the same spelling.
+- **`clean_m63A`**: the clean run with block 63's attention from every position in A_j to every `q_pre` position blocked. This is the baseline for every `_m63A` row.
+- **`q_full_pre_m63A`, `q_J25rem_pre_ccsA_m63A`**: the same writes with that block-63 read cut; margins are relative to `clean_m63A`.
+- **`q_full_pre_sfullA`, `q_J25rem_pre_sfullA`**: the same `q_pre` writes with every position of A_j held entirely at its clean state at blocks 36–62, all 5 120 coordinates. Any effect must then enter through block 63's read of the question tokens.
+- **`q_J25rem_pre_sfullA_m63A`**: both cuts. It must be ≈ 0.
+
+**Part 2: country or city.** Runs on the seven Amendment 8 pairs × C0–C3 = 28 cells, with the same renderings.
+
+- Planes at each block 36–62: the country plane Q_c = span(a_own_country, a_donor_country) and the city plane Q_y = span(a_cueA, a_cueB). Both use folded J_NP directions of the leading-space tokens, orthonormalised.
+- Language rendering, writing parts of the capital delta Δh_cap: **`x_ctry`** h + P_cΔh_cap; **`x_city`** h + P_yΔh_cap; **`x_noctry`** h + (I − P_c)Δh_cap; **`x_nocity`** h + (I − P_y)Δh_cap. Control **`x_rand2`**: h + v, with v the projection of Δh_cap on a random 2-frame rescaled per position to ‖P_cΔh_cap‖, seed 20260924 + 500000 + cell. References: `q_xfer`, `q_native_lang`.
+- Capital rendering, the mirror with Δh_lang: **`m_ctry`**, **`m_city`**, **`m_noctry`**, **`m_nocity`**, **`m_rand2`** (seed 20260924 + 550000 + cell). References: `q_mirror`, `q_native_cap`.
+- Endpoints as in Amendment 8 (c): m_lang and m_cap, sequence log-probs minus that rendering's clean value.
+
+**Per-token logging** (every row of both parts). For every spelling, the first-token log-prob and the continuation sum are saved. The first-token part of a margin is the margin computed from first-token log-probs only (logsumexp over spellings). The continuation part is the rest. Both are descriptive; the sequence margin stays primary.
+
+**Gates**
+
+1. Rendering and geometry.
+2. Competence ≥ 0.9 for every rendering type.
+3. Realized writes: ρ ∈ [0.9, 1.1] and κ ≥ 0.99 on every write and clamp; the `_ccsrA` norms within 5 % of `_ccsA`.
+4. Reproduction of `probe3` by the three references.
+5. **V**, as in Amendment 8, at s under `ccsA`.
+6. **L**: the maximum post-softmax weight from A_j to `q_pre` at block 63 under every `_m63A` row ≤ 1e-6.
+7. **S**: the item-mean |margin| of `q_J25rem_pre_sfullA_m63A` ≤ 0.05 nats.
+
+### What it will answer (outcome → reading, registered before the forward)
+
+**Part 1a (the repaired clamp).**
+
+- Let C_A = share(`q_J25rem_pre_ccsA`) of `q_full_pre`. The Amendment 8 (b) thresholds apply to C_A, not to C:
+  - C_A ≥ 0.4: a route bypassing the pinned readable content at every scored answer position carries at least C_A.
+  - C_A ≤ 0.2: Amendment 8's surviving share was the partial clamp plus the continuation leak.
+  - Otherwise: C_A is reported with the bracket.
+- **C − C_A is the measured size of silly mistake 5.** If it exceeds 0.05, the Amendment 8 (b) reading is corrected in the report and the ledger, and C_A replaces C.
+
+**Part 1b (where the surviving effect enters).** Let R_mask = share(`q_J25rem_pre_ccsA_m63A`) and R_direct = share(`q_J25rem_pre_sfullA`).
+
+- R_mask ≤ 0.1 and R_direct ≥ 0.3 → **direct last-layer read**: the bypass is block 63 reading the donor's change straight from the question tokens.
+- R_mask ≥ 0.3 and R_direct ≤ 0.1 → **earlier entry**: the change reaches the answer positions before the last block, in directions the clamp does not pin, and the last block converts it.
+- Otherwise → **both**, with the split and the interaction C_A − R_mask − R_direct reported.
+- Also reported: share(`q_full_pre_m63A`) and share(`q_full_pre_sfullA`), how much of the whole question-turn effect needs, or can travel through, block 63's direct read.
+
+**Part 2 (country or city).**
+
+- Let f_ctry = m_lang(`x_ctry`)/m_lang(`q_xfer`) and f_city = m_lang(`x_city`)/m_lang(`q_xfer`). Let the removal costs be c_ctry = 1 − m_lang(`x_noctry`)/m_lang(`q_xfer`) and c_city likewise. All are ratios of pair means with a cluster bootstrap over pairs, and `x_rand2` is reported beside them.
+- **Country dominant**: f_ctry − f_city > 0 and c_ctry − c_city > 0, both with bootstrap intervals excluding 0.
+- **City dominant**: the reverse.
+- Otherwise: **not separated** at the level of the readable planes.
+- The mirror is read the same way with m_cap.
+- **Scope**: readable planes only. In Stage 1 a two-token plane carried about a fifth of an effect, so the reading concerns the readable components of the transferred content.
+
+**Predictions on record.** Gates L and S pass by construction. C_A ≤ C, because the repaired clamp is a superset of the old one. No numeric prior on R_mask, R_direct, f_ctry or f_city.
+
+### Budget
+
+- Part 1: 140 cells × 12 conditions × about 4.7 spellings plus the clean and donor forwards ≈ 9 200 forwards.
+- Part 2: 28 cells × about 144 ≈ 4 000 forwards.
+- About 70 minutes in total, capped at 2.5 h.
+- Outputs: `raw_probe4.npz`, `raw_probe4_zq.npz`, `meta_probe4.json`, `manifest_probe4.json`; report `H3/results/reports/two_hop_probe4.md`, tables `two_hop_probe4_tables.json`, figure `h3_probe4`.
+- No rows beyond this set without a new amendment.
