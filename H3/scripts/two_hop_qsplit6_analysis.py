@@ -178,6 +178,86 @@ for b in sub_p:
 T["top_atoms_k25_L51_59"] = {w: [(repr(tok.decode([v])), n_) for v, n_ in top[w].most_common(30)] for w in top}
 T["early_stops"] = int(sum(int((RAW[f"{b}|L{l}|stop_qpre"] < META["kmax"]).sum()) for b in cells for l in SWAP_L))
 
+# ---- content check at the two informative positions (last q_pre position and s), translations included
+# Defined after seeing the six seeded cells of Stage 1 (researcher note, 2026-09-24): the pooled Phase B statistic counts every q_pre position,
+# most of which carry no entity content; at the last q_pre position and at s the selected atoms are entity content across scripts.
+# "Translation-included" rule (mechanical): an atom is content-related if the frozen classifier says intermediate/answer, OR its decoded string
+# has no ASCII letter and its nearest Latin-script unembedding row (cosine, excluding itself) decodes to one of the item's four words or their
+# aliases (or the >= 3-letter prefix rule for intermediates). The unembedding rows are read from the checkpoint shard; no forward.
+import re as _re, torch as _torch
+from huggingface_hub import snapshot_download as _snap
+from safetensors import safe_open as _safe
+_snapd = _snap(R.MODEL, revision=R.REV, allow_patterns=["*.json"]); _idx = json.load(open(os.path.join(_snapd, "model.safetensors.index.json")))
+_key = "lm_head.weight" if "lm_head.weight" in _idx["weight_map"] else "model.embed_tokens.weight"; _shard = _idx["weight_map"][_key]
+with _safe(os.path.join(_snap(R.MODEL, revision=R.REV, allow_patterns=[_shard, "*.json"]), _shard), "pt") as _f: _WU = _f.get_tensor(_key).float()
+_dev = "cuda" if (_torch.cuda.is_available() and _torch.cuda.mem_get_info()[0] > 8e9) else "cpu"; _WUn = (_WU / _WU.norm(dim=1, keepdim=True).clamp_min(1e-6)).to(_dev)
+_toks = tok.convert_ids_to_tokens(list(range(_WU.shape[0]))); _latin = _torch.tensor([bool(_re.search(r"[A-Za-z]", t or "")) for t in _toks], device=_dev)
+_nn_cache = {}
+
+
+def nearest_latin(v):
+    if v not in _nn_cache:
+        s = _WUn @ _WUn[v]; s[v] = -2; s[~_latin] = -2; _nn_cache[v] = int(s.argmax())
+    return _nn_cache[v]
+
+
+def classify_ext(v, it):
+    """frozen class, or 'translation' when a non-Latin atom back-translates to one of the item's four words."""
+    s = tok.decode([int(v)]); c = _Q.classify_atom(s, it) if S2 else _classify_frozen(s, it)
+    if c != "other" or _re.search(r"[A-Za-z]", s): return c
+    c2 = (_Q.classify_atom if S2 else _classify_frozen)(tok.decode([nearest_latin(int(v))]), it)
+    return "translation" if c2 != "other" else "other"
+
+
+def _classify_frozen(s, it):
+    s = s.strip().lower()
+    if not s: return "other"
+    for w in (it["answer"], it["swap_answer"]):
+        if s == w.lower() or s in ANS_ALIASES.get(w, []): return "answer"
+    for w in (it["intermediate"], it["swap_to"]):
+        wl = w.lower()
+        if s == wl or s in INT_ALIASES.get(w, []): return "intermediate"
+        if len(s) >= 3 and s.isalpha() and (wl.startswith(s) or s.startswith(wl)): return "intermediate"
+    return "other"
+
+
+_assoc_cache = {}
+
+
+def assoc_set(it, N=100):
+    """broad level: the union of the top-N cosine neighbours (any script) of the item's four words in the unembedding (catches associates such as Nile, Kremlin, Toronto, and also unrelated capitals)."""
+    key = (it["intermediate"], it["swap_to"], it["answer"], it["swap_answer"])
+    if key not in _assoc_cache:
+        s_ = set()
+        for w in key:
+            v = Rn.single_token_id(tok, w); s_.update(_torch.topk(_WUn @ _WUn[v], N + 1).indices.tolist())
+        _assoc_cache[key] = s_
+    return _assoc_cache[key]
+
+
+cc_ = {w: {k: [] for k in ("frozen", "translated", "associated", "frozen_w", "translated_w", "associated_w")} for w in ("last_qpre", "s")}; trans_top = Counter(); assoc_top = Counter(); nb = len(cells)
+for b in sub_p:
+    bi = bidx[b]; it = cells[b]; AS = assoc_set(it)
+    for l in RBL:
+        for where, a, co in (("last_qpre", RAW[f"{b}|L{l}|atoms_qpre"][-1, :25], np.abs(P[f"L{l}|coef25"][bi * nq + nq - 1])), ("s", RAW[f"{b}|L{l}|atoms_s"][:25], np.abs(P[f"L{l}|coef25"][nb * nq + bi]))):
+            cl = [classify_ext(int(v), it) for v in a]; fro = np.array([c in ("intermediate", "answer") for c in cl]); tr = np.array([c in ("intermediate", "answer", "translation") for c in cl])
+            asc = np.array([t or (int(v) in AS) for t, v in zip(tr, a)]); w_ = co / co.sum().clip(1e-12)
+            for nm_, arr in (("frozen", fro), ("translated", tr), ("associated", asc)): cc_[where][nm_].append(arr.mean()); cc_[where][nm_ + "_w"].append((arr * w_).sum())
+            trans_top.update(tok.decode([int(v)]) for v, c in zip(a, cl) if c == "translation"); assoc_top.update(tok.decode([int(v)]) for v, t, s_ in zip(a, tr, asc) if s_ and not t)
+T["content_check"] = {"note": "defined after seeing the six seeded cells (researcher note 2026-09-24); top-25 pursuit atoms at L51-59; 'translated' adds non-Latin atoms whose nearest Latin unembedding neighbour is one of the item's four words or aliases; 'associated' adds any atom among the top-100 unembedding cosine neighbours of the four words",
+                      **{where: {k: float(np.mean(v)) for k, v in d.items()} for where, d in cc_.items()}, "top_translation_atoms": [(repr(s), n_) for s, n_ in trans_top.most_common(30)], "top_associated_atoms": [(repr(s), n_) for s, n_ in assoc_top.most_common(30)],
+                      "pooled_reference_frozen_all_qpre_positions_L51_59": float(1 - atoms["25"]["count_fraction_qpre_L51_59"]["other"])}
+# per-item split of the J_25 part (norm shares answer / intermediate / other; q_pre L51-59 mean and at s)
+T["per_item_J25_split"] = {}
+for nm in names_all:
+    cb_ = [b for b in cells if b.startswith(nm + "|")]
+    q = np.stack([RAW[f"{b}|L{l}|clsshare25"] for b in cb_ for l in RBL]).mean(axis=(0, 1)); s_ = np.stack([RAW[f"{b}|L{l}|clsshare25_s"] for b in cb_ for l in RBL]).mean(0)
+    T["per_item_J25_split"][nm] = {"qpre": dict(zip(("answer", "intermediate", "other"), q.round(3).tolist())), "s": dict(zip(("answer", "intermediate", "other"), s_.round(3).tolist()))}
+# readouts at s under the consumer clamps (the clamp is partial: these do not drop to 0)
+T["clamp_readouts_s"] = {c: {"int_unclamped": rows[c]["J_int_shift_s"]["mean"], "int_cc": rows[c + "_cc"]["J_int_shift_s"]["mean"], "int_ccr": rows[c + "_ccr"]["J_int_shift_s"]["mean"],
+                             "ans_unclamped": rows[c]["J_ans_shift_s"]["mean"], "ans_cc": rows[c + "_cc"]["J_ans_shift_s"]["mean"], "ans_ccr": rows[c + "_ccr"]["J_ans_shift_s"]["mean"]} for c in ROWS if c + "_cc" in rows}
+T["clamp_readouts_s"]["full"] = {"int": rows["q_full_pre"]["J_int_shift_s"]["mean"], "ans": rows["q_full_pre"]["J_ans_shift_s"]["mean"]}
+
 # ---- current base: re-entry fraction of the plane coordinate inside the band
 re_, re_w, nr_ = {}, {}, {}
 for l_i, l in enumerate(SWAP_L):
@@ -287,6 +367,11 @@ ce_ = T["clamp_effects"]; pcmp = T["plane_comparison"]
 L.append("Consumer-clamp effects as item-level differences (un-clamped minus clamped, nats; item-clustered 95 % t-intervals; the random-k control's difference beside it):\n")
 L.append("| complement row | clamp Δ (nats) | 95 % CI | items > 0 | as share of `q_full_pre` | as share of the row | random-k control Δ | 95 % CI |\n|---|---|---|---|---|---|---|---|")
 for c in ce_: L.append(f"| `{c}` | {f2(ce_[c]['cc_delta']['mean'])} | [{f2(ce_[c]['cc_delta']['ci'][0])}, {f2(ce_[c]['cc_delta']['ci'][1])}] | {ce_[c]['cc_delta']['n_pos']}/{NI} | {f3(ce_[c]['cc_delta_share_of_full'])} | {f3(ce_[c]['cc_delta_share_of_row'])} | {f2(ce_[c]['ccr_delta']['mean'])} | [{f2(ce_[c]['ccr_delta']['ci'][0])}, {f2(ce_[c]['ccr_delta']['ci'][1])}] |")
+cr = T["clamp_readouts_s"]
+L.append("\nReadouts at the scoring position under the consumer clamps (J_NP, L51–59, minus clean; the clamp pins only the selected span, so these do not drop to 0 — **the `_cc` shares are upper bounds on any non-J route**, since a complete clamp of the J-readable content at s would remove at least as much):\n")
+L.append(f"| complement row | int readout at s: un-clamped → `_cc` (`_ccr`) | answer readout at s: un-clamped → `_cc` (`_ccr`) |\n|---|---|---|")
+for c in [k for k in cr if k != "full"]: L.append(f"| `{c}` | {f2(cr[c]['int_unclamped'])} → {f2(cr[c]['int_cc'])} ({f2(cr[c]['int_ccr'])}) | {f2(cr[c]['ans_unclamped'])} → {f2(cr[c]['ans_cc'])} ({f2(cr[c]['ans_ccr'])}) |")
+L.append(f"| `q_full_pre` (reference) | {f2(cr['full']['int'])} | {f2(cr['full']['ans'])} |")
 L.append(f"\nPlanes at equal dimension: answer plane minus intermediate plane {f2(pcmp['ans_minus_int_plane']['mean'])} nats [{f2(pcmp['ans_minus_int_plane']['ci'][0])}, {f2(pcmp['ans_minus_int_plane']['ci'][1])}], {pcmp['ans_minus_int_plane']['n_pos']}/{NI} items > 0, at ‖v‖/‖Δh‖ {pcmp['v_over_dh_ans_plane_L51_59']:.3f} vs {pcmp['v_over_dh_int_plane_L51_59']:.3f}. "
          f"Additivity S = m(full) − m(part) − m(complement): intermediate plane {f2(pcmp['additivity_plane']['mean'])} [{f2(pcmp['additivity_plane']['ci'][0])}, {f2(pcmp['additivity_plane']['ci'][1])}]; answer plane {f2(pcmp['additivity_ans_plane']['mean'])} [{f2(pcmp['additivity_ans_plane']['ci'][0])}, {f2(pcmp['additivity_ans_plane']['ci'][1])}]; J_25 {f2(pcmp['additivity_J25']['mean'])} [{f2(pcmp['additivity_J25']['ci'][0])}, {f2(pcmp['additivity_J25']['ci'][1])}] (reported, not a partition).\n")
 cbt = T["current_base"]
@@ -305,6 +390,16 @@ nnshare = " / ".join(f"{atoms['nn25']['norm_share_qpre_L51_59'][w]:.3f}" for w i
 L.append(f"| NNLS 25 | {nnshare} | — | — | — | — | — |")
 L.append("\nMost frequent atoms among the first 25 selected on `q_pre` at L51–59 (over the primary set's cells), by class:\n")
 for w in ("intermediate", "answer", "other"): L.append(f"- **{w}**: " + ", ".join(f"{s} ×{n_}" for s, n_ in T["top_atoms_k25_L51_59"][w][:25]))
+ck = T["content_check"]
+L.append(f"\n**Content check at the two informative positions** (defined after seeing the six seeded cells, researcher note 2026-09-24; top-25 pursuit atoms, L51–59, mean over cells; 'translations included' adds non-Latin atoms whose nearest Latin-script unembedding neighbour is one of the item's four words or their aliases). "
+         f"Last `q_pre` position: {100*ck['last_qpre']['frozen']:.0f} % of atoms intermediate/answer-related by the frozen classes, {100*ck['last_qpre']['translated']:.0f} % with translations ({100*ck['last_qpre']['frozen_w']:.0f} % / {100*ck['last_qpre']['translated_w']:.0f} % |coef|-weighted). "
+         f"Scoring position s (pursuit on the donor's Δh_s): {100*ck['s']['frozen']:.0f} % / {100*ck['s']['translated']:.0f} % ({100*ck['s']['frozen_w']:.0f} % / {100*ck['s']['translated_w']:.0f} % weighted). "
+         f"Broad level, 'associated' (any atom among the top-100 unembedding neighbours of the four words; catches associates such as the cue city, the river, the leader, and also unrelated capitals): last `q_pre` {100*ck['last_qpre']['associated']:.0f} % ({100*ck['last_qpre']['associated_w']:.0f} % weighted), s {100*ck['s']['associated']:.0f} % ({100*ck['s']['associated_w']:.0f} % weighted). "
+         f"Pooled over every `q_pre` position (the Phase B statistic of §1): {100*ck['pooled_reference_frozen_all_qpre_positions_L51_59']:.1f} %. Translation atoms found: " + ", ".join(f"{s} ×{n_}" for s, n_ in ck["top_translation_atoms"][:20]) + ". Associated atoms found: " + ", ".join(f"{s} ×{n_}" for s, n_ in ck["top_associated_atoms"][:20]) + ".\n")
+L.append("Per-item split of the J_25 part (norm shares answer / intermediate / other; `q_pre` L51–59 mean, and at s):\n")
+L.append("| item | `q_pre`: answer / intermediate / other | s: answer / intermediate / other |\n|---|---|---|")
+for nm in names_all:
+    p = T["per_item_J25_split"][nm]; L.append(f"| {nm} | {p['qpre']['answer']:.2f} / {p['qpre']['intermediate']:.2f} / {p['qpre']['other']:.2f} | {p['s']['answer']:.2f} / {p['s']['intermediate']:.2f} / {p['s']['other']:.2f} |")
 L.append("\n## 5. Per-item shares of `q_full_pre` (all items; first column: the full margin in nats)\n")
 L.append("| item | relation | donor | adm. | full | plane A | rem B | ans-plane | ans-rem | J25 rem | J25 rem + cc | + ccr | rand25 rem | current base | NNLS25 rem | NNLS25 rem + cc |")
 L.append("|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|")
@@ -318,7 +413,8 @@ for b, d in T["six_random_cells"].items():
 D = T["decision"]; Pp = T["predictions"]
 L.append(f"\n## 7. Decision rule (Amendment 6 §6{', applied to the admitted set (Amendment 7 §5)' if S2 else ''}) and predictions\n")
 L.append(f"Consumer-clamped complement share at k = 25: **{f3(D['consumer_clamped_complement_share_k25'])}** (un-clamped {f3(D['unclamped_share_k25'])}; random-k clamp control {f3(D['control_ccr_share_k25'])}, {'within' if D['ccr_within_unclamped_interval'] else 'outside'} the un-clamped row's interval); gates 1–5 {'pass' if D['gates_1_5_pass'] else 'FAIL'} → **{D['reading']}**. "
-         f"Qualifier: answer-related atoms carry {100*atoms['25']['norm_share_qpre_L51_59']['answer']:.0f} % of the J_25 part's norm on `q_pre` at L51–59 ({'most' if D['qualifier_answer_atoms_carry_most_of_J25'] else 'not most'}); answer-plane removal leaves B_ans = {f3(Ba)} ({'kills most of the effect' if D['qualifier_answer_plane_removal_kills_most'] else 'does not kill most of the effect'}).\n")
+         f"Qualifier: answer-related atoms carry {100*atoms['25']['norm_share_qpre_L51_59']['answer']:.0f} % of the J_25 part's norm on `q_pre` at L51–59 ({'most' if D['qualifier_answer_atoms_carry_most_of_J25'] else 'not most'}); answer-plane removal leaves B_ans = {f3(Ba)} ({'kills most of the effect' if D['qualifier_answer_plane_removal_kills_most'] else 'does not kill most of the effect'}). "
+         f"**Leading alternative, stated beside the rule:** the answer plane alone carries {f3(Aa)} against {f3(A)} for the intermediate plane at equal dimension ({pcmp['ans_minus_int_plane']['n_pos']}/{NI} items), so \"the answer is already computed and J-readable at the question turn\" is the reading to beat; the `_cc` shares are upper bounds on any non-J route (the clamp is partial, §3), and the J_k part is strongly privileged per dimension (J_25 complement {f3(un25)} vs random-25 complement {f3(sh('q_rand25rem_pre'))}).\n")
 L.append("| prediction (Amendment 6) | held? | values |\n|---|---|---|")
 L.append(f"| P1 gates 1–5 pass | {Pp['P1_gates_1_5']} | — |")
 L.append(f"| P2 k = 2 selection contains intermediate/swap_to on a majority of `q_pre` cells at L51–59 | {Pp['P2_k2_majority_L51_59']} | {100*Pp['P2_value']:.1f} % |")
