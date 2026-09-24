@@ -1,5 +1,7 @@
 """Consolidated figure for the question-turn ladder write-up (H3/results/reports/two_hop_question_turn_ladder.md), built only from the
-committed tables of Stage 2 (Amendment 7), probe3 (Amendment 8) and probe4 (Amendment 9). ICLR style (iclr-plots skill), full width.
+committed tables of Stage 2 (Amendment 7), probe3 (Amendment 8), probe4 (Amendment 9) and probe5 (Amendment 10; panel d is its Part B
+alone, replotted at the 2026-09-24 freeze in place of the Amendment 8/9 panel that showed the withdrawn "country dominant" reading).
+No model forwards. ICLR style (iclr-plots skill), full width.
 Writes H3/results/figures/h3_question_turn_ladder.{pdf,png}. Usage: make_question_turn_ladder_figure.py"""
 import os, sys, json
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "..", "..", "common", "scripts"))
@@ -11,6 +13,7 @@ import matplotlib.pyplot as plt
 
 TAB = R.out_dir("H3", "results", "tables"); FIG = R.out_dir("H3", "results", "figures")
 S2 = json.load(open(os.path.join(TAB, "two_hop_stage2_tables.json"))); P3 = json.load(open(os.path.join(TAB, "two_hop_probe3_tables.json"))); P4 = json.load(open(os.path.join(TAB, "two_hop_probe4_tables.json")))
+P5 = json.load(open(os.path.join(TAB, "two_hop_probe5_tables.json")))
 adm = S2["admitted"]; rows = S2["rows"]; full = np.array([rows["q_full_pre"]["per_item_margin"][nm] for nm in adm])
 rng = np.random.default_rng(20260907)
 
@@ -56,15 +59,24 @@ for i, (lab, v, c) in enumerate(seq):
     ax.errorbar(i, v[0], yerr=[[v[0] - v[1]], [v[2] - v[0]]], color="k", lw=0.8, capsize=2)
 ax.set_xticks(range(len(seq))); ax.set_xticklabels([s[0] for s in seq], fontsize=5); ax.set_ylim(0, 1.05); ax.set(ylabel="Share of the question-turn effect")
 
-# (d) relation transfer: what the question-turn state carries
-ax = axes[3]; c3 = P3["c"]; p2 = P4["part2"]["language_question"]
-bars = [("Donor's\nlanguage", c3["f_L"], cat[0]), ("Donor's\ncapital", c3["capital_push_in_language_question_over_native_capital_push"], cat[2]),
-        ("Country\nplane only", p2["f_ctry"], cat[1]), ("City\nplane only", p2["f_city"], cat[3])]
-for i, (lab, v, c) in enumerate(bars): ax.bar(i, v, color=c, width=0.7)
-ax.errorbar(0, c3["f_L"], yerr=[[c3["f_L"] - c3["f_L_ci"][0]], [c3["f_L_ci"][1] - c3["f_L"]]], color="k", lw=0.8, capsize=2)
-ax.set_xticks(range(4)); ax.set_xticklabels([b[0] for b in bars], fontsize=5.5); ax.set_ylim(0, 1.05)
-ax.set(ylabel="Fraction of the reference push"); ax.axvline(1.5, color=grey, lw=0.6, ls=":")
-ax.text(0.5, 1.0, "vs each answer's native push", ha="center", va="bottom", fontsize=5.5, color="#555555"); ax.text(2.5, 1.0, "vs the transfer push", ha="center", va="bottom", fontsize=5.5, color="#555555")
+# (d) cross-question transfer, decomposed against the receiving question's answer geometry (Amendment 10 Part B only).
+# Each bar is the push toward the receiving question's donor answer from writing one component of the transferred change,
+# as a fraction of the full transferred change's push (the dashed line at 1); points are the seven city pairs.
+ax = axes[3]; pB = P5["partB"]
+groups = [("Language question\nreceives", pB["language_question"], "lang"), ("Capital question\nreceives (mirror)", pB["capital_question_mirror"], "cap")]
+comps = [("Receiving answer's plane", None, cat[2], None), ("Country plane", "ctry", cat[1], None),
+         ("Country $\\perp$ receiving answer", "ctry_perp", cat[1], "////"), ("Matched random plane", "rand2b", grey, None)]
+bw = 0.19
+for gi, (glab, g, own) in enumerate(groups):
+    for ci_, (clab, key, col, hatch) in enumerate(comps):
+        e = g[key or own]; x = gi + (ci_ - 1.5) * bw
+        ax.bar(x, e["share"], bw * 0.92, color=col, alpha=0.5 if hatch else 1.0, hatch=hatch, edgecolor="white", lw=0, label=clab if gi == 0 else None)
+        ax.errorbar(x, e["share"], yerr=[[e["share"] - e["ci"][0]], [e["ci"][1] - e["share"]]], color="k", lw=0.8, capsize=1.5)
+        pp = np.asarray(e["per_pair"], float); ax.scatter(x + np.linspace(-0.045, 0.045, len(pp)), pp, s=2.5, color="k", alpha=0.55, lw=0, zorder=3)
+        if key == "ctry_perp": ax.annotate(f"{e['share']:.2f}", (x, e["ci"][1]), xytext=(0, 2), textcoords="offset points", ha="center", va="bottom", fontsize=5.5)
+ip.reference_line(ax, y=1.0, label="Full transferred change")
+ax.set_xticks(range(len(groups))); ax.set_xticklabels([g[0] for g in groups], fontsize=5.5); ax.set_xlim(-0.5, 1.5); ax.set_ylim(0, 1.42); ax.set_yticks([0, 0.25, 0.5, 0.75, 1.0])
+ax.set(ylabel="Fraction of the transfer push"); ax.legend(loc="upper center", fontsize=5, ncol=2, frameon=False, columnspacing=0.8, handlelength=1.4)
 ip.label_panels(axes, titles=["Removal at the question", "Answer vs intermediate", "Clamp at the answer", "Transfer to another question"])
 ip.finish(fig, os.path.join(FIG, "h3_question_turn_ladder"))
 print("wrote", os.path.join(FIG, "h3_question_turn_ladder.png"))
