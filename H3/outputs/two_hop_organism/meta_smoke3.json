@@ -1,0 +1,201 @@
+{
+ "stage": "smoke3",
+ "design": "H3/design_specs/two_hop_organism.md (Amendment 8, run registration)",
+ "columns": [
+  "Canada",
+  "France",
+  "French",
+  "Italian",
+  "Italy",
+  "Madrid",
+  "Ottawa",
+  "Paris",
+  "Rome",
+  "Spain",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers_ab": [
+  "C0"
+ ],
+ "carriers_c": [
+  "C0"
+ ],
+ "swap_layers": [
+  36,
+  62
+ ],
+ "readout_band": [
+  51,
+  59
+ ],
+ "zq_layers": [
+  36,
+  62
+ ],
+ "fp32_from": 35,
+ "seed": 20260924,
+ "k_pursuit": 25,
+ "items_ab": [
+  "ex-city-capital-Barcelona-Toronto"
+ ],
+ "pairs": [
+  {
+   "name": "ex-city-capital-Lyon-Naples",
+   "A": "Lyon",
+   "B": "Naples",
+   "own_country": "France",
+   "donor_country": "Italy",
+   "own_cap": "Paris",
+   "donor_cap": "Rome",
+   "own_lang": "French",
+   "donor_lang": "Italian"
+  }
+ ],
+ "question": "Complete the fact from the clue you were given, using one word.",
+ "language_template": "Fact: The language spoken in the country where {cue} is located is",
+ "seeds": {
+  "rand4": "SEED + 300000 + cell",
+  "ccsr": "SEED + 350000 + cell",
+  "xfer_rand": "SEED + 400000 + pair cell",
+  "mirror_rand": "SEED + 450000 + pair cell"
+ },
+ "cells_ab": {
+  "ex-city-capital-Barcelona-Toronto|C0": {
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "category": "city-capital",
+   "q": [
+    94,
+    121
+   ],
+   "scoring": 121,
+   "n_tokens": 122,
+   "zq_columns": [
+    "Spain",
+    "Canada",
+    "Madrid",
+    "Ottawa",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  }
+ },
+ "cells_c": {
+  "ex-city-capital-Lyon-Naples|C0": {
+   "name": "ex-city-capital-Lyon-Naples",
+   "A": "Lyon",
+   "B": "Naples",
+   "own_country": "France",
+   "donor_country": "Italy",
+   "own_cap": "Paris",
+   "donor_cap": "Rome",
+   "own_lang": "French",
+   "donor_lang": "Italian",
+   "n_tokens_cap": 122,
+   "n_tokens_lang": 123,
+   "zq_columns": [
+    "France",
+    "Italy",
+    "French",
+    "Italian",
+    "Paris",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  }
+ },
+ "clamp_sets": {
+  "ex-city-capital-Barcelona-Toronto": {
+   "F": 15,
+   "X": 13,
+   "X_examples": [
+    " \u0438\u0441\u043f",
+    "\ufffd",
+    "\u897f\u73ed\u7259",
+    "\u592a\u539f",
+    "\u5c71\u897f",
+    "\u52a0\u62ff\u5927",
+    "\u5c71\u897f\u7701",
+    "\u592a\u539f\u5e02",
+    "\u9a6c\u5fb7\u91cc",
+    "\u897f\u73ed\u7259\u8bed",
+    " \u043a\u0430\u043d\u0430",
+    " \u0645\u062f\u0631\u064a\u062f",
+    "\u30b9\u30da\u30a4\u30f3"
+   ],
+   "rank_min": 50,
+   "rank_max": 53,
+   "cos_int_ans_folded_L51_59": 0.5092345012558831,
+   "cos_swap_swapans_folded_L51_59": 0.44515803787443375
+  }
+ },
+ "competence_ab": {
+  "clean": 1.0,
+  "donor": 1.0
+ },
+ "pursuit_agreement_with_stage2": {
+  "qpre_vectors_identical_first25": 1.0,
+  "s_vectors_identical_first25": 1.0
+ },
+ "competence_c": {
+  "cap_clean": 1.0,
+  "cap_donor": 1.0,
+  "lang_clean": 1.0,
+  "lang_donor": 1.0
+ },
+ "run_id": "20260924T140602Z",
+ "n_forwards": 126,
+ "elapsed_s": 44.2,
+ "rows_ab": [
+  "q_full_pre",
+  "q_rem_pre",
+  "q_ansrem_pre",
+  "q_bothrem_pre",
+  "q_rand4rem_pre",
+  "q_J25rem_pre",
+  "q_J25rem_pre_cc",
+  "q_J25rem_pre_ccs",
+  "q_J25rem_pre_ccsr"
+ ],
+ "rows_c": [
+  "q_xfer",
+  "q_native_lang",
+  "q_xfer_rand",
+  "q_mirror",
+  "q_native_cap",
+  "q_mirror_rand"
+ ],
+ "n_qpre": 27
+}
