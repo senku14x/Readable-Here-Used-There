@@ -480,3 +480,111 @@ Stage 2 (Amendment 7) reproduced Stage 1 on 35 admitted items over six relation 
 - About 70 minutes in total, capped at 2.5 h.
 - Outputs: `raw_probe4.npz`, `raw_probe4_zq.npz`, `meta_probe4.json`, `manifest_probe4.json`; report `H3/results/reports/two_hop_probe4.md`, tables `two_hop_probe4_tables.json`, figure `h3_probe4`.
 - No rows beyond this set without a new amendment.
+
+## Amendment 10 — the consumer-span control, the cross-question plane control, the functional-row null, and where the last layer reads (registered 2026-09-24, before any forward)
+
+**Stage `probe5`. Script `H3/scripts/two_hop_probe5.py` (stages `smoke5`, `probe5`), analysis `two_hop_probe5_analysis.py`. Drafted after `probe4` and approved by the researcher on 2026-09-24 ("run if this makes sense"). The draft text is registered unchanged in substance; the registration notes at the end fix the choices it left open. Setup as Amendment 9 unless a row says otherwise: the same model, float32 residual from block 35, sequence endpoint primary with the first-token part logged, writes at blocks 36–62 on `q_pre`. Parts A, C, D and E run on the 35 admitted items × C0–C3 (140 cells); Part B runs on the seven pairs × C0–C3 (28 cells).**
+
+### Why
+
+`probe4` settled the headline and left three points open.
+
+1. **Consumer span.** With block 63's read cut, the J_25 complement keeps 0.040 once the pinned span is held at clean at the answer positions. That suggests that, before the last layer, what reaches the answer position passes through its readable span. But the pinned span contains 25 atoms fitted to the donor's change at s, while the random clamp is only norm-matched, not fitted. So "readable content carries it" is not yet separated from "the change's largest directions carry it". There is also no baseline for the complement's route through the middle layers without a clamp (`q_J25rem_pre_m63A`).
+2. **Country or answer geometry.** The cross-question push follows the language-answer readout installed on `q_pre` almost one-to-one: readout fractions 0.86, 0.29 and 0.18 against pushes 0.80, 0.28 and 0.27 for `x_ctry`, `x_city` and `x_noctry` (the readout fractions were verified on `raw_probe4_zq.npz` at registration). "Country dominant" is therefore not separated from "the country plane spans the receiving question's answer directions".
+3. **Privilege and the last layer.** (a) "Lens directions are privileged per dimension" (0.39 vs 0.04) has been tested only against isotropic random directions, never against other Jacobian-derived directions. (b) Where the last layer reads the answer from is unmeasured. Stage 2's donor-answer readout on `q_pre` concentrates at positions 21, 20, 23 and 26, which the template suggests are the end-of-user-turn and assistant-header tokens (verified at registration).
+
+### How (frozen)
+
+**Part A: the fitted non-lens span at the consumer** (answers point 1).
+
+- **`q_J25rem_pre_m63A`**: the J_25 complement on `q_pre`, with block 63's read from the answer positions A_j to `q_pre` cut and no clamp. Margin relative to `clean_m63A`. This is the baseline R0 for the complement's route through the middle layers.
+- **Control span Φ.** Per cell, block and answer position, with the same rank r as the Amendment 8 pinned span. It is found by the same greedy pursuit with least-squares refits, to depth r, on the same target (the natural donor's change at s). The dictionary is non-lens: 248 320 unit atoms drawn from N(0, Σ_l), where Σ_l is the covariance of clean block-l outputs over the recipient renderings, seed 20260924 + 600000 + l.
+- **Clamp rows with Φ**, in the Amendment 9 form, at every position of A_j: `q_J25rem_pre_ccfA` (no cut) and `q_J25rem_pre_ccfA_m63A` (block 63's read also cut).
+- **Energy logging.** For both spans, at every block and every position of A_j, log the fraction of the row's own change ‖h − h_clean‖² at that position that lies in the span.
+- **Secondary**, run only if Φ captures more than 1.5× the pinned span's energy: an energy-matched Φ′, whose depth per block is chosen so that its captured energy matches the pinned span's.
+
+**Part B: planes orthogonalised against the receiving question's answer** (answers point 2; seven pairs).
+
+- Planes per block: Q_L = span(a_own_lang, a_donor_lang), Q_K = span(a_own_cap, a_donor_cap), and the Amendment 9 country plane Q_c.
+- **Language rendering, writing parts of the capital change Δh_cap:**
+  - `x_lang`: h + P_L Δh_cap;
+  - `x_ctry_perp`: h + P_{c⊥L} Δh_cap, where Q_{c⊥L} is the orthonormalised residual of Q_c after projecting out Q_L;
+  - `x_lang_perp`: h + P_{L⊥c} Δh_cap;
+  - `x_rand2b`: a random 2-plane rescaled to ‖P_{c⊥L} Δh_cap‖, seed 20260924 + 650000 + cell.
+- **Capital rendering (the mirror), writing parts of Δh_lang:** `m_cap`, `m_ctry_perp` (the country plane off Q_K), `m_cap_perp`, `m_rand2b` (seed 20260924 + 700000 + cell).
+- **References** (these reproduce `probe4`): `q_xfer`, `x_ctry`, `q_mirror`, `m_ctry`.
+- **Diagnostics:** the principal cosines between Q_c and Q_L and between Q_c and Q_K, and the readouts on `q_pre`.
+
+**Part C: the functional-row null for privilege** (answers point 3a).
+
+- **Dictionary.** 248 320 functional directions per block, f_u = J_lᵀ(γ ⊙ u), with u ~ N(0, Cov(W_U rows)), normalised to unit length, seed 20260924 + 750000 + l.
+- **Fit.** Pursuit to k = 25 on the `q_pre` changes, with the same refits and stopping rule as the J pursuit.
+- **Rows:** `q_F25_pre` (install), `q_F25rem_pre` (complement), and `q_rand25rem_pre_F`, a random control matched in norm and rank as in Stage 2.
+- **Logging:** the energy fraction captured, per block.
+
+**Part D: where the last layer reads from** (answers point 3b).
+
+- **Position classes of `q_pre`**, decoded and asserted:
+  - T, the template tokens from the user turn's `<|im_end|>` to the last `q_pre` token, expected at indices 19–26;
+  - W, the question words "Complete … word.", expected at 5–18;
+  - P, the carrier's `<|im_end|>` through `user\n`, expected at 0–4.
+- **Rows.** Under `q_full_pre_sfullA`, cut block 63's read from A_j to one class at a time: `sfA_cutT`, `sfA_cutW`, `sfA_cutP`. Each margin is relative to a clean baseline with the same cut: `clean_cutT`, `clean_cutW`, `clean_cutP`.
+- **Per-head attribution.** One extra forward per cell under `q_full_pre_sfullA` and one under clean. For each block-63 head, capture its output at s and record two things: its direct effect on the first-token margin through the final norm, linearised at the clean final state, and its attention mass on T, W and P.
+
+**Part E: the delivery-depth curve.** `q_full_pre_sfullB` for B ∈ {50, 54, 58}: the answer positions are held entirely at clean through block B and are free afterwards. The existing row `q_full_pre_sfullA` is B = 62.
+
+**Gates**
+
+1. Amendment 9's gates 1–4 and L, and gate S for every row that has both cuts.
+2. Parts A and C reproduce `probe4` through its references `q_full_pre`, `q_J25rem_pre`, `q_J25rem_pre_ccsA`, `q_J25rem_pre_ccsA_m63A` and `q_full_pre_sfullA`, within 0.01 nats in at least 0.95 of cells.
+3. Part B reproduces `probe4`'s `q_xfer`, `x_ctry`, `q_mirror` and `m_ctry`.
+4. The Φ pursuit and the functional-row pursuit report the same KKT and stopping statistics as the J pursuit.
+5. Part D's position assertions pass.
+
+### What it will answer (outcome → reading, registered before the forward)
+
+**A. Is the consumer route specific to the readable span?** Let R0 = share(`q_J25rem_pre_m63A`), R_J = share(`q_J25rem_pre_ccsA_m63A`) re-measured (0.040 in `probe4`), and R_Φ = share(`q_J25rem_pre_ccfA_m63A`).
+
+| outcome | reading |
+|---|---|
+| R_Φ ≥ 0.6·R0 and R_J ≤ 0.25·R0 | **readable-specific**: before the last layer, the complement's effect at the answer position travels through the readable span, not merely through its largest directions |
+| R_Φ ≤ 0.25·R0 | **not specific**: any fitted span of that rank blocks the route, so "readable at the consumer" is not supported beyond "the change's dominant directions" |
+| anything else | **partial**, reported with both energy captures |
+
+**B. Country, or the receiving question's answer geometry?** Fractions of the transfer push (`q_xfer` or `q_mirror`), with a cluster bootstrap over pairs. The mirror is read the same way.
+
+| outcome | reading |
+|---|---|
+| share(`x_ctry_perp`) ≤ 0.15 and share(`x_lang`) ≥ share(`x_ctry`) − 0.10 | **geometry**: the transfer runs along the receiving question's answer directions; "country dominant" is withdrawn and reworded |
+| share(`x_ctry_perp`) ≥ 0.35 | **country content**: the country plane carries transferable content beyond the answer directions |
+| anything else | **partial** |
+
+**C. Is the privilege the vocabulary's, or any Jacobian direction's?** Installed shares at k = 25, with their energy fractions.
+
+| outcome | reading |
+|---|---|
+| share(`q_F25_pre`) ≥ share(`q_J25_pre`) − 0.10 at comparable or smaller energy | **Jacobian-generic**: claim 1's "privileged per dimension" is restated as a property of output-Jacobian directions |
+| share(`q_F25_pre`) ≤ 0.5·share(`q_J25_pre`) | **vocabulary-specific** |
+| anything else | **partial** |
+
+**D. Where does the last layer read?** Let D0 = share(`q_full_pre_sfullA`) (0.411 in `probe4`). Report 1 − share(`sfA_cutX`)/D0 for X = T, W and P, with cluster bootstraps, and the heads that carry at least 50 % of the summed direct effect. Prediction, post hoc from the Stage 2 readout concentration: cutting T removes at least 0.7 of D0, and cutting W removes at most 0.3.
+
+**E.** Report the curve; no decision rule.
+
+**Predictions on record.** Gates L and S pass by construction. The assistant's priors, written before the run: A is "readable-specific" with probability 0.50, B is "geometry" with 0.70, C is "vocabulary-specific" with 0.55, and D's T-cut removes at least 0.7 with 0.65.
+
+### Budget
+
+About 13 000 forwards plus the Φ, J and functional pursuit passes, estimated at 1.5–2 h, capped at 3 h. Parts A and B run first in the script's order.
+
+### Registration notes (2026-09-24, before any forward; they fix what the draft left open)
+
+1. **Small-route guard for A.** If R0 < 0.10, the route through the middle layers carries less than a tenth of the effect. Part A's reading is then reported descriptively, with no decision.
+2. **Energy logging for A.** The capture of each span is logged on two targets. The first is the natural donor change at s, Δh_s (all cells, blocks 36–62). The second is the change of the un-clamped row `q_J25rem_pre` at every answer position of the answer word's first spelling. The Φ′ trigger uses the mean capture of Δh_s over cells and blocks. Φ′ takes, per cell and block, the shortest prefix of Φ's pursuit whose captured energy of Δh_s reaches the pinned span's.
+3. **Φ's dictionary.** Σ_l is recomputed in this run from the clean block outputs at positions ≥ 4 of the 140 admitted renderings, with a relative ridge of 1e-6 before the Cholesky factorisation.
+4. **Attribution in D.**
+   - The first-token margin direction is w = W_U[first token of the swap answer's first spelling] − W_U[first token of the answer's first spelling].
+   - A head's contribution at s is its slice of `o_proj` applied to its gated output, captured by a pre-hook on `o_proj`.
+   - The direct effect is wᵀ J_norm(h_clean,final) (c_head(`sfullA`) − c_head(clean)), where J_norm is the Jacobian of the final RMSNorm (gain 1 + weight) at the clean block-63 output at s.
+   - Attention mass is taken from the returned attention weights at s under `sfullA`.
+5. **Part D classes** are asserted by decoding the `q_pre` tokens of every cell, against the expected strings.
