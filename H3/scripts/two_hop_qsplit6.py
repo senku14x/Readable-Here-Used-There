@@ -19,16 +19,23 @@ import numpy as np, torch
 import registry as R, materials as M, rendering as Rn, readout as RO, hooks as H
 from hooks_fp32 import Fp32Residual
 
-STAGE = sys.argv[1] if len(sys.argv) > 1 else "smoke"; assert STAGE in ("smoke", "smoke1", "qsplit6")
+STAGE = sys.argv[1] if len(sys.argv) > 1 else "smoke"; assert STAGE in ("smoke", "smoke1", "qsplit6", "admit", "smoke2", "stage2")
+S2 = STAGE in ("admit", "smoke2", "stage2")      # Amendment 7 stages: the 42-item bank, the repaired current-base row, coded atom classes, per-cell lens columns
+AMEND = "Amendment 7" if S2 else "Amendment 6"; MID_L = list(range(36, 51))   # admission swap band (Amendment 7 §2b)
 OUT = R.out_dir("H3", "outputs", "two_hop_organism")
 RUN_ID = time.strftime("%Y%m%dT%H%M%SZ", time.gmtime()); SEED = 20260924; FP32_FROM = 35
 COPY = "copy the following text exactly, word for word"; CARRIERS = ["C0", "C1", "C2", "C3"]; DECOYS = M.FIT_WORDS[:8]
 SWAP_L = list(range(36, 63)); RB = list(range(51, 60)); KS = [2, 8, 25, 64]; KMAX = 64; KNN = 25; LZ = list(range(36, 63))
 ITEMS = json.load(open(os.path.join(R.PROJECT, "H3", "design_specs", "two_hop_items.json")))["pilot_items"]
+if S2:
+    for it in ITEMS: it.setdefault("constructed_donor", False)
+    ITEMS = ITEMS + json.load(open(os.path.join(R.PROJECT, "H3", "design_specs", "two_hop_items_stage2.json")))["items"]
+    assert len({it["name"] for it in ITEMS}) == len(ITEMS)
 STRIP = re.compile(r"\s+(is called a|is called the|is the|is a|are|is)\s*$")
 QUESTION = "Complete the fact from the clue you were given, using one word."
 S_DONOR0_SEQ_BF16 = 23.87764283021291   # bridgeswap_seq ceiling (meta_bridgeswap_seq.json), quoted for context, not re-run
 if STAGE == "smoke1": ITEMS, CARRIERS = ITEMS[:1], CARRIERS[:1]
+if STAGE == "smoke2": ITEMS, CARRIERS = [ITEMS[0], ITEMS[12]], CARRIERS[:1]     # one released-donor item and one constructed-donor item, C0
 WORD_RE = re.compile(r"^Ġ[A-Za-z]{3,}$")   # restricted dictionary: leading-space alphabetic word tokens of >= 3 letters
 RIDGE = 1e-6                                # relative ridge on the Gram system of the LS refit (numerical guard only; recorded)
 
@@ -40,6 +47,17 @@ INT_ALIASES = {"Spain": ["spain", "spanish", "spaniard"], "Canada": ["canada", "
                "Italy": ["italy", "italian"], "Germany": ["germany", "german"], "Japan": ["japan", "japanese"], "Egypt": ["egypt", "egyptian"],
                "Russia": ["russia", "russian"], "Hungary": ["hungary", "hungarian"], "Poland": ["poland", "polish"], "Greece": ["greece", "greek"],
                "butter": ["butter", "buttery"], "honey": ["honey", "honeyed"]}
+if S2:   # Amendment 7 §1: extended alias lists (frozen there); Amendment 6's entries unchanged
+    INT_ALIASES.update({"Norway": ["norway", "norwegian", "norse"], "Ireland": ["ireland", "irish"], "Turkey": ["turkey", "turkish"], "Denmark": ["denmark", "danish", "dane"], "India": ["india", "indian"],
+                        "Austria": ["austria", "austrian"], "Sweden": ["sweden", "swedish", "swede"], "Iran": ["iran", "iranian", "persian"], "Netherlands": ["netherlands", "dutch", "holland"], "China": ["china", "chinese"],
+                        "Portugal": ["portugal", "portuguese"], "England": ["england", "english", "british", "britain"], "Finland": ["finland", "finnish", "finn"], "Thailand": ["thailand", "thai"],
+                        "Vietnam": ["vietnam", "vietnamese"], "Korea": ["korea", "korean"], "Switzerland": ["switzerland", "swiss"]})
+    ANS_ALIASES.update({"Oslo": ["oslo"], "Dublin": ["dublin"], "Ankara": ["ankara"], "Copenhagen": ["copenhagen"], "Delhi": ["delhi"], "Vienna": ["vienna", "viennese"], "Danish": ["danish", "dane"],
+                        "Norwegian": ["norwegian"], "Swedish": ["swedish"], "Italian": ["italian"], "Japanese": ["japanese"], "Chinese": ["chinese"], "Persian": ["persian", "farsi"], "Dutch": ["dutch"],
+                        "Turkish": ["turkish"], "French": ["french"], "Lisbon": ["lisbon"], "Cairo": ["cairo"], "London": ["london"], "Moscow": ["moscow"], "Amsterdam": ["amsterdam"], "Helsinki": ["helsinki"],
+                        "Bangkok": ["bangkok"], "Stockholm": ["stockholm"], "Tehran": ["tehran"], "dong": ["dong"], "won": ["won"], "pound": ["pound", "sterling"], "yuan": ["yuan", "renminbi"],
+                        "euro": ["euro", "euros"], "yen": ["yen"], "franc": ["franc", "francs"]})
+CLS_CODE = {"other": 0, "intermediate": 1, "answer": 2}   # Amendment 7: atom classes stored as int8 codes in the stage2 raw file
 
 clue_body = lambda p: STRIP.sub("", p.replace("Fact: ", "").strip())
 utext = lambda body, car: f"Here is a clue: {body}. Keep the answer to the clue in mind while you {COPY}:\n\n" + car
@@ -223,6 +241,48 @@ class CurrentBaseAdd:
         [x.remove() for x in self._h]
 
 
+class CurrentBaseReplace:
+    """Amendment 7 §4 repaired current-base row q_rem_cbr_pre: h' = P h_evolving + (I - P)(h_clean + Delta) = h_evolving + (I - P)(h_full - h_evolving)
+    at `positions` for every block: the complement coordinates are replaced by the donor's, the two plane coordinates evolve freely.
+    Records the post-cast realized write (rho, kappa vs the evolving base), the free plane coordinate Q^T (h' - h_clean) [P, 2] and the
+    construction check ||h' - h_clean|| / ||Delta|| [P] per block."""
+    def __init__(self, blocks, layers, positions, hfull, Q, hclean):
+        self.blocks, self.layers = blocks, sorted(layers); self.pos = torch.as_tensor(positions, dtype=torch.long)
+        self.hfull, self.Q, self.hclean, self._h, self.post, self.plane, self.check = hfull, Q, hclean, [], {}, {}, {}
+
+    def _mk(self, l):
+        @torch.autocast("cuda", enabled=False)
+        def f(m, i, o):
+            h = H._out(o).clone(); hp = h[0, self.pos, :].float(); Qm = self.Q[l].to(hp.device).float(); hf = self.hfull[l].to(hp.device).float(); hc = self.hclean[l].to(hp.device).float()
+            v = hf - hp; delta = v - (v @ Qm) @ Qm.T
+            new = (hp + delta).to(h.dtype); real = new.float() - hp
+            self.post[l] = {"rho": float(real.norm() / delta.norm().clamp_min(1e-8)), "kappa": float(torch.nn.functional.cosine_similarity(real.flatten()[None], delta.flatten()[None]).item())}
+            self.plane[l] = ((new.float() - hc) @ Qm).detach().cpu(); self.check[l] = ((new.float() - hc).norm(dim=1) / (hf - hc).norm(dim=1).clamp_min(1e-8)).detach().cpu()
+            h[0, self.pos, :] = new
+            return H._pack(o, h)
+        return f
+
+    def __enter__(self):
+        self._h = [self.blocks[l].register_forward_hook(self._mk(l)) for l in self.layers]; return self
+
+    def __exit__(self, *a):
+        [x.remove() for x in self._h]
+
+
+class CoordSwap32(H.CoordSwap):
+    """H.CoordSwap with the coordinate arithmetic forced to true float32 under the bf16 autocast (Amendment 5's int_q32; used by the
+    Amendment 7 admission swaps at mid depth)."""
+    def _mk(self, l):
+        @torch.autocast("cuda", enabled=False)
+        def f(m, i, o):
+            h = H._out(o).clone(); hp = h[0, self.pos, :].float(); vs, vt = self.dirs[l]
+            V = torch.stack([vs, vt], 1).to(hp.device).float(); pinv = torch.linalg.pinv(V)
+            c = hp @ pinv.T; delta = (c[:, [1, 0]] - c) @ V.T
+            self.realized[l] = float(delta.norm(dim=1).mean()); h[0, self.pos, :] = (hp + delta).to(h.dtype)
+            return H._pack(o, h)
+        return f
+
+
 # ----------------------------------------------------------------------------------------------------------------- smoke (no model)
 def smoke():
     tok = R.make_tokenizer()
@@ -307,9 +367,12 @@ def main():
             "carriers": CARRIERS, "swap_layers": [SWAP_L[0], SWAP_L[-1]], "fp32_from": FP32_FROM, "seed": SEED, "stage": STAGE, "cells": {}, "items": ITEMS,
             "question": QUESTION, "s_donor0_seq_bf16_quoted": S_DONOR0_SEQ_BF16, "readout_band": [RB[0], RB[-1]], "zq_layers": [LZ[0], LZ[-1]], "ks": KS, "k_nnls": KNN, "kmax": KMAX,
             "restricted_dictionary_size": int(len(widx)), "vocab_size": int(V), "ridge_rel": RIDGE, "materials": "anthropics/jacobian-lens@581d398 data/experiments/probe-swap.json",
-            "design": "H3/design_specs/two_hop_organism.md (Amendment 6)",
+            "design": f"H3/design_specs/two_hop_organism.md ({AMEND})", "mid_band": [MID_L[0], MID_L[-1]] if S2 else None,
             "seeds": {"random_2plane": "SEED + cell", "random_k_removal": "SEED + 100000 + cell", "ccr_frames": "SEED + 200000 + cell", "energy_reference": "SEED + 777"}}
     t0 = time.time(); n = 0
+    # lens columns saved per cell: Stage 1 saves every column; Stage 2 (168 cells) saves the cell's own four words plus the decoys (Amendment 7 §6)
+    zcols = lambda it: ([COLS.index(w) for w in (it["intermediate"], it["swap_to"], it["answer"], it["swap_answer"])] + [COLS.index(d_) for d_ in META["decoys"]]) if S2 else list(range(len(COLS)))
+    zcolnames = lambda it: [COLS[i] for i in zcols(it)]
 
     # ------------------------------------------------------------------ Phase A: clean and donor forwards, cell geometry, states at Q
     cellinfo = {}; Xacc = {l: [] for l in SWAP_L}
@@ -336,9 +399,10 @@ def main():
             META["cells"][base] = {"intermediate": it["intermediate"], "swap_to": it["swap_to"], "answer": it["answer"], "swap_answer": it["swap_answer"],
                                    "span": [span[0], span[-1]], "carrier": [cs, ce], "q": [Q[0], Q[-1]], "q_pre": [qpre[0], qpre[-1]], "scoring": s, "n_tokens": len(r),
                                    "cos_int_swap_max_abs": float(max(abs(v) for v in cos.values())), "cos_ans_swap_max_abs": float(max(abs(v) for v in cosa.values())),
-                                   "spellings_answer": [list(x) for x in cA], "spellings_swap": [list(x) for x in cB]}
+                                   "spellings_answer": [list(x) for x in cA], "spellings_swap": [list(x) for x in cB], "zq_columns": zcolnames(it),
+                                   "category": it.get("category"), "constructed_donor": bool(it.get("constructed_donor", False))}
             for tag, rr, acts, lgx in ((f"{base}|clean", r, ac, lg), (f"{base}|donor", rd, ad, lgd)):
-                RAWZ[f"{tag}|zq"] = ro.z(acts, Q, LZ).astype(np.float16)
+                RAWZ[f"{tag}|zq"] = ro.z(acts, Q, LZ)[:, :, zcols(it)].astype(np.float16)
                 RAW[f"{tag}|nll"] = np.float32(RO.carrier_damage(lgx[:, :len(ids)], list(rr.ids), cs, ce)[0]); RAW[f"{tag}|greedy"] = tok.decode(int(lgx[0, len(ids) - 1].argmax())).strip()
                 lp = torch.log_softmax(lgx[0, len(ids) - 1].float(), -1)
                 RAW[f"{tag}|s_answer"] = np.float32(float(torch.logsumexp(lp[forms(tok, it["answer"])], 0))); RAW[f"{tag}|s_swap"] = np.float32(float(torch.logsumexp(lp[forms(tok, it["swap_answer"])], 0)))
@@ -352,6 +416,37 @@ def main():
     print(f"  [gate 2] competence clean {comp_c:.3f} donor {comp_d:.3f} -> {'PASS' if META['gate2']['pass'] else 'FAIL'}", flush=True)
     if not META["gate2"]["pass"] and STAGE == "qsplit6":
         json.dump(META, open(os.path.join(OUT, f"meta_{STAGE}_gatefail.json"), "w"), indent=1, default=str); print("gate 2 failed: stopping per Amendment 6 §4"); return
+    if S2: META["gate2_note"] = "reported for all items; Stage 2 does not stop on gate 2 (Amendment 7 §4); admission handles competence per item"
+
+    if STAGE == "admit":
+        # ------------------------------------------------------------------ Amendment 7 §2: admission swaps at mid depth (blocks 36-50) on the tail positions
+        for b in bases:
+            info = cellinfo[b]; it = info["it"]; ids = info["ids"]; cA, cB = info["cA"], info["cB"]; tail = list(range(info["span"][0], info["s"] + 1)); tc = time.time()
+            for cond, (w1, w2) in (("int_tail_mid", (it["intermediate"], it["swap_to"])), ("ans_tail_mid", (it["answer"], it["swap_answer"]))):
+                dirs = {l: (NAMING[w1][l], NAMING[w2][l]) for l in MID_L}
+                ctx = H.Both(fp(), CoordSwap32(lm.layers, MID_L, tail, dirs))
+                sA, vA, (a_, l_) = seqscore(ids, lambda: ctx, cA); sB, vB, _ = seqscore(ids, lambda: ctx, cB); n += len(cA) + len(cB); tag = f"{b}|{cond}"
+                RAW[f"{tag}|seq_answer"], RAW[f"{tag}|seq_swap"] = np.float32(sA), np.float32(sB); RAW[f"{tag}|greedy"] = tok.decode(int(l_[0, len(ids) - 1].argmax())).strip()
+                RAW[f"{tag}|nll"] = np.float32(RO.carrier_damage(l_[:, :len(ids)], ids, info["cs"], info["ce"])[0])
+                RAW[f"{tag}|swap_realized"] = np.float32(np.mean([ctx.c[1].realized[l] for l in MID_L]))     # mean per-position swap delta norm over the band
+                del a_, l_, ctx
+            print(f"  [admit] {b}: {n} forwards ({time.time()-tc:.0f}s cell)", flush=True)
+        ADM = {}
+        for it in ITEMS:
+            cb_ = [f"{it['name']}|{ck}" for ck in CARRIERS]
+            comp = [bool(RAW[f"{b}|clean|seq_answer"] > RAW[f"{b}|clean|seq_swap"]) and bool(RAW[f"{b}|donor|seq_swap"] > RAW[f"{b}|donor|seq_answer"]) for b in cb_]
+            mgi = float(np.mean([(RAW[f"{b}|int_tail_mid|seq_swap"] - RAW[f"{b}|int_tail_mid|seq_answer"]) - (RAW[f"{b}|clean|seq_swap"] - RAW[f"{b}|clean|seq_answer"]) for b in cb_]))
+            mga = float(np.mean([(RAW[f"{b}|ans_tail_mid|seq_swap"] - RAW[f"{b}|ans_tail_mid|seq_answer"]) - (RAW[f"{b}|clean|seq_swap"] - RAW[f"{b}|clean|seq_answer"]) for b in cb_]))
+            ADM[it["name"]] = {"category": it.get("category"), "constructed_donor": bool(it.get("constructed_donor", False)), "competent_per_carrier": comp, "gate_a": bool(all(comp)),
+                               "int_tail_mid": mgi, "ans_tail_mid": mga, "gate_b": bool(mgi > mga and mgi > 0), "admitted": bool(all(comp) and mgi > mga and mgi > 0)}
+        META["admission"] = ADM; META["admitted"] = [k for k, v in ADM.items() if v["admitted"]]
+        print(f"  [admit] admitted {len(META['admitted'])}/{len(ITEMS)}: gate (a) {sum(v['gate_a'] for v in ADM.values())}, gate (b) {sum(v['gate_b'] for v in ADM.values())}", flush=True)
+        META.update({"run_id": RUN_ID, "n_forwards": n, "elapsed_s": round(time.time() - t0, 1), "rows": ["int_tail_mid", "ans_tail_mid"]})
+        np.savez_compressed(os.path.join(OUT, f"raw_{STAGE}.npz"), **RAW); np.savez_compressed(os.path.join(OUT, f"raw_{STAGE}_zq.npz"), **RAWZ)
+        json.dump(META, open(os.path.join(OUT, f"meta_{STAGE}.json"), "w"), indent=1, default=str)
+        man = R.manifest_block(); man.update({"run_id": RUN_ID, "stage": STAGE, "script": os.path.relpath(__file__, R.PROJECT), "design": f"H3/design_specs/two_hop_organism.md ({AMEND})",
+                                              "raw_sha256": hashlib.sha256(open(os.path.join(OUT, f"raw_{STAGE}.npz"), "rb").read()).hexdigest()})
+        json.dump(man, open(os.path.join(OUT, f"manifest_{STAGE}.json"), "w"), indent=1); print(f"[done {STAGE}] {n} forwards, {time.time()-t0:.0f}s"); return
 
     # ------------------------------------------------------------------ Phase B: pursuits per block (q_pre positions and the scoring position), energy reference
     nq = len(cellinfo[bases[0]]["qpre"]); assert all(len(cellinfo[b]["qpre"]) == nq for b in bases), "q_pre length differs across cells"
@@ -457,7 +552,7 @@ def main():
         lp = torch.log_softmax(logits[0, L - 1].float(), -1)
         RAW[f"{tag}|s_answer"] = np.float32(float(torch.logsumexp(lp[forms(tok, it["answer"])], 0))); RAW[f"{tag}|s_swap"] = np.float32(float(torch.logsumexp(lp[forms(tok, it["swap_answer"])], 0)))
         RAW[f"{tag}|greedy"] = tok.decode(int(logits[0, L - 1].argmax())).strip()
-        RAWZ[f"{tag}|zq"] = ro.z(acts, Q, LZ).astype(np.float16)
+        RAWZ[f"{tag}|zq"] = ro.z(acts, Q, LZ)[:, :, zcols(it)].astype(np.float16)
         RAW[f"{tag}|nll"] = np.float32(RO.carrier_damage(logits[:, :L], info["ids"], info["cs"], info["ce"])[0])
         Q63 = torch.stack([NAMING63[it["intermediate"]], NAMING63[it["swap_to"]]], 1)
         RAW[f"{tag}|c63"] = (acts[63][0, qpre, :].float() @ Q63).cpu().numpy().astype(np.float32)      # [P, 2] projections on the raw unit naming directions at block 63
@@ -474,14 +569,16 @@ def main():
         RAW[f"{b}|normdiag"] = norms                                          # per block: |dh|, |vJ2|, |vA2|, |vJ_k| for k in KS, |vJ25nn|  (means over q_pre positions)
         for l in SWAP_L:
             RAW[f"{b}|L{l}|atoms_qpre"] = atoms["sel"][l].astype(np.int32); RAW[f"{b}|L{l}|atoms_s"] = atoms["sel_s"][l].astype(np.int32); RAW[f"{b}|L{l}|stop_qpre"] = atoms["stop"][l].astype(np.int32)
-            RAW[f"{b}|L{l}|stop_s"] = np.int32(atoms["stop_s"][l]); RAW[f"{b}|L{l}|cls_qpre"] = atoms["cls"][l]; RAW[f"{b}|L{l}|cls_s"] = atoms["cls_s"][l]
-            RAW[f"{b}|L{l}|atoms_nn"] = atoms["sel_nn"][l].astype(np.int32); RAW[f"{b}|L{l}|atoms_nn_s"] = atoms["sel_nn_s"][l].astype(np.int32); RAW[f"{b}|L{l}|cls_nn"] = atoms["cls_nn"][l]
+            enc = (lambda a: np.vectorize(CLS_CODE.get)(a).astype(np.int8)) if S2 else (lambda a: a)      # Stage 2: int8 codes 0/1/2 = other/intermediate/answer
+            RAW[f"{b}|L{l}|stop_s"] = np.int32(atoms["stop_s"][l]); RAW[f"{b}|L{l}|cls_qpre"] = enc(atoms["cls"][l]); RAW[f"{b}|L{l}|cls_s"] = enc(atoms["cls_s"][l])
+            RAW[f"{b}|L{l}|atoms_nn"] = atoms["sel_nn"][l].astype(np.int32); RAW[f"{b}|L{l}|atoms_nn_s"] = atoms["sel_nn_s"][l].astype(np.int32); RAW[f"{b}|L{l}|cls_nn"] = enc(atoms["cls_nn"][l])
             RAW[f"{b}|L{l}|plane_coord_full"] = ((T["q_full_pre"][l] - info["hq"][l][:-1].to(dev)) @ Qp[l]).cpu().numpy().astype(np.float32)     # [P, 2] the full donor's plane coordinate
             for k in KS: RAW[f"{b}|L{l}|clsshare{k}"] = atoms[f"clsshare{k}"][l]; RAW[f"{b}|L{l}|clsshare{k}_s"] = atoms[f"clsshare{k}_s"][l]        # [P, 3] / [3]: answer, intermediate, other
             RAW[f"{b}|L{l}|clsshare_nn"] = atoms["clsshare_nn"][l]
         hclean_s = {l: info["hq"][l][-1] for l in SWAP_L}; hclean_q = {l: info["hq"][l][:-1] for l in SWAP_L}
         conds = {k: (lambda k=k: H.Both(fp(), H.SpanWriter(lm.layers, SWAP_L, qpre, T[k]))) for k in T}
-        conds["q_rem_cb_pre"] = lambda: H.Both(fp(), CurrentBaseAdd(lm.layers, SWAP_L, qpre, CB, Qp, hclean_q))
+        if S2: conds["q_rem_cbr_pre"] = lambda: H.Both(fp(), CurrentBaseReplace(lm.layers, SWAP_L, qpre, T["q_full_pre"], Qp, hclean_q))    # Amendment 7 §4 (repaired)
+        else: conds["q_rem_cb_pre"] = lambda: H.Both(fp(), CurrentBaseAdd(lm.layers, SWAP_L, qpre, CB, Qp, hclean_q))                        # Amendment 6 row (construction failed; kept for qsplit6 reproducibility)
         cc_rows = ["q_rem_pre", "q_rem25nn_pre"] + [f"q_J{k}rem_pre" for k in KS]; CCT = {}
         for row in cc_rows:
             conds[f"{row}_cc"] = (lambda row=row: H.Both(fp(), H.SpanWriter(lm.layers, SWAP_L, qpre, T[row]), SubspaceClampMatched(lm.layers, SWAP_L, s, PIN[row], hclean_s)))
@@ -510,6 +607,11 @@ def main():
                 cb = [x for x in ctx.c if isinstance(x, CurrentBaseAdd)][0]
                 RAW[f"{tag}|rho"] = np.float32(np.mean([cb.post[l]["rho"] for l in SWAP_L])); RAW[f"{tag}|kappa"] = np.float32(np.mean([cb.post[l]["kappa"] for l in SWAP_L]))
                 RAW[f"{tag}|plane_band"] = np.stack([cb.plane[l].numpy() for l in SWAP_L]).astype(np.float32)       # [27, P, 2]: Q_l^T (h' - h_clean) per block, position
+            if cond == "q_rem_cbr_pre":
+                cb = [x for x in ctx.c if isinstance(x, CurrentBaseReplace)][0]
+                RAW[f"{tag}|rho"] = np.float32(np.mean([cb.post[l]["rho"] for l in SWAP_L])); RAW[f"{tag}|kappa"] = np.float32(np.mean([cb.post[l]["kappa"] for l in SWAP_L]))
+                RAW[f"{tag}|plane_band"] = np.stack([cb.plane[l].numpy() for l in SWAP_L]).astype(np.float32)       # [27, P, 2]: the free plane coordinate Q_l^T (h' - h_clean)
+                RAW[f"{tag}|cons_check"] = np.stack([cb.check[l].numpy() for l in SWAP_L]).astype(np.float32)       # [27, P]: ||h' - h_clean|| / ||Delta|| (gate 8: <= 1.5)
             rec(tag, b, a_, l_); del a_, ctx
         del ac; torch.cuda.empty_cache()
         print(f"  [C] {b}: {n} forwards, {len(conds)} rows ({time.time()-tc:.0f}s cell, {time.time()-t0:.0f}s total) | |dh| {norms[-1][0]:.1f} |vJ2| {norms[-1][1]:.2f} |vJ25| {norms[-1][5]:.2f} |vJ64| {norms[-1][6]:.2f} at L62", flush=True)
@@ -518,7 +620,7 @@ def main():
     np.savez_compressed(os.path.join(OUT, f"raw_{STAGE}.npz"), **RAW); np.savez_compressed(os.path.join(OUT, f"raw_{STAGE}_zq.npz"), **RAWZ)
     json.dump(META, open(os.path.join(OUT, f"meta_{STAGE}.json"), "w"), indent=1, default=str)
     sha = lambda f: hashlib.sha256(open(os.path.join(OUT, f), "rb").read()).hexdigest()
-    man = R.manifest_block(); man.update({"run_id": RUN_ID, "stage": STAGE, "script": os.path.relpath(__file__, R.PROJECT), "design": "H3/design_specs/two_hop_organism.md (Amendment 6)",
+    man = R.manifest_block(); man.update({"run_id": RUN_ID, "stage": STAGE, "script": os.path.relpath(__file__, R.PROJECT), "design": f"H3/design_specs/two_hop_organism.md ({AMEND})",
                                           "materials": META["materials"], "raw_sha256": sha(f"raw_{STAGE}.npz"), "raw_zq_sha256": sha(f"raw_{STAGE}_zq.npz"), "raw_pursuit_sha256": sha(f"raw_pursuit_{STAGE}.npz")})
     json.dump(man, open(os.path.join(OUT, f"manifest_{STAGE}.json"), "w"), indent=1)
     print(f"[done {STAGE}] {n} forwards, {time.time()-t0:.0f}s")

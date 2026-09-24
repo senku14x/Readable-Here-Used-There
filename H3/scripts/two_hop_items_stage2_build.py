@@ -42,30 +42,35 @@ FAMILIES = {
         ("Manchester", "England", "pound"), ("Krakow", "Poland", "zloty"), ("Debrecen", "Hungary", "forint"), ("Brno", "Czechia", "koruna"), ("Isfahan", "Iran", "rial"), ("Aarhus", "Denmark", "krone")]),
 }
 MAX_PER_FAMILY = 6; SEED = 20260924
-bank, log = [], []
-for fam, (tmpl, ents) in FAMILIES.items():
-    body = lambda cue: tmpl.format(cue=cue).replace("Fact: ", "").strip()
-    ok = []
-    for cue, inter, ans in ents:
-        flags = {"int_single": single(inter), "ans_single": single(ans), "ans_not_in_clue": ans.lower() not in body(cue).lower(), "int_not_in_clue": inter.lower() not in body(cue).lower()}
-        if all(flags.values()): ok.append((cue, inter, ans, ntok(body(cue))))
-        else: log.append(f"  drop {fam} {cue}/{inter}/{ans}: {[k for k, v in flags.items() if not v]}")
-    pairs = [(a, b) for a, b in itertools.permutations(ok, 2) if a[1] != b[1] and a[2] != b[2] and a[3] == b[3]]
-    # select up to MAX_PER_FAMILY ordered pairs (seeded order): each cue at most once as recipient and at most twice as donor,
-    # each intermediate at most twice as recipient and at most twice as swap_to, so no single donor dominates a family
-    import random; rng = random.Random(SEED); pairs_o = sorted(pairs); rng.shuffle(pairs_o)
-    chosen, used_rec, used_don, used_int, used_swap = [], set(), collections.Counter(), collections.Counter(), collections.Counter()
-    for a, b in pairs_o:
-        if a[0] in used_rec or used_don[b[0]] >= 2 or used_int[a[1]] >= 2 or used_swap[b[1]] >= 2: continue
-        chosen.append((a, b)); used_rec.add(a[0]); used_don[b[0]] += 1; used_int[a[1]] += 1; used_swap[b[1]] += 1
-        if len(chosen) >= MAX_PER_FAMILY: break
-    chosen.sort()
-    for a, b in chosen:
-        bank.append({"name": f"s2-{fam}-{a[0]}-{b[0]}", "category": fam, "prompt": tmpl.format(cue=a[0]), "donor_prompt": tmpl.format(cue=b[0]), "intermediate": a[1], "answer": a[2], "swap_to": b[1], "swap_answer": b[2],
-                     "cue": a[0], "donor_cue": b[0], "n_tokens_clue": a[3], "constructed_donor": True})
-    log.append(f"{fam}: {len(ok)} eligible cues, {len(pairs)} eligible ordered pairs, {len(chosen)} chosen")
-out = {"design": "H3/design_specs/two_hop_organism.md Amendment 7", "construction": __doc__.strip(), "families": {f: FAMILIES[f][0] for f in FAMILIES}, "max_per_family": MAX_PER_FAMILY, "selection_seed": SEED,
-       "items": bank, "n_items": len(bank), "n_families": len({it["category"] for it in bank}), "build_log": log}
-json.dump(out, open(os.path.join(R.PROJECT, "H3", "design_specs", "two_hop_items_stage2.json"), "w"), indent=1)
-print("\n".join(log)); print(f"\n{len(bank)} items over {out['n_families']} families")
-for it in bank: print(f"  {it['name']:45s} {it['intermediate']:>12s}->{it['answer']:<12s} swap {it['swap_to']:>12s}->{it['swap_answer']:<12s} ntok {it['n_tokens_clue']}")
+def build():
+    bank, log = [], []
+    for fam, (tmpl, ents) in FAMILIES.items():
+        body = lambda cue: tmpl.format(cue=cue).replace("Fact: ", "").strip()
+        ok = []
+        for cue, inter, ans in ents:
+            flags = {"int_single": single(inter), "ans_single": single(ans), "ans_not_in_clue": ans.lower() not in body(cue).lower(), "int_not_in_clue": inter.lower() not in body(cue).lower()}
+            if all(flags.values()): ok.append((cue, inter, ans, ntok(body(cue))))
+            else: log.append(f"  drop {fam} {cue}/{inter}/{ans}: {[k for k, v in flags.items() if not v]}")
+        pairs = [(a, b) for a, b in itertools.permutations(ok, 2) if a[1] != b[1] and a[2] != b[2] and a[3] == b[3]]
+        # select up to MAX_PER_FAMILY ordered pairs (seeded order): each cue at most once as recipient and at most twice as donor,
+        # each intermediate at most twice as recipient and at most twice as swap_to, so no single donor dominates a family
+        import random; rng = random.Random(SEED); pairs_o = sorted(pairs); rng.shuffle(pairs_o)
+        chosen, used_rec, used_don, used_int, used_swap = [], set(), collections.Counter(), collections.Counter(), collections.Counter()
+        for a, b in pairs_o:
+            if a[0] in used_rec or used_don[b[0]] >= 2 or used_int[a[1]] >= 2 or used_swap[b[1]] >= 2: continue
+            chosen.append((a, b)); used_rec.add(a[0]); used_don[b[0]] += 1; used_int[a[1]] += 1; used_swap[b[1]] += 1
+            if len(chosen) >= MAX_PER_FAMILY: break
+        chosen.sort()
+        for a, b in chosen:
+            bank.append({"name": f"s2-{fam}-{a[0]}-{b[0]}", "category": fam, "prompt": tmpl.format(cue=a[0]), "donor_prompt": tmpl.format(cue=b[0]), "intermediate": a[1], "answer": a[2], "swap_to": b[1], "swap_answer": b[2],
+                         "cue": a[0], "donor_cue": b[0], "n_tokens_clue": a[3], "constructed_donor": True})
+        log.append(f"{fam}: {len(ok)} eligible cues, {len(pairs)} eligible ordered pairs, {len(chosen)} chosen")
+    out = {"design": "H3/design_specs/two_hop_organism.md Amendment 7", "construction": __doc__.strip(), "families": {f: FAMILIES[f][0] for f in FAMILIES}, "max_per_family": MAX_PER_FAMILY, "selection_seed": SEED,
+           "items": bank, "n_items": len(bank), "n_families": len({it["category"] for it in bank}), "build_log": log}
+    json.dump(out, open(os.path.join(R.PROJECT, "H3", "design_specs", "two_hop_items_stage2.json"), "w"), indent=1)
+    print("\n".join(log)); print(f"\n{len(bank)} items over {out['n_families']} families")
+    for it in bank: print(f"  {it['name']:45s} {it['intermediate']:>12s}->{it['answer']:<12s} swap {it['swap_to']:>12s}->{it['swap_answer']:<12s} ntok {it['n_tokens_clue']}")
+
+
+if __name__ == "__main__":
+    build()

@@ -1,0 +1,456 @@
+{
+ "city-capital": {
+  "n_pairs": 22,
+  "pairs": [
+   [
+    "Spain",
+    "Madrid"
+   ],
+   [
+    "Canada",
+    "Ottawa"
+   ],
+   [
+    "France",
+    "Paris"
+   ],
+   [
+    "Italy",
+    "Rome"
+   ],
+   [
+    "Germany",
+    "Berlin"
+   ],
+   [
+    "Japan",
+    "Tokyo"
+   ],
+   [
+    "Poland",
+    "Warsaw"
+   ],
+   [
+    "Portugal",
+    "Lisbon"
+   ],
+   [
+    "Turkey",
+    "Ankara"
+   ],
+   [
+    "India",
+    "Delhi"
+   ],
+   [
+    "China",
+    "Beijing"
+   ],
+   [
+    "Australia",
+    "Canberra"
+   ],
+   [
+    "Sweden",
+    "Stockholm"
+   ],
+   [
+    "Norway",
+    "Oslo"
+   ],
+   [
+    "Netherlands",
+    "Amsterdam"
+   ],
+   [
+    "Belgium",
+    "Brussels"
+   ],
+   [
+    "Austria",
+    "Vienna"
+   ],
+   [
+    "Ireland",
+    "Dublin"
+   ],
+   [
+    "Korea",
+    "Seoul"
+   ],
+   [
+    "Iran",
+    "Tehran"
+   ],
+   [
+    "Finland",
+    "Helsinki"
+   ],
+   [
+    "Denmark",
+    "Copenhagen"
+   ]
+  ],
+  "loo_residual_fraction_by_lambda": {
+   "0.01": 0.9912964072154554,
+   "0.1": 0.9875230222920579,
+   "1.0": 0.9791704087353836
+  },
+  "best_lambda_rel": 1.0,
+  "loo_residual_fraction": 0.9791704087353836,
+  "null_mean": 1.016509995419121,
+  "null_p05": 1.009201459057531,
+  "flagged": false
+ },
+ "city-language": {
+  "n_pairs": 22,
+  "pairs": [
+   [
+    "France",
+    "French"
+   ],
+   [
+    "Italy",
+    "Italian"
+   ],
+   [
+    "Germany",
+    "German"
+   ],
+   [
+    "Japan",
+    "Japanese"
+   ],
+   [
+    "Egypt",
+    "Arabic"
+   ],
+   [
+    "Russia",
+    "Russian"
+   ],
+   [
+    "Spain",
+    "Spanish"
+   ],
+   [
+    "Poland",
+    "Polish"
+   ],
+   [
+    "Portugal",
+    "Portuguese"
+   ],
+   [
+    "Turkey",
+    "Turkish"
+   ],
+   [
+    "Sweden",
+    "Swedish"
+   ],
+   [
+    "Norway",
+    "Norwegian"
+   ],
+   [
+    "Denmark",
+    "Danish"
+   ],
+   [
+    "Netherlands",
+    "Dutch"
+   ],
+   [
+    "Korea",
+    "Korean"
+   ],
+   [
+    "China",
+    "Chinese"
+   ],
+   [
+    "Vietnam",
+    "Vietnamese"
+   ],
+   [
+    "Thailand",
+    "Thai"
+   ],
+   [
+    "Finland",
+    "Finnish"
+   ],
+   [
+    "Hungary",
+    "Hungarian"
+   ],
+   [
+    "Greece",
+    "Greek"
+   ],
+   [
+    "Iran",
+    "Persian"
+   ]
+  ],
+  "loo_residual_fraction_by_lambda": {
+   "0.01": 0.9413700932373069,
+   "0.1": 0.9411998305848891,
+   "1.0": 0.9505692255888838
+  },
+  "best_lambda_rel": 0.1,
+  "loo_residual_fraction": 0.9411998305848891,
+  "null_mean": 1.04237155839498,
+  "null_p05": 1.0256149733506008,
+  "flagged": false
+ },
+ "river-capital": {
+  "n_pairs": 12,
+  "pairs": [
+   [
+    "England",
+    "London"
+   ],
+   [
+    "France",
+    "Paris"
+   ],
+   [
+    "Italy",
+    "Rome"
+   ],
+   [
+    "Egypt",
+    "Cairo"
+   ],
+   [
+    "Russia",
+    "Moscow"
+   ],
+   [
+    "Poland",
+    "Warsaw"
+   ],
+   [
+    "Germany",
+    "Berlin"
+   ],
+   [
+    "China",
+    "Beijing"
+   ],
+   [
+    "Spain",
+    "Madrid"
+   ],
+   [
+    "Portugal",
+    "Lisbon"
+   ],
+   [
+    "Canada",
+    "Ottawa"
+   ],
+   [
+    "Ireland",
+    "Dublin"
+   ]
+  ],
+  "loo_residual_fraction_by_lambda": {
+   "0.01": 0.9943710679551057,
+   "0.1": 0.993390363329112,
+   "1.0": 0.9919096677473779
+  },
+  "best_lambda_rel": 1.0,
+  "loo_residual_fraction": 0.9919096677473779,
+  "null_mean": 1.0058510901145694,
+  "null_p05": 0.9993032329398106,
+  "flagged": false
+ },
+ "language-capital": {
+  "n_pairs": 16,
+  "pairs": [
+   [
+    "Hungary",
+    "Budapest"
+   ],
+   [
+    "Poland",
+    "Warsaw"
+   ],
+   [
+    "Greece",
+    "Athens"
+   ],
+   [
+    "Japan",
+    "Tokyo"
+   ],
+   [
+    "Italy",
+    "Rome"
+   ],
+   [
+    "Sweden",
+    "Stockholm"
+   ],
+   [
+    "Norway",
+    "Oslo"
+   ],
+   [
+    "Denmark",
+    "Copenhagen"
+   ],
+   [
+    "Finland",
+    "Helsinki"
+   ],
+   [
+    "Turkey",
+    "Ankara"
+   ],
+   [
+    "Thailand",
+    "Bangkok"
+   ],
+   [
+    "Korea",
+    "Seoul"
+   ],
+   [
+    "Netherlands",
+    "Amsterdam"
+   ],
+   [
+    "Russia",
+    "Moscow"
+   ],
+   [
+    "Iran",
+    "Tehran"
+   ],
+   [
+    "France",
+    "Paris"
+   ]
+  ],
+  "loo_residual_fraction_by_lambda": {
+   "0.01": 0.9834413534293288,
+   "0.1": 0.9817246768693474,
+   "1.0": 0.9798702584555945
+  },
+  "best_lambda_rel": 1.0,
+  "loo_residual_fraction": 0.9798702584555945,
+  "null_mean": 1.0105612112532727,
+  "null_p05": 1.004140715587037,
+  "flagged": false
+ },
+ "city-currency": {
+  "n_pairs": 10,
+  "pairs": [
+   [
+    "Japan",
+    "yen"
+   ],
+   [
+    "China",
+    "yuan"
+   ],
+   [
+    "Korea",
+    "won"
+   ],
+   [
+    "Switzerland",
+    "franc"
+   ],
+   [
+    "Turkey",
+    "lira"
+   ],
+   [
+    "Vietnam",
+    "dong"
+   ],
+   [
+    "Germany",
+    "euro"
+   ],
+   [
+    "England",
+    "pound"
+   ],
+   [
+    "Hungary",
+    "forint"
+   ],
+   [
+    "Iran",
+    "rial"
+   ]
+  ],
+  "loo_residual_fraction_by_lambda": {
+   "0.01": 1.0094364945463972,
+   "0.1": 1.0069536627132236,
+   "1.0": 0.9983247915947739
+  },
+  "best_lambda_rel": 1.0,
+  "loo_residual_fraction": 0.9983247915947739,
+  "null_mean": 1.00673636336033,
+  "null_p05": 1.001239821383586,
+  "flagged": false
+ },
+ "pilot-city-capital": {
+  "n_pairs": 6,
+  "pairs": [
+   [
+    "Spain",
+    "Madrid"
+   ],
+   [
+    "France",
+    "Paris"
+   ],
+   [
+    "Italy",
+    "Rome"
+   ],
+   [
+    "Canada",
+    "Ottawa"
+   ],
+   [
+    "Germany",
+    "Berlin"
+   ],
+   [
+    "Japan",
+    "Tokyo"
+   ]
+  ],
+  "loo_residual_fraction_by_lambda": {
+   "0.01": 1.0108067743807752,
+   "0.1": 1.0093961101083024,
+   "1.0": 1.0032686650308063
+  },
+  "best_lambda_rel": 1.0,
+  "loo_residual_fraction": 1.0032686650308063,
+  "null_mean": 1.002908538685935,
+  "null_p05": 0.9934953854602504,
+  "flagged": false
+ },
+ "pilot-city-language": {
+  "n_pairs": 2,
+  "note": "too few pairs"
+ },
+ "pilot-language-capital": {
+  "n_pairs": 2,
+  "note": "too few pairs"
+ },
+ "pilot-food-animal": {
+  "n_pairs": 2,
+  "note": "too few pairs"
+ }
+}
