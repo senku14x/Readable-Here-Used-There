@@ -1,0 +1,1357 @@
+{
+ "stage": "probe4",
+ "run_id": "20260924T153924Z",
+ "n_forwards": 12768,
+ "elapsed_s": 3746.5,
+ "n_items": 35,
+ "n_cells_ab": 140,
+ "n_pairs": 7,
+ "n_cells_c": 28,
+ "competence_ab": {
+  "clean": 1.0,
+  "donor": 1.0
+ },
+ "competence_c": {
+  "cap_clean": 1.0,
+  "cap_donor": 1.0,
+  "lang_clean": 1.0,
+  "lang_donor": 1.0
+ },
+ "clamp_stats": {
+  "q_J25rem_pre_ccsA": {
+   "rho_min": 0.9999946355819702,
+   "rho_max": 1.000003457069397,
+   "kappa_min": 0.9999997615814209,
+   "normdev_max": 0.0
+  },
+  "q_J25rem_pre_ccsrA": {
+   "rho_min": 0.9999948740005493,
+   "rho_max": 1.0000052452087402,
+   "kappa_min": 0.9999997615814209,
+   "normdev_max": 5.174758825887693e-06
+  },
+  "q_J25rem_pre_ccsA_m63A": {
+   "rho_min": 0.9999946355819702,
+   "rho_max": 1.000003457069397,
+   "kappa_min": 0.9999997615814209,
+   "normdev_max": 0.0
+  }
+ },
+ "rows_ab": {
+  "q_full_pre": {
+   "margin": {
+    "mean": 11.162274360656738,
+    "ci": [
+     10.525211704701816,
+     11.799337016611661
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 1.0,
+   "share_ci": [
+    1.0,
+    1.0
+   ],
+   "first_token_share": 1.0,
+   "first_token_margin": {
+    "mean": 10.439865197227151,
+    "ci": [
+     9.64367741166181,
+     11.236052982792492
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "flips": 50,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 5.798550311156681,
+    "ci": [
+     5.32493421804822,
+     6.272166404265143
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 5.385844661508288,
+    "ci": [
+     4.913123503155563,
+     5.858565819861012
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 1.0,
+    "ex-city-capital-Lyon-Naples": 1.0,
+    "ex-city-capital-Naples-Barcelona": 1.0,
+    "ex-city-capital-Toronto-Lyon": 1.0,
+    "ex2-city-capital-Munich": 1.0,
+    "ex2-city-language-Moscow": 1.0,
+    "ex2-language-capital-Hungarian": 1.0,
+    "ex2-language-capital-Polish": 1.0,
+    "food-animal-butter": 1.0,
+    "s2-city-capital-Bergen-Kyoto": 1.0,
+    "s2-city-capital-Cork-Antalya": 1.0,
+    "s2-city-capital-Marseille-Aarhus": 1.0,
+    "s2-city-capital-Mumbai-Salzburg": 1.0,
+    "s2-city-capital-Salzburg-Kyoto": 1.0,
+    "s2-city-capital-Vancouver-Naples": 1.0,
+    "s2-city-language-Gothenburg-Isfahan": 1.0,
+    "s2-city-language-Shanghai-Antalya": 1.0,
+    "s2-river-capital-Elbe-Tagus": 1.0,
+    "s2-river-capital-Fraser-Loire": 1.0,
+    "s2-river-capital-Nile-Thames": 1.0,
+    "s2-river-capital-Tagus-Tiber": 1.0,
+    "s2-river-capital-Tiber-Weser": 1.0,
+    "s2-river-capital-Volga-Weser": 1.0,
+    "s2-language-capital-Dutch-Danish": 1.0,
+    "s2-language-capital-Finnish-Thai": 1.0,
+    "s2-language-capital-French-Swedish": 1.0,
+    "s2-language-capital-Italian-Persian": 1.0,
+    "s2-language-capital-Norwegian-Italian": 1.0,
+    "s2-language-capital-Polish-Turkish": 1.0,
+    "s2-city-currency-Hanoi-Busan": 1.0,
+    "s2-city-currency-Manchester-Shanghai": 1.0,
+    "s2-city-currency-Munich-Manchester": 1.0,
+    "s2-city-currency-Osaka-Munich": 1.0,
+    "s2-city-currency-Shanghai-Manchester": 1.0,
+    "s2-city-currency-Zurich-Munich": 1.0
+   }
+  },
+  "q_J25rem_pre": {
+   "margin": {
+    "mean": 6.826629648889814,
+    "ci": [
+     6.394609060715387,
+     7.258650237064241
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.6115805281539565,
+   "share_ci": [
+    0.5740595269467298,
+    0.6509306952923348
+   ],
+   "first_token_share": 0.599946338507986,
+   "first_token_margin": {
+    "mean": 6.263358899593382,
+    "ci": [
+     5.729772809054642,
+     6.796944990132123
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "flips": 10,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 2.6704292058944703,
+    "ci": [
+     2.4317808598716075,
+     2.909077551917333
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 2.451914447546005,
+    "ci": [
+     2.173632129615312,
+     2.7301967654766983
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.6050365378343687,
+    "ex-city-capital-Lyon-Naples": 0.6932220186436964,
+    "ex-city-capital-Naples-Barcelona": 0.7222417214159601,
+    "ex-city-capital-Toronto-Lyon": 0.6496432875285785,
+    "ex2-city-capital-Munich": 0.5772204227035899,
+    "ex2-city-language-Moscow": 0.44716708171772807,
+    "ex2-language-capital-Hungarian": 0.5292274245618664,
+    "ex2-language-capital-Polish": 0.49270932931365174,
+    "food-animal-butter": 0.8321993410553086,
+    "s2-city-capital-Bergen-Kyoto": 0.6717384886827864,
+    "s2-city-capital-Cork-Antalya": 0.6274144831777164,
+    "s2-city-capital-Marseille-Aarhus": 0.6576497323932617,
+    "s2-city-capital-Mumbai-Salzburg": 0.3695848552111572,
+    "s2-city-capital-Salzburg-Kyoto": 0.515021018542453,
+    "s2-city-capital-Vancouver-Naples": 0.5136877868416202,
+    "s2-city-language-Gothenburg-Isfahan": 0.3762717122884043,
+    "s2-city-language-Shanghai-Antalya": 0.532136995758147,
+    "s2-river-capital-Elbe-Tagus": 0.6311422930380074,
+    "s2-river-capital-Fraser-Loire": 0.6374834346521917,
+    "s2-river-capital-Nile-Thames": 0.6280871649188082,
+    "s2-river-capital-Tagus-Tiber": 0.635134703196347,
+    "s2-river-capital-Tiber-Weser": 0.6488923285506538,
+    "s2-river-capital-Volga-Weser": 0.6551500353461035,
+    "s2-language-capital-Dutch-Danish": 0.663626698340057,
+    "s2-language-capital-Finnish-Thai": 0.45175343065307394,
+    "s2-language-capital-French-Swedish": 0.6268626119661419,
+    "s2-language-capital-Italian-Persian": 0.5998064644816663,
+    "s2-language-capital-Norwegian-Italian": 0.5862120420099477,
+    "s2-language-capital-Polish-Turkish": 0.6606436577325763,
+    "s2-city-currency-Hanoi-Busan": 0.8513240902405566,
+    "s2-city-currency-Manchester-Shanghai": 0.5943105829764088,
+    "s2-city-currency-Munich-Manchester": 0.7904936036566828,
+    "s2-city-currency-Osaka-Munich": 0.7082720993291877,
+    "s2-city-currency-Shanghai-Manchester": 0.796085860800767,
+    "s2-city-currency-Zurich-Munich": 0.7912263003602115
+   }
+  },
+  "q_J25rem_pre_ccs": {
+   "margin": {
+    "mean": 4.839282929897308,
+    "ci": [
+     4.367713614419162,
+     5.310852245375455
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.4335391492395271,
+   "share_ci": [
+    0.3960240255815557,
+    0.476237044630389
+   ],
+   "first_token_share": 0.41148329461646166,
+   "first_token_margin": {
+    "mean": 4.295830126706765,
+    "ci": [
+     3.856385813474187,
+     4.735274439939342
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "flips": 0,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": -0.03725272587367467,
+    "ci": [
+     -0.06802660303734931,
+     -0.0064788487100000194
+    ],
+    "n_pos": 11,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": -0.03411716574004718,
+    "ci": [
+     -0.06103762798434473,
+     -0.0071967034957496345
+    ],
+    "n_pos": 11,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.44752660498262875,
+    "ex-city-capital-Lyon-Naples": 0.4582226125134353,
+    "ex-city-capital-Naples-Barcelona": 0.38173095590234357,
+    "ex-city-capital-Toronto-Lyon": 0.462523123658989,
+    "ex2-city-capital-Munich": 0.35099433499831123,
+    "ex2-city-language-Moscow": 0.2760365171081865,
+    "ex2-language-capital-Hungarian": 0.30955698949204274,
+    "ex2-language-capital-Polish": 0.32955058476886273,
+    "food-animal-butter": 0.4980461016330281,
+    "s2-city-capital-Bergen-Kyoto": 0.5270225992852456,
+    "s2-city-capital-Cork-Antalya": 0.4913921133294995,
+    "s2-city-capital-Marseille-Aarhus": 0.5220006259781401,
+    "s2-city-capital-Mumbai-Salzburg": 0.301186504863708,
+    "s2-city-capital-Salzburg-Kyoto": 0.37069498105413073,
+    "s2-city-capital-Vancouver-Naples": 0.46124675137271337,
+    "s2-city-language-Gothenburg-Isfahan": 0.26125200429158646,
+    "s2-city-language-Shanghai-Antalya": 0.21751661329156635,
+    "s2-river-capital-Elbe-Tagus": 0.5878807713213512,
+    "s2-river-capital-Fraser-Loire": 0.37414419701164675,
+    "s2-river-capital-Nile-Thames": 0.3916801493495706,
+    "s2-river-capital-Tagus-Tiber": 0.45336749257678965,
+    "s2-river-capital-Tiber-Weser": 0.35287641394158525,
+    "s2-river-capital-Volga-Weser": 0.3715873642266614,
+    "s2-language-capital-Dutch-Danish": 0.5081032317888071,
+    "s2-language-capital-Finnish-Thai": 0.37586561955158276,
+    "s2-language-capital-French-Swedish": 0.38106259808007614,
+    "s2-language-capital-Italian-Persian": 0.5302649144343278,
+    "s2-language-capital-Norwegian-Italian": 0.5223782489556114,
+    "s2-language-capital-Polish-Turkish": 0.5349784747091653,
+    "s2-city-currency-Hanoi-Busan": 0.5882754655963729,
+    "s2-city-currency-Manchester-Shanghai": 0.4999384728532557,
+    "s2-city-currency-Munich-Manchester": 0.6714377589242791,
+    "s2-city-currency-Osaka-Munich": 0.4639920269748973,
+    "s2-city-currency-Shanghai-Manchester": 0.7516667163692116,
+    "s2-city-currency-Zurich-Munich": 0.3227331501931849
+   }
+  },
+  "q_J25rem_pre_ccsA": {
+   "margin": {
+    "mean": 4.6093213728496005,
+    "ci": [
+     4.171566762562369,
+     5.047075983136832
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.41293747348621956,
+   "share_ci": [
+    0.37741457833617104,
+    0.4538713411482444
+   ],
+   "first_token_share": 0.411607669849769,
+   "first_token_margin": {
+    "mean": 4.297128587376367,
+    "ci": [
+     3.8588967739631284,
+     4.735360400789606
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "flips": 0,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": -0.03701284612928118,
+    "ci": [
+     -0.0676701877542465,
+     -0.006355504504315847
+    ],
+    "n_pos": 10,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": -0.03440237316702093,
+    "ci": [
+     -0.061774768485346354,
+     -0.0070299778486955095
+    ],
+    "n_pos": 12,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.4450457963916123,
+    "ex-city-capital-Lyon-Naples": 0.4548855133545818,
+    "ex-city-capital-Naples-Barcelona": 0.37882387997758227,
+    "ex-city-capital-Toronto-Lyon": 0.4609736083169456,
+    "ex2-city-capital-Munich": 0.35301323494933107,
+    "ex2-city-language-Moscow": 0.2494756220699962,
+    "ex2-language-capital-Hungarian": 0.30942567880319755,
+    "ex2-language-capital-Polish": 0.3293482926216641,
+    "food-animal-butter": 0.4198773834309656,
+    "s2-city-capital-Bergen-Kyoto": 0.5297952133350313,
+    "s2-city-capital-Cork-Antalya": 0.4717086912397845,
+    "s2-city-capital-Marseille-Aarhus": 0.4009467599268643,
+    "s2-city-capital-Mumbai-Salzburg": 0.2974908066294716,
+    "s2-city-capital-Salzburg-Kyoto": 0.3692636311652326,
+    "s2-city-capital-Vancouver-Naples": 0.4509364200584419,
+    "s2-city-language-Gothenburg-Isfahan": 0.2617201175536962,
+    "s2-city-language-Shanghai-Antalya": 0.21616844258325413,
+    "s2-river-capital-Elbe-Tagus": 0.348298567830168,
+    "s2-river-capital-Fraser-Loire": 0.3721794610987136,
+    "s2-river-capital-Nile-Thames": 0.38906563199811195,
+    "s2-river-capital-Tagus-Tiber": 0.4496520323377498,
+    "s2-river-capital-Tiber-Weser": 0.3549754245946257,
+    "s2-river-capital-Volga-Weser": 0.3734974641366165,
+    "s2-language-capital-Dutch-Danish": 0.4967531214278404,
+    "s2-language-capital-Finnish-Thai": 0.3687646869912989,
+    "s2-language-capital-French-Swedish": 0.3817008454957083,
+    "s2-language-capital-Italian-Persian": 0.4131824307521195,
+    "s2-language-capital-Norwegian-Italian": 0.5174836359251211,
+    "s2-language-capital-Polish-Turkish": 0.5092410661821456,
+    "s2-city-currency-Hanoi-Busan": 0.586835898724436,
+    "s2-city-currency-Manchester-Shanghai": 0.46343682111554396,
+    "s2-city-currency-Munich-Manchester": 0.6670842830366069,
+    "s2-city-currency-Osaka-Munich": 0.4620340205852316,
+    "s2-city-currency-Shanghai-Manchester": 0.7481632451115819,
+    "s2-city-currency-Zurich-Munich": 0.32270658817538467
+   }
+  },
+  "q_J25rem_pre_ccsrA": {
+   "margin": {
+    "mean": 6.755467884881156,
+    "ci": [
+     6.326812721287136,
+     7.184123048475176
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.6052053252419514,
+   "share_ci": [
+    0.56754427948461,
+    0.64390081385709
+   ],
+   "first_token_share": 0.5941167910427245,
+   "first_token_margin": {
+    "mean": 6.202499209895215,
+    "ci": [
+     5.678676764889639,
+     6.726321654900792
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "flips": 10,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 2.6526673555374147,
+    "ci": [
+     2.4206290656445923,
+     2.884705645430237
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 2.4288845939295634,
+    "ci": [
+     2.157200024181217,
+     2.7005691636779097
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.6073767516023282,
+    "ex-city-capital-Lyon-Naples": 0.6872112267702527,
+    "ex-city-capital-Naples-Barcelona": 0.7138194484520649,
+    "ex-city-capital-Toronto-Lyon": 0.6409814435334784,
+    "ex2-city-capital-Munich": 0.5748113933032952,
+    "ex2-city-language-Moscow": 0.43794380895076807,
+    "ex2-language-capital-Hungarian": 0.5278974497398848,
+    "ex2-language-capital-Polish": 0.4868929320639858,
+    "food-animal-butter": 0.8240351477994399,
+    "s2-city-capital-Bergen-Kyoto": 0.6633950009039103,
+    "s2-city-capital-Cork-Antalya": 0.6126220481622284,
+    "s2-city-capital-Marseille-Aarhus": 0.6534211001515581,
+    "s2-city-capital-Mumbai-Salzburg": 0.36333725265887207,
+    "s2-city-capital-Salzburg-Kyoto": 0.5089863600786085,
+    "s2-city-capital-Vancouver-Naples": 0.5101768627069201,
+    "s2-city-language-Gothenburg-Isfahan": 0.3760463764426077,
+    "s2-city-language-Shanghai-Antalya": 0.5228856086101878,
+    "s2-river-capital-Elbe-Tagus": 0.628250291551316,
+    "s2-river-capital-Fraser-Loire": 0.6216514536603978,
+    "s2-river-capital-Nile-Thames": 0.6164477216776223,
+    "s2-river-capital-Tagus-Tiber": 0.6298730693415175,
+    "s2-river-capital-Tiber-Weser": 0.6316375686942814,
+    "s2-river-capital-Volga-Weser": 0.6515021261528454,
+    "s2-language-capital-Dutch-Danish": 0.6691628324707674,
+    "s2-language-capital-Finnish-Thai": 0.4514389310073243,
+    "s2-language-capital-French-Swedish": 0.616971817269996,
+    "s2-language-capital-Italian-Persian": 0.5823605677579129,
+    "s2-language-capital-Norwegian-Italian": 0.5818130116117819,
+    "s2-language-capital-Polish-Turkish": 0.6620470147577716,
+    "s2-city-currency-Hanoi-Busan": 0.8444693764798367,
+    "s2-city-currency-Manchester-Shanghai": 0.593268928070708,
+    "s2-city-currency-Munich-Manchester": 0.7771817467344013,
+    "s2-city-currency-Osaka-Munich": 0.6915103496043922,
+    "s2-city-currency-Shanghai-Manchester": 0.7951468813859132,
+    "s2-city-currency-Zurich-Munich": 0.7831908684779466
+   }
+  },
+  "q_full_pre_m63A": {
+   "margin": {
+    "mean": 7.750086661747524,
+    "ci": [
+     7.277668155902126,
+     8.22250516759292
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.6943107122562738,
+   "share_ci": [
+    0.6691729257132015,
+    0.7199242422505311
+   ],
+   "first_token_share": 0.671660627909165,
+   "first_token_margin": {
+    "mean": 7.012046413656627,
+    "ci": [
+     6.340192173861076,
+     7.683900653452178
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "flips": 11,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 5.798550311156681,
+    "ci": [
+     5.32493421804822,
+     6.272166404265143
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 5.385844661508288,
+    "ci": [
+     4.913123503155563,
+     5.858565819861012
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.6001921620715017,
+    "ex-city-capital-Lyon-Naples": 0.7133721304976898,
+    "ex-city-capital-Naples-Barcelona": 0.7421084782384949,
+    "ex-city-capital-Toronto-Lyon": 0.6296670991601746,
+    "ex2-city-capital-Munich": 0.6083125265502749,
+    "ex2-city-language-Moscow": 0.7902661468489122,
+    "ex2-language-capital-Hungarian": 0.6297876154713625,
+    "ex2-language-capital-Polish": 0.7430000879155502,
+    "food-animal-butter": 0.8278296725667028,
+    "s2-city-capital-Bergen-Kyoto": 0.6022891265565449,
+    "s2-city-capital-Cork-Antalya": 0.7712966597987645,
+    "s2-city-capital-Marseille-Aarhus": 0.6204451634738032,
+    "s2-city-capital-Mumbai-Salzburg": 0.706250730397094,
+    "s2-city-capital-Salzburg-Kyoto": 0.6262892767390754,
+    "s2-city-capital-Vancouver-Naples": 0.7379601264512264,
+    "s2-city-language-Gothenburg-Isfahan": 0.7235138950733964,
+    "s2-city-language-Shanghai-Antalya": 0.8476407117054516,
+    "s2-river-capital-Elbe-Tagus": 0.7322806896681383,
+    "s2-river-capital-Fraser-Loire": 0.8205196232809159,
+    "s2-river-capital-Nile-Thames": 0.6742617243694669,
+    "s2-river-capital-Tagus-Tiber": 0.7688356663422911,
+    "s2-river-capital-Tiber-Weser": 0.7900055732474406,
+    "s2-river-capital-Volga-Weser": 0.7683128694617827,
+    "s2-language-capital-Dutch-Danish": 0.583705738104006,
+    "s2-language-capital-Finnish-Thai": 0.6078351455791112,
+    "s2-language-capital-French-Swedish": 0.6462666451778442,
+    "s2-language-capital-Italian-Persian": 0.6312127827691014,
+    "s2-language-capital-Norwegian-Italian": 0.6860742186148149,
+    "s2-language-capital-Polish-Turkish": 0.7395290024744198,
+    "s2-city-currency-Hanoi-Busan": 0.7059763725041895,
+    "s2-city-currency-Manchester-Shanghai": 0.5816041738754469,
+    "s2-city-currency-Munich-Manchester": 0.7266721655620015,
+    "s2-city-currency-Osaka-Munich": 0.7108278330448419,
+    "s2-city-currency-Shanghai-Manchester": 0.5856470665345377,
+    "s2-city-currency-Zurich-Munich": 0.7829383172827356
+   }
+  },
+  "q_J25rem_pre_ccsA_m63A": {
+   "margin": {
+    "mean": 0.44096355778830393,
+    "ci": [
+     0.28401348615044003,
+     0.5979136294261678
+    ],
+    "n_pos": 29,
+    "n": 35
+   },
+   "share": 0.039504812687865126,
+   "share_ci": [
+    0.02541696414648628,
+    0.05420523115326997
+   ],
+   "first_token_share": 0.01751077734210052,
+   "first_token_margin": {
+    "mean": 0.18281015495018899,
+    "ci": [
+     0.0007768559009032616,
+     0.3648434539994747
+    ],
+    "n_pos": 23,
+    "n": 35
+   },
+   "flips": 0,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": -0.03701284612928118,
+    "ci": [
+     -0.0676701877542465,
+     -0.006355504504315847
+    ],
+    "n_pos": 10,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": -0.03440237316702093,
+    "ci": [
+     -0.061774768485346354,
+     -0.0070299778486955095
+    ],
+    "n_pos": 12,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": -0.032874196356109955,
+    "ex-city-capital-Lyon-Naples": -0.009766971467093571,
+    "ex-city-capital-Naples-Barcelona": 0.050189764796610824,
+    "ex-city-capital-Toronto-Lyon": 0.07504881484018748,
+    "ex2-city-capital-Munich": -0.04168605344526813,
+    "ex2-city-language-Moscow": 0.005617977637658483,
+    "ex2-language-capital-Hungarian": 0.03932455120480108,
+    "ex2-language-capital-Polish": -0.02329254365601161,
+    "food-animal-butter": 0.10336710920047196,
+    "s2-city-capital-Bergen-Kyoto": 0.025036224849590026,
+    "s2-city-capital-Cork-Antalya": 0.03358680987129508,
+    "s2-city-capital-Marseille-Aarhus": 0.04506083292913704,
+    "s2-city-capital-Mumbai-Salzburg": 0.055383904872175864,
+    "s2-city-capital-Salzburg-Kyoto": 0.009756865365209434,
+    "s2-city-capital-Vancouver-Naples": 0.0710277151951499,
+    "s2-city-language-Gothenburg-Isfahan": 0.03714482024025808,
+    "s2-city-language-Shanghai-Antalya": 0.005825105750382234,
+    "s2-river-capital-Elbe-Tagus": 0.06672091223712669,
+    "s2-river-capital-Fraser-Loire": 0.15019253309905436,
+    "s2-river-capital-Nile-Thames": 0.029831018174268954,
+    "s2-river-capital-Tagus-Tiber": 0.05010155450757292,
+    "s2-river-capital-Tiber-Weser": 0.11250479656846982,
+    "s2-river-capital-Volga-Weser": 0.04344740305873238,
+    "s2-language-capital-Dutch-Danish": 0.026741036720377004,
+    "s2-language-capital-Finnish-Thai": 0.050088386756409656,
+    "s2-language-capital-French-Swedish": -0.03732296195518922,
+    "s2-language-capital-Italian-Persian": 0.06483490457920886,
+    "s2-language-capital-Norwegian-Italian": 0.054884574561460356,
+    "s2-language-capital-Polish-Turkish": 0.07587261464569725,
+    "s2-city-currency-Hanoi-Busan": 0.09367889751317364,
+    "s2-city-currency-Manchester-Shanghai": 0.019115485157273723,
+    "s2-city-currency-Munich-Manchester": 0.12992046020537193,
+    "s2-city-currency-Osaka-Munich": 0.07742951358315754,
+    "s2-city-currency-Shanghai-Manchester": 0.07903839888381374,
+    "s2-city-currency-Zurich-Munich": -0.0027080587680377763
+   }
+  },
+  "q_full_pre_sfullA": {
+   "margin": {
+    "mean": 4.5915323138237,
+    "ci": [
+     4.010795997729723,
+     5.172268629917678
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.4113437965659854,
+   "share_ci": [
+    0.3686824056264708,
+    0.45847192498071254
+   ],
+   "first_token_share": 0.42530405976370056,
+   "first_token_margin": {
+    "mean": 4.440117051766474,
+    "ci": [
+     3.8830207302264608,
+     4.9972133733064865
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "flips": 1,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_pos": 0,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_pos": 0,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.5760853683140154,
+    "ex-city-capital-Lyon-Naples": 0.5455075126149652,
+    "ex-city-capital-Naples-Barcelona": 0.35566531566360604,
+    "ex-city-capital-Toronto-Lyon": 0.32328649161538997,
+    "ex2-city-capital-Munich": 0.44029161450915943,
+    "ex2-city-language-Moscow": 0.26222155486571835,
+    "ex2-language-capital-Hungarian": 0.32920365230660265,
+    "ex2-language-capital-Polish": 0.3700385250630098,
+    "food-animal-butter": 0.28198773834309654,
+    "s2-city-capital-Bergen-Kyoto": 0.48256913141786123,
+    "s2-city-capital-Cork-Antalya": 0.41903228511648527,
+    "s2-city-capital-Marseille-Aarhus": 0.456355083608109,
+    "s2-city-capital-Mumbai-Salzburg": 0.34635486859017334,
+    "s2-city-capital-Salzburg-Kyoto": 0.39791330597277547,
+    "s2-city-capital-Vancouver-Naples": 0.4553169459370106,
+    "s2-city-language-Gothenburg-Isfahan": 0.23950046346395457,
+    "s2-city-language-Shanghai-Antalya": 0.24052125135811087,
+    "s2-river-capital-Elbe-Tagus": 0.297760533985367,
+    "s2-river-capital-Fraser-Loire": 0.13785359087966667,
+    "s2-river-capital-Nile-Thames": 0.37186797780473746,
+    "s2-river-capital-Tagus-Tiber": 0.4607581780073359,
+    "s2-river-capital-Tiber-Weser": 0.17083095066365134,
+    "s2-river-capital-Volga-Weser": 0.2909185586206982,
+    "s2-language-capital-Dutch-Danish": 0.5560077661245886,
+    "s2-language-capital-Finnish-Thai": 0.32171007172930577,
+    "s2-language-capital-French-Swedish": 0.37689357413985436,
+    "s2-language-capital-Italian-Persian": 0.4264562590990812,
+    "s2-language-capital-Norwegian-Italian": 0.5392526204190078,
+    "s2-language-capital-Polish-Turkish": 0.4727215994766761,
+    "s2-city-currency-Hanoi-Busan": 0.5123440331195066,
+    "s2-city-currency-Manchester-Shanghai": 0.6687471088778744,
+    "s2-city-currency-Munich-Manchester": 0.6365271652094568,
+    "s2-city-currency-Osaka-Munich": 0.38892873997683725,
+    "s2-city-currency-Shanghai-Manchester": 0.7864129216197777,
+    "s2-city-currency-Zurich-Munich": 0.35752291521982266
+   }
+  },
+  "q_J25rem_pre_sfullA": {
+   "margin": {
+    "mean": 3.679060171331678,
+    "ci": [
+     3.2554592065677728,
+     4.102661136095583
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.3295977192873101,
+   "share_ci": [
+    0.2979736921208199,
+    0.3660797170279001
+   ],
+   "first_token_share": 0.3439446573682229,
+   "first_token_margin": {
+    "mean": 3.590735858230727,
+    "ci": [
+     3.18008631129307,
+     4.001385405168383
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "flips": 0,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_pos": 0,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_pos": 0,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.42504008030638285,
+    "ex-city-capital-Lyon-Naples": 0.45405979259110996,
+    "ex-city-capital-Naples-Barcelona": 0.3070115227104221,
+    "ex-city-capital-Toronto-Lyon": 0.3219812317047813,
+    "ex2-city-capital-Munich": 0.3433686299651916,
+    "ex2-city-language-Moscow": 0.22038061645394938,
+    "ex2-language-capital-Hungarian": 0.22221664606458968,
+    "ex2-language-capital-Polish": 0.31127911731024743,
+    "food-animal-butter": 0.26873702331261085,
+    "s2-city-capital-Bergen-Kyoto": 0.4352831212774711,
+    "s2-city-capital-Cork-Antalya": 0.3156487147341271,
+    "s2-city-capital-Marseille-Aarhus": 0.3387416350179476,
+    "s2-city-capital-Mumbai-Salzburg": 0.22944020009503208,
+    "s2-city-capital-Salzburg-Kyoto": 0.29812883499347476,
+    "s2-city-capital-Vancouver-Naples": 0.35957041768735787,
+    "s2-city-language-Gothenburg-Isfahan": 0.2112612095649146,
+    "s2-city-language-Shanghai-Antalya": 0.17339518350503633,
+    "s2-river-capital-Elbe-Tagus": 0.20933368050849022,
+    "s2-river-capital-Fraser-Loire": 0.1723506942397196,
+    "s2-river-capital-Nile-Thames": 0.3028364486700498,
+    "s2-river-capital-Tagus-Tiber": 0.3580706764478379,
+    "s2-river-capital-Tiber-Weser": 0.1804084162701854,
+    "s2-river-capital-Volga-Weser": 0.29711553660882817,
+    "s2-language-capital-Dutch-Danish": 0.40187489632637186,
+    "s2-language-capital-Finnish-Thai": 0.2754688972313193,
+    "s2-language-capital-French-Swedish": 0.3358128239764842,
+    "s2-language-capital-Italian-Persian": 0.29871876949948317,
+    "s2-language-capital-Norwegian-Italian": 0.4341241960689058,
+    "s2-language-capital-Polish-Turkish": 0.3723349915810818,
+    "s2-city-currency-Hanoi-Busan": 0.45259162070367487,
+    "s2-city-currency-Manchester-Shanghai": 0.38673187471898207,
+    "s2-city-currency-Munich-Manchester": 0.5273802817621341,
+    "s2-city-currency-Osaka-Munich": 0.34453431605648294,
+    "s2-city-currency-Shanghai-Manchester": 0.6495054012047897,
+    "s2-city-currency-Zurich-Munich": 0.31735124805107134
+   }
+  },
+  "q_J25rem_pre_sfullA_m63A": {
+   "margin": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_pos": 0,
+    "n": 35
+   },
+   "share": 0.0,
+   "share_ci": [
+    0.0,
+    0.0
+   ],
+   "first_token_share": 0.0,
+   "first_token_margin": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_pos": 0,
+    "n": 35
+   },
+   "flips": 0,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_pos": 0,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_pos": 0,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.0,
+    "ex-city-capital-Lyon-Naples": 0.0,
+    "ex-city-capital-Naples-Barcelona": 0.0,
+    "ex-city-capital-Toronto-Lyon": 0.0,
+    "ex2-city-capital-Munich": 0.0,
+    "ex2-city-language-Moscow": 0.0,
+    "ex2-language-capital-Hungarian": 0.0,
+    "ex2-language-capital-Polish": 0.0,
+    "food-animal-butter": 0.0,
+    "s2-city-capital-Bergen-Kyoto": 0.0,
+    "s2-city-capital-Cork-Antalya": 0.0,
+    "s2-city-capital-Marseille-Aarhus": 0.0,
+    "s2-city-capital-Mumbai-Salzburg": 0.0,
+    "s2-city-capital-Salzburg-Kyoto": 0.0,
+    "s2-city-capital-Vancouver-Naples": 0.0,
+    "s2-city-language-Gothenburg-Isfahan": 0.0,
+    "s2-city-language-Shanghai-Antalya": 0.0,
+    "s2-river-capital-Elbe-Tagus": 0.0,
+    "s2-river-capital-Fraser-Loire": 0.0,
+    "s2-river-capital-Nile-Thames": 0.0,
+    "s2-river-capital-Tagus-Tiber": 0.0,
+    "s2-river-capital-Tiber-Weser": 0.0,
+    "s2-river-capital-Volga-Weser": 0.0,
+    "s2-language-capital-Dutch-Danish": 0.0,
+    "s2-language-capital-Finnish-Thai": 0.0,
+    "s2-language-capital-French-Swedish": 0.0,
+    "s2-language-capital-Italian-Persian": 0.0,
+    "s2-language-capital-Norwegian-Italian": 0.0,
+    "s2-language-capital-Polish-Turkish": 0.0,
+    "s2-city-currency-Hanoi-Busan": 0.0,
+    "s2-city-currency-Manchester-Shanghai": 0.0,
+    "s2-city-currency-Munich-Manchester": 0.0,
+    "s2-city-currency-Osaka-Munich": 0.0,
+    "s2-city-currency-Shanghai-Manchester": 0.0,
+    "s2-city-currency-Zurich-Munich": 0.0
+   }
+  }
+ },
+ "gate_reproduction": {
+  "q_full_pre": {
+   "max_abs_diff": 1.9073486328125e-06,
+   "fraction_within_0.01": 1.0
+  },
+  "q_J25rem_pre": {
+   "max_abs_diff": 1.9073486328125e-06,
+   "fraction_within_0.01": 1.0
+  },
+  "q_J25rem_pre_ccs": {
+   "max_abs_diff": 1.9073486328125e-06,
+   "fraction_within_0.01": 1.0
+  },
+  "pass": true
+ },
+ "gate_writes": {
+  "fixed_target_ok": true,
+  "clamps_ok": true,
+  "ccsrA_norm_match_max_rel_dev": 5.174758825887693e-06,
+  "c_rows_ok": true,
+  "pass": true
+ },
+ "gate_L": {
+  "leak_max": 0.0,
+  "pass": true
+ },
+ "gate_S": {
+  "sfullA_m63A_item_mean_margin": 0.0,
+  "max_abs_item": 0.0,
+  "pass": true
+ },
+ "gate_V": {
+  "int_item_mean": -0.03701284612928118,
+  "ans_item_mean": -0.03440237316702093,
+  "fraction_cells_within_0.3": 1.0,
+  "pass": true
+ },
+ "gate_competence": {
+  "pass": true
+ },
+ "gates_pass": true,
+ "part1a": {
+  "C_s_only": 0.4335391492395271,
+  "C_A": 0.41293747348621956,
+  "C_A_ci": [
+   0.37741457833617104,
+   0.4538713411482444
+  ],
+  "C_minus_C_A": 0.020601675753307513,
+  "C_minus_C_A_nats": {
+   "mean": 0.22996155704770768,
+   "ci": [
+    0.041874065854278525,
+    0.41804904824113687
+   ],
+   "n_pos": 29,
+   "n": 35
+  },
+  "correction_needed": false,
+  "control_ccsrA": 0.6052053252419514,
+  "ccsrA_within_unclamped_interval": true,
+  "unclamped": 0.6115805281539565,
+  "reading": "a route bypassing the pinned readable content at every scored answer position carries at least 0.41 of the question-turn effect",
+  "first_token_shares": {
+   "q_J25rem_pre": 0.599946338507986,
+   "q_J25rem_pre_ccs": 0.41148329461646166,
+   "q_J25rem_pre_ccsA": 0.411607669849769,
+   "q_J25rem_pre_ccsrA": 0.5941167910427245
+  },
+  "per_item_C_A_median": 0.4009467599268643,
+  "items_C_A_ge_0.4": 18,
+  "items_C_A_le_0.2": 0
+ },
+ "part1b": {
+  "R_mask": 0.039504812687865126,
+  "R_mask_ci": [
+   0.02541696414648628,
+   0.05420523115326997
+  ],
+  "R_direct": 0.3295977192873101,
+  "R_direct_ci": [
+   0.2979736921208199,
+   0.3660797170279001
+  ],
+  "interaction": 0.04383494151104439,
+  "full_donor_m63A": 0.6943107122562738,
+  "full_donor_m63A_ci": [
+   0.6691729257132015,
+   0.7199242422505311
+  ],
+  "full_donor_sfullA": 0.4113437965659854,
+  "full_donor_sfullA_ci": [
+   0.3686824056264708,
+   0.45847192498071254
+  ],
+  "full_donor_interaction": -0.10565450882225924,
+  "reading": "direct last-layer read: the bypass is block 63 reading the donor's change straight from the question tokens",
+  "per_relation": {
+   "city-capital": {
+    "q_J25rem_pre_ccsA": 0.41566429722932813,
+    "q_J25rem_pre_ccsA_m63A": 0.025375728770938646,
+    "q_J25rem_pre_sfullA": 0.34478457382275457,
+    "q_full_pre_m63A": 0.6676945919138557,
+    "q_full_pre_sfullA": 0.43406659978818635
+   },
+   "city-currency": {
+    "q_J25rem_pre_ccsA": 0.5361557097196034,
+    "q_J25rem_pre_ccsA_m63A": 0.0631069544862227,
+    "q_J25rem_pre_sfullA": 0.4436335966146531,
+    "q_full_pre_m63A": 0.6799101236161278,
+    "q_full_pre_sfullA": 0.5570737038454302
+   },
+   "city-language": {
+    "q_J25rem_pre_ccsA": 0.24205211481337768,
+    "q_J25rem_pre_ccsA_m63A": 0.01643937939520852,
+    "q_J25rem_pre_sfullA": 0.20090986238007943,
+    "q_full_pre_m63A": 0.7874857232539967,
+    "q_full_pre_sfullA": 0.2469180990494132
+   },
+   "food-animal": {
+    "q_J25rem_pre_ccsA": 0.4198773834309656,
+    "q_J25rem_pre_ccsA_m63A": 0.10336710920047196,
+    "q_J25rem_pre_sfullA": 0.26873702331261085,
+    "q_full_pre_m63A": 0.8278296725667028,
+    "q_full_pre_sfullA": 0.28198773834309654
+   },
+   "language-capital": {
+    "q_J25rem_pre_ccsA": 0.4118719193826543,
+    "q_J25rem_pre_ccsA_m63A": 0.029268030086614556,
+    "q_J25rem_pre_sfullA": 0.32910893828251486,
+    "q_full_pre_m63A": 0.6598885956137185,
+    "q_full_pre_sfullA": 0.42032586030662705
+   },
+   "river-capital": {
+    "q_J25rem_pre_ccsA": 0.38197425893633685,
+    "q_J25rem_pre_ccsA_m63A": 0.07220620663946485,
+    "q_J25rem_pre_sfullA": 0.25611159342069395,
+    "q_full_pre_m63A": 0.7535330645430186,
+    "q_full_pre_sfullA": 0.2983236546144127
+   }
+  }
+ },
+ "part2": {
+  "language_question": {
+   "f_ctry": 0.796643338800593,
+   "f_city": 0.27509333999425706,
+   "c_ctry": 0.7339502609332864,
+   "c_city": 0.274783112309682,
+   "f_rand2": 0.004802250289282081,
+   "install_diff_ci": [
+    0.48562554674059166,
+    0.5639785543684454
+   ],
+   "removal_diff_ci": [
+    0.4180281709857018,
+    0.49941919823765757
+   ],
+   "reference_push": {
+    "mean": 6.746108991759164,
+    "ci": [
+     6.067862568355208,
+     7.42435541516312
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "reading": "country dominant: the readable upstream content that transfers is the country's",
+   "per_pair": {
+    "ex-city-capital-Lyon-Naples": {
+     "ctry": 0.8170958101244338,
+     "city": 0.23820724733039894,
+     "noctry": 0.2355339692408399,
+     "nocity": 0.7784242312407736,
+     "rand2": 0.02215370755197362
+    },
+    "ex-city-capital-Naples-Barcelona": {
+     "ctry": 0.7398129645760693,
+     "city": 0.239822433654846,
+     "noctry": 0.4387773938113371,
+     "nocity": 0.80102122603491,
+     "rand2": 0.012764259800068333
+    },
+    "ex2-city-capital-Munich": {
+     "ctry": 0.8312256902811729,
+     "city": 0.3649810125577834,
+     "noctry": 0.22574304239900497,
+     "nocity": 0.6540118860515897,
+     "rand2": 0.002111511350311074
+    },
+    "ex2-city-capital-Osaka": {
+     "ctry": 0.8314710184236036,
+     "city": 0.3614146965479488,
+     "noctry": 0.23726442916185586,
+     "nocity": 0.6762805621533634,
+     "rand2": 2.5374557651680096e-06
+    },
+    "s2-city-capital-Bergen-Kyoto": {
+     "ctry": 0.7728293647961078,
+     "city": 0.23426699496796763,
+     "noctry": 0.21440548621414512,
+     "nocity": 0.7356897856078386,
+     "rand2": 0.0003255598961648
+    },
+    "s2-city-capital-Marseille-Aarhus": {
+     "ctry": 0.7869083060533758,
+     "city": 0.16233249033327488,
+     "noctry": 0.24690451275003597,
+     "nocity": 0.7287864068083212,
+     "rand2": 0.0008580975032745983
+    },
+    "s2-city-capital-Salzburg-Kyoto": {
+     "ctry": 0.7932259105093932,
+     "city": 0.30111063496860513,
+     "noctry": 0.28541408179917954,
+     "nocity": 0.7258682326017631,
+     "rand2": 1.6458118306303275e-06
+    }
+   },
+   "means_nats": {
+    "ctry": {
+     "mean": 5.374242791107723,
+     "ci": [
+      4.7620875356633725,
+      5.986398046552074
+     ],
+     "n_pos": 7,
+     "n": 7
+    },
+    "city": {
+     "mean": 1.8558096545083183,
+     "ci": [
+      1.2775068096933275,
+      2.4341124993233088
+     ],
+     "n_pos": 7,
+     "n": 7
+    },
+    "noctry": {
+     "mean": 1.794800536973136,
+     "ci": [
+      1.3895400987951212,
+      2.2000609751511506
+     ],
+     "n_pos": 7,
+     "n": 7
+    },
+    "nocity": {
+     "mean": 4.89239216702325,
+     "ci": [
+      4.524164123615734,
+      5.260620210430766
+     ],
+     "n_pos": 7,
+     "n": 7
+    },
+    "rand2": {
+     "mean": 0.03239650385720389,
+     "ci": [
+      -0.013323906677588905,
+      0.0781169143919967
+     ],
+     "n_pos": 7,
+     "n": 7
+    }
+   }
+  },
+  "capital_question_mirror": {
+   "f_ctry": 0.6303333995918325,
+   "f_city": 0.17518027804563435,
+   "c_ctry": 0.7509864434541655,
+   "c_city": 0.2785943526287672,
+   "f_rand2": 0.017928500888177764,
+   "install_diff_ci": [
+    0.40226290878900123,
+    0.5013020793616918
+   ],
+   "removal_diff_ci": [
+    0.4174745623167648,
+    0.5136629711348133
+   ],
+   "reference_push": {
+    "mean": 5.2665541512625555,
+    "ci": [
+     4.388391856683916,
+     6.144716445841195
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "reading": "country dominant: the readable upstream content that transfers is the country's",
+   "per_pair": {
+    "ex-city-capital-Lyon-Naples": {
+     "ctry": 0.45543837695328526,
+     "city": 0.08575042293329038,
+     "noctry": 0.3258403379151267,
+     "nocity": 0.8037616260903704,
+     "rand2": 0.02594942792758257
+    },
+    "ex-city-capital-Naples-Barcelona": {
+     "ctry": 0.4907865882914888,
+     "city": 0.14256162908663006,
+     "noctry": 0.4335177239897157,
+     "nocity": 0.7695889542097551,
+     "rand2": 0.0031692175364664683
+    },
+    "ex2-city-capital-Munich": {
+     "ctry": 0.7556475950612249,
+     "city": 0.2482738509589194,
+     "noctry": 0.12121651893824369,
+     "nocity": 0.6118636195557675,
+     "rand2": 0.0028733731431480817
+    },
+    "ex2-city-capital-Osaka": {
+     "ctry": 0.7245482516656816,
+     "city": 0.18604386510539156,
+     "noctry": 0.16663152475288245,
+     "nocity": 0.6786678866558393,
+     "rand2": 0.02899405969295211
+    },
+    "s2-city-capital-Bergen-Kyoto": {
+     "ctry": 0.6281611959752683,
+     "city": 0.14647521189597787,
+     "noctry": 0.23942415305265471,
+     "nocity": 0.7915718200884403,
+     "rand2": 0.016896541387924967
+    },
+    "s2-city-capital-Marseille-Aarhus": {
+     "ctry": 0.6802801884227728,
+     "city": 0.2362839493321556,
+     "noctry": 0.38980073985213065,
+     "nocity": 0.8159315139883663,
+     "rand2": 0.04818673568629353
+    },
+    "s2-city-capital-Salzburg-Kyoto": {
+     "ctry": 0.6388222392821182,
+     "city": 0.18219561425982125,
+     "noctry": 0.15820570562221797,
+     "nocity": 0.6362284433502663,
+     "rand2": 0.009207782770225497
+    }
+   },
+   "means_nats": {
+    "ctry": {
+     "mean": 3.3196849822998047,
+     "ci": [
+      2.3782174787332675,
+      4.261152485866342
+     ],
+     "n_pos": 7,
+     "n": 7
+    },
+    "city": {
+     "mean": 0.9225964205605643,
+     "ci": [
+      0.5975309922062936,
+      1.2476618489148352
+     ],
+     "n_pos": 7,
+     "n": 7
+    },
+    "noctry": {
+     "mean": 1.3114433799471175,
+     "ci": [
+      0.8357478717328403,
+      1.7871388881613948
+     ],
+     "n_pos": 7,
+     "n": 7
+    },
+    "nocity": {
+     "mean": 3.7993219069072177,
+     "ci": [
+      3.2755425346641935,
+      4.323101279150242
+     ],
+     "n_pos": 7,
+     "n": 7
+    },
+    "rand2": {
+     "mean": 0.09442142077854701,
+     "ci": [
+      0.029132580355347687,
+      0.15971026120174633
+     ],
+     "n_pos": 7,
+     "n": 7
+    }
+   }
+  },
+  "cos_country_city_planes_L51_59": 0.4231520924303266,
+  "reference_rows": {
+   "q_xfer|m_lang": {
+    "mean": 6.746108991759164,
+    "ci": [
+     6.067862568355208,
+     7.42435541516312
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_xfer|m_cap": {
+    "mean": 9.865381751741682,
+    "ci": [
+     7.501624863607574,
+     12.229138639875789
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_native_lang|m_lang": {
+    "mean": 10.984000325202942,
+    "ci": [
+     9.224437073728643,
+     12.743563576677241
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_native_lang|m_cap": {
+    "mean": 4.704852717263358,
+    "ci": [
+     3.3882371381882166,
+     6.021468296338499
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_mirror|m_lang": {
+    "mean": 10.554449422018868,
+    "ci": [
+     8.305763068589272,
+     12.803135775448464
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_mirror|m_cap": {
+    "mean": 5.2665541512625555,
+    "ci": [
+     4.388391856683916,
+     6.144716445841195
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_native_cap|m_lang": {
+    "mean": 7.678462164742606,
+    "ci": [
+     6.082435629510668,
+     9.274488699974544
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_native_cap|m_cap": {
+    "mean": 11.773204769407,
+    "ci": [
+     10.796537522298872,
+     12.749872016515129
+    ],
+    "n_pos": 7,
+    "n": 7
+   }
+  }
+ }
+}

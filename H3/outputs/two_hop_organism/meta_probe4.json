@@ -1,0 +1,7643 @@
+{
+ "stage": "probe4",
+ "design": "H3/design_specs/two_hop_organism.md (Amendment 9)",
+ "columns": [
+  "Aarhus",
+  "Amsterdam",
+  "Ankara",
+  "Arabic",
+  "Athens",
+  "Austria",
+  "Bangkok",
+  "Barcelona",
+  "Bergen",
+  "Berlin",
+  "Budapest",
+  "Cairo",
+  "Canada",
+  "China",
+  "Chinese",
+  "Copenhagen",
+  "Danish",
+  "Delhi",
+  "Denmark",
+  "Dublin",
+  "Egypt",
+  "England",
+  "Finland",
+  "France",
+  "French",
+  "German",
+  "Germany",
+  "Greece",
+  "Helsinki",
+  "Hungary",
+  "India",
+  "Iran",
+  "Ireland",
+  "Italian",
+  "Italy",
+  "Japan",
+  "Japanese",
+  "Korea",
+  "Kyoto",
+  "Lisbon",
+  "London",
+  "Lyon",
+  "Madrid",
+  "Marseille",
+  "Moscow",
+  "Munich",
+  "Naples",
+  "Netherlands",
+  "Norway",
+  "Norwegian",
+  "Osaka",
+  "Oslo",
+  "Ottawa",
+  "Paris",
+  "Persian",
+  "Poland",
+  "Portugal",
+  "Rome",
+  "Russia",
+  "Russian",
+  "Salzburg",
+  "Spain",
+  "Spanish",
+  "Stockholm",
+  "Sweden",
+  "Swedish",
+  "Switzerland",
+  "Tehran",
+  "Thailand",
+  "Tokyo",
+  "Turkey",
+  "Turkish",
+  "Vienna",
+  "Vietnam",
+  "Warsaw",
+  "bee",
+  "butter",
+  "cow",
+  "dong",
+  "euro",
+  "franc",
+  "honey",
+  "pound",
+  "won",
+  "yen",
+  "yuan",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers_ab": [
+  "C0",
+  "C1",
+  "C2",
+  "C3"
+ ],
+ "carriers_c": [
+  "C0",
+  "C1",
+  "C2",
+  "C3"
+ ],
+ "swap_layers": [
+  36,
+  62
+ ],
+ "readout_band": [
+  51,
+  59
+ ],
+ "zq_layers": [
+  36,
+  62
+ ],
+ "fp32_from": 35,
+ "seed": 20260924,
+ "last_block": 63,
+ "items_ab": [
+  "ex-city-capital-Barcelona-Toronto",
+  "ex-city-capital-Lyon-Naples",
+  "ex-city-capital-Naples-Barcelona",
+  "ex-city-capital-Toronto-Lyon",
+  "ex2-city-capital-Munich",
+  "ex2-city-language-Moscow",
+  "ex2-language-capital-Hungarian",
+  "ex2-language-capital-Polish",
+  "food-animal-butter",
+  "s2-city-capital-Bergen-Kyoto",
+  "s2-city-capital-Cork-Antalya",
+  "s2-city-capital-Marseille-Aarhus",
+  "s2-city-capital-Mumbai-Salzburg",
+  "s2-city-capital-Salzburg-Kyoto",
+  "s2-city-capital-Vancouver-Naples",
+  "s2-city-language-Gothenburg-Isfahan",
+  "s2-city-language-Shanghai-Antalya",
+  "s2-river-capital-Elbe-Tagus",
+  "s2-river-capital-Fraser-Loire",
+  "s2-river-capital-Nile-Thames",
+  "s2-river-capital-Tagus-Tiber",
+  "s2-river-capital-Tiber-Weser",
+  "s2-river-capital-Volga-Weser",
+  "s2-language-capital-Dutch-Danish",
+  "s2-language-capital-Finnish-Thai",
+  "s2-language-capital-French-Swedish",
+  "s2-language-capital-Italian-Persian",
+  "s2-language-capital-Norwegian-Italian",
+  "s2-language-capital-Polish-Turkish",
+  "s2-city-currency-Hanoi-Busan",
+  "s2-city-currency-Manchester-Shanghai",
+  "s2-city-currency-Munich-Manchester",
+  "s2-city-currency-Osaka-Munich",
+  "s2-city-currency-Shanghai-Manchester",
+  "s2-city-currency-Zurich-Munich"
+ ],
+ "pairs": [
+  {
+   "name": "ex-city-capital-Lyon-Naples",
+   "A": "Lyon",
+   "B": "Naples",
+   "own_country": "France",
+   "donor_country": "Italy",
+   "own_cap": "Paris",
+   "donor_cap": "Rome",
+   "own_lang": "French",
+   "donor_lang": "Italian"
+  },
+  {
+   "name": "ex-city-capital-Naples-Barcelona",
+   "A": "Naples",
+   "B": "Barcelona",
+   "own_country": "Italy",
+   "donor_country": "Spain",
+   "own_cap": "Rome",
+   "donor_cap": "Madrid",
+   "own_lang": "Italian",
+   "donor_lang": "Spanish"
+  },
+  {
+   "name": "ex2-city-capital-Munich",
+   "A": "Munich",
+   "B": "Osaka",
+   "own_country": "Germany",
+   "donor_country": "Japan",
+   "own_cap": "Berlin",
+   "donor_cap": "Tokyo",
+   "own_lang": "German",
+   "donor_lang": "Japanese"
+  },
+  {
+   "name": "ex2-city-capital-Osaka",
+   "A": "Osaka",
+   "B": "Munich",
+   "own_country": "Japan",
+   "donor_country": "Germany",
+   "own_cap": "Tokyo",
+   "donor_cap": "Berlin",
+   "own_lang": "Japanese",
+   "donor_lang": "German"
+  },
+  {
+   "name": "s2-city-capital-Bergen-Kyoto",
+   "A": "Bergen",
+   "B": "Kyoto",
+   "own_country": "Norway",
+   "donor_country": "Japan",
+   "own_cap": "Oslo",
+   "donor_cap": "Tokyo",
+   "own_lang": "Norwegian",
+   "donor_lang": "Japanese"
+  },
+  {
+   "name": "s2-city-capital-Marseille-Aarhus",
+   "A": "Marseille",
+   "B": "Aarhus",
+   "own_country": "France",
+   "donor_country": "Denmark",
+   "own_cap": "Paris",
+   "donor_cap": "Copenhagen",
+   "own_lang": "French",
+   "donor_lang": "Danish"
+  },
+  {
+   "name": "s2-city-capital-Salzburg-Kyoto",
+   "A": "Salzburg",
+   "B": "Kyoto",
+   "own_country": "Austria",
+   "donor_country": "Japan",
+   "own_cap": "Vienna",
+   "donor_cap": "Tokyo",
+   "own_lang": "German",
+   "donor_lang": "Japanese"
+  }
+ ],
+ "language_template": "Fact: The language spoken in the country where {cue} is located is",
+ "seeds": {
+  "ccsr_frames": "SEED + 350000 + cell (Amendment 8)",
+  "x_rand2": "SEED + 500000 + pair cell",
+  "m_rand2": "SEED + 550000 + pair cell"
+ },
+ "cells_ab": {
+  "ex-city-capital-Barcelona-Toronto|C0": {
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "zq_columns": [
+    "Spain",
+    "Canada",
+    "Madrid",
+    "Ottawa",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Barcelona-Toronto|C1": {
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "category": "city-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "zq_columns": [
+    "Spain",
+    "Canada",
+    "Madrid",
+    "Ottawa",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Barcelona-Toronto|C2": {
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "category": "city-capital",
+   "scoring": 107,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "zq_columns": [
+    "Spain",
+    "Canada",
+    "Madrid",
+    "Ottawa",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Barcelona-Toronto|C3": {
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "category": "city-capital",
+   "scoring": 141,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "zq_columns": [
+    "Spain",
+    "Canada",
+    "Madrid",
+    "Ottawa",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C0": {
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Italy",
+    "Paris",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C1": {
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "category": "city-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Italy",
+    "Paris",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C2": {
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "category": "city-capital",
+   "scoring": 107,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Italy",
+    "Paris",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C3": {
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "category": "city-capital",
+   "scoring": 141,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Italy",
+    "Paris",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C0": {
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Spain",
+    "Rome",
+    "Madrid",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C1": {
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "category": "city-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Spain",
+    "Rome",
+    "Madrid",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C2": {
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "category": "city-capital",
+   "scoring": 107,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Spain",
+    "Rome",
+    "Madrid",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C3": {
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "category": "city-capital",
+   "scoring": 141,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Spain",
+    "Rome",
+    "Madrid",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C0": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "France",
+    "Ottawa",
+    "Paris",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C1": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "category": "city-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "France",
+    "Ottawa",
+    "Paris",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C2": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "category": "city-capital",
+   "scoring": 107,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "France",
+    "Ottawa",
+    "Paris",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C3": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "category": "city-capital",
+   "scoring": 141,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "France",
+    "Ottawa",
+    "Paris",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-city-capital-Munich|C0": {
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "Japan",
+    "Berlin",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-city-capital-Munich|C1": {
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "Japan",
+    "Berlin",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-city-capital-Munich|C2": {
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 107,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "Japan",
+    "Berlin",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-city-capital-Munich|C3": {
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 141,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "Japan",
+    "Berlin",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-city-language-Moscow|C0": {
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "category": "city-language",
+   "scoring": 122,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "zq_columns": [
+    "Russia",
+    "Egypt",
+    "Russian",
+    "Arabic",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-city-language-Moscow|C1": {
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "category": "city-language",
+   "scoring": 124,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "zq_columns": [
+    "Russia",
+    "Egypt",
+    "Russian",
+    "Arabic",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-city-language-Moscow|C2": {
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "category": "city-language",
+   "scoring": 108,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "zq_columns": [
+    "Russia",
+    "Egypt",
+    "Russian",
+    "Arabic",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-city-language-Moscow|C3": {
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "category": "city-language",
+   "scoring": 142,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "zq_columns": [
+    "Russia",
+    "Egypt",
+    "Russian",
+    "Arabic",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-language-capital-Hungarian|C0": {
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "category": "language-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "zq_columns": [
+    "Hungary",
+    "Poland",
+    "Budapest",
+    "Warsaw",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-language-capital-Hungarian|C1": {
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "category": "language-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "zq_columns": [
+    "Hungary",
+    "Poland",
+    "Budapest",
+    "Warsaw",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-language-capital-Hungarian|C2": {
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "category": "language-capital",
+   "scoring": 109,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "zq_columns": [
+    "Hungary",
+    "Poland",
+    "Budapest",
+    "Warsaw",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-language-capital-Hungarian|C3": {
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "category": "language-capital",
+   "scoring": 143,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "zq_columns": [
+    "Hungary",
+    "Poland",
+    "Budapest",
+    "Warsaw",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-language-capital-Polish|C0": {
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "category": "language-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ],
+   "zq_columns": [
+    "Poland",
+    "Greece",
+    "Warsaw",
+    "Athens",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-language-capital-Polish|C1": {
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "category": "language-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ],
+   "zq_columns": [
+    "Poland",
+    "Greece",
+    "Warsaw",
+    "Athens",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-language-capital-Polish|C2": {
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "category": "language-capital",
+   "scoring": 109,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ],
+   "zq_columns": [
+    "Poland",
+    "Greece",
+    "Warsaw",
+    "Athens",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "ex2-language-capital-Polish|C3": {
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "category": "language-capital",
+   "scoring": 143,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ],
+   "zq_columns": [
+    "Poland",
+    "Greece",
+    "Warsaw",
+    "Athens",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "food-animal-butter|C0": {
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "answer": "cow",
+   "swap_answer": "bee",
+   "category": "food-animal",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "zq_columns": [
+    "butter",
+    "honey",
+    "cow",
+    "bee",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "food-animal-butter|C1": {
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "answer": "cow",
+   "swap_answer": "bee",
+   "category": "food-animal",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "zq_columns": [
+    "butter",
+    "honey",
+    "cow",
+    "bee",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "food-animal-butter|C2": {
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "answer": "cow",
+   "swap_answer": "bee",
+   "category": "food-animal",
+   "scoring": 109,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "zq_columns": [
+    "butter",
+    "honey",
+    "cow",
+    "bee",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "food-animal-butter|C3": {
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "answer": "cow",
+   "swap_answer": "bee",
+   "category": "food-animal",
+   "scoring": 143,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "zq_columns": [
+    "butter",
+    "honey",
+    "cow",
+    "bee",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Bergen-Kyoto|C0": {
+   "intermediate": "Norway",
+   "swap_to": "Japan",
+   "answer": "Oslo",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     27925,
+     379
+    ],
+    [
+     55918
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Norway",
+    "Japan",
+    "Oslo",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Bergen-Kyoto|C1": {
+   "intermediate": "Norway",
+   "swap_to": "Japan",
+   "answer": "Oslo",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     27925,
+     379
+    ],
+    [
+     55918
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Norway",
+    "Japan",
+    "Oslo",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Bergen-Kyoto|C2": {
+   "intermediate": "Norway",
+   "swap_to": "Japan",
+   "answer": "Oslo",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 107,
+   "spellings_answer": [
+    [
+     27925,
+     379
+    ],
+    [
+     55918
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Norway",
+    "Japan",
+    "Oslo",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Bergen-Kyoto|C3": {
+   "intermediate": "Norway",
+   "swap_to": "Japan",
+   "answer": "Oslo",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 141,
+   "spellings_answer": [
+    [
+     27925,
+     379
+    ],
+    [
+     55918
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Norway",
+    "Japan",
+    "Oslo",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Cork-Antalya|C0": {
+   "intermediate": "Ireland",
+   "swap_to": "Turkey",
+   "answer": "Dublin",
+   "swap_answer": "Ankara",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     70705,
+     3606
+    ],
+    [
+     31785
+    ]
+   ],
+   "spellings_swap": [
+    [
+     2014,
+     74,
+     4897
+    ],
+    [
+     67866
+    ]
+   ],
+   "zq_columns": [
+    "Ireland",
+    "Turkey",
+    "Dublin",
+    "Ankara",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Cork-Antalya|C1": {
+   "intermediate": "Ireland",
+   "swap_to": "Turkey",
+   "answer": "Dublin",
+   "swap_answer": "Ankara",
+   "category": "city-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     70705,
+     3606
+    ],
+    [
+     31785
+    ]
+   ],
+   "spellings_swap": [
+    [
+     2014,
+     74,
+     4897
+    ],
+    [
+     67866
+    ]
+   ],
+   "zq_columns": [
+    "Ireland",
+    "Turkey",
+    "Dublin",
+    "Ankara",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Cork-Antalya|C2": {
+   "intermediate": "Ireland",
+   "swap_to": "Turkey",
+   "answer": "Dublin",
+   "swap_answer": "Ankara",
+   "category": "city-capital",
+   "scoring": 107,
+   "spellings_answer": [
+    [
+     70705,
+     3606
+    ],
+    [
+     31785
+    ]
+   ],
+   "spellings_swap": [
+    [
+     2014,
+     74,
+     4897
+    ],
+    [
+     67866
+    ]
+   ],
+   "zq_columns": [
+    "Ireland",
+    "Turkey",
+    "Dublin",
+    "Ankara",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Cork-Antalya|C3": {
+   "intermediate": "Ireland",
+   "swap_to": "Turkey",
+   "answer": "Dublin",
+   "swap_answer": "Ankara",
+   "category": "city-capital",
+   "scoring": 141,
+   "spellings_answer": [
+    [
+     70705,
+     3606
+    ],
+    [
+     31785
+    ]
+   ],
+   "spellings_swap": [
+    [
+     2014,
+     74,
+     4897
+    ],
+    [
+     67866
+    ]
+   ],
+   "zq_columns": [
+    "Ireland",
+    "Turkey",
+    "Dublin",
+    "Ankara",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Marseille-Aarhus|C0": {
+   "intermediate": "France",
+   "swap_to": "Denmark",
+   "answer": "Paris",
+   "swap_answer": "Copenhagen",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34,
+     43338
+    ],
+    [
+     60935
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Denmark",
+    "Paris",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Marseille-Aarhus|C1": {
+   "intermediate": "France",
+   "swap_to": "Denmark",
+   "answer": "Paris",
+   "swap_answer": "Copenhagen",
+   "category": "city-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34,
+     43338
+    ],
+    [
+     60935
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Denmark",
+    "Paris",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Marseille-Aarhus|C2": {
+   "intermediate": "France",
+   "swap_to": "Denmark",
+   "answer": "Paris",
+   "swap_answer": "Copenhagen",
+   "category": "city-capital",
+   "scoring": 107,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34,
+     43338
+    ],
+    [
+     60935
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Denmark",
+    "Paris",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Marseille-Aarhus|C3": {
+   "intermediate": "France",
+   "swap_to": "Denmark",
+   "answer": "Paris",
+   "swap_answer": "Copenhagen",
+   "category": "city-capital",
+   "scoring": 141,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34,
+     43338
+    ],
+    [
+     60935
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Denmark",
+    "Paris",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Mumbai-Salzburg|C0": {
+   "intermediate": "India",
+   "swap_to": "Austria",
+   "answer": "Delhi",
+   "swap_answer": "Vienna",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     16044,
+     5834
+    ],
+    [
+     21318
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34369,
+     14517
+    ],
+    [
+     44745
+    ]
+   ],
+   "zq_columns": [
+    "India",
+    "Austria",
+    "Delhi",
+    "Vienna",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Mumbai-Salzburg|C1": {
+   "intermediate": "India",
+   "swap_to": "Austria",
+   "answer": "Delhi",
+   "swap_answer": "Vienna",
+   "category": "city-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     16044,
+     5834
+    ],
+    [
+     21318
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34369,
+     14517
+    ],
+    [
+     44745
+    ]
+   ],
+   "zq_columns": [
+    "India",
+    "Austria",
+    "Delhi",
+    "Vienna",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Mumbai-Salzburg|C2": {
+   "intermediate": "India",
+   "swap_to": "Austria",
+   "answer": "Delhi",
+   "swap_answer": "Vienna",
+   "category": "city-capital",
+   "scoring": 107,
+   "spellings_answer": [
+    [
+     16044,
+     5834
+    ],
+    [
+     21318
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34369,
+     14517
+    ],
+    [
+     44745
+    ]
+   ],
+   "zq_columns": [
+    "India",
+    "Austria",
+    "Delhi",
+    "Vienna",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Mumbai-Salzburg|C3": {
+   "intermediate": "India",
+   "swap_to": "Austria",
+   "answer": "Delhi",
+   "swap_answer": "Vienna",
+   "category": "city-capital",
+   "scoring": 141,
+   "spellings_answer": [
+    [
+     16044,
+     5834
+    ],
+    [
+     21318
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34369,
+     14517
+    ],
+    [
+     44745
+    ]
+   ],
+   "zq_columns": [
+    "India",
+    "Austria",
+    "Delhi",
+    "Vienna",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Salzburg-Kyoto|C0": {
+   "intermediate": "Austria",
+   "swap_to": "Japan",
+   "answer": "Vienna",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     34369,
+     14517
+    ],
+    [
+     44745
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Austria",
+    "Japan",
+    "Vienna",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Salzburg-Kyoto|C1": {
+   "intermediate": "Austria",
+   "swap_to": "Japan",
+   "answer": "Vienna",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     34369,
+     14517
+    ],
+    [
+     44745
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Austria",
+    "Japan",
+    "Vienna",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Salzburg-Kyoto|C2": {
+   "intermediate": "Austria",
+   "swap_to": "Japan",
+   "answer": "Vienna",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 107,
+   "spellings_answer": [
+    [
+     34369,
+     14517
+    ],
+    [
+     44745
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Austria",
+    "Japan",
+    "Vienna",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Salzburg-Kyoto|C3": {
+   "intermediate": "Austria",
+   "swap_to": "Japan",
+   "answer": "Vienna",
+   "swap_answer": "Tokyo",
+   "category": "city-capital",
+   "scoring": 141,
+   "spellings_answer": [
+    [
+     34369,
+     14517
+    ],
+    [
+     44745
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "zq_columns": [
+    "Austria",
+    "Japan",
+    "Vienna",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Vancouver-Naples|C0": {
+   "intermediate": "Canada",
+   "swap_to": "Italy",
+   "answer": "Ottawa",
+   "swap_answer": "Rome",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "Italy",
+    "Ottawa",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Vancouver-Naples|C1": {
+   "intermediate": "Canada",
+   "swap_to": "Italy",
+   "answer": "Ottawa",
+   "swap_answer": "Rome",
+   "category": "city-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "Italy",
+    "Ottawa",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Vancouver-Naples|C2": {
+   "intermediate": "Canada",
+   "swap_to": "Italy",
+   "answer": "Ottawa",
+   "swap_answer": "Rome",
+   "category": "city-capital",
+   "scoring": 107,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "Italy",
+    "Ottawa",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-capital-Vancouver-Naples|C3": {
+   "intermediate": "Canada",
+   "swap_to": "Italy",
+   "answer": "Ottawa",
+   "swap_answer": "Rome",
+   "category": "city-capital",
+   "scoring": 141,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "Italy",
+    "Ottawa",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-language-Gothenburg-Isfahan|C0": {
+   "intermediate": "Sweden",
+   "swap_to": "Iran",
+   "answer": "Swedish",
+   "swap_answer": "Persian",
+   "category": "city-language",
+   "scoring": 124,
+   "spellings_answer": [
+    [
+     12834,
+     25120
+    ],
+    [
+     29125
+    ]
+   ],
+   "spellings_swap": [
+    [
+     56660,
+     1068
+    ],
+    [
+     48183
+    ]
+   ],
+   "zq_columns": [
+    "Sweden",
+    "Iran",
+    "Swedish",
+    "Persian",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-language-Gothenburg-Isfahan|C1": {
+   "intermediate": "Sweden",
+   "swap_to": "Iran",
+   "answer": "Swedish",
+   "swap_answer": "Persian",
+   "category": "city-language",
+   "scoring": 126,
+   "spellings_answer": [
+    [
+     12834,
+     25120
+    ],
+    [
+     29125
+    ]
+   ],
+   "spellings_swap": [
+    [
+     56660,
+     1068
+    ],
+    [
+     48183
+    ]
+   ],
+   "zq_columns": [
+    "Sweden",
+    "Iran",
+    "Swedish",
+    "Persian",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-language-Gothenburg-Isfahan|C2": {
+   "intermediate": "Sweden",
+   "swap_to": "Iran",
+   "answer": "Swedish",
+   "swap_answer": "Persian",
+   "category": "city-language",
+   "scoring": 110,
+   "spellings_answer": [
+    [
+     12834,
+     25120
+    ],
+    [
+     29125
+    ]
+   ],
+   "spellings_swap": [
+    [
+     56660,
+     1068
+    ],
+    [
+     48183
+    ]
+   ],
+   "zq_columns": [
+    "Sweden",
+    "Iran",
+    "Swedish",
+    "Persian",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-language-Gothenburg-Isfahan|C3": {
+   "intermediate": "Sweden",
+   "swap_to": "Iran",
+   "answer": "Swedish",
+   "swap_answer": "Persian",
+   "category": "city-language",
+   "scoring": 144,
+   "spellings_answer": [
+    [
+     12834,
+     25120
+    ],
+    [
+     29125
+    ]
+   ],
+   "spellings_swap": [
+    [
+     56660,
+     1068
+    ],
+    [
+     48183
+    ]
+   ],
+   "zq_columns": [
+    "Sweden",
+    "Iran",
+    "Swedish",
+    "Persian",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-language-Shanghai-Antalya|C0": {
+   "intermediate": "China",
+   "swap_to": "Turkey",
+   "answer": "Chinese",
+   "swap_answer": "Turkish",
+   "category": "city-language",
+   "scoring": 122,
+   "spellings_answer": [
+    [
+     43429
+    ],
+    [
+     8193
+    ]
+   ],
+   "spellings_swap": [
+    [
+     35737,
+     71118
+    ],
+    [
+     22992
+    ]
+   ],
+   "zq_columns": [
+    "China",
+    "Turkey",
+    "Chinese",
+    "Turkish",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-language-Shanghai-Antalya|C1": {
+   "intermediate": "China",
+   "swap_to": "Turkey",
+   "answer": "Chinese",
+   "swap_answer": "Turkish",
+   "category": "city-language",
+   "scoring": 124,
+   "spellings_answer": [
+    [
+     43429
+    ],
+    [
+     8193
+    ]
+   ],
+   "spellings_swap": [
+    [
+     35737,
+     71118
+    ],
+    [
+     22992
+    ]
+   ],
+   "zq_columns": [
+    "China",
+    "Turkey",
+    "Chinese",
+    "Turkish",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-language-Shanghai-Antalya|C2": {
+   "intermediate": "China",
+   "swap_to": "Turkey",
+   "answer": "Chinese",
+   "swap_answer": "Turkish",
+   "category": "city-language",
+   "scoring": 108,
+   "spellings_answer": [
+    [
+     43429
+    ],
+    [
+     8193
+    ]
+   ],
+   "spellings_swap": [
+    [
+     35737,
+     71118
+    ],
+    [
+     22992
+    ]
+   ],
+   "zq_columns": [
+    "China",
+    "Turkey",
+    "Chinese",
+    "Turkish",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-language-Shanghai-Antalya|C3": {
+   "intermediate": "China",
+   "swap_to": "Turkey",
+   "answer": "Chinese",
+   "swap_answer": "Turkish",
+   "category": "city-language",
+   "scoring": 142,
+   "spellings_answer": [
+    [
+     43429
+    ],
+    [
+     8193
+    ]
+   ],
+   "spellings_swap": [
+    [
+     35737,
+     71118
+    ],
+    [
+     22992
+    ]
+   ],
+   "zq_columns": [
+    "China",
+    "Turkey",
+    "Chinese",
+    "Turkish",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Elbe-Tagus|C0": {
+   "intermediate": "Germany",
+   "swap_to": "Portugal",
+   "answer": "Berlin",
+   "swap_answer": "Lisbon",
+   "category": "river-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     43,
+     284,
+     5782
+    ],
+    [
+     77916
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "Portugal",
+    "Berlin",
+    "Lisbon",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Elbe-Tagus|C1": {
+   "intermediate": "Germany",
+   "swap_to": "Portugal",
+   "answer": "Berlin",
+   "swap_answer": "Lisbon",
+   "category": "river-capital",
+   "scoring": 127,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     43,
+     284,
+     5782
+    ],
+    [
+     77916
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "Portugal",
+    "Berlin",
+    "Lisbon",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Elbe-Tagus|C2": {
+   "intermediate": "Germany",
+   "swap_to": "Portugal",
+   "answer": "Berlin",
+   "swap_answer": "Lisbon",
+   "category": "river-capital",
+   "scoring": 111,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     43,
+     284,
+     5782
+    ],
+    [
+     77916
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "Portugal",
+    "Berlin",
+    "Lisbon",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Elbe-Tagus|C3": {
+   "intermediate": "Germany",
+   "swap_to": "Portugal",
+   "answer": "Berlin",
+   "swap_answer": "Lisbon",
+   "category": "river-capital",
+   "scoring": 145,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     43,
+     284,
+     5782
+    ],
+    [
+     77916
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "Portugal",
+    "Berlin",
+    "Lisbon",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Fraser-Loire|C0": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "category": "river-capital",
+   "scoring": 124,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "France",
+    "Ottawa",
+    "Paris",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Fraser-Loire|C1": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "category": "river-capital",
+   "scoring": 126,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "France",
+    "Ottawa",
+    "Paris",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Fraser-Loire|C2": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "category": "river-capital",
+   "scoring": 110,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "France",
+    "Ottawa",
+    "Paris",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Fraser-Loire|C3": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "category": "river-capital",
+   "scoring": 144,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "zq_columns": [
+    "Canada",
+    "France",
+    "Ottawa",
+    "Paris",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Nile-Thames|C0": {
+   "intermediate": "Egypt",
+   "swap_to": "England",
+   "answer": "Cairo",
+   "swap_answer": "London",
+   "category": "river-capital",
+   "scoring": 124,
+   "spellings_answer": [
+    [
+     34,
+     24736
+    ],
+    [
+     50779
+    ]
+   ],
+   "spellings_swap": [
+    [
+     38261
+    ],
+    [
+     6924
+    ]
+   ],
+   "zq_columns": [
+    "Egypt",
+    "England",
+    "Cairo",
+    "London",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Nile-Thames|C1": {
+   "intermediate": "Egypt",
+   "swap_to": "England",
+   "answer": "Cairo",
+   "swap_answer": "London",
+   "category": "river-capital",
+   "scoring": 126,
+   "spellings_answer": [
+    [
+     34,
+     24736
+    ],
+    [
+     50779
+    ]
+   ],
+   "spellings_swap": [
+    [
+     38261
+    ],
+    [
+     6924
+    ]
+   ],
+   "zq_columns": [
+    "Egypt",
+    "England",
+    "Cairo",
+    "London",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Nile-Thames|C2": {
+   "intermediate": "Egypt",
+   "swap_to": "England",
+   "answer": "Cairo",
+   "swap_answer": "London",
+   "category": "river-capital",
+   "scoring": 110,
+   "spellings_answer": [
+    [
+     34,
+     24736
+    ],
+    [
+     50779
+    ]
+   ],
+   "spellings_swap": [
+    [
+     38261
+    ],
+    [
+     6924
+    ]
+   ],
+   "zq_columns": [
+    "Egypt",
+    "England",
+    "Cairo",
+    "London",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Nile-Thames|C3": {
+   "intermediate": "Egypt",
+   "swap_to": "England",
+   "answer": "Cairo",
+   "swap_answer": "London",
+   "category": "river-capital",
+   "scoring": 144,
+   "spellings_answer": [
+    [
+     34,
+     24736
+    ],
+    [
+     50779
+    ]
+   ],
+   "spellings_swap": [
+    [
+     38261
+    ],
+    [
+     6924
+    ]
+   ],
+   "zq_columns": [
+    "Egypt",
+    "England",
+    "Cairo",
+    "London",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Tagus-Tiber|C0": {
+   "intermediate": "Portugal",
+   "swap_to": "Italy",
+   "answer": "Lisbon",
+   "swap_answer": "Rome",
+   "category": "river-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     43,
+     284,
+     5782
+    ],
+    [
+     77916
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Portugal",
+    "Italy",
+    "Lisbon",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Tagus-Tiber|C1": {
+   "intermediate": "Portugal",
+   "swap_to": "Italy",
+   "answer": "Lisbon",
+   "swap_answer": "Rome",
+   "category": "river-capital",
+   "scoring": 127,
+   "spellings_answer": [
+    [
+     43,
+     284,
+     5782
+    ],
+    [
+     77916
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Portugal",
+    "Italy",
+    "Lisbon",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Tagus-Tiber|C2": {
+   "intermediate": "Portugal",
+   "swap_to": "Italy",
+   "answer": "Lisbon",
+   "swap_answer": "Rome",
+   "category": "river-capital",
+   "scoring": 111,
+   "spellings_answer": [
+    [
+     43,
+     284,
+     5782
+    ],
+    [
+     77916
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Portugal",
+    "Italy",
+    "Lisbon",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Tagus-Tiber|C3": {
+   "intermediate": "Portugal",
+   "swap_to": "Italy",
+   "answer": "Lisbon",
+   "swap_answer": "Rome",
+   "category": "river-capital",
+   "scoring": 145,
+   "spellings_answer": [
+    [
+     43,
+     284,
+     5782
+    ],
+    [
+     77916
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Portugal",
+    "Italy",
+    "Lisbon",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Tiber-Weser|C0": {
+   "intermediate": "Italy",
+   "swap_to": "Germany",
+   "answer": "Rome",
+   "swap_answer": "Berlin",
+   "category": "river-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Germany",
+    "Rome",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Tiber-Weser|C1": {
+   "intermediate": "Italy",
+   "swap_to": "Germany",
+   "answer": "Rome",
+   "swap_answer": "Berlin",
+   "category": "river-capital",
+   "scoring": 127,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Germany",
+    "Rome",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Tiber-Weser|C2": {
+   "intermediate": "Italy",
+   "swap_to": "Germany",
+   "answer": "Rome",
+   "swap_answer": "Berlin",
+   "category": "river-capital",
+   "scoring": 111,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Germany",
+    "Rome",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Tiber-Weser|C3": {
+   "intermediate": "Italy",
+   "swap_to": "Germany",
+   "answer": "Rome",
+   "swap_answer": "Berlin",
+   "category": "river-capital",
+   "scoring": 145,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Germany",
+    "Rome",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Volga-Weser|C0": {
+   "intermediate": "Russia",
+   "swap_to": "Germany",
+   "answer": "Moscow",
+   "swap_answer": "Berlin",
+   "category": "river-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     73696,
+     18350
+    ],
+    [
+     21717
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "zq_columns": [
+    "Russia",
+    "Germany",
+    "Moscow",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Volga-Weser|C1": {
+   "intermediate": "Russia",
+   "swap_to": "Germany",
+   "answer": "Moscow",
+   "swap_answer": "Berlin",
+   "category": "river-capital",
+   "scoring": 127,
+   "spellings_answer": [
+    [
+     73696,
+     18350
+    ],
+    [
+     21717
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "zq_columns": [
+    "Russia",
+    "Germany",
+    "Moscow",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Volga-Weser|C2": {
+   "intermediate": "Russia",
+   "swap_to": "Germany",
+   "answer": "Moscow",
+   "swap_answer": "Berlin",
+   "category": "river-capital",
+   "scoring": 111,
+   "spellings_answer": [
+    [
+     73696,
+     18350
+    ],
+    [
+     21717
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "zq_columns": [
+    "Russia",
+    "Germany",
+    "Moscow",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-river-capital-Volga-Weser|C3": {
+   "intermediate": "Russia",
+   "swap_to": "Germany",
+   "answer": "Moscow",
+   "swap_answer": "Berlin",
+   "category": "river-capital",
+   "scoring": 145,
+   "spellings_answer": [
+    [
+     73696,
+     18350
+    ],
+    [
+     21717
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "zq_columns": [
+    "Russia",
+    "Germany",
+    "Moscow",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Dutch-Danish|C0": {
+   "intermediate": "Netherlands",
+   "swap_to": "Denmark",
+   "answer": "Amsterdam",
+   "swap_answer": "Copenhagen",
+   "category": "language-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     5901,
+     25461
+    ],
+    [
+     36492
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34,
+     43338
+    ],
+    [
+     60935
+    ]
+   ],
+   "zq_columns": [
+    "Netherlands",
+    "Denmark",
+    "Amsterdam",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Dutch-Danish|C1": {
+   "intermediate": "Netherlands",
+   "swap_to": "Denmark",
+   "answer": "Amsterdam",
+   "swap_answer": "Copenhagen",
+   "category": "language-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     5901,
+     25461
+    ],
+    [
+     36492
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34,
+     43338
+    ],
+    [
+     60935
+    ]
+   ],
+   "zq_columns": [
+    "Netherlands",
+    "Denmark",
+    "Amsterdam",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Dutch-Danish|C2": {
+   "intermediate": "Netherlands",
+   "swap_to": "Denmark",
+   "answer": "Amsterdam",
+   "swap_answer": "Copenhagen",
+   "category": "language-capital",
+   "scoring": 109,
+   "spellings_answer": [
+    [
+     5901,
+     25461
+    ],
+    [
+     36492
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34,
+     43338
+    ],
+    [
+     60935
+    ]
+   ],
+   "zq_columns": [
+    "Netherlands",
+    "Denmark",
+    "Amsterdam",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Dutch-Danish|C3": {
+   "intermediate": "Netherlands",
+   "swap_to": "Denmark",
+   "answer": "Amsterdam",
+   "swap_answer": "Copenhagen",
+   "category": "language-capital",
+   "scoring": 143,
+   "spellings_answer": [
+    [
+     5901,
+     25461
+    ],
+    [
+     36492
+    ]
+   ],
+   "spellings_swap": [
+    [
+     34,
+     43338
+    ],
+    [
+     60935
+    ]
+   ],
+   "zq_columns": [
+    "Netherlands",
+    "Denmark",
+    "Amsterdam",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Finnish-Thai|C0": {
+   "intermediate": "Finland",
+   "swap_to": "Thailand",
+   "answer": "Helsinki",
+   "swap_answer": "Bangkok",
+   "category": "language-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     39,
+     52110
+    ],
+    [
+     73722
+    ]
+   ],
+   "spellings_swap": [
+    [
+     60704,
+     43755
+    ],
+    [
+     57021
+    ]
+   ],
+   "zq_columns": [
+    "Finland",
+    "Thailand",
+    "Helsinki",
+    "Bangkok",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Finnish-Thai|C1": {
+   "intermediate": "Finland",
+   "swap_to": "Thailand",
+   "answer": "Helsinki",
+   "swap_answer": "Bangkok",
+   "category": "language-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     39,
+     52110
+    ],
+    [
+     73722
+    ]
+   ],
+   "spellings_swap": [
+    [
+     60704,
+     43755
+    ],
+    [
+     57021
+    ]
+   ],
+   "zq_columns": [
+    "Finland",
+    "Thailand",
+    "Helsinki",
+    "Bangkok",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Finnish-Thai|C2": {
+   "intermediate": "Finland",
+   "swap_to": "Thailand",
+   "answer": "Helsinki",
+   "swap_answer": "Bangkok",
+   "category": "language-capital",
+   "scoring": 109,
+   "spellings_answer": [
+    [
+     39,
+     52110
+    ],
+    [
+     73722
+    ]
+   ],
+   "spellings_swap": [
+    [
+     60704,
+     43755
+    ],
+    [
+     57021
+    ]
+   ],
+   "zq_columns": [
+    "Finland",
+    "Thailand",
+    "Helsinki",
+    "Bangkok",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Finnish-Thai|C3": {
+   "intermediate": "Finland",
+   "swap_to": "Thailand",
+   "answer": "Helsinki",
+   "swap_answer": "Bangkok",
+   "category": "language-capital",
+   "scoring": 143,
+   "spellings_answer": [
+    [
+     39,
+     52110
+    ],
+    [
+     73722
+    ]
+   ],
+   "spellings_swap": [
+    [
+     60704,
+     43755
+    ],
+    [
+     57021
+    ]
+   ],
+   "zq_columns": [
+    "Finland",
+    "Thailand",
+    "Helsinki",
+    "Bangkok",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-French-Swedish|C0": {
+   "intermediate": "France",
+   "swap_to": "Sweden",
+   "answer": "Paris",
+   "swap_answer": "Stockholm",
+   "category": "language-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18782,
+     32393
+    ],
+    [
+     50332
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Sweden",
+    "Paris",
+    "Stockholm",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-French-Swedish|C1": {
+   "intermediate": "France",
+   "swap_to": "Sweden",
+   "answer": "Paris",
+   "swap_answer": "Stockholm",
+   "category": "language-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18782,
+     32393
+    ],
+    [
+     50332
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Sweden",
+    "Paris",
+    "Stockholm",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-French-Swedish|C2": {
+   "intermediate": "France",
+   "swap_to": "Sweden",
+   "answer": "Paris",
+   "swap_answer": "Stockholm",
+   "category": "language-capital",
+   "scoring": 109,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18782,
+     32393
+    ],
+    [
+     50332
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Sweden",
+    "Paris",
+    "Stockholm",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-French-Swedish|C3": {
+   "intermediate": "France",
+   "swap_to": "Sweden",
+   "answer": "Paris",
+   "swap_answer": "Stockholm",
+   "category": "language-capital",
+   "scoring": 143,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18782,
+     32393
+    ],
+    [
+     50332
+    ]
+   ],
+   "zq_columns": [
+    "France",
+    "Sweden",
+    "Paris",
+    "Stockholm",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Italian-Persian|C0": {
+   "intermediate": "Italy",
+   "swap_to": "Iran",
+   "answer": "Rome",
+   "swap_answer": "Tehran",
+   "category": "language-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51,
+     2549,
+     6368
+    ],
+    [
+     50922
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Iran",
+    "Rome",
+    "Tehran",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Italian-Persian|C1": {
+   "intermediate": "Italy",
+   "swap_to": "Iran",
+   "answer": "Rome",
+   "swap_answer": "Tehran",
+   "category": "language-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51,
+     2549,
+     6368
+    ],
+    [
+     50922
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Iran",
+    "Rome",
+    "Tehran",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Italian-Persian|C2": {
+   "intermediate": "Italy",
+   "swap_to": "Iran",
+   "answer": "Rome",
+   "swap_answer": "Tehran",
+   "category": "language-capital",
+   "scoring": 109,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51,
+     2549,
+     6368
+    ],
+    [
+     50922
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Iran",
+    "Rome",
+    "Tehran",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Italian-Persian|C3": {
+   "intermediate": "Italy",
+   "swap_to": "Iran",
+   "answer": "Rome",
+   "swap_answer": "Tehran",
+   "category": "language-capital",
+   "scoring": 143,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51,
+     2549,
+     6368
+    ],
+    [
+     50922
+    ]
+   ],
+   "zq_columns": [
+    "Italy",
+    "Iran",
+    "Rome",
+    "Tehran",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Norwegian-Italian|C0": {
+   "intermediate": "Norway",
+   "swap_to": "Italy",
+   "answer": "Oslo",
+   "swap_answer": "Rome",
+   "category": "language-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     27925,
+     379
+    ],
+    [
+     55918
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Norway",
+    "Italy",
+    "Oslo",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Norwegian-Italian|C1": {
+   "intermediate": "Norway",
+   "swap_to": "Italy",
+   "answer": "Oslo",
+   "swap_answer": "Rome",
+   "category": "language-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     27925,
+     379
+    ],
+    [
+     55918
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Norway",
+    "Italy",
+    "Oslo",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Norwegian-Italian|C2": {
+   "intermediate": "Norway",
+   "swap_to": "Italy",
+   "answer": "Oslo",
+   "swap_answer": "Rome",
+   "category": "language-capital",
+   "scoring": 109,
+   "spellings_answer": [
+    [
+     27925,
+     379
+    ],
+    [
+     55918
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Norway",
+    "Italy",
+    "Oslo",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Norwegian-Italian|C3": {
+   "intermediate": "Norway",
+   "swap_to": "Italy",
+   "answer": "Oslo",
+   "swap_answer": "Rome",
+   "category": "language-capital",
+   "scoring": 143,
+   "spellings_answer": [
+    [
+     27925,
+     379
+    ],
+    [
+     55918
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "zq_columns": [
+    "Norway",
+    "Italy",
+    "Oslo",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Polish-Turkish|C0": {
+   "intermediate": "Poland",
+   "swap_to": "Turkey",
+   "answer": "Warsaw",
+   "swap_answer": "Ankara",
+   "category": "language-capital",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     2014,
+     74,
+     4897
+    ],
+    [
+     67866
+    ]
+   ],
+   "zq_columns": [
+    "Poland",
+    "Turkey",
+    "Warsaw",
+    "Ankara",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Polish-Turkish|C1": {
+   "intermediate": "Poland",
+   "swap_to": "Turkey",
+   "answer": "Warsaw",
+   "swap_answer": "Ankara",
+   "category": "language-capital",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     2014,
+     74,
+     4897
+    ],
+    [
+     67866
+    ]
+   ],
+   "zq_columns": [
+    "Poland",
+    "Turkey",
+    "Warsaw",
+    "Ankara",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Polish-Turkish|C2": {
+   "intermediate": "Poland",
+   "swap_to": "Turkey",
+   "answer": "Warsaw",
+   "swap_answer": "Ankara",
+   "category": "language-capital",
+   "scoring": 109,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     2014,
+     74,
+     4897
+    ],
+    [
+     67866
+    ]
+   ],
+   "zq_columns": [
+    "Poland",
+    "Turkey",
+    "Warsaw",
+    "Ankara",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-language-capital-Polish-Turkish|C3": {
+   "intermediate": "Poland",
+   "swap_to": "Turkey",
+   "answer": "Warsaw",
+   "swap_answer": "Ankara",
+   "category": "language-capital",
+   "scoring": 143,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     2014,
+     74,
+     4897
+    ],
+    [
+     67866
+    ]
+   ],
+   "zq_columns": [
+    "Poland",
+    "Turkey",
+    "Warsaw",
+    "Ankara",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Hanoi-Busan|C0": {
+   "intermediate": "Vietnam",
+   "swap_to": "Korea",
+   "answer": "dong",
+   "swap_answer": "won",
+   "category": "city-currency",
+   "scoring": 123,
+   "spellings_answer": [
+    [
+     72650
+    ],
+    [
+     35,
+     626
+    ],
+    [
+     70264
+    ],
+    [
+     50623
+    ]
+   ],
+   "spellings_swap": [
+    [
+     52830
+    ],
+    [
+     73245
+    ],
+    [
+     2677
+    ],
+    [
+     41039
+    ]
+   ],
+   "zq_columns": [
+    "Vietnam",
+    "Korea",
+    "dong",
+    "won",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Hanoi-Busan|C1": {
+   "intermediate": "Vietnam",
+   "swap_to": "Korea",
+   "answer": "dong",
+   "swap_answer": "won",
+   "category": "city-currency",
+   "scoring": 125,
+   "spellings_answer": [
+    [
+     72650
+    ],
+    [
+     35,
+     626
+    ],
+    [
+     70264
+    ],
+    [
+     50623
+    ]
+   ],
+   "spellings_swap": [
+    [
+     52830
+    ],
+    [
+     73245
+    ],
+    [
+     2677
+    ],
+    [
+     41039
+    ]
+   ],
+   "zq_columns": [
+    "Vietnam",
+    "Korea",
+    "dong",
+    "won",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Hanoi-Busan|C2": {
+   "intermediate": "Vietnam",
+   "swap_to": "Korea",
+   "answer": "dong",
+   "swap_answer": "won",
+   "category": "city-currency",
+   "scoring": 109,
+   "spellings_answer": [
+    [
+     72650
+    ],
+    [
+     35,
+     626
+    ],
+    [
+     70264
+    ],
+    [
+     50623
+    ]
+   ],
+   "spellings_swap": [
+    [
+     52830
+    ],
+    [
+     73245
+    ],
+    [
+     2677
+    ],
+    [
+     41039
+    ]
+   ],
+   "zq_columns": [
+    "Vietnam",
+    "Korea",
+    "dong",
+    "won",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Hanoi-Busan|C3": {
+   "intermediate": "Vietnam",
+   "swap_to": "Korea",
+   "answer": "dong",
+   "swap_answer": "won",
+   "category": "city-currency",
+   "scoring": 143,
+   "spellings_answer": [
+    [
+     72650
+    ],
+    [
+     35,
+     626
+    ],
+    [
+     70264
+    ],
+    [
+     50623
+    ]
+   ],
+   "spellings_swap": [
+    [
+     52830
+    ],
+    [
+     73245
+    ],
+    [
+     2677
+    ],
+    [
+     41039
+    ]
+   ],
+   "zq_columns": [
+    "Vietnam",
+    "Korea",
+    "dong",
+    "won",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Manchester-Shanghai|C0": {
+   "intermediate": "England",
+   "swap_to": "China",
+   "answer": "pound",
+   "swap_answer": "yuan",
+   "category": "city-currency",
+   "scoring": 122,
+   "spellings_answer": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "spellings_swap": [
+    [
+     88,
+     10077
+    ],
+    [
+     56,
+     10077
+    ],
+    [
+     69827
+    ],
+    [
+     66552
+    ]
+   ],
+   "zq_columns": [
+    "England",
+    "China",
+    "pound",
+    "yuan",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Manchester-Shanghai|C1": {
+   "intermediate": "England",
+   "swap_to": "China",
+   "answer": "pound",
+   "swap_answer": "yuan",
+   "category": "city-currency",
+   "scoring": 124,
+   "spellings_answer": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "spellings_swap": [
+    [
+     88,
+     10077
+    ],
+    [
+     56,
+     10077
+    ],
+    [
+     69827
+    ],
+    [
+     66552
+    ]
+   ],
+   "zq_columns": [
+    "England",
+    "China",
+    "pound",
+    "yuan",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Manchester-Shanghai|C2": {
+   "intermediate": "England",
+   "swap_to": "China",
+   "answer": "pound",
+   "swap_answer": "yuan",
+   "category": "city-currency",
+   "scoring": 108,
+   "spellings_answer": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "spellings_swap": [
+    [
+     88,
+     10077
+    ],
+    [
+     56,
+     10077
+    ],
+    [
+     69827
+    ],
+    [
+     66552
+    ]
+   ],
+   "zq_columns": [
+    "England",
+    "China",
+    "pound",
+    "yuan",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Manchester-Shanghai|C3": {
+   "intermediate": "England",
+   "swap_to": "China",
+   "answer": "pound",
+   "swap_answer": "yuan",
+   "category": "city-currency",
+   "scoring": 142,
+   "spellings_answer": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "spellings_swap": [
+    [
+     88,
+     10077
+    ],
+    [
+     56,
+     10077
+    ],
+    [
+     69827
+    ],
+    [
+     66552
+    ]
+   ],
+   "zq_columns": [
+    "England",
+    "China",
+    "pound",
+    "yuan",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Munich-Manchester|C0": {
+   "intermediate": "Germany",
+   "swap_to": "England",
+   "answer": "euro",
+   "swap_answer": "pound",
+   "category": "city-currency",
+   "scoring": 122,
+   "spellings_answer": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "spellings_swap": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "England",
+    "euro",
+    "pound",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Munich-Manchester|C1": {
+   "intermediate": "Germany",
+   "swap_to": "England",
+   "answer": "euro",
+   "swap_answer": "pound",
+   "category": "city-currency",
+   "scoring": 124,
+   "spellings_answer": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "spellings_swap": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "England",
+    "euro",
+    "pound",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Munich-Manchester|C2": {
+   "intermediate": "Germany",
+   "swap_to": "England",
+   "answer": "euro",
+   "swap_answer": "pound",
+   "category": "city-currency",
+   "scoring": 108,
+   "spellings_answer": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "spellings_swap": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "England",
+    "euro",
+    "pound",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Munich-Manchester|C3": {
+   "intermediate": "Germany",
+   "swap_to": "England",
+   "answer": "euro",
+   "swap_answer": "pound",
+   "category": "city-currency",
+   "scoring": 142,
+   "spellings_answer": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "spellings_swap": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "zq_columns": [
+    "Germany",
+    "England",
+    "euro",
+    "pound",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Osaka-Munich|C0": {
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "answer": "yen",
+   "swap_answer": "euro",
+   "category": "city-currency",
+   "scoring": 122,
+   "spellings_answer": [
+    [
+     73544
+    ],
+    [
+     56,
+     268
+    ],
+    [
+     55421
+    ],
+    [
+     222967
+    ]
+   ],
+   "spellings_swap": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "zq_columns": [
+    "Japan",
+    "Germany",
+    "yen",
+    "euro",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Osaka-Munich|C1": {
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "answer": "yen",
+   "swap_answer": "euro",
+   "category": "city-currency",
+   "scoring": 124,
+   "spellings_answer": [
+    [
+     73544
+    ],
+    [
+     56,
+     268
+    ],
+    [
+     55421
+    ],
+    [
+     222967
+    ]
+   ],
+   "spellings_swap": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "zq_columns": [
+    "Japan",
+    "Germany",
+    "yen",
+    "euro",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Osaka-Munich|C2": {
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "answer": "yen",
+   "swap_answer": "euro",
+   "category": "city-currency",
+   "scoring": 108,
+   "spellings_answer": [
+    [
+     73544
+    ],
+    [
+     56,
+     268
+    ],
+    [
+     55421
+    ],
+    [
+     222967
+    ]
+   ],
+   "spellings_swap": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "zq_columns": [
+    "Japan",
+    "Germany",
+    "yen",
+    "euro",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Osaka-Munich|C3": {
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "answer": "yen",
+   "swap_answer": "euro",
+   "category": "city-currency",
+   "scoring": 142,
+   "spellings_answer": [
+    [
+     73544
+    ],
+    [
+     56,
+     268
+    ],
+    [
+     55421
+    ],
+    [
+     222967
+    ]
+   ],
+   "spellings_swap": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "zq_columns": [
+    "Japan",
+    "Germany",
+    "yen",
+    "euro",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Shanghai-Manchester|C0": {
+   "intermediate": "China",
+   "swap_to": "England",
+   "answer": "yuan",
+   "swap_answer": "pound",
+   "category": "city-currency",
+   "scoring": 122,
+   "spellings_answer": [
+    [
+     88,
+     10077
+    ],
+    [
+     56,
+     10077
+    ],
+    [
+     69827
+    ],
+    [
+     66552
+    ]
+   ],
+   "spellings_swap": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "zq_columns": [
+    "China",
+    "England",
+    "yuan",
+    "pound",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Shanghai-Manchester|C1": {
+   "intermediate": "China",
+   "swap_to": "England",
+   "answer": "yuan",
+   "swap_answer": "pound",
+   "category": "city-currency",
+   "scoring": 124,
+   "spellings_answer": [
+    [
+     88,
+     10077
+    ],
+    [
+     56,
+     10077
+    ],
+    [
+     69827
+    ],
+    [
+     66552
+    ]
+   ],
+   "spellings_swap": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "zq_columns": [
+    "China",
+    "England",
+    "yuan",
+    "pound",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Shanghai-Manchester|C2": {
+   "intermediate": "China",
+   "swap_to": "England",
+   "answer": "yuan",
+   "swap_answer": "pound",
+   "category": "city-currency",
+   "scoring": 108,
+   "spellings_answer": [
+    [
+     88,
+     10077
+    ],
+    [
+     56,
+     10077
+    ],
+    [
+     69827
+    ],
+    [
+     66552
+    ]
+   ],
+   "spellings_swap": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "zq_columns": [
+    "China",
+    "England",
+    "yuan",
+    "pound",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Shanghai-Manchester|C3": {
+   "intermediate": "China",
+   "swap_to": "England",
+   "answer": "yuan",
+   "swap_answer": "pound",
+   "category": "city-currency",
+   "scoring": 142,
+   "spellings_answer": [
+    [
+     88,
+     10077
+    ],
+    [
+     56,
+     10077
+    ],
+    [
+     69827
+    ],
+    [
+     66552
+    ]
+   ],
+   "spellings_swap": [
+    [
+     79,
+     770
+    ],
+    [
+     47,
+     770
+    ],
+    [
+     29040
+    ],
+    [
+     75570
+    ]
+   ],
+   "zq_columns": [
+    "China",
+    "England",
+    "yuan",
+    "pound",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Zurich-Munich|C0": {
+   "intermediate": "Switzerland",
+   "swap_to": "Germany",
+   "answer": "franc",
+   "swap_answer": "euro",
+   "category": "city-currency",
+   "scoring": 122,
+   "spellings_answer": [
+    [
+     1569,
+     1093
+    ],
+    [
+     77560
+    ],
+    [
+     42042
+    ],
+    [
+     9406
+    ]
+   ],
+   "spellings_swap": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "zq_columns": [
+    "Switzerland",
+    "Germany",
+    "franc",
+    "euro",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Zurich-Munich|C1": {
+   "intermediate": "Switzerland",
+   "swap_to": "Germany",
+   "answer": "franc",
+   "swap_answer": "euro",
+   "category": "city-currency",
+   "scoring": 124,
+   "spellings_answer": [
+    [
+     1569,
+     1093
+    ],
+    [
+     77560
+    ],
+    [
+     42042
+    ],
+    [
+     9406
+    ]
+   ],
+   "spellings_swap": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "zq_columns": [
+    "Switzerland",
+    "Germany",
+    "franc",
+    "euro",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Zurich-Munich|C2": {
+   "intermediate": "Switzerland",
+   "swap_to": "Germany",
+   "answer": "franc",
+   "swap_answer": "euro",
+   "category": "city-currency",
+   "scoring": 108,
+   "spellings_answer": [
+    [
+     1569,
+     1093
+    ],
+    [
+     77560
+    ],
+    [
+     42042
+    ],
+    [
+     9406
+    ]
+   ],
+   "spellings_swap": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "zq_columns": [
+    "Switzerland",
+    "Germany",
+    "franc",
+    "euro",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  },
+  "s2-city-currency-Zurich-Munich|C3": {
+   "intermediate": "Switzerland",
+   "swap_to": "Germany",
+   "answer": "franc",
+   "swap_answer": "euro",
+   "category": "city-currency",
+   "scoring": 142,
+   "spellings_answer": [
+    [
+     1569,
+     1093
+    ],
+    [
+     77560
+    ],
+    [
+     42042
+    ],
+    [
+     9406
+    ]
+   ],
+   "spellings_swap": [
+    [
+     225352
+    ],
+    [
+     94067
+    ],
+    [
+     17146
+    ],
+    [
+     18870
+    ]
+   ],
+   "zq_columns": [
+    "Switzerland",
+    "Germany",
+    "franc",
+    "euro",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  }
+ },
+ "cells_c": {
+  "ex-city-capital-Lyon-Naples|C0": {
+   "name": "ex-city-capital-Lyon-Naples",
+   "A": "Lyon",
+   "B": "Naples",
+   "own_country": "France",
+   "donor_country": "Italy",
+   "own_cap": "Paris",
+   "donor_cap": "Rome",
+   "own_lang": "French",
+   "donor_lang": "Italian",
+   "zq_columns": [
+    "France",
+    "Italy",
+    "Lyon",
+    "Naples",
+    "French",
+    "Italian",
+    "Paris",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.38313207361433244
+  },
+  "ex-city-capital-Lyon-Naples|C1": {
+   "name": "ex-city-capital-Lyon-Naples",
+   "A": "Lyon",
+   "B": "Naples",
+   "own_country": "France",
+   "donor_country": "Italy",
+   "own_cap": "Paris",
+   "donor_cap": "Rome",
+   "own_lang": "French",
+   "donor_lang": "Italian",
+   "zq_columns": [
+    "France",
+    "Italy",
+    "Lyon",
+    "Naples",
+    "French",
+    "Italian",
+    "Paris",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.38313207361433244
+  },
+  "ex-city-capital-Lyon-Naples|C2": {
+   "name": "ex-city-capital-Lyon-Naples",
+   "A": "Lyon",
+   "B": "Naples",
+   "own_country": "France",
+   "donor_country": "Italy",
+   "own_cap": "Paris",
+   "donor_cap": "Rome",
+   "own_lang": "French",
+   "donor_lang": "Italian",
+   "zq_columns": [
+    "France",
+    "Italy",
+    "Lyon",
+    "Naples",
+    "French",
+    "Italian",
+    "Paris",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.38313207361433244
+  },
+  "ex-city-capital-Lyon-Naples|C3": {
+   "name": "ex-city-capital-Lyon-Naples",
+   "A": "Lyon",
+   "B": "Naples",
+   "own_country": "France",
+   "donor_country": "Italy",
+   "own_cap": "Paris",
+   "donor_cap": "Rome",
+   "own_lang": "French",
+   "donor_lang": "Italian",
+   "zq_columns": [
+    "France",
+    "Italy",
+    "Lyon",
+    "Naples",
+    "French",
+    "Italian",
+    "Paris",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.38313207361433244
+  },
+  "ex-city-capital-Naples-Barcelona|C0": {
+   "name": "ex-city-capital-Naples-Barcelona",
+   "A": "Naples",
+   "B": "Barcelona",
+   "own_country": "Italy",
+   "donor_country": "Spain",
+   "own_cap": "Rome",
+   "donor_cap": "Madrid",
+   "own_lang": "Italian",
+   "donor_lang": "Spanish",
+   "zq_columns": [
+    "Italy",
+    "Spain",
+    "Naples",
+    "Barcelona",
+    "Italian",
+    "Spanish",
+    "Rome",
+    "Madrid",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4506101773844825
+  },
+  "ex-city-capital-Naples-Barcelona|C1": {
+   "name": "ex-city-capital-Naples-Barcelona",
+   "A": "Naples",
+   "B": "Barcelona",
+   "own_country": "Italy",
+   "donor_country": "Spain",
+   "own_cap": "Rome",
+   "donor_cap": "Madrid",
+   "own_lang": "Italian",
+   "donor_lang": "Spanish",
+   "zq_columns": [
+    "Italy",
+    "Spain",
+    "Naples",
+    "Barcelona",
+    "Italian",
+    "Spanish",
+    "Rome",
+    "Madrid",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4506101773844825
+  },
+  "ex-city-capital-Naples-Barcelona|C2": {
+   "name": "ex-city-capital-Naples-Barcelona",
+   "A": "Naples",
+   "B": "Barcelona",
+   "own_country": "Italy",
+   "donor_country": "Spain",
+   "own_cap": "Rome",
+   "donor_cap": "Madrid",
+   "own_lang": "Italian",
+   "donor_lang": "Spanish",
+   "zq_columns": [
+    "Italy",
+    "Spain",
+    "Naples",
+    "Barcelona",
+    "Italian",
+    "Spanish",
+    "Rome",
+    "Madrid",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4506101773844825
+  },
+  "ex-city-capital-Naples-Barcelona|C3": {
+   "name": "ex-city-capital-Naples-Barcelona",
+   "A": "Naples",
+   "B": "Barcelona",
+   "own_country": "Italy",
+   "donor_country": "Spain",
+   "own_cap": "Rome",
+   "donor_cap": "Madrid",
+   "own_lang": "Italian",
+   "donor_lang": "Spanish",
+   "zq_columns": [
+    "Italy",
+    "Spain",
+    "Naples",
+    "Barcelona",
+    "Italian",
+    "Spanish",
+    "Rome",
+    "Madrid",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4506101773844825
+  },
+  "ex2-city-capital-Munich|C0": {
+   "name": "ex2-city-capital-Munich",
+   "A": "Munich",
+   "B": "Osaka",
+   "own_country": "Germany",
+   "donor_country": "Japan",
+   "own_cap": "Berlin",
+   "donor_cap": "Tokyo",
+   "own_lang": "German",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Germany",
+    "Japan",
+    "Munich",
+    "Osaka",
+    "German",
+    "Japanese",
+    "Berlin",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.45740458369255066
+  },
+  "ex2-city-capital-Munich|C1": {
+   "name": "ex2-city-capital-Munich",
+   "A": "Munich",
+   "B": "Osaka",
+   "own_country": "Germany",
+   "donor_country": "Japan",
+   "own_cap": "Berlin",
+   "donor_cap": "Tokyo",
+   "own_lang": "German",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Germany",
+    "Japan",
+    "Munich",
+    "Osaka",
+    "German",
+    "Japanese",
+    "Berlin",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.45740458369255066
+  },
+  "ex2-city-capital-Munich|C2": {
+   "name": "ex2-city-capital-Munich",
+   "A": "Munich",
+   "B": "Osaka",
+   "own_country": "Germany",
+   "donor_country": "Japan",
+   "own_cap": "Berlin",
+   "donor_cap": "Tokyo",
+   "own_lang": "German",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Germany",
+    "Japan",
+    "Munich",
+    "Osaka",
+    "German",
+    "Japanese",
+    "Berlin",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.45740458369255066
+  },
+  "ex2-city-capital-Munich|C3": {
+   "name": "ex2-city-capital-Munich",
+   "A": "Munich",
+   "B": "Osaka",
+   "own_country": "Germany",
+   "donor_country": "Japan",
+   "own_cap": "Berlin",
+   "donor_cap": "Tokyo",
+   "own_lang": "German",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Germany",
+    "Japan",
+    "Munich",
+    "Osaka",
+    "German",
+    "Japanese",
+    "Berlin",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.45740458369255066
+  },
+  "ex2-city-capital-Osaka|C0": {
+   "name": "ex2-city-capital-Osaka",
+   "A": "Osaka",
+   "B": "Munich",
+   "own_country": "Japan",
+   "donor_country": "Germany",
+   "own_cap": "Tokyo",
+   "donor_cap": "Berlin",
+   "own_lang": "Japanese",
+   "donor_lang": "German",
+   "zq_columns": [
+    "Japan",
+    "Germany",
+    "Osaka",
+    "Munich",
+    "Japanese",
+    "German",
+    "Tokyo",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4574045505788591
+  },
+  "ex2-city-capital-Osaka|C1": {
+   "name": "ex2-city-capital-Osaka",
+   "A": "Osaka",
+   "B": "Munich",
+   "own_country": "Japan",
+   "donor_country": "Germany",
+   "own_cap": "Tokyo",
+   "donor_cap": "Berlin",
+   "own_lang": "Japanese",
+   "donor_lang": "German",
+   "zq_columns": [
+    "Japan",
+    "Germany",
+    "Osaka",
+    "Munich",
+    "Japanese",
+    "German",
+    "Tokyo",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4574045505788591
+  },
+  "ex2-city-capital-Osaka|C2": {
+   "name": "ex2-city-capital-Osaka",
+   "A": "Osaka",
+   "B": "Munich",
+   "own_country": "Japan",
+   "donor_country": "Germany",
+   "own_cap": "Tokyo",
+   "donor_cap": "Berlin",
+   "own_lang": "Japanese",
+   "donor_lang": "German",
+   "zq_columns": [
+    "Japan",
+    "Germany",
+    "Osaka",
+    "Munich",
+    "Japanese",
+    "German",
+    "Tokyo",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4574045505788591
+  },
+  "ex2-city-capital-Osaka|C3": {
+   "name": "ex2-city-capital-Osaka",
+   "A": "Osaka",
+   "B": "Munich",
+   "own_country": "Japan",
+   "donor_country": "Germany",
+   "own_cap": "Tokyo",
+   "donor_cap": "Berlin",
+   "own_lang": "Japanese",
+   "donor_lang": "German",
+   "zq_columns": [
+    "Japan",
+    "Germany",
+    "Osaka",
+    "Munich",
+    "Japanese",
+    "German",
+    "Tokyo",
+    "Berlin",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4574045505788591
+  },
+  "s2-city-capital-Bergen-Kyoto|C0": {
+   "name": "s2-city-capital-Bergen-Kyoto",
+   "A": "Bergen",
+   "B": "Kyoto",
+   "own_country": "Norway",
+   "donor_country": "Japan",
+   "own_cap": "Oslo",
+   "donor_cap": "Tokyo",
+   "own_lang": "Norwegian",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Norway",
+    "Japan",
+    "Bergen",
+    "Kyoto",
+    "Norwegian",
+    "Japanese",
+    "Oslo",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.38337093260553146
+  },
+  "s2-city-capital-Bergen-Kyoto|C1": {
+   "name": "s2-city-capital-Bergen-Kyoto",
+   "A": "Bergen",
+   "B": "Kyoto",
+   "own_country": "Norway",
+   "donor_country": "Japan",
+   "own_cap": "Oslo",
+   "donor_cap": "Tokyo",
+   "own_lang": "Norwegian",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Norway",
+    "Japan",
+    "Bergen",
+    "Kyoto",
+    "Norwegian",
+    "Japanese",
+    "Oslo",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.38337093260553146
+  },
+  "s2-city-capital-Bergen-Kyoto|C2": {
+   "name": "s2-city-capital-Bergen-Kyoto",
+   "A": "Bergen",
+   "B": "Kyoto",
+   "own_country": "Norway",
+   "donor_country": "Japan",
+   "own_cap": "Oslo",
+   "donor_cap": "Tokyo",
+   "own_lang": "Norwegian",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Norway",
+    "Japan",
+    "Bergen",
+    "Kyoto",
+    "Norwegian",
+    "Japanese",
+    "Oslo",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.38337093260553146
+  },
+  "s2-city-capital-Bergen-Kyoto|C3": {
+   "name": "s2-city-capital-Bergen-Kyoto",
+   "A": "Bergen",
+   "B": "Kyoto",
+   "own_country": "Norway",
+   "donor_country": "Japan",
+   "own_cap": "Oslo",
+   "donor_cap": "Tokyo",
+   "own_lang": "Norwegian",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Norway",
+    "Japan",
+    "Bergen",
+    "Kyoto",
+    "Norwegian",
+    "Japanese",
+    "Oslo",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.38337093260553146
+  },
+  "s2-city-capital-Marseille-Aarhus|C0": {
+   "name": "s2-city-capital-Marseille-Aarhus",
+   "A": "Marseille",
+   "B": "Aarhus",
+   "own_country": "France",
+   "donor_country": "Denmark",
+   "own_cap": "Paris",
+   "donor_cap": "Copenhagen",
+   "own_lang": "French",
+   "donor_lang": "Danish",
+   "zq_columns": [
+    "France",
+    "Denmark",
+    "Marseille",
+    "Aarhus",
+    "French",
+    "Danish",
+    "Paris",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4024410843849182
+  },
+  "s2-city-capital-Marseille-Aarhus|C1": {
+   "name": "s2-city-capital-Marseille-Aarhus",
+   "A": "Marseille",
+   "B": "Aarhus",
+   "own_country": "France",
+   "donor_country": "Denmark",
+   "own_cap": "Paris",
+   "donor_cap": "Copenhagen",
+   "own_lang": "French",
+   "donor_lang": "Danish",
+   "zq_columns": [
+    "France",
+    "Denmark",
+    "Marseille",
+    "Aarhus",
+    "French",
+    "Danish",
+    "Paris",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4024410843849182
+  },
+  "s2-city-capital-Marseille-Aarhus|C2": {
+   "name": "s2-city-capital-Marseille-Aarhus",
+   "A": "Marseille",
+   "B": "Aarhus",
+   "own_country": "France",
+   "donor_country": "Denmark",
+   "own_cap": "Paris",
+   "donor_cap": "Copenhagen",
+   "own_lang": "French",
+   "donor_lang": "Danish",
+   "zq_columns": [
+    "France",
+    "Denmark",
+    "Marseille",
+    "Aarhus",
+    "French",
+    "Danish",
+    "Paris",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4024410843849182
+  },
+  "s2-city-capital-Marseille-Aarhus|C3": {
+   "name": "s2-city-capital-Marseille-Aarhus",
+   "A": "Marseille",
+   "B": "Aarhus",
+   "own_country": "France",
+   "donor_country": "Denmark",
+   "own_cap": "Paris",
+   "donor_cap": "Copenhagen",
+   "own_lang": "French",
+   "donor_lang": "Danish",
+   "zq_columns": [
+    "France",
+    "Denmark",
+    "Marseille",
+    "Aarhus",
+    "French",
+    "Danish",
+    "Paris",
+    "Copenhagen",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.4024410843849182
+  },
+  "s2-city-capital-Salzburg-Kyoto|C0": {
+   "name": "s2-city-capital-Salzburg-Kyoto",
+   "A": "Salzburg",
+   "B": "Kyoto",
+   "own_country": "Austria",
+   "donor_country": "Japan",
+   "own_cap": "Vienna",
+   "donor_cap": "Tokyo",
+   "own_lang": "German",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Austria",
+    "Japan",
+    "Salzburg",
+    "Kyoto",
+    "German",
+    "Japanese",
+    "Vienna",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.42770124475161236
+  },
+  "s2-city-capital-Salzburg-Kyoto|C1": {
+   "name": "s2-city-capital-Salzburg-Kyoto",
+   "A": "Salzburg",
+   "B": "Kyoto",
+   "own_country": "Austria",
+   "donor_country": "Japan",
+   "own_cap": "Vienna",
+   "donor_cap": "Tokyo",
+   "own_lang": "German",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Austria",
+    "Japan",
+    "Salzburg",
+    "Kyoto",
+    "German",
+    "Japanese",
+    "Vienna",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.42770124475161236
+  },
+  "s2-city-capital-Salzburg-Kyoto|C2": {
+   "name": "s2-city-capital-Salzburg-Kyoto",
+   "A": "Salzburg",
+   "B": "Kyoto",
+   "own_country": "Austria",
+   "donor_country": "Japan",
+   "own_cap": "Vienna",
+   "donor_cap": "Tokyo",
+   "own_lang": "German",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Austria",
+    "Japan",
+    "Salzburg",
+    "Kyoto",
+    "German",
+    "Japanese",
+    "Vienna",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.42770124475161236
+  },
+  "s2-city-capital-Salzburg-Kyoto|C3": {
+   "name": "s2-city-capital-Salzburg-Kyoto",
+   "A": "Salzburg",
+   "B": "Kyoto",
+   "own_country": "Austria",
+   "donor_country": "Japan",
+   "own_cap": "Vienna",
+   "donor_cap": "Tokyo",
+   "own_lang": "German",
+   "donor_lang": "Japanese",
+   "zq_columns": [
+    "Austria",
+    "Japan",
+    "Salzburg",
+    "Kyoto",
+    "German",
+    "Japanese",
+    "Vienna",
+    "Tokyo",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.42770124475161236
+  }
+ },
+ "leak": {
+  "ex-city-capital-Barcelona-Toronto|C0|clean_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C0|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C1|clean_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C1|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C2|clean_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C2|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C3|clean_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C3|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C0|clean_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C0|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C1|clean_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C1|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C2|clean_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C2|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C3|clean_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C3|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Lyon-Naples|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C0|clean_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C0|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C1|clean_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C1|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C2|clean_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C2|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C3|clean_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C3|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Naples-Barcelona|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C0|clean_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C0|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C1|clean_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C1|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C2|clean_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C2|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C3|clean_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C3|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Toronto-Lyon|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-city-capital-Munich|C0|clean_m63A": 0.0,
+  "ex2-city-capital-Munich|C0|q_full_pre_m63A": 0.0,
+  "ex2-city-capital-Munich|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-city-capital-Munich|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-city-capital-Munich|C1|clean_m63A": 0.0,
+  "ex2-city-capital-Munich|C1|q_full_pre_m63A": 0.0,
+  "ex2-city-capital-Munich|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-city-capital-Munich|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-city-capital-Munich|C2|clean_m63A": 0.0,
+  "ex2-city-capital-Munich|C2|q_full_pre_m63A": 0.0,
+  "ex2-city-capital-Munich|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-city-capital-Munich|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-city-capital-Munich|C3|clean_m63A": 0.0,
+  "ex2-city-capital-Munich|C3|q_full_pre_m63A": 0.0,
+  "ex2-city-capital-Munich|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-city-capital-Munich|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-city-language-Moscow|C0|clean_m63A": 0.0,
+  "ex2-city-language-Moscow|C0|q_full_pre_m63A": 0.0,
+  "ex2-city-language-Moscow|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-city-language-Moscow|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-city-language-Moscow|C1|clean_m63A": 0.0,
+  "ex2-city-language-Moscow|C1|q_full_pre_m63A": 0.0,
+  "ex2-city-language-Moscow|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-city-language-Moscow|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-city-language-Moscow|C2|clean_m63A": 0.0,
+  "ex2-city-language-Moscow|C2|q_full_pre_m63A": 0.0,
+  "ex2-city-language-Moscow|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-city-language-Moscow|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-city-language-Moscow|C3|clean_m63A": 0.0,
+  "ex2-city-language-Moscow|C3|q_full_pre_m63A": 0.0,
+  "ex2-city-language-Moscow|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-city-language-Moscow|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C0|clean_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C0|q_full_pre_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C1|clean_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C1|q_full_pre_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C2|clean_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C2|q_full_pre_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C3|clean_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C3|q_full_pre_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-language-capital-Hungarian|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-language-capital-Polish|C0|clean_m63A": 0.0,
+  "ex2-language-capital-Polish|C0|q_full_pre_m63A": 0.0,
+  "ex2-language-capital-Polish|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-language-capital-Polish|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-language-capital-Polish|C1|clean_m63A": 0.0,
+  "ex2-language-capital-Polish|C1|q_full_pre_m63A": 0.0,
+  "ex2-language-capital-Polish|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-language-capital-Polish|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-language-capital-Polish|C2|clean_m63A": 0.0,
+  "ex2-language-capital-Polish|C2|q_full_pre_m63A": 0.0,
+  "ex2-language-capital-Polish|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-language-capital-Polish|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "ex2-language-capital-Polish|C3|clean_m63A": 0.0,
+  "ex2-language-capital-Polish|C3|q_full_pre_m63A": 0.0,
+  "ex2-language-capital-Polish|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex2-language-capital-Polish|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "food-animal-butter|C0|clean_m63A": 0.0,
+  "food-animal-butter|C0|q_full_pre_m63A": 0.0,
+  "food-animal-butter|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "food-animal-butter|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "food-animal-butter|C1|clean_m63A": 0.0,
+  "food-animal-butter|C1|q_full_pre_m63A": 0.0,
+  "food-animal-butter|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "food-animal-butter|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "food-animal-butter|C2|clean_m63A": 0.0,
+  "food-animal-butter|C2|q_full_pre_m63A": 0.0,
+  "food-animal-butter|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "food-animal-butter|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "food-animal-butter|C3|clean_m63A": 0.0,
+  "food-animal-butter|C3|q_full_pre_m63A": 0.0,
+  "food-animal-butter|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "food-animal-butter|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C0|clean_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C0|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C1|clean_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C1|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C2|clean_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C2|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C3|clean_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C3|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Bergen-Kyoto|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C0|clean_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C0|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C1|clean_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C1|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C2|clean_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C2|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C3|clean_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C3|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Cork-Antalya|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C0|clean_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C0|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C1|clean_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C1|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C2|clean_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C2|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C3|clean_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C3|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Marseille-Aarhus|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C0|clean_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C0|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C1|clean_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C1|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C2|clean_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C2|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C3|clean_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C3|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Mumbai-Salzburg|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C0|clean_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C0|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C1|clean_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C1|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C2|clean_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C2|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C3|clean_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C3|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Salzburg-Kyoto|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C0|clean_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C0|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C1|clean_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C1|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C2|clean_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C2|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C3|clean_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C3|q_full_pre_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-capital-Vancouver-Naples|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C0|clean_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C0|q_full_pre_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C1|clean_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C1|q_full_pre_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C2|clean_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C2|q_full_pre_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C3|clean_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C3|q_full_pre_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-language-Gothenburg-Isfahan|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C0|clean_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C0|q_full_pre_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C1|clean_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C1|q_full_pre_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C2|clean_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C2|q_full_pre_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C3|clean_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C3|q_full_pre_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-language-Shanghai-Antalya|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C0|clean_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C0|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C1|clean_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C1|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C2|clean_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C2|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C3|clean_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C3|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Elbe-Tagus|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C0|clean_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C0|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C1|clean_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C1|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C2|clean_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C2|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C3|clean_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C3|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Fraser-Loire|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C0|clean_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C0|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C1|clean_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C1|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C2|clean_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C2|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C3|clean_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C3|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Nile-Thames|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C0|clean_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C0|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C1|clean_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C1|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C2|clean_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C2|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C3|clean_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C3|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Tagus-Tiber|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C0|clean_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C0|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C1|clean_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C1|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C2|clean_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C2|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C3|clean_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C3|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Tiber-Weser|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C0|clean_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C0|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C1|clean_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C1|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C2|clean_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C2|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C3|clean_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C3|q_full_pre_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-river-capital-Volga-Weser|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C0|clean_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C0|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C1|clean_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C1|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C2|clean_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C2|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C3|clean_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C3|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Dutch-Danish|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C0|clean_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C0|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C1|clean_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C1|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C2|clean_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C2|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C3|clean_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C3|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Finnish-Thai|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C0|clean_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C0|q_full_pre_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C1|clean_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C1|q_full_pre_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C2|clean_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C2|q_full_pre_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C3|clean_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C3|q_full_pre_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-French-Swedish|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C0|clean_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C0|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C1|clean_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C1|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C2|clean_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C2|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C3|clean_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C3|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Italian-Persian|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C0|clean_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C0|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C1|clean_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C1|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C2|clean_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C2|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C3|clean_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C3|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Norwegian-Italian|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C0|clean_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C0|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C1|clean_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C1|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C2|clean_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C2|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C3|clean_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C3|q_full_pre_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-language-capital-Polish-Turkish|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C0|clean_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C0|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C1|clean_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C1|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C2|clean_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C2|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C3|clean_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C3|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Hanoi-Busan|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C0|clean_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C0|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C1|clean_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C1|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C2|clean_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C2|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C3|clean_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C3|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Manchester-Shanghai|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C0|clean_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C0|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C1|clean_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C1|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C2|clean_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C2|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C3|clean_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C3|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Munich-Manchester|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C0|clean_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C0|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C1|clean_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C1|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C2|clean_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C2|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C3|clean_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C3|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Osaka-Munich|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C0|clean_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C0|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C1|clean_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C1|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C2|clean_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C2|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C3|clean_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C3|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Shanghai-Manchester|C3|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C0|clean_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C0|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C0|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C1|clean_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C1|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C1|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C1|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C2|clean_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C2|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C2|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C2|q_J25rem_pre_sfullA_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C3|clean_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C3|q_full_pre_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C3|q_J25rem_pre_ccsA_m63A": 0.0,
+  "s2-city-currency-Zurich-Munich|C3|q_J25rem_pre_sfullA_m63A": 0.0
+ },
+ "clamp_stats": {
+  "q_J25rem_pre_ccsA": {
+   "rho_min": 0.9999946355819702,
+   "rho_max": 1.000003457069397,
+   "kappa_min": 0.9999997615814209,
+   "normdev_max": 0.0
+  },
+  "q_J25rem_pre_ccsrA": {
+   "rho_min": 0.9999948740005493,
+   "rho_max": 1.0000052452087402,
+   "kappa_min": 0.9999997615814209,
+   "normdev_max": 5.174758825887693e-06
+  },
+  "q_J25rem_pre_ccsA_m63A": {
+   "rho_min": 0.9999946355819702,
+   "rho_max": 1.000003457069397,
+   "kappa_min": 0.9999997615814209,
+   "normdev_max": 0.0
+  }
+ },
+ "rows_ab": [
+  "q_full_pre",
+  "q_J25rem_pre",
+  "q_J25rem_pre_ccs",
+  "q_J25rem_pre_ccsA",
+  "q_J25rem_pre_ccsrA",
+  "clean_m63A",
+  "q_full_pre_m63A",
+  "q_J25rem_pre_ccsA_m63A",
+  "q_full_pre_sfullA",
+  "q_J25rem_pre_sfullA",
+  "q_J25rem_pre_sfullA_m63A"
+ ],
+ "rows_c": [
+  "q_xfer",
+  "q_native_lang",
+  "x_ctry",
+  "x_city",
+  "x_noctry",
+  "x_nocity",
+  "x_rand2",
+  "q_mirror",
+  "q_native_cap",
+  "m_ctry",
+  "m_city",
+  "m_noctry",
+  "m_nocity",
+  "m_rand2"
+ ],
+ "competence_c": {
+  "cap_clean": 1.0,
+  "cap_donor": 1.0,
+  "lang_clean": 1.0,
+  "lang_donor": 1.0
+ },
+ "competence_ab": {
+  "clean": 1.0,
+  "donor": 1.0
+ },
+ "run_id": "20260924T153924Z",
+ "n_forwards": 12768,
+ "elapsed_s": 3746.5
+}

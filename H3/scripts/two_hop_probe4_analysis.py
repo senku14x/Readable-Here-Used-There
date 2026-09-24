@@ -188,7 +188,7 @@ ax = axs[2]; v = p2["language_question"]; ks = ["ctry", "city", "noctry", "nocit
 vals = [v["f_ctry"], v["f_city"], 1 - v["c_ctry"], 1 - v["c_city"], v["f_rand2"]]
 ax.bar(range(5), vals, color=["#1f77b4", "#ff7f0e", "#aec7e8", "#ffbb78", "#bdbdbd"], width=0.7)
 for i, k in enumerate(ks): ax.scatter(np.full(npair, i) + np.linspace(-0.15, 0.15, npair), [v["per_pair"][p][k] for p in pairs], s=3, color="k", alpha=0.5, zorder=3)
-ax.set_xticks(range(5)); ax.set_xticklabels(labs, fontsize=4.8); ax.axhline(0, color="k", lw=0.4); ax.axhline(1, color="k", lw=0.4, ls=":"); ax.set_ylim(-0.15, 1.2)
+ax.set_xticks(range(5)); ax.set_xticklabels(labs, fontsize=4.3); ax.axhline(0, color="k", lw=0.4); ax.axhline(1, color="k", lw=0.4, ls=":"); ax.set_ylim(-0.15, 1.2)
 ax.set_ylabel("fraction of transfer push", fontsize=5.5); ax.set_title("(c) country or city (language q.)", fontsize=6.5)
 fig.tight_layout(); fig.savefig(os.path.join(FIG, f"h3_{STAGE}.png"), dpi=200); fig.savefig(os.path.join(FIG, f"h3_{STAGE}.pdf"))
 print(json.dumps({k: T[k] for k in ("gates_pass", "gate_reproduction", "gate_writes", "gate_L", "gate_S", "gate_V")}, indent=1, default=str))
