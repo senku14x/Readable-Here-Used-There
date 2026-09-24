@@ -1,0 +1,221 @@
+{
+ "stage": "smoke4",
+ "design": "H3/design_specs/two_hop_organism.md (Amendment 9)",
+ "columns": [
+  "Canada",
+  "France",
+  "French",
+  "Italian",
+  "Italy",
+  "Lyon",
+  "Madrid",
+  "Naples",
+  "Ottawa",
+  "Paris",
+  "Rome",
+  "Spain",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers_ab": [
+  "C0"
+ ],
+ "carriers_c": [
+  "C0"
+ ],
+ "swap_layers": [
+  36,
+  62
+ ],
+ "readout_band": [
+  51,
+  59
+ ],
+ "zq_layers": [
+  36,
+  62
+ ],
+ "fp32_from": 35,
+ "seed": 20260924,
+ "last_block": 63,
+ "items_ab": [
+  "ex-city-capital-Barcelona-Toronto"
+ ],
+ "pairs": [
+  {
+   "name": "ex-city-capital-Lyon-Naples",
+   "A": "Lyon",
+   "B": "Naples",
+   "own_country": "France",
+   "donor_country": "Italy",
+   "own_cap": "Paris",
+   "donor_cap": "Rome",
+   "own_lang": "French",
+   "donor_lang": "Italian"
+  }
+ ],
+ "language_template": "Fact: The language spoken in the country where {cue} is located is",
+ "seeds": {
+  "ccsr_frames": "SEED + 350000 + cell (Amendment 8)",
+  "x_rand2": "SEED + 500000 + pair cell",
+  "m_rand2": "SEED + 550000 + pair cell"
+ },
+ "cells_ab": {
+  "ex-city-capital-Barcelona-Toronto|C0": {
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "category": "city-capital",
+   "scoring": 121,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "zq_columns": [
+    "Spain",
+    "Canada",
+    "Madrid",
+    "Ottawa",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ]
+  }
+ },
+ "cells_c": {
+  "ex-city-capital-Lyon-Naples|C0": {
+   "name": "ex-city-capital-Lyon-Naples",
+   "A": "Lyon",
+   "B": "Naples",
+   "own_country": "France",
+   "donor_country": "Italy",
+   "own_cap": "Paris",
+   "donor_cap": "Rome",
+   "own_lang": "French",
+   "donor_lang": "Italian",
+   "zq_columns": [
+    "France",
+    "Italy",
+    "Lyon",
+    "Naples",
+    "French",
+    "Italian",
+    "Paris",
+    "Rome",
+    "anchor",
+    "apple",
+    "arrow",
+    "badge",
+    "basket",
+    "bread",
+    "brick",
+    "bridge"
+   ],
+   "max_principal_cos_country_city_planes_L51_59": 0.38313207361433244
+  }
+ },
+ "leak": {
+  "ex-city-capital-Barcelona-Toronto|C0|clean_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C0|q_full_pre_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C0|q_J25rem_pre_ccsA_m63A": 0.0,
+  "ex-city-capital-Barcelona-Toronto|C0|q_J25rem_pre_sfullA_m63A": 0.0
+ },
+ "clamp_stats": {
+  "q_J25rem_pre_ccsA": {
+   "rho_min": 0.9999988675117493,
+   "rho_max": 1.0000003576278687,
+   "kappa_min": 0.9999998807907104,
+   "normdev_max": 0.0
+  },
+  "q_J25rem_pre_ccsrA": {
+   "rho_min": 0.9999985098838806,
+   "rho_max": 1.0000011920928955,
+   "kappa_min": 0.9999998807907104,
+   "normdev_max": 1.406579940521624e-06
+  },
+  "q_J25rem_pre_ccsA_m63A": {
+   "rho_min": 0.9999988675117493,
+   "rho_max": 1.0000003576278687,
+   "kappa_min": 0.9999998807907104,
+   "normdev_max": 0.0
+  }
+ },
+ "rows_ab": [
+  "q_full_pre",
+  "q_J25rem_pre",
+  "q_J25rem_pre_ccs",
+  "q_J25rem_pre_ccsA",
+  "q_J25rem_pre_ccsrA",
+  "clean_m63A",
+  "q_full_pre_m63A",
+  "q_J25rem_pre_ccsA_m63A",
+  "q_full_pre_sfullA",
+  "q_J25rem_pre_sfullA",
+  "q_J25rem_pre_sfullA_m63A"
+ ],
+ "rows_c": [
+  "q_xfer",
+  "q_native_lang",
+  "x_ctry",
+  "x_city",
+  "x_noctry",
+  "x_nocity",
+  "x_rand2",
+  "q_mirror",
+  "q_native_cap",
+  "m_ctry",
+  "m_city",
+  "m_noctry",
+  "m_nocity",
+  "m_rand2"
+ ],
+ "competence_c": {
+  "cap_clean": 1.0,
+  "cap_donor": 1.0,
+  "lang_clean": 1.0,
+  "lang_donor": 1.0
+ },
+ "competence_ab": {
+  "clean": 1.0,
+  "donor": 1.0
+ },
+ "run_id": "20260924T153743Z",
+ "n_forwards": 196,
+ "elapsed_s": 59.2
+}
