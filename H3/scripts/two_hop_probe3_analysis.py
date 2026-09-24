@@ -219,7 +219,7 @@ ax = axs[2]; x = np.arange(len(pairs)); w_ = 0.26
 for j, (c, col, lab) in enumerate((("q_native_lang", "#4c4c4c", "language Δ (native)"), ("q_xfer", "#1f77b4", "capital Δ (transfer)"), ("q_xfer_rand", "#bdbdbd", "random Δ"))):
     ax.bar(x + (j - 1) * w_, [Cc["per_pair"][p][f"{c}|m_lang"] for p in pairs], w_, color=col, label=lab)
 PL = {q["name"]: f"{q['A']}/{q['B']}" for q in META["pairs"]}; ax.set_xticks(x); ax.set_xticklabels([PL[p] for p in pairs], fontsize=4.8, rotation=50, ha="right", rotation_mode="anchor"); ax.axhline(0, color="k", lw=0.4)
-ax.set_ylabel("push toward donor's language (nats)", fontsize=5.5); ax.set_title(f"(c) language question, f_L = {Cc['f_L']:.2f}", fontsize=6.5); ax.legend(fontsize=4.2, frameon=False, loc="upper right")
+ax.set_ylabel("push toward donor's language (nats)", fontsize=5.5); ax.set_title(f"(c) language question, f_L = {Cc['f_L']:.2f}", fontsize=6.5); ax.set_ylim(-0.5, 19); ax.legend(fontsize=4.2, frameon=False, loc="upper left", ncol=3, columnspacing=0.6, handlelength=1.0)
 fig.tight_layout(); fig.savefig(os.path.join(FIG, f"h3_{STAGE}.png"), dpi=200); fig.savefig(os.path.join(FIG, f"h3_{STAGE}.pdf"))
 print(json.dumps({k: T[k] for k in ("gate2", "gate3", "gate4_reproduction", "gateV")}, indent=1, default=str))
 print(json.dumps({"a": {k: v for k, v in A.items() if k != "per_relation"}, "b": {k: v for k, v in Bb.items() if k not in ("gateV",)}, "c": {k: v for k, v in Cc.items() if k in ("f_L", "f_L_ci", "f_C_mirror", "f_C_ci", "pairs_xfer_above_random", "pairs_mirror_above_random", "reading_xfer", "reading_mirror", "capital_push_in_language_question_over_native_capital_push", "language_push_in_capital_question_over_native_language_push")}}, indent=1, default=str))

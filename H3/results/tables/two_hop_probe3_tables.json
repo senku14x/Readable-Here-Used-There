@@ -1,0 +1,2635 @@
+{
+ "stage": "probe3",
+ "run_id": "20260924T140734Z",
+ "n_forwards": 9968,
+ "elapsed_s": 2966.6,
+ "n_items_ab": 35,
+ "n_cells_ab": 140,
+ "n_pairs": 7,
+ "n_cells_c": 28,
+ "pursuit_agreement_with_stage2": {
+  "qpre_vectors_identical_first25": 1.0,
+  "s_vectors_identical_first25": 1.0
+ },
+ "competence_ab": {
+  "clean": 1.0,
+  "donor": 1.0
+ },
+ "competence_c": {
+  "cap_clean": 1.0,
+  "cap_donor": 1.0,
+  "lang_clean": 1.0,
+  "lang_donor": 1.0
+ },
+ "rows_ab": {
+  "q_full_pre": {
+   "margin": {
+    "mean": 11.16227434703282,
+    "ci": [
+     10.525211691326906,
+     11.799337002738735
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 1.0,
+   "share_ci": [
+    1.0,
+    1.0
+   ],
+   "flips": 50,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 5.798550311156681,
+    "ci": [
+     5.32493421804822,
+     6.272166404265143
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 5.385844661508288,
+    "ci": [
+     4.913123503155563,
+     5.858565819861012
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_int": {
+    "mean": 26.11213923863002,
+    "ci": [
+     23.736319816196666,
+     28.487958661063377
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_ans": {
+    "mean": 34.987929003579275,
+    "ci": [
+     32.52737586425693,
+     37.44848214290162
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 1.0,
+    "ex-city-capital-Lyon-Naples": 1.0,
+    "ex-city-capital-Naples-Barcelona": 1.0,
+    "ex-city-capital-Toronto-Lyon": 1.0,
+    "ex2-city-capital-Munich": 1.0,
+    "ex2-city-language-Moscow": 1.0,
+    "ex2-language-capital-Hungarian": 1.0,
+    "ex2-language-capital-Polish": 1.0,
+    "food-animal-butter": 1.0,
+    "s2-city-capital-Bergen-Kyoto": 1.0,
+    "s2-city-capital-Cork-Antalya": 1.0,
+    "s2-city-capital-Marseille-Aarhus": 1.0,
+    "s2-city-capital-Mumbai-Salzburg": 1.0,
+    "s2-city-capital-Salzburg-Kyoto": 1.0,
+    "s2-city-capital-Vancouver-Naples": 1.0,
+    "s2-city-language-Gothenburg-Isfahan": 1.0,
+    "s2-city-language-Shanghai-Antalya": 1.0,
+    "s2-river-capital-Elbe-Tagus": 1.0,
+    "s2-river-capital-Fraser-Loire": 1.0,
+    "s2-river-capital-Nile-Thames": 1.0,
+    "s2-river-capital-Tagus-Tiber": 1.0,
+    "s2-river-capital-Tiber-Weser": 1.0,
+    "s2-river-capital-Volga-Weser": 1.0,
+    "s2-language-capital-Dutch-Danish": 1.0,
+    "s2-language-capital-Finnish-Thai": 1.0,
+    "s2-language-capital-French-Swedish": 1.0,
+    "s2-language-capital-Italian-Persian": 1.0,
+    "s2-language-capital-Norwegian-Italian": 1.0,
+    "s2-language-capital-Polish-Turkish": 1.0,
+    "s2-city-currency-Hanoi-Busan": 1.0,
+    "s2-city-currency-Manchester-Shanghai": 1.0,
+    "s2-city-currency-Munich-Manchester": 1.0,
+    "s2-city-currency-Osaka-Munich": 1.0,
+    "s2-city-currency-Shanghai-Manchester": 1.0,
+    "s2-city-currency-Zurich-Munich": 1.0
+   }
+  },
+  "q_rem_pre": {
+   "margin": {
+    "mean": 8.869762223107474,
+    "ci": [
+     8.234846409684344,
+     9.504678036530603
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.7946196220723828,
+   "share_ci": [
+    0.7544484098939768,
+    0.8291822856738065
+   ],
+   "flips": 16,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 1.5811179058892386,
+    "ci": [
+     1.3607733017573937,
+     1.8014625100210835
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 1.7889952540397644,
+    "ci": [
+     1.4734599488350089,
+     2.10453055924452
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_int": {
+    "mean": 4.591642481940133,
+    "ci": [
+     3.1968170594985663,
+     5.9864679043817
+    ],
+    "n_pos": 31,
+    "n": 35
+   },
+   "c63s_ans": {
+    "mean": 24.11753007343837,
+    "ci": [
+     22.358833775109293,
+     25.876226371767448
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.9264582535254637,
+    "ex-city-capital-Lyon-Naples": 0.843559061810446,
+    "ex-city-capital-Naples-Barcelona": 0.7601901943916424,
+    "ex-city-capital-Toronto-Lyon": 0.7430495832142171,
+    "ex2-city-capital-Munich": 0.7220117484241033,
+    "ex2-city-language-Moscow": 0.7945271886546084,
+    "ex2-language-capital-Hungarian": 0.7965754768288269,
+    "ex2-language-capital-Polish": 0.8195189127820448,
+    "food-animal-butter": 0.8600217032839015,
+    "s2-city-capital-Bergen-Kyoto": 0.730115803864008,
+    "s2-city-capital-Cork-Antalya": 0.8937056507552612,
+    "s2-city-capital-Marseille-Aarhus": 0.8635435220373046,
+    "s2-city-capital-Mumbai-Salzburg": 0.6928041890273572,
+    "s2-city-capital-Salzburg-Kyoto": 0.7303707054022134,
+    "s2-city-capital-Vancouver-Naples": 0.7227842397532649,
+    "s2-city-language-Gothenburg-Isfahan": 0.6234906218666623,
+    "s2-city-language-Shanghai-Antalya": 0.4780295124811111,
+    "s2-river-capital-Elbe-Tagus": 0.7744063593091443,
+    "s2-river-capital-Fraser-Loire": 0.6172093474094158,
+    "s2-river-capital-Nile-Thames": 0.8507675478934159,
+    "s2-river-capital-Tagus-Tiber": 0.8168410933952142,
+    "s2-river-capital-Tiber-Weser": 0.6009211781417905,
+    "s2-river-capital-Volga-Weser": 0.6260693363427089,
+    "s2-language-capital-Dutch-Danish": 0.8756422391861662,
+    "s2-language-capital-Finnish-Thai": 0.7585421915319517,
+    "s2-language-capital-French-Swedish": 0.7547375931879111,
+    "s2-language-capital-Italian-Persian": 0.8751927734500955,
+    "s2-language-capital-Norwegian-Italian": 0.830392064230222,
+    "s2-language-capital-Polish-Turkish": 0.9066034106947077,
+    "s2-city-currency-Hanoi-Busan": 0.9168760709526297,
+    "s2-city-currency-Manchester-Shanghai": 0.9026811764330833,
+    "s2-city-currency-Munich-Manchester": 0.9249174526759495,
+    "s2-city-currency-Osaka-Munich": 0.9191504676088447,
+    "s2-city-currency-Shanghai-Manchester": 0.9275197555655421,
+    "s2-city-currency-Zurich-Munich": 0.9492077202517509
+   }
+  },
+  "q_ansrem_pre": {
+   "margin": {
+    "mean": 6.9564159972327095,
+    "ci": [
+     6.314675451723213,
+     7.598156542742206
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.6232077604401364,
+   "share_ci": [
+    0.5726374190846099,
+    0.6722510251096947
+   ],
+   "flips": 14,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 3.1866672430719647,
+    "ci": [
+     2.8712232381594567,
+     3.5021112479844727
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 2.33295681817191,
+    "ci": [
+     2.0916308377394635,
+     2.5742827986043566
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_int": {
+    "mean": 15.654791143962315,
+    "ci": [
+     14.175859931655976,
+     17.133722356268652
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_ans": {
+    "mean": 16.089230959756033,
+    "ci": [
+     14.684662020371391,
+     17.493799899140676
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.6590223009917434,
+    "ex-city-capital-Lyon-Naples": 0.6930775855237531,
+    "ex-city-capital-Naples-Barcelona": 0.6450255488678355,
+    "ex-city-capital-Toronto-Lyon": 0.6009975272802751,
+    "ex2-city-capital-Munich": 0.5122359226960455,
+    "ex2-city-language-Moscow": 0.4142257798070824,
+    "ex2-language-capital-Hungarian": 0.6065588791087755,
+    "ex2-language-capital-Polish": 0.5723245902755458,
+    "food-animal-butter": 0.5455040320246393,
+    "s2-city-capital-Bergen-Kyoto": 0.5770728093321825,
+    "s2-city-capital-Cork-Antalya": 0.7689310474931131,
+    "s2-city-capital-Marseille-Aarhus": 0.6939944530276172,
+    "s2-city-capital-Mumbai-Salzburg": 0.35012626973500083,
+    "s2-city-capital-Salzburg-Kyoto": 0.5136225650241348,
+    "s2-city-capital-Vancouver-Naples": 0.593228178045778,
+    "s2-city-language-Gothenburg-Isfahan": 0.29245954324598294,
+    "s2-city-language-Shanghai-Antalya": 0.3798323348031302,
+    "s2-river-capital-Elbe-Tagus": 0.6868042788263455,
+    "s2-river-capital-Fraser-Loire": 0.5066423147436149,
+    "s2-river-capital-Nile-Thames": 0.6287169461202456,
+    "s2-river-capital-Tagus-Tiber": 0.6397431569229234,
+    "s2-river-capital-Tiber-Weser": 0.5379502956860612,
+    "s2-river-capital-Volga-Weser": 0.4805484617050579,
+    "s2-language-capital-Dutch-Danish": 0.6862155565527042,
+    "s2-language-capital-Finnish-Thai": 0.5309249541039371,
+    "s2-language-capital-French-Swedish": 0.6541882438556018,
+    "s2-language-capital-Italian-Persian": 0.7648346498035797,
+    "s2-language-capital-Norwegian-Italian": 0.641322702775797,
+    "s2-language-capital-Polish-Turkish": 0.7830470354045221,
+    "s2-city-currency-Hanoi-Busan": 0.9411269078824327,
+    "s2-city-currency-Manchester-Shanghai": 0.813413308177596,
+    "s2-city-currency-Munich-Manchester": 0.8171211260863676,
+    "s2-city-currency-Osaka-Munich": 0.7373649727575701,
+    "s2-city-currency-Shanghai-Manchester": 0.8465918858655211,
+    "s2-city-currency-Zurich-Munich": 0.8125775440787975
+   }
+  },
+  "q_bothrem_pre": {
+   "margin": {
+    "mean": 6.321078024591718,
+    "ci": [
+     5.664683507155168,
+     6.977472542028268
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.5662894342201865,
+   "share_ci": [
+    0.5171730665720874,
+    0.6141833153076531
+   ],
+   "flips": 8,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 1.410492251600538,
+    "ci": [
+     1.2178373299809995,
+     1.6031471732200766
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 1.315738298211779,
+    "ci": [
+     1.0879487616800296,
+     1.5435278347435282
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_int": {
+    "mean": 3.8329341292381285,
+    "ci": [
+     2.545685686831373,
+     5.120182571644884
+    ],
+    "n_pos": 31,
+    "n": 35
+   },
+   "c63s_ans": {
+    "mean": 13.027747310910906,
+    "ci": [
+     11.66337312450873,
+     14.39212149731308
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.6869579861904398,
+    "ex-city-capital-Lyon-Naples": 0.6229067486854877,
+    "ex-city-capital-Naples-Barcelona": 0.5475745092970996,
+    "ex-city-capital-Toronto-Lyon": 0.5048497497471915,
+    "ex2-city-capital-Munich": 0.48405836439570415,
+    "ex2-city-language-Moscow": 0.3844260549544677,
+    "ex2-language-capital-Hungarian": 0.5436323846853777,
+    "ex2-language-capital-Polish": 0.49240779501894505,
+    "food-animal-butter": 0.5000581669442011,
+    "s2-city-capital-Bergen-Kyoto": 0.5186599382947267,
+    "s2-city-capital-Cork-Antalya": 0.765422498515889,
+    "s2-city-capital-Marseille-Aarhus": 0.6629660454824788,
+    "s2-city-capital-Mumbai-Salzburg": 0.35526971587111067,
+    "s2-city-capital-Salzburg-Kyoto": 0.4799232147705695,
+    "s2-city-capital-Vancouver-Naples": 0.5076689496216298,
+    "s2-city-language-Gothenburg-Isfahan": 0.2794485050076065,
+    "s2-city-language-Shanghai-Antalya": 0.3229640383593248,
+    "s2-river-capital-Elbe-Tagus": 0.6242215757522743,
+    "s2-river-capital-Fraser-Loire": 0.36952340263434175,
+    "s2-river-capital-Nile-Thames": 0.5813956927902615,
+    "s2-river-capital-Tagus-Tiber": 0.5601928288045512,
+    "s2-river-capital-Tiber-Weser": 0.32768052449967044,
+    "s2-river-capital-Volga-Weser": 0.3721796979320097,
+    "s2-language-capital-Dutch-Danish": 0.6599295124641116,
+    "s2-language-capital-Finnish-Thai": 0.5036015575086181,
+    "s2-language-capital-French-Swedish": 0.5325001475527261,
+    "s2-language-capital-Italian-Persian": 0.7212785334926868,
+    "s2-language-capital-Norwegian-Italian": 0.5649822477967047,
+    "s2-language-capital-Polish-Turkish": 0.7386262639387888,
+    "s2-city-currency-Hanoi-Busan": 0.8552630567788548,
+    "s2-city-currency-Manchester-Shanghai": 0.7470555591899246,
+    "s2-city-currency-Munich-Manchester": 0.7836079323206405,
+    "s2-city-currency-Osaka-Munich": 0.6495090868474136,
+    "s2-city-currency-Shanghai-Manchester": 0.8111750152057893,
+    "s2-city-currency-Zurich-Munich": 0.7697499459103515
+   }
+  },
+  "q_rand4rem_pre": {
+   "margin": {
+    "mean": 10.8072277035032,
+    "ci": [
+     10.208418752364272,
+     11.406036654642127
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.9681922668722078,
+   "share_ci": [
+    0.9615233433892616,
+    0.975216500704458
+   ],
+   "flips": 39,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 5.5929321220942905,
+    "ci": [
+     5.144068405327414,
+     6.041795838861167
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 5.181068863187518,
+    "ci": [
+     4.7406610585116615,
+     5.621476667863374
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_int": {
+    "mean": 25.469275842394147,
+    "ci": [
+     23.154918441765272,
+     27.783633243023022
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_ans": {
+    "mean": 34.02834277834211,
+    "ci": [
+     31.686319955091637,
+     36.370365601592574
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 1.008194565125863,
+    "ex-city-capital-Lyon-Naples": 0.9910664458853988,
+    "ex-city-capital-Naples-Barcelona": 0.9694829083001503,
+    "ex-city-capital-Toronto-Lyon": 0.9590487456804657,
+    "ex2-city-capital-Munich": 0.9847835550498913,
+    "ex2-city-language-Moscow": 0.9522801700079209,
+    "ex2-language-capital-Hungarian": 0.94919553937141,
+    "ex2-language-capital-Polish": 0.9584103035120861,
+    "food-animal-butter": 0.9975406070623416,
+    "s2-city-capital-Bergen-Kyoto": 0.9638318530347756,
+    "s2-city-capital-Cork-Antalya": 1.01128043959186,
+    "s2-city-capital-Marseille-Aarhus": 0.9643826751045216,
+    "s2-city-capital-Mumbai-Salzburg": 0.9358499700678851,
+    "s2-city-capital-Salzburg-Kyoto": 0.9543287376326939,
+    "s2-city-capital-Vancouver-Naples": 0.956116996541222,
+    "s2-city-language-Gothenburg-Isfahan": 0.9369628394094508,
+    "s2-city-language-Shanghai-Antalya": 0.9785497517189159,
+    "s2-river-capital-Elbe-Tagus": 0.9880258537240484,
+    "s2-river-capital-Fraser-Loire": 0.9778729861892924,
+    "s2-river-capital-Nile-Thames": 0.9747305747082979,
+    "s2-river-capital-Tagus-Tiber": 0.9677573421164258,
+    "s2-river-capital-Tiber-Weser": 0.9403540026762134,
+    "s2-river-capital-Volga-Weser": 1.0109696487086348,
+    "s2-language-capital-Dutch-Danish": 0.9323943062002836,
+    "s2-language-capital-Finnish-Thai": 0.9647112029831634,
+    "s2-language-capital-French-Swedish": 0.9807790401556202,
+    "s2-language-capital-Italian-Persian": 0.9474979885825464,
+    "s2-language-capital-Norwegian-Italian": 0.9785716080786588,
+    "s2-language-capital-Polish-Turkish": 0.9577694093450243,
+    "s2-city-currency-Hanoi-Busan": 0.9540115396832773,
+    "s2-city-currency-Manchester-Shanghai": 0.956172913095484,
+    "s2-city-currency-Munich-Manchester": 0.9847548852245289,
+    "s2-city-currency-Osaka-Munich": 0.9842324023425109,
+    "s2-city-currency-Shanghai-Manchester": 0.9714417615878959,
+    "s2-city-currency-Zurich-Munich": 0.9839785510914358
+   }
+  },
+  "q_J25rem_pre": {
+   "margin": {
+    "mean": 6.8266296420778545,
+    "ci": [
+     6.394609052699815,
+     7.258650231455894
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.611580528290144,
+   "share_ci": [
+    0.5740595263185004,
+    0.6509306941861994
+   ],
+   "flips": 10,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 2.6704292058944703,
+    "ci": [
+     2.4317808598716075,
+     2.909077551917333
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 2.451914447546005,
+    "ci": [
+     2.173632129615312,
+     2.7301967654766983
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_int": {
+    "mean": 11.466053683417185,
+    "ci": [
+     9.95957243161408,
+     12.97253493522029
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_ans": {
+    "mean": 20.010868617466517,
+    "ci": [
+     18.489752673989358,
+     21.531984560943677
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.6050365293175253,
+    "ex-city-capital-Lyon-Naples": 0.6932220186436964,
+    "ex-city-capital-Naples-Barcelona": 0.7222417214159601,
+    "ex-city-capital-Toronto-Lyon": 0.6496432875285785,
+    "ex2-city-capital-Munich": 0.5772204227035899,
+    "ex2-city-language-Moscow": 0.44716708171772807,
+    "ex2-language-capital-Hungarian": 0.5292274245618664,
+    "ex2-language-capital-Polish": 0.49270932931365174,
+    "food-animal-butter": 0.8321993410553086,
+    "s2-city-capital-Bergen-Kyoto": 0.6717384886827864,
+    "s2-city-capital-Cork-Antalya": 0.6274145099609558,
+    "s2-city-capital-Marseille-Aarhus": 0.6576497323932617,
+    "s2-city-capital-Mumbai-Salzburg": 0.3695848552111572,
+    "s2-city-capital-Salzburg-Kyoto": 0.515021018542453,
+    "s2-city-capital-Vancouver-Naples": 0.5136877868416202,
+    "s2-city-language-Gothenburg-Isfahan": 0.3762717122884043,
+    "s2-city-language-Shanghai-Antalya": 0.532136995758147,
+    "s2-river-capital-Elbe-Tagus": 0.631142268252316,
+    "s2-river-capital-Fraser-Loire": 0.6374834346521917,
+    "s2-river-capital-Nile-Thames": 0.6280871649188082,
+    "s2-river-capital-Tagus-Tiber": 0.635134703196347,
+    "s2-river-capital-Tiber-Weser": 0.6488923285506538,
+    "s2-river-capital-Volga-Weser": 0.6551500353461035,
+    "s2-language-capital-Dutch-Danish": 0.663626698340057,
+    "s2-language-capital-Finnish-Thai": 0.45175343065307394,
+    "s2-language-capital-French-Swedish": 0.6268626119661419,
+    "s2-language-capital-Italian-Persian": 0.5998064644816663,
+    "s2-language-capital-Norwegian-Italian": 0.5862120420099477,
+    "s2-language-capital-Polish-Turkish": 0.6606436677650109,
+    "s2-city-currency-Hanoi-Busan": 0.8513240902405566,
+    "s2-city-currency-Manchester-Shanghai": 0.5943105829764088,
+    "s2-city-currency-Munich-Manchester": 0.7904936036566828,
+    "s2-city-currency-Osaka-Munich": 0.7082720993291877,
+    "s2-city-currency-Shanghai-Manchester": 0.796085860800767,
+    "s2-city-currency-Zurich-Munich": 0.7912263003602115
+   }
+  },
+  "q_J25rem_pre_cc": {
+   "margin": {
+    "mean": 5.705986421448844,
+    "ci": [
+     5.297414201675141,
+     6.114558641222547
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.511184929168635,
+   "share_ci": [
+    0.4743584719911617,
+    0.5500861728274121
+   ],
+   "flips": 1,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 1.4918073381696428,
+    "ci": [
+     1.3340871659169546,
+     1.649527510422331
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 1.3251369612557546,
+    "ci": [
+     1.1331180696166387,
+     1.5171558528948705
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_int": {
+    "mean": 7.488133951595851,
+    "ci": [
+     6.409499922394003,
+     8.5667679807977
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_ans": {
+    "mean": 15.338657522201538,
+    "ci": [
+     14.154848113502803,
+     16.522466930900272
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.5975820601001911,
+    "ex-city-capital-Lyon-Naples": 0.5558622732831351,
+    "ex-city-capital-Naples-Barcelona": 0.4704552199483886,
+    "ex-city-capital-Toronto-Lyon": 0.5148372704856409,
+    "ex2-city-capital-Munich": 0.4755389814618146,
+    "ex2-city-language-Moscow": 0.36197140474463557,
+    "ex2-language-capital-Hungarian": 0.39001146080671867,
+    "ex2-language-capital-Polish": 0.40132385622389294,
+    "food-animal-butter": 0.7671155539595289,
+    "s2-city-capital-Bergen-Kyoto": 0.5688154047110586,
+    "s2-city-capital-Cork-Antalya": 0.5488147847069356,
+    "s2-city-capital-Marseille-Aarhus": 0.6190429472259534,
+    "s2-city-capital-Mumbai-Salzburg": 0.34056365939347555,
+    "s2-city-capital-Salzburg-Kyoto": 0.43319419556842775,
+    "s2-city-capital-Vancouver-Naples": 0.4839733794174289,
+    "s2-city-language-Gothenburg-Isfahan": 0.3080456222413627,
+    "s2-city-language-Shanghai-Antalya": 0.3249326071320814,
+    "s2-river-capital-Elbe-Tagus": 0.6418052827287353,
+    "s2-river-capital-Fraser-Loire": 0.5101650345445189,
+    "s2-river-capital-Nile-Thames": 0.4594063068061363,
+    "s2-river-capital-Tagus-Tiber": 0.4928617286723058,
+    "s2-river-capital-Tiber-Weser": 0.5170514028316766,
+    "s2-river-capital-Volga-Weser": 0.588597406411503,
+    "s2-language-capital-Dutch-Danish": 0.5504947040104216,
+    "s2-language-capital-Finnish-Thai": 0.398227715828535,
+    "s2-language-capital-French-Swedish": 0.43308290027301594,
+    "s2-language-capital-Italian-Persian": 0.5747199550554107,
+    "s2-language-capital-Norwegian-Italian": 0.5488666610272861,
+    "s2-language-capital-Polish-Turkish": 0.6024657697843976,
+    "s2-city-currency-Hanoi-Busan": 0.6481460403025883,
+    "s2-city-currency-Manchester-Shanghai": 0.5443566313084991,
+    "s2-city-currency-Munich-Manchester": 0.7340718079659264,
+    "s2-city-currency-Osaka-Munich": 0.5199733886756543,
+    "s2-city-currency-Shanghai-Manchester": 0.7691316059067674,
+    "s2-city-currency-Zurich-Munich": 0.5475701062029071
+   },
+   "clamp_rho_min": 0.999997079372406,
+   "clamp_rho_max": 1.0000026226043701,
+   "clamp_kappa_min": 0.9999997615814209,
+   "clamp_dim_min": 25,
+   "clamp_dim_max": 25,
+   "clamp_dim_median": 25.0
+  },
+  "q_J25rem_pre_ccs": {
+   "margin": {
+    "mean": 4.839282926491329,
+    "ci": [
+     4.367713609837843,
+     5.310852243144815
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.43353914946354255,
+   "share_ci": [
+    0.3960240257261061,
+    0.4762370455358277
+   ],
+   "flips": 0,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": -0.03725272587367467,
+    "ci": [
+     -0.06802660303734931,
+     -0.0064788487100000194
+    ],
+    "n_pos": 11,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": -0.03411716574004718,
+    "ci": [
+     -0.06103762798434473,
+     -0.0071967034957496345
+    ],
+    "n_pos": 11,
+    "n": 35
+   },
+   "c63s_int": {
+    "mean": 2.682742643356323,
+    "ci": [
+     1.9013886443926193,
+     3.464096642320027
+    ],
+    "n_pos": 33,
+    "n": 35
+   },
+   "c63s_ans": {
+    "mean": 10.0785119669778,
+    "ci": [
+     9.02261629831536,
+     11.13440763564024
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.4475265930693004,
+    "ex-city-capital-Lyon-Naples": 0.4582226125134353,
+    "ex-city-capital-Naples-Barcelona": 0.38173095590234357,
+    "ex-city-capital-Toronto-Lyon": 0.462523123658989,
+    "ex2-city-capital-Munich": 0.35099433499831123,
+    "ex2-city-language-Moscow": 0.2760365171081865,
+    "ex2-language-capital-Hungarian": 0.30955698949204274,
+    "ex2-language-capital-Polish": 0.32955058476886273,
+    "food-animal-butter": 0.4980461016330281,
+    "s2-city-capital-Bergen-Kyoto": 0.5270225992852456,
+    "s2-city-capital-Cork-Antalya": 0.4913921343061791,
+    "s2-city-capital-Marseille-Aarhus": 0.5220006259781401,
+    "s2-city-capital-Mumbai-Salzburg": 0.301186504863708,
+    "s2-city-capital-Salzburg-Kyoto": 0.37069498105413073,
+    "s2-city-capital-Vancouver-Naples": 0.46124675137271337,
+    "s2-city-language-Gothenburg-Isfahan": 0.26125200429158646,
+    "s2-city-language-Shanghai-Antalya": 0.21751661329156635,
+    "s2-river-capital-Elbe-Tagus": 0.5878807693956999,
+    "s2-river-capital-Fraser-Loire": 0.37414419701164675,
+    "s2-river-capital-Nile-Thames": 0.3916801493495706,
+    "s2-river-capital-Tagus-Tiber": 0.45336749257678965,
+    "s2-river-capital-Tiber-Weser": 0.35287641394158525,
+    "s2-river-capital-Volga-Weser": 0.3715873642266614,
+    "s2-language-capital-Dutch-Danish": 0.5081032317888071,
+    "s2-language-capital-Finnish-Thai": 0.37586561955158276,
+    "s2-language-capital-French-Swedish": 0.38106259808007614,
+    "s2-language-capital-Italian-Persian": 0.5302649144343278,
+    "s2-language-capital-Norwegian-Italian": 0.5223782489556114,
+    "s2-language-capital-Polish-Turkish": 0.5349784747091653,
+    "s2-city-currency-Hanoi-Busan": 0.5882754655963729,
+    "s2-city-currency-Manchester-Shanghai": 0.4999384728532557,
+    "s2-city-currency-Munich-Manchester": 0.6714377589242791,
+    "s2-city-currency-Osaka-Munich": 0.4639920269748973,
+    "s2-city-currency-Shanghai-Manchester": 0.7516667163692116,
+    "s2-city-currency-Zurich-Munich": 0.3227331501931849
+   },
+   "clamp_rho_min": 0.9999986886978149,
+   "clamp_rho_max": 1.0000014305114746,
+   "clamp_kappa_min": 0.9999997615814209,
+   "clamp_dim_min": 36,
+   "clamp_dim_max": 116,
+   "clamp_dim_median": 58.0
+  },
+  "q_J25rem_pre_ccsr": {
+   "margin": {
+    "mean": 6.749176747458321,
+    "ci": [
+     6.317145594372976,
+     7.181207900543667
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "share": 0.604641718849385,
+   "share_ci": [
+    0.5670741083125843,
+    0.6435865562064551
+   ],
+   "flips": 10,
+   "rho": 1.0,
+   "kappa": 1.0,
+   "rberr_max": 0.0,
+   "J_int_s": {
+    "mean": 2.656359694685255,
+    "ci": [
+     2.423818196796722,
+     2.8889011925737877
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "J_ans_s": {
+    "mean": 2.430364614725113,
+    "ci": [
+     2.158581800986407,
+     2.702147428463819
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_int": {
+    "mean": 11.325868087155479,
+    "ci": [
+     9.839027778874682,
+     12.812708395436276
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "c63s_ans": {
+    "mean": 19.84227877344404,
+    "ci": [
+     18.337915647674276,
+     21.346641899213804
+    ],
+    "n_pos": 35,
+    "n": 35
+   },
+   "per_item": {
+    "ex-city-capital-Barcelona-Toronto": 0.6061125972640721,
+    "ex-city-capital-Lyon-Naples": 0.6900806593228341,
+    "ex-city-capital-Naples-Barcelona": 0.7142870898902108,
+    "ex-city-capital-Toronto-Lyon": 0.641319181442326,
+    "ex2-city-capital-Munich": 0.5769937841889196,
+    "ex2-city-language-Moscow": 0.43612441300457655,
+    "ex2-language-capital-Hungarian": 0.5265747302722528,
+    "ex2-language-capital-Polish": 0.4869000717868281,
+    "food-animal-butter": 0.8185116897951794,
+    "s2-city-capital-Bergen-Kyoto": 0.6633945870935871,
+    "s2-city-capital-Cork-Antalya": 0.6132819922923339,
+    "s2-city-capital-Marseille-Aarhus": 0.6525299115926531,
+    "s2-city-capital-Mumbai-Salzburg": 0.3635021671431417,
+    "s2-city-capital-Salzburg-Kyoto": 0.5066563686777161,
+    "s2-city-capital-Vancouver-Naples": 0.5091456635304246,
+    "s2-city-language-Gothenburg-Isfahan": 0.3774255406286806,
+    "s2-city-language-Shanghai-Antalya": 0.522112983404082,
+    "s2-river-capital-Elbe-Tagus": 0.6378170851937884,
+    "s2-river-capital-Fraser-Loire": 0.6203724992228602,
+    "s2-river-capital-Nile-Thames": 0.6105740931253832,
+    "s2-river-capital-Tagus-Tiber": 0.6257045063253237,
+    "s2-river-capital-Tiber-Weser": 0.6281313226904344,
+    "s2-river-capital-Volga-Weser": 0.6427617924649955,
+    "s2-language-capital-Dutch-Danish": 0.6664082679619033,
+    "s2-language-capital-Finnish-Thai": 0.4475126662958028,
+    "s2-language-capital-French-Swedish": 0.6170353083140323,
+    "s2-language-capital-Italian-Persian": 0.5885522298983971,
+    "s2-language-capital-Norwegian-Italian": 0.5784727238166324,
+    "s2-language-capital-Polish-Turkish": 0.6620344641820112,
+    "s2-city-currency-Hanoi-Busan": 0.8397567389756045,
+    "s2-city-currency-Manchester-Shanghai": 0.5951308584553098,
+    "s2-city-currency-Munich-Manchester": 0.7775131813377124,
+    "s2-city-currency-Osaka-Munich": 0.6917909254393553,
+    "s2-city-currency-Shanghai-Manchester": 0.7904105810285971,
+    "s2-city-currency-Zurich-Munich": 0.7858615799964903
+   },
+   "clamp_rho_min": 0.9999969601631165,
+   "clamp_rho_max": 1.0000017881393433,
+   "clamp_kappa_min": 0.9999998211860657,
+   "clamp_dim_min": 36,
+   "clamp_dim_max": 116,
+   "clamp_dim_median": 58.0
+  }
+ },
+ "gate3": {
+  "fixed_target_ok": true,
+  "clamps_ok": true,
+  "ccsr_norm_match_max_rel_dev": 3.029173967661336e-06,
+  "c_rows_ok": true,
+  "pass": true
+ },
+ "gate4_reproduction": {
+  "q_full_pre": {
+   "max_abs_diff": 0.0,
+   "fraction_within_0.01": 1.0
+  },
+  "q_rem_pre": {
+   "max_abs_diff": 0.0,
+   "fraction_within_0.01": 1.0
+  },
+  "q_ansrem_pre": {
+   "max_abs_diff": 0.0,
+   "fraction_within_0.01": 1.0
+  },
+  "q_J25rem_pre": {
+   "max_abs_diff": 0.0,
+   "fraction_within_0.01": 1.0
+  },
+  "q_J25rem_pre_cc": {
+   "max_abs_diff": 0.0,
+   "fraction_within_0.01": 1.0
+  },
+  "pass": true
+ },
+ "gate2": {
+  "ab": {
+   "clean": 1.0,
+   "donor": 1.0
+  },
+  "c": {
+   "cap_clean": 1.0,
+   "cap_donor": 1.0,
+   "lang_clean": 1.0,
+   "lang_donor": 1.0
+  },
+  "pass": true
+ },
+ "gateV": {
+  "int_item_mean": -0.03725272587367467,
+  "ans_item_mean": -0.03411716574004718,
+  "int_item_range": [
+   -0.18598079681396484,
+   0.20491671562194824
+  ],
+  "ans_item_range": [
+   -0.1883680820465088,
+   0.1397569179534912
+  ],
+  "fraction_cells_both_within_0.3": 1.0,
+  "pass": true
+ },
+ "clamp_sets": {
+  "ex-city-capital-Barcelona-Toronto": {
+   "F": 15,
+   "X": 13,
+   "X_examples": [
+    " \u0438\u0441\u043f",
+    "\ufffd",
+    "\u897f\u73ed\u7259",
+    "\u592a\u539f",
+    "\u5c71\u897f",
+    "\u52a0\u62ff\u5927",
+    "\u5c71\u897f\u7701",
+    "\u592a\u539f\u5e02",
+    "\u9a6c\u5fb7\u91cc",
+    "\u897f\u73ed\u7259\u8bed",
+    " \u043a\u0430\u043d\u0430",
+    " \u0645\u062f\u0631\u064a\u062f",
+    "\u30b9\u30da\u30a4\u30f3"
+   ],
+   "rank_min": 50,
+   "rank_max": 53,
+   "cos_int_ans_folded_L51_59": 0.5092345012558831,
+   "cos_swap_swapans_folded_L51_59": 0.44515803787443375
+  },
+  "ex-city-capital-Lyon-Naples": {
+   "F": 20,
+   "X": 24,
+   "X_examples": [
+    "\u6cb3\u5357",
+    "\u6cd5\u56fd",
+    "\u610f\u5927\u5229",
+    "\u5df4\u9ece",
+    "\u7f57\u9a6c",
+    "\u6cd5\u570b",
+    "\u6cd5\u8bed",
+    "\u6cd5\u5f0f",
+    "\u7f85\u99ac",
+    "\u7f57\u66fc",
+    "\u0442\u0430\u043b\u044c\u044f",
+    " \u0444\u0440\u0430\u043d\u0446\u0443\u0437",
+    " \u041f\u0430\u0440\u0438",
+    "\u30a4\u30bf\u30ea\u30a2",
+    " \u0628\u0627\u0631\u064a\u0633",
+    " \u0420\u043e\u043c\u0430\u043d",
+    " \ub85c\ub9c8",
+    " \u0625\u064a\u0637\u0627\u0644\u064a\u0627",
+    " \u0418\u0442\u0430\u043b\u0438\u0438",
+    " \u0418\u0442\u0430\u043b\u0438\u044f",
+    " \ud30c\ub9ac",
+    "\u0e42\u0e23\u0e21",
+    " \u0420\u0438\u043c",
+    " \u0631\u0648\u0645\u0627"
+   ],
+   "rank_min": 66,
+   "rank_max": 69,
+   "cos_int_ans_folded_L51_59": 0.49828806188371444,
+   "cos_swap_swapans_folded_L51_59": 0.4362347457143996
+  },
+  "ex-city-capital-Naples-Barcelona": {
+   "F": 19,
+   "X": 24,
+   "X_examples": [
+    " \u0438\u0441\u043f",
+    "\u897f\u73ed\u7259",
+    "\u592a\u539f",
+    "\u5c71\u897f",
+    "\u610f\u5927\u5229",
+    "\u7f57\u9a6c",
+    "\u5c71\u897f\u7701",
+    "\u592a\u539f\u5e02",
+    "\u9a6c\u5fb7\u91cc",
+    "\u7f85\u99ac",
+    "\u897f\u73ed\u7259\u8bed",
+    "\u7f57\u66fc",
+    "\u0442\u0430\u043b\u044c\u044f",
+    " \u0645\u062f\u0631\u064a\u062f",
+    "\u30a4\u30bf\u30ea\u30a2",
+    " \u0420\u043e\u043c\u0430\u043d",
+    " \ub85c\ub9c8",
+    " \u0625\u064a\u0637\u0627\u0644\u064a\u0627",
+    " \u0418\u0442\u0430\u043b\u0438\u0438",
+    " \u0418\u0442\u0430\u043b\u0438\u044f",
+    "\u0e42\u0e23\u0e21",
+    " \u0420\u0438\u043c",
+    "\u30b9\u30da\u30a4\u30f3",
+    " \u0631\u0648\u0645\u0627"
+   ],
+   "rank_min": 66,
+   "rank_max": 68,
+   "cos_int_ans_folded_L51_59": 0.4362347457143996,
+   "cos_swap_swapans_folded_L51_59": 0.5092345012558831
+  },
+  "ex-city-capital-Toronto-Lyon": {
+   "F": 16,
+   "X": 13,
+   "X_examples": [
+    "\ufffd",
+    "\u6cb3\u5357",
+    "\u6cd5\u56fd",
+    "\u52a0\u62ff\u5927",
+    "\u5df4\u9ece",
+    "\u6cd5\u570b",
+    "\u6cd5\u8bed",
+    "\u6cd5\u5f0f",
+    " \u043a\u0430\u043d\u0430",
+    " \u0444\u0440\u0430\u043d\u0446\u0443\u0437",
+    " \u041f\u0430\u0440\u0438",
+    " \u0628\u0627\u0631\u064a\u0633",
+    " \ud30c\ub9ac"
+   ],
+   "rank_min": 52,
+   "rank_max": 54,
+   "cos_int_ans_folded_L51_59": 0.44515803787443375,
+   "cos_swap_swapans_folded_L51_59": 0.49828806188371444
+  },
+  "ex2-city-capital-Munich": {
+   "F": 16,
+   "X": 35,
+   "X_examples": [
+    "\ufffd",
+    "\u65e5\u672c",
+    "\u5fb7\u56fd",
+    "\u4e1c\u4eac",
+    "\u65e5\u8bed",
+    "\u67cf\u6797",
+    "\u5728\u65e5\u672c",
+    "\u6771\u4eac",
+    "\u5fb7\u570b",
+    "\u65e5\u672c\u7684",
+    "\u65e5\u519b",
+    "\u65e5\u5f0f",
+    "\u65e5\u672c\u4eba",
+    "\u5fb7\u8bed",
+    "\u65e5\u7cfb",
+    "\u65e5\u6587",
+    "\u662f\u65e5\u672c",
+    "\u548c\u65e5\u672c",
+    "\u7684\u65e5\u672c",
+    "\u5fb7\u56fd\u7684",
+    "\u5728\u5fb7\u56fd",
+    " \uc77c\ubcf8",
+    "\u65e5\u672c\u306e",
+    " \u0413\u0435\u0440\u043c"
+   ],
+   "rank_min": 74,
+   "rank_max": 76,
+   "cos_int_ans_folded_L51_59": 0.48148011167844135,
+   "cos_swap_swapans_folded_L51_59": 0.5415904654396905
+  },
+  "ex2-city-language-Moscow": {
+   "F": 12,
+   "X": 44,
+   "X_examples": [
+    "\u4fc4",
+    "\u4fc4\u7f57\u65af",
+    "\u57c3\u53ca",
+    "\u4fc4\u7f85\u65af",
+    "\u5cb3\u9633",
+    "\u4fc4\u8bed",
+    "\u4fc4\u56fd",
+    "\u4fc4\u7f57\u65af\u7684",
+    " \u0440\u043e\u0441\u0441\u0438\u0439",
+    " \u0440\u0443\u0441",
+    " \u0420\u043e\u0441\u0441\u0438\u0439",
+    " \u0627\u0644\u0645\u0635\u0631\u064a",
+    " \u0420\u043e\u0441\u0441\u0438\u0438",
+    " \u0420\u0424",
+    " \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+    " \u0645\u0635\u0631",
+    " \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439",
+    " \u0420\u043e\u0441\u0441\u0438\u044f",
+    " \u0627\u0644\u0639\u0631\u0628\u064a",
+    " \u0627\u0644\u0645\u0635\u0631\u064a\u0629",
+    " \u0631\u0648\u0633\u064a\u0627",
+    " \u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0445",
+    " \ub7ec\uc2dc\uc544",
+    " \u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0433\u043e"
+   ],
+   "rank_min": 76,
+   "rank_max": 80,
+   "cos_int_ans_folded_L51_59": 0.7073196305168999,
+   "cos_swap_swapans_folded_L51_59": 0.32468318608072066
+  },
+  "ex2-language-capital-Hungarian": {
+   "F": 7,
+   "X": 12,
+   "X_examples": [
+    "\u6e58",
+    "\u5308",
+    "\u6e56\u5357",
+    "\u957f\u6c99",
+    "\u5308\u7259",
+    "\u6e56\u5357\u7701",
+    "\u957f\u6c99\u5e02",
+    "\u6ce2\u5170",
+    "\u5308\u7259\u5229",
+    "\u6e58\u897f",
+    "\u6e58\u6c5f",
+    " \u043f\u043e\u043b\u044c"
+   ],
+   "rank_min": 41,
+   "rank_max": 44,
+   "cos_int_ans_folded_L51_59": 0.5166411631637149,
+   "cos_swap_swapans_folded_L51_59": 0.45965172515975106
+  },
+  "ex2-language-capital-Polish": {
+   "F": 8,
+   "X": 12,
+   "X_examples": [
+    "\u5e0c\u814a",
+    "\u6ce2\u5170",
+    "\u96c5\u5178",
+    "\u53e4\u5e0c\u814a",
+    "\u5e0c\u81d8",
+    " \u043f\u043e\u043b\u044c",
+    " \u0433\u0440",
+    " \u0413\u0440\u0435",
+    "\u30ae\u30ea",
+    " \uadf8\ub9ac\uc2a4",
+    " \u03b5\u03bb\u03bb\u03b7\u03bd",
+    " \u0627\u0644\u064a\u0648\u0646"
+   ],
+   "rank_min": 41,
+   "rank_max": 44,
+   "cos_int_ans_folded_L51_59": 0.45965172515975106,
+   "cos_swap_swapans_folded_L51_59": 0.5415244632297092
+  },
+  "food-animal-butter": {
+   "F": 14,
+   "X": 14,
+   "X_examples": [
+    "\u725b",
+    "\u871c",
+    "\u8702",
+    "\u8702\u871c",
+    "\u871c\u8702",
+    "\u8702\u7a9d",
+    "\u5976\u725b",
+    "\u9ec4\u6cb9",
+    "\u725b\u7684",
+    "\u725b\u7f8a",
+    "\u5c0f\u725b",
+    " \uafc0",
+    "\u0e27\u0e31\u0e27",
+    "\u30d0\u30bf\u30fc"
+   ],
+   "rank_min": 49,
+   "rank_max": 53,
+   "cos_int_ans_folded_L51_59": 0.19702343808280098,
+   "cos_swap_swapans_folded_L51_59": 0.4306884772247738
+  },
+  "s2-city-capital-Bergen-Kyoto": {
+   "F": 14,
+   "X": 25,
+   "X_examples": [
+    "\ufffd",
+    "\u65e5\u672c",
+    "\u4e1c\u4eac",
+    "\u65e5\u8bed",
+    "\u5728\u65e5\u672c",
+    "\u6771\u4eac",
+    "\u65e5\u672c\u7684",
+    "\u65e5\u519b",
+    "\u65e5\u5f0f",
+    "\u632a\u5a01",
+    "\u65e5\u672c\u4eba",
+    "\u65e5\u7cfb",
+    "\u65e5\u6587",
+    "\u662f\u65e5\u672c",
+    "\u548c\u65e5\u672c",
+    "\u7684\u65e5\u672c",
+    " \uc77c\ubcf8",
+    "\u65e5\u672c\u306e",
+    " \u043e\u0441\u043b\u043e",
+    "\u30b8\u30e3\u30d1\u30f3",
+    "\uc77c\ubcf8",
+    " \u044f\u043f\u043e\u043d",
+    " \ub3c4\ucfc4",
+    "\u65e5\u672c\u8a9e"
+   ],
+   "rank_min": 61,
+   "rank_max": 64,
+   "cos_int_ans_folded_L51_59": 0.49320082863171893,
+   "cos_swap_swapans_folded_L51_59": 0.5415904654396905
+  },
+  "s2-city-capital-Cork-Antalya": {
+   "F": 8,
+   "X": 6,
+   "X_examples": [
+    "\u571f\u8033\u5176",
+    "\u7231\u5c14\u5170",
+    " \u062a\u0631\u0643\u064a\u0627",
+    " \u0627\u0644\u062a\u0631\u0643\u064a\u0629",
+    " \u0422\u0443\u0440\u0446\u0438\u0438",
+    " \u0442\u0443\u0440\u0435\u0446"
+   ],
+   "rank_min": 36,
+   "rank_max": 39,
+   "cos_int_ans_folded_L51_59": 0.5416499045160081,
+   "cos_swap_swapans_folded_L51_59": 0.4230334030257331
+  },
+  "s2-city-capital-Marseille-Aarhus": {
+   "F": 15,
+   "X": 11,
+   "X_examples": [
+    "\u6cb3\u5357",
+    "\u6cd5\u56fd",
+    "\u5df4\u9ece",
+    "\u6cd5\u570b",
+    "\u6cd5\u8bed",
+    "\u4e39\u9ea6",
+    "\u6cd5\u5f0f",
+    " \u0444\u0440\u0430\u043d\u0446\u0443\u0437",
+    " \u041f\u0430\u0440\u0438",
+    " \u0628\u0627\u0631\u064a\u0633",
+    " \ud30c\ub9ac"
+   ],
+   "rank_min": 48,
+   "rank_max": 51,
+   "cos_int_ans_folded_L51_59": 0.49828806188371444,
+   "cos_swap_swapans_folded_L51_59": 0.5254379080401527
+  },
+  "s2-city-capital-Mumbai-Salzburg": {
+   "F": 10,
+   "X": 16,
+   "X_examples": [
+    "\u5370\u5ea6",
+    "\u5fb7\u91cc",
+    "\u5965\u5730\u5229",
+    "\u5370\u5ea6\u7684",
+    "\u7ef4\u4e5f\u7eb3",
+    "\u5357\u4e9a",
+    " \u0627\u0644\u0647\u0646\u062f",
+    " \uc778\ub3c4",
+    "\u30a4\u30f3\u30c9",
+    " \u092d\u093e\u0930\u0924",
+    "\u0e2d\u0e34\u0e19\u0e40\u0e14\u0e35\u0e22",
+    " \u0926\u093f\u0932\u094d\u0932\u0940",
+    " \u092d\u093e\u0930\u0924\u0940\u092f",
+    " \u09ad\u09be\u09b0",
+    " \u0418\u043d\u0434\u0438\u0438",
+    " \u0e2d\u0e34\u0e19\u0e40\u0e14\u0e35\u0e22"
+   ],
+   "rank_min": 49,
+   "rank_max": 51,
+   "cos_int_ans_folded_L51_59": 0.4707310762670305,
+   "cos_swap_swapans_folded_L51_59": 0.5343450241618686
+  },
+  "s2-city-capital-Salzburg-Kyoto": {
+   "F": 10,
+   "X": 25,
+   "X_examples": [
+    "\ufffd",
+    "\u65e5\u672c",
+    "\u4e1c\u4eac",
+    "\u65e5\u8bed",
+    "\u5728\u65e5\u672c",
+    "\u6771\u4eac",
+    "\u65e5\u672c\u7684",
+    "\u65e5\u519b",
+    "\u65e5\u5f0f",
+    "\u65e5\u672c\u4eba",
+    "\u65e5\u7cfb",
+    "\u5965\u5730\u5229",
+    "\u65e5\u6587",
+    "\u662f\u65e5\u672c",
+    "\u548c\u65e5\u672c",
+    "\u7684\u65e5\u672c",
+    "\u7ef4\u4e5f\u7eb3",
+    " \uc77c\ubcf8",
+    "\u65e5\u672c\u306e",
+    "\u30b8\u30e3\u30d1\u30f3",
+    "\uc77c\ubcf8",
+    " \u044f\u043f\u043e\u043d",
+    " \ub3c4\ucfc4",
+    "\u65e5\u672c\u8a9e"
+   ],
+   "rank_min": 58,
+   "rank_max": 60,
+   "cos_int_ans_folded_L51_59": 0.5343450241618686,
+   "cos_swap_swapans_folded_L51_59": 0.5415904654396905
+  },
+  "s2-city-capital-Vancouver-Naples": {
+   "F": 18,
+   "X": 17,
+   "X_examples": [
+    "\ufffd",
+    "\u52a0\u62ff\u5927",
+    "\u610f\u5927\u5229",
+    "\u7f57\u9a6c",
+    "\u7f85\u99ac",
+    "\u7f57\u66fc",
+    "\u0442\u0430\u043b\u044c\u044f",
+    " \u043a\u0430\u043d\u0430",
+    "\u30a4\u30bf\u30ea\u30a2",
+    " \u0420\u043e\u043c\u0430\u043d",
+    " \ub85c\ub9c8",
+    " \u0625\u064a\u0637\u0627\u0644\u064a\u0627",
+    " \u0418\u0442\u0430\u043b\u0438\u0438",
+    " \u0418\u0442\u0430\u043b\u0438\u044f",
+    "\u0e42\u0e23\u0e21",
+    " \u0420\u0438\u043c",
+    " \u0631\u0648\u0645\u0627"
+   ],
+   "rank_min": 57,
+   "rank_max": 60,
+   "cos_int_ans_folded_L51_59": 0.44515803787443375,
+   "cos_swap_swapans_folded_L51_59": 0.4362347457143996
+  },
+  "s2-city-language-Gothenburg-Isfahan": {
+   "F": 11,
+   "X": 12,
+   "X_examples": [
+    "\u4f0a\u6717",
+    "\u745e\u5178",
+    "\u6ce2\u65af",
+    "\u064a\u0631\u0627\u0646",
+    " \u0627\u06cc\u0631\u0627\u0646",
+    " \u0625\u064a\u0631\u0627\u0646",
+    " \u0627\u0644\u0625\u064a\u0631\u0627\u0646\u064a",
+    " \u0627\u06cc\u0631\u0627\u0646\u06cc",
+    " \u0627\u0644\u0625\u064a\u0631\u0627\u0646\u064a\u0629",
+    " \u0428\u0432\u0435",
+    "\u0e2a\u0e27\u0e35",
+    " \u0627\u0644\u0633\u0648\u064a\u062f"
+   ],
+   "rank_min": 43,
+   "rank_max": 47,
+   "cos_int_ans_folded_L51_59": 0.7016058497958713,
+   "cos_swap_swapans_folded_L51_59": 0.4898732238345676
+  },
+  "s2-city-language-Shanghai-Antalya": {
+   "F": 11,
+   "X": 42,
+   "X_examples": [
+    "\u4e2d\u56fd",
+    "\u4e2d\u534e",
+    "\u4e2d\u6587",
+    "\u4e2d\u570b",
+    "\u4e2d\u56fd\u4eba\u6c11",
+    "\u4e2d\u533b",
+    "\u5728\u4e2d\u56fd",
+    "\u4e2d\u56fd\u4eba",
+    "\u4e2d\u83ef",
+    "\u4e2d\u56fd\u7684",
+    "\u662f\u4e2d\u56fd",
+    "\u7684\u4e2d\u56fd",
+    "\u6c49\u8bed",
+    "\u571f\u8033\u5176",
+    "\u5bf9\u4e2d\u56fd",
+    "\u4e3a\u4e2d\u56fd",
+    "\u4e0e\u4e2d\u56fd",
+    "\u4e2d\u5f0f",
+    "\u548c\u4e2d\u56fd",
+    "\u4e86\u4e2d\u56fd",
+    "\u4e2d\u6587\u7248",
+    "\u4e2d\u56fd\u4f01\u4e1a",
+    "\u4e2d\u56fd\u4eba\u7684",
+    "\u4e2d\u570b\u7684"
+   ],
+   "rank_min": 75,
+   "rank_max": 78,
+   "cos_int_ans_folded_L51_59": 0.7101902961730957,
+   "cos_swap_swapans_folded_L51_59": 0.6595216327243381
+  },
+  "s2-river-capital-Elbe-Tagus": {
+   "F": 12,
+   "X": 16,
+   "X_examples": [
+    "\u8461",
+    "\u5fb7\u56fd",
+    "\u91cc\u65af",
+    "\u67cf\u6797",
+    "\u8461\u8404\u7259",
+    "\u5fb7\u570b",
+    "\u5fb7\u8bed",
+    "\u5fb7\u56fd\u7684",
+    "\u5728\u5fb7\u56fd",
+    " \u0413\u0435\u0440\u043c",
+    " \ub3c5\uc77c",
+    " \u043d\u0435\u043c\u0435\u0446",
+    " \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u0438",
+    "\u30c9\u30a4\u30c4",
+    " \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f",
+    " \u041f\u043e\u0440\u0442\u0443"
+   ],
+   "rank_min": 50,
+   "rank_max": 53,
+   "cos_int_ans_folded_L51_59": 0.48148011167844135,
+   "cos_swap_swapans_folded_L51_59": 0.4713561435540517
+  },
+  "s2-river-capital-Fraser-Loire": {
+   "F": 16,
+   "X": 13,
+   "X_examples": [
+    "\ufffd",
+    "\u6cb3\u5357",
+    "\u6cd5\u56fd",
+    "\u52a0\u62ff\u5927",
+    "\u5df4\u9ece",
+    "\u6cd5\u570b",
+    "\u6cd5\u8bed",
+    "\u6cd5\u5f0f",
+    " \u043a\u0430\u043d\u0430",
+    " \u0444\u0440\u0430\u043d\u0446\u0443\u0437",
+    " \u041f\u0430\u0440\u0438",
+    " \u0628\u0627\u0631\u064a\u0633",
+    " \ud30c\ub9ac"
+   ],
+   "rank_min": 52,
+   "rank_max": 54,
+   "cos_int_ans_folded_L51_59": 0.44515803787443375,
+   "cos_swap_swapans_folded_L51_59": 0.49828806188371444
+  },
+  "s2-river-capital-Nile-Thames": {
+   "F": 20,
+   "X": 38,
+   "X_examples": [
+    "_.",
+    " _.",
+    "(_.",
+    " (_.",
+    "\u82f1",
+    "\u4eac",
+    "\u82f1\u8bed",
+    "\u82f1\u6587",
+    "\u82f1\u56fd",
+    "\u4f26\u6566",
+    "\u82f1\u570b",
+    "\u57c3\u53ca",
+    "\u82f1\u6587\u540d",
+    "\u4eac\u57ce",
+    "\u82f1\u8a9e",
+    "\u82f1\u683c\u5170",
+    "\u5cb3\u9633",
+    "\u82f1\u6587\u540d\u79f0",
+    "\u82f1\u8bed\u5b66\u4e60",
+    "\u502b\u6566",
+    "\u82f1\u56fd\u7684",
+    "\u82f1\u8bed\u6559\u5b66",
+    "\u5b66\u82f1\u8bed",
+    "\u82f1\u4f26"
+   ],
+   "rank_min": 80,
+   "rank_max": 83,
+   "cos_int_ans_folded_L51_59": 0.554691943857405,
+   "cos_swap_swapans_folded_L51_59": 0.48762791355450946
+  },
+  "s2-river-capital-Tagus-Tiber": {
+   "F": 14,
+   "X": 18,
+   "X_examples": [
+    "\u8461",
+    "\u91cc\u65af",
+    "\u610f\u5927\u5229",
+    "\u7f57\u9a6c",
+    "\u8461\u8404\u7259",
+    "\u7f85\u99ac",
+    "\u7f57\u66fc",
+    "\u0442\u0430\u043b\u044c\u044f",
+    "\u30a4\u30bf\u30ea\u30a2",
+    " \u0420\u043e\u043c\u0430\u043d",
+    " \ub85c\ub9c8",
+    " \u0625\u064a\u0637\u0627\u0644\u064a\u0627",
+    " \u0418\u0442\u0430\u043b\u0438\u0438",
+    " \u0418\u0442\u0430\u043b\u0438\u044f",
+    "\u0e42\u0e23\u0e21",
+    " \u041f\u043e\u0440\u0442\u0443",
+    " \u0420\u0438\u043c",
+    " \u0631\u0648\u0645\u0627"
+   ],
+   "rank_min": 54,
+   "rank_max": 56,
+   "cos_int_ans_folded_L51_59": 0.4713561435540517,
+   "cos_swap_swapans_folded_L51_59": 0.4362347457143996
+  },
+  "s2-river-capital-Tiber-Weser": {
+   "F": 20,
+   "X": 26,
+   "X_examples": [
+    "\u5fb7\u56fd",
+    "\u610f\u5927\u5229",
+    "\u7f57\u9a6c",
+    "\u67cf\u6797",
+    "\u5fb7\u570b",
+    "\u5fb7\u8bed",
+    "\u7f85\u99ac",
+    "\u5fb7\u56fd\u7684",
+    "\u7f57\u66fc",
+    "\u5728\u5fb7\u56fd",
+    "\u0442\u0430\u043b\u044c\u044f",
+    " \u0413\u0435\u0440\u043c",
+    " \ub3c5\uc77c",
+    " \u043d\u0435\u043c\u0435\u0446",
+    " \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u0438",
+    "\u30a4\u30bf\u30ea\u30a2",
+    " \u0420\u043e\u043c\u0430\u043d",
+    "\u30c9\u30a4\u30c4",
+    " \ub85c\ub9c8",
+    " \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f",
+    " \u0625\u064a\u0637\u0627\u0644\u064a\u0627",
+    " \u0418\u0442\u0430\u043b\u0438\u0438",
+    " \u0418\u0442\u0430\u043b\u0438\u044f",
+    "\u0e42\u0e23\u0e21"
+   ],
+   "rank_min": 70,
+   "rank_max": 71,
+   "cos_int_ans_folded_L51_59": 0.4362347457143996,
+   "cos_swap_swapans_folded_L51_59": 0.48148011167844135
+  },
+  "s2-river-capital-Volga-Weser": {
+   "F": 15,
+   "X": 55,
+   "X_examples": [
+    "\u4fc4",
+    "\u5fb7\u56fd",
+    "\u4fc4\u7f57\u65af",
+    "\u67cf\u6797",
+    "\u5fb7\u570b",
+    "\u83ab\u65af\u79d1",
+    "\u4fc4\u7f85\u65af",
+    "\u5fb7\u8bed",
+    "\u4fc4\u8bed",
+    "\u4fc4\u56fd",
+    "\u5fb7\u56fd\u7684",
+    "\u4fc4\u7f57\u65af\u7684",
+    "\u5728\u5fb7\u56fd",
+    " \u0440\u043e\u0441\u0441\u0438\u0439",
+    " \u0440\u0443\u0441",
+    " \u041c\u043e\u0441\u043a\u043e\u0432",
+    " \u0420\u043e\u0441\u0441\u0438\u0439",
+    " \u0413\u0435\u0440\u043c",
+    "\u043c\u043e\u0441\u043a\u043e\u0432",
+    " \u0420\u043e\u0441\u0441\u0438\u0438",
+    " \u0420\u0424",
+    " \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439",
+    " \u0420\u043e\u0441\u0441\u0438\u044f",
+    " \u041c\u043e\u0441\u043a\u0432\u0430"
+   ],
+   "rank_min": 92,
+   "rank_max": 95,
+   "cos_int_ans_folded_L51_59": 0.5468741655349731,
+   "cos_swap_swapans_folded_L51_59": 0.48148011167844135
+  },
+  "s2-language-capital-Dutch-Danish": {
+   "F": 12,
+   "X": 4,
+   "X_examples": [
+    "\u8377\u5170",
+    "\u4e39\u9ea6",
+    "\u8377\u862d",
+    "\u963f\u59c6\u65af\u7279"
+   ],
+   "rank_min": 39,
+   "rank_max": 41,
+   "cos_int_ans_folded_L51_59": 0.4864697323905097,
+   "cos_swap_swapans_folded_L51_59": 0.5254379080401527
+  },
+  "s2-language-capital-Finnish-Thai": {
+   "F": 13,
+   "X": 8,
+   "X_examples": [
+    "\u6cf0\u56fd",
+    "\u66fc\u8c37",
+    "\u6cf0\u570b",
+    "\u6cf0\u5b89",
+    "\u82ac\u5170",
+    "\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22",
+    "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f",
+    "\u0e02\u0e2d\u0e07\u0e44\u0e17\u0e22"
+   ],
+   "rank_min": 43,
+   "rank_max": 46,
+   "cos_int_ans_folded_L51_59": 0.48619597487979466,
+   "cos_swap_swapans_folded_L51_59": 0.5677941110399034
+  },
+  "s2-language-capital-French-Swedish": {
+   "F": 15,
+   "X": 14,
+   "X_examples": [
+    "\u6cb3\u5357",
+    "\u6cd5\u56fd",
+    "\u5df4\u9ece",
+    "\u745e\u5178",
+    "\u6cd5\u570b",
+    "\u6cd5\u8bed",
+    "\u6cd5\u5f0f",
+    " \u0444\u0440\u0430\u043d\u0446\u0443\u0437",
+    " \u041f\u0430\u0440\u0438",
+    " \u0628\u0627\u0631\u064a\u0633",
+    " \ud30c\ub9ac",
+    " \u0428\u0432\u0435",
+    "\u0e2a\u0e27\u0e35",
+    " \u0627\u0644\u0633\u0648\u064a\u062f"
+   ],
+   "rank_min": 52,
+   "rank_max": 54,
+   "cos_int_ans_folded_L51_59": 0.49828806188371444,
+   "cos_swap_swapans_folded_L51_59": 0.5240030421151055
+  },
+  "s2-language-capital-Italian-Persian": {
+   "F": 18,
+   "X": 24,
+   "X_examples": [
+    "\u610f\u5927\u5229",
+    "\u7f57\u9a6c",
+    "\u4f0a\u6717",
+    "\u6ce2\u65af",
+    "\u7f85\u99ac",
+    "\u7f57\u66fc",
+    "\u064a\u0631\u0627\u0646",
+    "\u0442\u0430\u043b\u044c\u044f",
+    " \u0627\u06cc\u0631\u0627\u0646",
+    " \u0625\u064a\u0631\u0627\u0646",
+    " \u062a\u0647\u0631\u0627\u0646",
+    " \u0627\u0644\u0625\u064a\u0631\u0627\u0646\u064a",
+    "\u30a4\u30bf\u30ea\u30a2",
+    " \u0420\u043e\u043c\u0430\u043d",
+    " \ub85c\ub9c8",
+    " \u0627\u06cc\u0631\u0627\u0646\u06cc",
+    " \u0625\u064a\u0637\u0627\u0644\u064a\u0627",
+    " \u0418\u0442\u0430\u043b\u0438\u0438",
+    " \u0627\u0644\u0625\u064a\u0631\u0627\u0646\u064a\u0629",
+    " \u0637\u0647\u0631\u0627\u0646",
+    " \u0418\u0442\u0430\u043b\u0438\u044f",
+    "\u0e42\u0e23\u0e21",
+    " \u0420\u0438\u043c",
+    " \u0631\u0648\u0645\u0627"
+   ],
+   "rank_min": 63,
+   "rank_max": 67,
+   "cos_int_ans_folded_L51_59": 0.4362347457143996,
+   "cos_swap_swapans_folded_L51_59": 0.5854210588667128
+  },
+  "s2-language-capital-Norwegian-Italian": {
+   "F": 18,
+   "X": 16,
+   "X_examples": [
+    "\u610f\u5927\u5229",
+    "\u7f57\u9a6c",
+    "\u632a\u5a01",
+    "\u7f85\u99ac",
+    "\u7f57\u66fc",
+    "\u0442\u0430\u043b\u044c\u044f",
+    " \u043e\u0441\u043b\u043e",
+    "\u30a4\u30bf\u30ea\u30a2",
+    " \u0420\u043e\u043c\u0430\u043d",
+    " \ub85c\ub9c8",
+    " \u0625\u064a\u0637\u0627\u0644\u064a\u0627",
+    " \u0418\u0442\u0430\u043b\u0438\u0438",
+    " \u0418\u0442\u0430\u043b\u0438\u044f",
+    "\u0e42\u0e23\u0e21",
+    " \u0420\u0438\u043c",
+    " \u0631\u0648\u0645\u0627"
+   ],
+   "rank_min": 56,
+   "rank_max": 59,
+   "cos_int_ans_folded_L51_59": 0.49320082863171893,
+   "cos_swap_swapans_folded_L51_59": 0.4362347457143996
+  },
+  "s2-language-capital-Polish-Turkish": {
+   "F": 9,
+   "X": 7,
+   "X_examples": [
+    "\u571f\u8033\u5176",
+    "\u6ce2\u5170",
+    " \u043f\u043e\u043b\u044c",
+    " \u062a\u0631\u0643\u064a\u0627",
+    " \u0627\u0644\u062a\u0631\u0643\u064a\u0629",
+    " \u0422\u0443\u0440\u0446\u0438\u0438",
+    " \u0442\u0443\u0440\u0435\u0446"
+   ],
+   "rank_min": 38,
+   "rank_max": 40,
+   "cos_int_ans_folded_L51_59": 0.45965172515975106,
+   "cos_swap_swapans_folded_L51_59": 0.4230334030257331
+  },
+  "s2-city-currency-Hanoi-Busan": {
+   "F": 11,
+   "X": 22,
+   "X_examples": [
+    "\u97e9",
+    "\u97d3",
+    "\u97e9\u56fd",
+    "\u97d3\u570b",
+    "\u4e1c\u98ce",
+    "\u8d8a\u5357",
+    "\u671d\u9c9c",
+    "\u65e5\u97e9",
+    "\u97e9\u8bed",
+    "\u97e9\u5f0f",
+    "\u97e9\u7248",
+    "\u97e9\u5267",
+    "\u671d\u9bae",
+    "\u5728\u97e9\u56fd",
+    "\u4e2d\u97e9",
+    " \ud55c\uad6d",
+    "\ud55c\uad6d",
+    "\u0e40\u0e01\u0e32\u0e2b\u0e25\u0e35",
+    " \ubca0\ud2b8\ub0a8",
+    "\u0e40\u0e27\u0e35\u0e22\u0e14\u0e19\u0e32\u0e21",
+    " \u0643\u0648\u0631\u064a\u0627",
+    "\u97d3\u56fd"
+   ],
+   "rank_min": 54,
+   "rank_max": 58,
+   "cos_int_ans_folded_L51_59": 0.0826499569747183,
+   "cos_swap_swapans_folded_L51_59": 0.08312666995657815
+  },
+  "s2-city-currency-Manchester-Shanghai": {
+   "F": 24,
+   "X": 67,
+   "X_examples": [
+    "_.",
+    " _.",
+    "(_.",
+    " (_.",
+    "\u5143",
+    "\u4e2d\u56fd",
+    "\u82f1",
+    "\u4e2d\u534e",
+    "\u82f1\u8bed",
+    "\u82f1\u6587",
+    "\u4e2d\u6587",
+    "\u4e2d\u570b",
+    "\u4e2d\u56fd\u4eba\u6c11",
+    "\u82f1\u56fd",
+    "\u4e2d\u533b",
+    "\u5728\u4e2d\u56fd",
+    "\u4e2d\u56fd\u4eba",
+    "\u4e2d\u83ef",
+    "\u4e2d\u56fd\u7684",
+    "\u662f\u4e2d\u56fd",
+    "\u5143\u7684",
+    "\u7684\u4e2d\u56fd",
+    "\u6c49\u8bed",
+    "\u82f1\u570b"
+   ],
+   "rank_min": 113,
+   "rank_max": 115,
+   "cos_int_ans_folded_L51_59": 0.14982261922624376,
+   "cos_swap_swapans_folded_L51_59": 0.32530637582143146
+  },
+  "s2-city-currency-Munich-Manchester": {
+   "F": 28,
+   "X": 38,
+   "X_examples": [
+    "_.",
+    " _.",
+    "(_.",
+    " (_.",
+    "\u82f1",
+    "\u82f1\u8bed",
+    "\u82f1\u6587",
+    "\u6b27\u5143",
+    "\u82f1\u56fd",
+    "\u5fb7\u56fd",
+    "\u82f1\u570b",
+    "\u82f1\u6587\u540d",
+    "\u5fb7\u570b",
+    "\u82f1\u8a9e",
+    "\u82f1\u683c\u5170",
+    "\u5fb7\u8bed",
+    "\u82f1\u6587\u540d\u79f0",
+    "\u82f1\u8bed\u5b66\u4e60",
+    "\u82f1\u56fd\u7684",
+    "\u82f1\u8bed\u6559\u5b66",
+    "\u5b66\u82f1\u8bed",
+    "\u6b27\u5143\u533a",
+    "\u82f1\u4f26",
+    "\u5fb7\u56fd\u7684"
+   ],
+   "rank_min": 86,
+   "rank_max": 91,
+   "cos_int_ans_folded_L51_59": 0.17280750307771894,
+   "cos_swap_swapans_folded_L51_59": 0.14982261922624376
+  },
+  "s2-city-currency-Osaka-Munich": {
+   "F": 22,
+   "X": 34,
+   "X_examples": [
+    "\ufffd",
+    "\u65e5\u672c",
+    "\u6b27\u5143",
+    "\u5fb7\u56fd",
+    "\u65e5\u8bed",
+    "\u5728\u65e5\u672c",
+    "\u5fb7\u570b",
+    "\u65e5\u672c\u7684",
+    "\u65e5\u519b",
+    "\u65e5\u5f0f",
+    "\u65e5\u672c\u4eba",
+    "\u5fb7\u8bed",
+    "\u65e5\u7cfb",
+    "\u65e5\u6587",
+    "\u662f\u65e5\u672c",
+    "\u548c\u65e5\u672c",
+    "\u7684\u65e5\u672c",
+    "\u6b27\u5143\u533a",
+    "\u5fb7\u56fd\u7684",
+    "\u5728\u5fb7\u56fd",
+    " \u0435\u0432\u0440\u043e",
+    " \uc77c\ubcf8",
+    "\u65e5\u672c\u306e",
+    " \u0413\u0435\u0440\u043c"
+   ],
+   "rank_min": 78,
+   "rank_max": 81,
+   "cos_int_ans_folded_L51_59": 0.2370509919193056,
+   "cos_swap_swapans_folded_L51_59": 0.17280750307771894
+  },
+  "s2-city-currency-Shanghai-Manchester": {
+   "F": 24,
+   "X": 67,
+   "X_examples": [
+    "_.",
+    " _.",
+    "(_.",
+    " (_.",
+    "\u5143",
+    "\u4e2d\u56fd",
+    "\u82f1",
+    "\u4e2d\u534e",
+    "\u82f1\u8bed",
+    "\u82f1\u6587",
+    "\u4e2d\u6587",
+    "\u4e2d\u570b",
+    "\u4e2d\u56fd\u4eba\u6c11",
+    "\u82f1\u56fd",
+    "\u4e2d\u533b",
+    "\u5728\u4e2d\u56fd",
+    "\u4e2d\u56fd\u4eba",
+    "\u4e2d\u83ef",
+    "\u4e2d\u56fd\u7684",
+    "\u662f\u4e2d\u56fd",
+    "\u5143\u7684",
+    "\u7684\u4e2d\u56fd",
+    "\u6c49\u8bed",
+    "\u82f1\u570b"
+   ],
+   "rank_min": 113,
+   "rank_max": 116,
+   "cos_int_ans_folded_L51_59": 0.32530637582143146,
+   "cos_swap_swapans_folded_L51_59": 0.14982261922624376
+  },
+  "s2-city-currency-Zurich-Munich": {
+   "F": 18,
+   "X": 19,
+   "X_examples": [
+    "\u6b27\u5143",
+    "\u5fb7\u56fd",
+    "\u745e\u58eb",
+    "\u5fb7\u570b",
+    "\u5fb7\u8bed",
+    "\u6b27\u5143\u533a",
+    "\u5fb7\u56fd\u7684",
+    "\u5728\u5fb7\u56fd",
+    " \u0435\u0432\u0440\u043e",
+    "\u30b9\u30a4",
+    " \u0444\u0440\u0430\u043d",
+    " \u0413\u0435\u0440\u043c",
+    " \ub3c5\uc77c",
+    " \u043d\u0435\u043c\u0435\u0446",
+    " \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u0438",
+    "\u20ac/",
+    "\u30c9\u30a4\u30c4",
+    " \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f",
+    "\u30d5\u30e9\u30f3"
+   ],
+   "rank_min": 59,
+   "rank_max": 62,
+   "cos_int_ans_folded_L51_59": 0.09951646791564094,
+   "cos_swap_swapans_folded_L51_59": 0.17280750307771894
+  }
+ },
+ "clamp_set_summary": {
+  "F_median": 15.0,
+  "X_median": 18.0,
+  "X_range": [
+   4,
+   67
+  ],
+  "rank_range": [
+   36,
+   116
+  ],
+  "cos_int_ans_folded_L51_59_mean": 0.4431197321840695
+ },
+ "a": {
+  "B": 0.7946196220723828,
+  "B_ans": 0.6232077604401364,
+  "D_both": 0.5662894342201865,
+  "D_additive_expectation": 0.41782738251251916,
+  "D_nested_expectation": 0.6232077604401364,
+  "e_I": 0.2053803779276172,
+  "e_A": 0.37679223955986363,
+  "e_both": 0.4337105657798135,
+  "overlap_fraction": 0.7228638548907056,
+  "overlap_ci": [
+   0.6414978226759506,
+   0.7917884007788064
+  ],
+  "rand4_share": 0.9681922668722078,
+  "rand4_control_ok": true,
+  "reading": "partly shared",
+  "registered_prediction_scored": {
+   "separate_if_D_le_minB_minus_0.05": true,
+   "nested_if_D_within_0.05_of_B_ans": false
+  },
+  "per_relation": {
+   "city-capital": {
+    "n": 11,
+    "overlap_fraction": 0.8098785418682791,
+    "B": 0.7809686598097156,
+    "B_ans": 0.594050781793438,
+    "D": 0.5524082240199161
+   },
+   "city-currency": {
+    "n": 6,
+    "overlap_fraction": 0.23456807715952444,
+    "B": 0.9236560615403565,
+    "B_ans": 0.8229586223057046,
+    "D": 0.7645225346933248
+   },
+   "city-language": {
+    "n": 3,
+    "overlap_fraction": 0.9104241605310474,
+    "B": 0.6259992479494255,
+    "B_ans": 0.3607322090724845,
+    "D": 0.3272307777455348
+   },
+   "food-animal": {
+    "n": 1,
+    "overlap_fraction": 0.6753363475152823,
+    "B": 0.8600217032839015,
+    "B_ans": 0.5455040320246393,
+    "D": 0.5000581669442011
+   },
+   "language-capital": {
+    "n": 8,
+    "overlap_fraction": 0.6442712725673627,
+    "B": 0.8266141747592534,
+    "B_ans": 0.6560166901008856,
+    "D": 0.5943383711331371
+   },
+   "river-capital": {
+    "n": 6,
+    "overlap_fraction": 0.6264348831357113,
+    "B": 0.7284130908895141,
+    "B_ans": 0.5913659644683295,
+    "D": 0.48991056902765984
+   }
+  }
+ },
+ "b": {
+  "C": 0.43353914946354255,
+  "C_ci": [
+   0.3960240257261061,
+   0.4762370455358277
+  ],
+  "unclamped": 0.611580528290144,
+  "partial_clamp_cc": 0.511184929168635,
+  "control_ccsr": 0.604641718849385,
+  "ccsr_within_unclamped_interval": true,
+  "gateV": {
+   "int_item_mean": -0.03725272587367467,
+   "ans_item_mean": -0.03411716574004718,
+   "int_item_range": [
+    -0.18598079681396484,
+    0.20491671562194824
+   ],
+   "ans_item_range": [
+    -0.1883680820465088,
+    0.1397569179534912
+   ],
+   "fraction_cells_both_within_0.3": 1.0,
+   "pass": true
+  },
+  "reading": "a route not J-readable at the answer position through block 62 carries at least 0.43 of the question-turn effect (bracket [0.43, 0.51] with Stage 2)",
+  "per_item_C_median": 0.45336749257678965,
+  "items_C_ge_0.4": 19,
+  "items_C_le_0.2": 0,
+  "strong_minus_partial_clamp_nats": {
+   "mean": 0.8667034949575152,
+   "ci": [
+    0.6879774315890286,
+    1.0454295583260018
+   ],
+   "n_pos": 35,
+   "n": 35
+  },
+  "block63_reentry": {
+   "q_full_pre": {
+    "int": 26.11213923863002,
+    "ans": 34.987929003579275
+   },
+   "q_J25rem_pre": {
+    "int": 11.466053683417185,
+    "ans": 20.010868617466517
+   },
+   "q_J25rem_pre_cc": {
+    "int": 7.488133951595851,
+    "ans": 15.338657522201538
+   },
+   "q_J25rem_pre_ccs": {
+    "int": 2.682742643356323,
+    "ans": 10.0785119669778
+   },
+   "q_J25rem_pre_ccsr": {
+    "int": 11.325868087155479,
+    "ans": 19.84227877344404
+   }
+  },
+  "per_relation": {
+   "city-capital": 0.43061042462385896,
+   "city-currency": 0.5443643036824668,
+   "city-language": 0.250617635022206,
+   "food-animal": 0.4980461016330281,
+   "language-capital": 0.4337051221497827,
+   "river-capital": 0.4310990185594779
+  }
+ },
+ "c": {
+  "pairs": [
+   "ex-city-capital-Lyon-Naples",
+   "ex-city-capital-Naples-Barcelona",
+   "ex2-city-capital-Munich",
+   "ex2-city-capital-Osaka",
+   "s2-city-capital-Bergen-Kyoto",
+   "s2-city-capital-Marseille-Aarhus",
+   "s2-city-capital-Salzburg-Kyoto"
+  ],
+  "f_L": 0.6141759643142146,
+  "f_L_ci": [
+   0.5429215410170355,
+   0.6888739751852595
+  ],
+  "f_C_mirror": 0.4473339463990164,
+  "f_C_ci": [
+   0.3841607414189259,
+   0.5033431465533569
+  ],
+  "pairs_xfer_above_random": 7,
+  "pairs_mirror_above_random": 7,
+  "means": {
+   "q_xfer|m_lang": {
+    "mean": 6.746108991759164,
+    "ci": [
+     6.067862568355208,
+     7.42435541516312
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_xfer|m_cap": {
+    "mean": 9.865381751741682,
+    "ci": [
+     7.501624863607574,
+     12.229138639875789
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_native_lang|m_lang": {
+    "mean": 10.984000325202942,
+    "ci": [
+     9.224437073728643,
+     12.743563576677241
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_native_lang|m_cap": {
+    "mean": 4.704852717263358,
+    "ci": [
+     3.3882371381882166,
+     6.021468296338499
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_xfer_rand|m_lang": {
+    "mean": 0.1436861072267805,
+    "ci": [
+     0.02435738724702992,
+     0.2630148272065311
+    ],
+    "n_pos": 6,
+    "n": 7
+   },
+   "q_xfer_rand|m_cap": {
+    "mean": 0.03681867463248117,
+    "ci": [
+     -0.09667982971824035,
+     0.1703171789832027
+    ],
+    "n_pos": 4,
+    "n": 7
+   },
+   "q_mirror|m_lang": {
+    "mean": 10.554449422018868,
+    "ci": [
+     8.305763068589272,
+     12.803135775448464
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_mirror|m_cap": {
+    "mean": 5.2665541512625555,
+    "ci": [
+     4.388391856683916,
+     6.144716445841195
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_native_cap|m_lang": {
+    "mean": 7.678462164742606,
+    "ci": [
+     6.082435629510668,
+     9.274488699974544
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_native_cap|m_cap": {
+    "mean": 11.773204769407,
+    "ci": [
+     10.796537522298872,
+     12.749872016515129
+    ],
+    "n_pos": 7,
+    "n": 7
+   },
+   "q_mirror_rand|m_lang": {
+    "mean": 0.11194378989083427,
+    "ci": [
+     -0.06990515047976122,
+     0.29379273026142977
+    ],
+    "n_pos": 5,
+    "n": 7
+   },
+   "q_mirror_rand|m_cap": {
+    "mean": 0.18028150285993302,
+    "ci": [
+     0.07569687727348959,
+     0.2848661284463765
+    ],
+    "n_pos": 7,
+    "n": 7
+   }
+  },
+  "per_pair": {
+   "ex-city-capital-Lyon-Naples": {
+    "q_xfer|m_lang": 5.641094207763672,
+    "q_xfer|m_cap": 9.54516315460205,
+    "q_native_lang|m_lang": 9.983978748321533,
+    "q_native_lang|m_cap": 2.0820534229278564,
+    "q_xfer_rand|m_lang": 0.23451828956604004,
+    "q_xfer_rand|m_cap": -0.15364933013916016,
+    "q_mirror|m_lang": 9.257633209228516,
+    "q_mirror|m_cap": 4.950643539428711,
+    "q_native_cap|m_lang": 5.430014133453369,
+    "q_native_cap|m_cap": 10.25344467163086,
+    "q_mirror_rand|m_lang": 0.08591127395629883,
+    "q_mirror_rand|m_cap": 0.17610883712768555
+   },
+   "ex-city-capital-Naples-Barcelona": {
+    "q_xfer|m_lang": 6.12470555305481,
+    "q_xfer|m_cap": 5.462738513946533,
+    "q_native_lang|m_lang": 7.718331694602966,
+    "q_native_lang|m_cap": 3.3763303756713867,
+    "q_xfer_rand|m_lang": 0.281277060508728,
+    "q_xfer_rand|m_cap": 0.17694687843322754,
+    "q_mirror|m_lang": 6.726596355438232,
+    "q_mirror|m_cap": 5.157657742500305,
+    "q_native_cap|m_lang": 6.398594617843628,
+    "q_native_cap|m_cap": 11.002544403076172,
+    "q_mirror_rand|m_lang": -0.00750279426574707,
+    "q_mirror_rand|m_cap": 0.32868385314941406
+   },
+   "ex2-city-capital-Munich": {
+    "q_xfer|m_lang": 7.406348943710327,
+    "q_xfer|m_cap": 11.419229507446289,
+    "q_native_lang|m_lang": 10.781237363815308,
+    "q_native_lang|m_cap": 5.603086233139038,
+    "q_xfer_rand|m_lang": 0.07810187339782715,
+    "q_xfer_rand|m_cap": 0.005774736404418945,
+    "q_mirror|m_lang": 9.535132646560669,
+    "q_mirror|m_cap": 6.131117105484009,
+    "q_native_cap|m_lang": 7.785199880599976,
+    "q_native_cap|m_cap": 13.146560668945312,
+    "q_mirror_rand|m_lang": 0.07419490814208984,
+    "q_mirror_rand|m_cap": 0.3104546070098877
+   },
+   "ex2-city-capital-Osaka": {
+    "q_xfer|m_lang": 7.046977400779724,
+    "q_xfer|m_cap": 9.664556741714478,
+    "q_native_lang|m_lang": 10.828128099441528,
+    "q_native_lang|m_cap": 5.280414819717407,
+    "q_xfer_rand|m_lang": -0.1092979907989502,
+    "q_xfer_rand|m_cap": -0.06510567665100098,
+    "q_mirror|m_lang": 11.202716827392578,
+    "q_mirror|m_cap": 6.469539046287537,
+    "q_native_cap|m_lang": 7.523474216461182,
+    "q_native_cap|m_cap": 11.676204681396484,
+    "q_mirror_rand|m_lang": 0.06259393692016602,
+    "q_mirror_rand|m_cap": 0.1416492462158203
+   },
+   "s2-city-capital-Bergen-Kyoto": {
+    "q_xfer|m_lang": 7.693900942802429,
+    "q_xfer|m_cap": 8.418988466262817,
+    "q_native_lang|m_lang": 12.012305498123169,
+    "q_native_lang|m_cap": 5.313734531402588,
+    "q_xfer_rand|m_lang": 0.1953141689300537,
+    "q_xfer_rand|m_cap": 0.23551273345947266,
+    "q_mirror|m_lang": 14.401793479919434,
+    "q_mirror|m_cap": 5.547851920127869,
+    "q_native_cap|m_lang": 10.953007936477661,
+    "q_native_cap|m_cap": 11.235008001327515,
+    "q_mirror_rand|m_lang": 0.5340752601623535,
+    "q_mirror_rand|m_cap": 0.20305418968200684
+   },
+   "s2-city-capital-Marseille-Aarhus": {
+    "q_xfer|m_lang": 6.35627281665802,
+    "q_xfer|m_cap": 10.938732385635376,
+    "q_native_lang|m_lang": 13.892189025878906,
+    "q_native_lang|m_cap": 5.27784276008606,
+    "q_xfer_rand|m_lang": 0.1852414608001709,
+    "q_xfer_rand|m_cap": 0.12439370155334473,
+    "q_mirror|m_lang": 12.249463558197021,
+    "q_mirror|m_cap": 3.5386455059051514,
+    "q_native_cap|m_lang": 8.260426998138428,
+    "q_native_cap|m_cap": 12.103402853012085,
+    "q_mirror_rand|m_lang": -0.0750432014465332,
+    "q_mirror_rand|m_cap": 0.08498024940490723
+   },
+   "s2-city-capital-Salzburg-Kyoto": {
+    "q_xfer|m_lang": 6.953463077545166,
+    "q_xfer|m_cap": 13.608263492584229,
+    "q_native_lang|m_lang": 11.671831846237183,
+    "q_native_lang|m_cap": 6.00050687789917,
+    "q_xfer_rand|m_lang": 0.14064788818359375,
+    "q_xfer_rand|m_cap": -0.06614232063293457,
+    "q_mirror|m_lang": 10.50780987739563,
+    "q_mirror|m_cap": 5.070424199104309,
+    "q_native_cap|m_lang": 7.398517370223999,
+    "q_native_cap|m_cap": 12.995268106460571,
+    "q_mirror_rand|m_lang": 0.10937714576721191,
+    "q_mirror_rand|m_cap": 0.01703953742980957
+   }
+  },
+  "capital_push_in_language_question_over_native_capital_push": 0.8379521077707873,
+  "language_push_in_capital_question_over_native_language_push": 0.9608930361920636,
+  "reading_xfer": "upstream content present: the transplanted state carries something upstream of the answer (the country, or the cue city it came from) that the other question uses",
+  "reading_mirror": "upstream content present: the transplanted state carries something upstream of the answer (the country, or the cue city it came from) that the other question uses",
+  "greedy": {
+   "ex-city-capital-Lyon-Naples|C0": {
+    "cap_clean": "Paris",
+    "cap_donor": "R",
+    "lang_clean": "French",
+    "lang_donor": "Italian",
+    "q_xfer": "French",
+    "q_native_lang": "French",
+    "q_xfer_rand": "French",
+    "q_mirror": "Paris",
+    "q_native_cap": "Paris",
+    "q_mirror_rand": "Paris"
+   },
+   "ex-city-capital-Lyon-Naples|C1": {
+    "cap_clean": "Paris",
+    "cap_donor": "R",
+    "lang_clean": "French",
+    "lang_donor": "Italian",
+    "q_xfer": "French",
+    "q_native_lang": "French",
+    "q_xfer_rand": "French",
+    "q_mirror": "Paris",
+    "q_native_cap": "R",
+    "q_mirror_rand": "Paris"
+   },
+   "ex-city-capital-Lyon-Naples|C2": {
+    "cap_clean": "Paris",
+    "cap_donor": "R",
+    "lang_clean": "French",
+    "lang_donor": "Italian",
+    "q_xfer": "French",
+    "q_native_lang": "French",
+    "q_xfer_rand": "French",
+    "q_mirror": "Paris",
+    "q_native_cap": "R",
+    "q_mirror_rand": "Paris"
+   },
+   "ex-city-capital-Lyon-Naples|C3": {
+    "cap_clean": "Paris",
+    "cap_donor": "R",
+    "lang_clean": "French",
+    "lang_donor": "Italian",
+    "q_xfer": "French",
+    "q_native_lang": "French",
+    "q_xfer_rand": "French",
+    "q_mirror": "Paris",
+    "q_native_cap": "Paris",
+    "q_mirror_rand": "Paris"
+   },
+   "ex-city-capital-Naples-Barcelona|C0": {
+    "cap_clean": "R",
+    "cap_donor": "Madrid",
+    "lang_clean": "Italian",
+    "lang_donor": "C",
+    "q_xfer": "Italian",
+    "q_native_lang": "Spanish",
+    "q_xfer_rand": "Italian",
+    "q_mirror": "R",
+    "q_native_cap": "Madrid",
+    "q_mirror_rand": "R"
+   },
+   "ex-city-capital-Naples-Barcelona|C1": {
+    "cap_clean": "R",
+    "cap_donor": "Madrid",
+    "lang_clean": "Italian",
+    "lang_donor": "Spanish",
+    "q_xfer": "Italian",
+    "q_native_lang": "Spanish",
+    "q_xfer_rand": "Italian",
+    "q_mirror": "R",
+    "q_native_cap": "Madrid",
+    "q_mirror_rand": "R"
+   },
+   "ex-city-capital-Naples-Barcelona|C2": {
+    "cap_clean": "R",
+    "cap_donor": "Madrid",
+    "lang_clean": "Italian",
+    "lang_donor": "Spanish",
+    "q_xfer": "Italian",
+    "q_native_lang": "Italian",
+    "q_xfer_rand": "Italian",
+    "q_mirror": "R",
+    "q_native_cap": "Madrid",
+    "q_mirror_rand": "R"
+   },
+   "ex-city-capital-Naples-Barcelona|C3": {
+    "cap_clean": "R",
+    "cap_donor": "Madrid",
+    "lang_clean": "Italian",
+    "lang_donor": "Spanish",
+    "q_xfer": "Italian",
+    "q_native_lang": "Italian",
+    "q_xfer_rand": "Italian",
+    "q_mirror": "R",
+    "q_native_cap": "R",
+    "q_mirror_rand": "R"
+   },
+   "ex2-city-capital-Munich|C0": {
+    "cap_clean": "Berlin",
+    "cap_donor": "Tok",
+    "lang_clean": "German",
+    "lang_donor": "Japanese",
+    "q_xfer": "German",
+    "q_native_lang": "German",
+    "q_xfer_rand": "German",
+    "q_mirror": "Berlin",
+    "q_native_cap": "Tok",
+    "q_mirror_rand": "Berlin"
+   },
+   "ex2-city-capital-Munich|C1": {
+    "cap_clean": "Berlin",
+    "cap_donor": "Tok",
+    "lang_clean": "German",
+    "lang_donor": "Japanese",
+    "q_xfer": "German",
+    "q_native_lang": "Japanese",
+    "q_xfer_rand": "German",
+    "q_mirror": "Berlin",
+    "q_native_cap": "Tok",
+    "q_mirror_rand": "Berlin"
+   },
+   "ex2-city-capital-Munich|C2": {
+    "cap_clean": "Berlin",
+    "cap_donor": "Tok",
+    "lang_clean": "German",
+    "lang_donor": "Japanese",
+    "q_xfer": "German",
+    "q_native_lang": "German",
+    "q_xfer_rand": "German",
+    "q_mirror": "Berlin",
+    "q_native_cap": "Tok",
+    "q_mirror_rand": "Berlin"
+   },
+   "ex2-city-capital-Munich|C3": {
+    "cap_clean": "Berlin",
+    "cap_donor": "Tok",
+    "lang_clean": "German",
+    "lang_donor": "Japanese",
+    "q_xfer": "German",
+    "q_native_lang": "German",
+    "q_xfer_rand": "German",
+    "q_mirror": "Berlin",
+    "q_native_cap": "Tok",
+    "q_mirror_rand": "Berlin"
+   },
+   "ex2-city-capital-Osaka|C0": {
+    "cap_clean": "Tok",
+    "cap_donor": "Berlin",
+    "lang_clean": "Japanese",
+    "lang_donor": "German",
+    "q_xfer": "Japanese",
+    "q_native_lang": "German",
+    "q_xfer_rand": "Japanese",
+    "q_mirror": "Tok",
+    "q_native_cap": "Tok",
+    "q_mirror_rand": "Tok"
+   },
+   "ex2-city-capital-Osaka|C1": {
+    "cap_clean": "Tok",
+    "cap_donor": "Berlin",
+    "lang_clean": "Japanese",
+    "lang_donor": "German",
+    "q_xfer": "Japanese",
+    "q_native_lang": "German",
+    "q_xfer_rand": "Japanese",
+    "q_mirror": "Tok",
+    "q_native_cap": "Tok",
+    "q_mirror_rand": "Tok"
+   },
+   "ex2-city-capital-Osaka|C2": {
+    "cap_clean": "Tok",
+    "cap_donor": "Berlin",
+    "lang_clean": "Japanese",
+    "lang_donor": "German",
+    "q_xfer": "Japanese",
+    "q_native_lang": "German",
+    "q_xfer_rand": "Japanese",
+    "q_mirror": "Tok",
+    "q_native_cap": "Berlin",
+    "q_mirror_rand": "Tok"
+   },
+   "ex2-city-capital-Osaka|C3": {
+    "cap_clean": "Tok",
+    "cap_donor": "Berlin",
+    "lang_clean": "Japanese",
+    "lang_donor": "German",
+    "q_xfer": "Japanese",
+    "q_native_lang": "German",
+    "q_xfer_rand": "Japanese",
+    "q_mirror": "Tok",
+    "q_native_cap": "Tok",
+    "q_mirror_rand": "Tok"
+   },
+   "s2-city-capital-Bergen-Kyoto|C0": {
+    "cap_clean": "Os",
+    "cap_donor": "Tok",
+    "lang_clean": "Nor",
+    "lang_donor": "Japanese",
+    "q_xfer": "Nor",
+    "q_native_lang": "Japanese",
+    "q_xfer_rand": "Nor",
+    "q_mirror": "Os",
+    "q_native_cap": "Tok",
+    "q_mirror_rand": "Os"
+   },
+   "s2-city-capital-Bergen-Kyoto|C1": {
+    "cap_clean": "Os",
+    "cap_donor": "Tok",
+    "lang_clean": "Nor",
+    "lang_donor": "Japanese",
+    "q_xfer": "Nor",
+    "q_native_lang": "Japanese",
+    "q_xfer_rand": "Nor",
+    "q_mirror": "Os",
+    "q_native_cap": "Tok",
+    "q_mirror_rand": "Os"
+   },
+   "s2-city-capital-Bergen-Kyoto|C2": {
+    "cap_clean": "Os",
+    "cap_donor": "Tok",
+    "lang_clean": "Nor",
+    "lang_donor": "Japanese",
+    "q_xfer": "Nor",
+    "q_native_lang": "Japanese",
+    "q_xfer_rand": "Nor",
+    "q_mirror": "Os",
+    "q_native_cap": "Tok",
+    "q_mirror_rand": "Os"
+   },
+   "s2-city-capital-Bergen-Kyoto|C3": {
+    "cap_clean": "Os",
+    "cap_donor": "Tok",
+    "lang_clean": "Nor",
+    "lang_donor": "Japanese",
+    "q_xfer": "Nor",
+    "q_native_lang": "Nor",
+    "q_xfer_rand": "Nor",
+    "q_mirror": "Os",
+    "q_native_cap": "Os",
+    "q_mirror_rand": "Os"
+   },
+   "s2-city-capital-Marseille-Aarhus|C0": {
+    "cap_clean": "Paris",
+    "cap_donor": "C",
+    "lang_clean": "French",
+    "lang_donor": "Dan",
+    "q_xfer": "French",
+    "q_native_lang": "French",
+    "q_xfer_rand": "French",
+    "q_mirror": "Paris",
+    "q_native_cap": "Paris",
+    "q_mirror_rand": "Paris"
+   },
+   "s2-city-capital-Marseille-Aarhus|C1": {
+    "cap_clean": "Paris",
+    "cap_donor": "C",
+    "lang_clean": "French",
+    "lang_donor": "Dan",
+    "q_xfer": "French",
+    "q_native_lang": "French",
+    "q_xfer_rand": "French",
+    "q_mirror": "Paris",
+    "q_native_cap": "Paris",
+    "q_mirror_rand": "Paris"
+   },
+   "s2-city-capital-Marseille-Aarhus|C2": {
+    "cap_clean": "Paris",
+    "cap_donor": "C",
+    "lang_clean": "French",
+    "lang_donor": "Dan",
+    "q_xfer": "French",
+    "q_native_lang": "French",
+    "q_xfer_rand": "French",
+    "q_mirror": "Paris",
+    "q_native_cap": "Paris",
+    "q_mirror_rand": "Paris"
+   },
+   "s2-city-capital-Marseille-Aarhus|C3": {
+    "cap_clean": "Paris",
+    "cap_donor": "C",
+    "lang_clean": "French",
+    "lang_donor": "Dan",
+    "q_xfer": "French",
+    "q_native_lang": "French",
+    "q_xfer_rand": "French",
+    "q_mirror": "Paris",
+    "q_native_cap": "Paris",
+    "q_mirror_rand": "Paris"
+   },
+   "s2-city-capital-Salzburg-Kyoto|C0": {
+    "cap_clean": "Vi",
+    "cap_donor": "Tok",
+    "lang_clean": "German",
+    "lang_donor": "Japanese",
+    "q_xfer": "German",
+    "q_native_lang": "Japanese",
+    "q_xfer_rand": "German",
+    "q_mirror": "Vi",
+    "q_native_cap": "Vi",
+    "q_mirror_rand": "Vi"
+   },
+   "s2-city-capital-Salzburg-Kyoto|C1": {
+    "cap_clean": "Vi",
+    "cap_donor": "Tok",
+    "lang_clean": "German",
+    "lang_donor": "Japanese",
+    "q_xfer": "German",
+    "q_native_lang": "Japanese",
+    "q_xfer_rand": "German",
+    "q_mirror": "Vi",
+    "q_native_cap": "Vi",
+    "q_mirror_rand": "Vi"
+   },
+   "s2-city-capital-Salzburg-Kyoto|C2": {
+    "cap_clean": "Vi",
+    "cap_donor": "Tok",
+    "lang_clean": "German",
+    "lang_donor": "Japanese",
+    "q_xfer": "German",
+    "q_native_lang": "Japanese",
+    "q_xfer_rand": "German",
+    "q_mirror": "Vi",
+    "q_native_cap": "Vi",
+    "q_mirror_rand": "Vi"
+   },
+   "s2-city-capital-Salzburg-Kyoto|C3": {
+    "cap_clean": "Vi",
+    "cap_donor": "Tok",
+    "lang_clean": "German",
+    "lang_donor": "Japanese",
+    "q_xfer": "German",
+    "q_native_lang": "German",
+    "q_xfer_rand": "German",
+    "q_mirror": "Vi",
+    "q_native_cap": "Vi",
+    "q_mirror_rand": "Vi"
+   }
+  }
+ }
+}
