@@ -11,8 +11,9 @@ import registry as R, rendering as Rn
 
 STAGE = sys.argv[1] if len(sys.argv) > 1 else "qsplit6"; S2 = STAGE in ("stage2", "smoke2"); AMEND = "Amendment 7" if S2 else "Amendment 6"
 OUT = R.out_dir("H3", "outputs", "two_hop_organism"); REP = R.out_dir("H3", "results", "reports"); TAB = R.out_dir("H3", "results", "tables"); FIG = R.out_dir("H3", "results", "figures")
-RAW = np.load(os.path.join(OUT, f"raw_{STAGE}.npz"), allow_pickle=True); Z = np.load(os.path.join(OUT, f"raw_{STAGE}_zq.npz"))
-P = np.load(os.path.join(OUT, f"raw_pursuit_{STAGE}.npz"), allow_pickle=True); META = json.load(open(os.path.join(OUT, f"meta_{STAGE}.json")))
+# decompress every member once (NpzFile re-reads a member on each access; the 168-cell stage makes ~10^5 accesses)
+RAW = dict(np.load(os.path.join(OUT, f"raw_{STAGE}.npz"), allow_pickle=True)); Z = dict(np.load(os.path.join(OUT, f"raw_{STAGE}_zq.npz")))
+P = dict(np.load(os.path.join(OUT, f"raw_pursuit_{STAGE}.npz"), allow_pickle=True)); META = json.load(open(os.path.join(OUT, f"meta_{STAGE}.json")))
 cells = META["cells"]; names_all = list(dict.fromkeys(b.split("|")[0] for b in cells)); COLS = META["columns"]; ROWS = META["rows"]; KS = META["ks"]; nq = META["n_qpre"]
 S0 = META["s_donor0_seq_bf16_quoted"]; LZ0 = META["zq_layers"][0]; RB = slice(51 - LZ0, 60 - LZ0); SWAP_L = list(range(META["swap_layers"][0], META["swap_layers"][1] + 1)); RBL = list(range(51, 60))
 ITEMS = {it["name"]: it for it in META["items"]}; NC = len(cells); tok = R.make_tokenizer(); CB_ROW = "q_rem_cbr_pre" if S2 else "q_rem_cb_pre"
@@ -314,14 +315,14 @@ json.dump(T, open(os.path.join(TAB, f"two_hop_{STAGE}_tables.json"), "w"), inden
 # ---- report
 f2 = lambda x: f"{x:+.2f}"; f3 = lambda x: f"{x:+.3f}"; NI = len(names)
 title = ("the question-turn ladder finished: answer plane, k-sweep, consumer clamp, current base (Amendment 6)" if not S2 else
-         "Stage 2: the Amendment 6 ladder on 42 items over 7 relation types with admission gates, answer-smuggling screen and the repaired current-base row (Amendment 7)")
+         f"Stage 2: the Amendment 6 ladder on {len(names_all)} items over {len(set(CAT.values()))} relation types with admission gates, answer-smuggling screen and the repaired current-base row (Amendment 7)")
 L = [f"# two_hop_organism · stage `{STAGE}` — {title}\n",
      f"Run `{META['run_id']}`, {META['n_forwards']} forwards, {META['elapsed_s']} s; Qwen3.6-27B, thinking off, **float32 residual from block {META['fp32_from']}** on every forward; {NC} cells ({len(names_all)} items × {len(META['carriers'])} carriers), "
      f"cluster = item; writes at blocks {SWAP_L[0]}–{SWAP_L[-1]} on `q_pre` (question turn, scoring position excluded; {nq} positions); consumer clamps at the scoring position only; sequence-log-prob endpoint (logsumexp over spellings). "
      f"Full-vocabulary dictionary {META['vocab_size']} atoms per block; restricted word dictionary {META['restricted_dictionary_size']} atoms. Design: `H3/design_specs/two_hop_organism.md` {AMEND}; battery `H3/scripts/two_hop_qsplit6.py`; the generated sections are from `two_hop_qsplit6_analysis.py`, the last section is hand-written.\n"]
 if S2:
     L.append(f"**Primary set = the admitted items** ({len(admitted)}/{len(names_all)}; Amendment 7 §2: competence in all four carriers and the intermediate swap beating the answer swap at blocks 36–50): {', '.join(admitted)}. Every table below is on the admitted set unless labelled *all items*; §2b gives all items and the per-relation split. "
-             f"Admission summary: gate (a) {sum(v['gate_a'] for v in ADM.values())}/{len(ADM)}, gate (b) {sum(v['gate_b'] for v in ADM.values())}/{len(ADM)}, both {len(admitted)}/{len(ADM)}; admitted per relation type {dict(Counter(CAT[nm] for nm in admitted))}; decision conditions (≥ 12 admitted over ≥ 3 types, competence ≥ 0.9): {'met' if T['decision_conditions']['met'] else 'NOT met'}.\n")
+             f"Admission summary: gate (a) {sum(v['gate_a'] for v in ADM.values())}/{len(ADM)}, gate (b) {sum(v['gate_b'] for v in ADM.values())}/{len(ADM)}, both {sum(v['admitted'] for v in ADM.values())}/{len(ADM)} (in this stage's cells: {len(admitted)}/{len(names_all)}); admitted per relation type {dict(Counter(CAT[nm] for nm in admitted))}; decision conditions (≥ 12 admitted over ≥ 3 types, competence ≥ 0.9): {'met' if T['decision_conditions']['met'] else 'NOT met'}.\n")
 L += ["## 1. Gates\n",
       f"- Gate 1 (rendering, `q` token-id equality recipient/donor, scoring position excluded, single-token answer words): asserted per cell in the battery ({NC} cells, `q_pre` length {nq} in every cell) — PASS.",
       f"- Gate 2 (competence, sequence endpoint): clean32 {comp_p['clean']:.2f}, donor32 {comp_p['donor']:.2f}" + (f" on the admitted set (all items: {comp_all['clean']:.2f} / {comp_all['donor']:.2f}; not a stop rule in Stage 2)" if S2 else "") + f" — **{'PASS' if T['gate2']['pass'] else 'FAIL'}**.",
@@ -411,7 +412,7 @@ for b, d in T["six_random_cells"].items():
              + f"; greedy under J25 rem `{d['greedy']['q_J25rem_pre']}`, + cc `{d['greedy']['q_J25rem_pre_cc']}`; J_NP int shift at s under J25 rem {f2(d['J_int_shift_s']['q_J25rem_pre'])} → + cc {f2(d['J_int_shift_s']['q_J25rem_pre_cc'])}; answer shift {f2(d['J_ans_shift_s']['q_J25rem_pre'])} → {f2(d['J_ans_shift_s']['q_J25rem_pre_cc'])}; "
              f"pursuit on the donor's Δh at s, L59: {d['atoms_s_L59_first8']}; on the last `q_pre` position: {d['atoms_qpre_last_L59_first8']}.")
 D = T["decision"]; Pp = T["predictions"]
-L.append(f"\n## 7. Decision rule (Amendment 6 §6{', applied to the admitted set (Amendment 7 §5)' if S2 else ''}) and predictions\n")
+L.append(f"\n## 7. Decision rule (Amendment 6 §6{'; applied to the admitted set per Amendment 7 §5' if S2 else ''}) and predictions\n")
 L.append(f"Consumer-clamped complement share at k = 25: **{f3(D['consumer_clamped_complement_share_k25'])}** (un-clamped {f3(D['unclamped_share_k25'])}; random-k clamp control {f3(D['control_ccr_share_k25'])}, {'within' if D['ccr_within_unclamped_interval'] else 'outside'} the un-clamped row's interval); gates 1–5 {'pass' if D['gates_1_5_pass'] else 'FAIL'} → **{D['reading']}**. "
          f"Qualifier: answer-related atoms carry {100*atoms['25']['norm_share_qpre_L51_59']['answer']:.0f} % of the J_25 part's norm on `q_pre` at L51–59 ({'most' if D['qualifier_answer_atoms_carry_most_of_J25'] else 'not most'}); answer-plane removal leaves B_ans = {f3(Ba)} ({'kills most of the effect' if D['qualifier_answer_plane_removal_kills_most'] else 'does not kill most of the effect'}). "
          f"**Leading alternative, stated beside the rule:** the answer plane alone carries {f3(Aa)} against {f3(A)} for the intermediate plane at equal dimension ({pcmp['ans_minus_int_plane']['n_pos']}/{NI} items), so \"the answer is already computed and J-readable at the question turn\" is the reading to beat; the `_cc` shares are upper bounds on any non-J route (the clamp is partial, §3), and the J_k part is strongly privileged per dimension (J_25 complement {f3(un25)} vs random-25 complement {f3(sh('q_rand25rem_pre'))}).\n")
