@@ -336,3 +336,69 @@ Per row: the Amendment 6 columns, for the admitted set and for all items, plus a
 ### Gates, budget
 
 Gates 1–3 and 5 of Amendment 6; for (b) the readout-at-s verification gate above; for (c) the token-id equality of the question turn across templates and the competence of the language renderings (clean prefers the own language, ≥ 0.9 of cells). Budget ≈ 48 cells × (3 rows + 3 controls) × 5 forwards + 7 pairs × 4 carriers × (2 rows + 1 control) × 8 forwards ≈ 2,100 forwards. Nothing under this amendment runs until it is scheduled by the researcher.
+
+### Amendment 8 — run registration (2026-09-24, after Stage 2 and before any forward under this amendment)
+
+**Stage `probe3`. Script `H3/scripts/two_hop_probe3.py` (stages `smoke3`, `probe3`), analysis `two_hop_probe3_analysis.py`. Same model, float32 residual from block 35 on every forward, sequence-log-prob endpoint, writes at blocks 36–62 on `q_pre`, clamps at the scoring position s only, cluster = item (rows a, b) or pair (row c). Scheduled by the researcher on 2026-09-24 ("run whatever is next"); this section fixes every implementation choice the registration above left open. Nothing here changes a registered prediction.**
+
+#### Why now (what Stage 2 left open)
+
+Stage 2 (Amendment 7) reproduced Stage 1 on 35 admitted items over six relation types, and its registered decision rule landed on its threshold: the consumer-clamped J25 complement is 0.511, cluster-bootstrap [0.474, 0.550]. Two facts bound what that licenses. First, the clamp is partial: the intermediate and answer readouts at s stay at +1.49 and +1.32 under it, so 0.511 is only an upper bound on any route that is not J-readable at the answer position. Second, the answer plane carries 0.37 of the effect against 0.19 for the intermediate plane, in all 35 items and every relation type, so "the answer is already computed and readable at the question turn" is the leading alternative to "a route the lens cannot read". Rows (a), (b) and (c) each attack one of these.
+
+#### How (frozen)
+
+- **Items.** Rows (a) and (b), with their same-run references, run on the 35 items admitted in Stage 2 × C0–C3 = 140 cells. This replaces the 48-cell budget line above, because Stage 2's decision was taken on the admitted set and the verified clamp must be compared on the same items. Row (c) runs on the seven registered pairs × C0–C3 = 28 cells. Geometry was checked before this registration with the tokenizer only. The capital renderings are 122 tokens and the language renderings 123, each pair is length-matched, the question-turn token ids are identical across all four renderings, and every language answer is a single token.
+- **Same-run references** (re-runs of registered Amendment 6 rows, for normalisation and as a reproduction gate against Stage 2's stored margins): `q_full_pre`, `q_rem_pre`, `q_ansrem_pre`, `q_J25rem_pre`, `q_J25rem_pre_cc`. The full-dictionary pursuit is recomputed to k = 25 for the `q_pre` vectors and the s vectors of the 140 cells. Its selections are compared with Stage 2's stored ones and the agreement fraction is reported.
+- **(a) `q_bothrem_pre`**: h + Δh − P₄Δh on `q_pre`, with P₄ the projector onto the orthonormalised span of the four folded directions (intermediate, swap_to, answer, swap_answer; leading-space forms) per block. Control **`q_rand4rem_pre`**: h + Δh − v, with v the projection of Δh onto an isotropic random 4-frame rescaled per position to ‖P₄Δh‖ (asserted), seed 20260924 + 300000 + cell.
+- **(b) `q_J25rem_pre_ccs`**: `q_J25rem_pre` on `q_pre`, plus a clamp at s at every block 36–62 holding the coordinates of h_s in span(F ∪ P ∪ X) at clean (Amendment 6 §3 form, fp32 arithmetic). The orthonormal basis comes from an SVD at relative tolerance 1e-3.
+  - F is the folded directions of every single-token form of the four words and their frozen aliases (Amendments 6 and 7), with and without a leading space, capitalised and lowercase.
+  - P is the 25 atoms of the full-dictionary pursuit on Δh_{s,l}, the same span as `q_J25rem_pre_cc`.
+  - X is the translation atoms. These are every vocabulary entry whose decoded string contains no Latin letter and whose nearest Latin-script unembedding row decodes to one of the four words or an alias. Nearest means cosine over normalised W_U rows. Matching is exact after stripping and lowercasing, and the prefix rule is not used.
+  - The counts |F|, |X| and the rank are reported per item. The pre-check found 4–67 translation atoms per item, median 18. The rule is mechanical and admits a few false friends, such as `山西` (Shanxi) and `太原` beside Spain. It is kept as is, and the rank-matched control absorbs them.
+  - Control **`q_J25rem_pre_ccsr`**: a random frame of the same rank, orthogonalised against the pinned span, with each block's delta rescaled to the `_ccs` realized norm in the same cell and block. Seed 20260924 + 350000 + cell.
+  - **Verification gate V.** Under `_ccs`, take the item-mean J_NP readout shift at s (L51–59, minus clean) for swap_to − intermediate and for swap_answer − answer. V passes if both lie within ±0.3. The fraction of cells within ±0.3 is reported. If V fails, row (b) is a failed clamp and is not read.
+  - The final block, 63, is outside every clamp by design. Clamping it along γ⊙w would pin the output logits themselves. Its re-entry at s is reported for both pairs.
+- **(c)** For each pair (A, B), render four prompts: the capital template with cue A and with cue B (the Stage 1/2 item and its donor), and the language template "Fact: The language spoken in the country where {cue} is located is" with cue A and with cue B.
+  - Δh_cap is the cue-B minus cue-A difference of the capital renderings. Δh_lang is the same difference for the language renderings. Both are taken at the `q_pre` positions, blocks 36–62, under the fp32 regime.
+  - Rows in the language rendering of A: **`q_xfer`** h + Δh_cap; **`q_native_lang`** h + Δh_lang; **`q_xfer_rand`** h + r, with r isotropic and ‖r‖ = ‖Δh_cap‖ per position and block, seed 20260924 + 400000 + cell.
+  - Rows in the capital rendering of A: **`q_mirror`** h + Δh_lang; **`q_native_cap`** h + Δh_cap; **`q_mirror_rand`** with ‖r‖ = ‖Δh_lang‖, seed 20260924 + 450000 + cell.
+  - Endpoints in every rendering are two sequence log-prob margins, each minus that rendering's clean value. m_lang is donor's language minus own language. m_cap is donor's capital minus own capital.
+- **Gates**:
+  1. Rendering, geometry and question-turn token equality.
+  2. Competence ≥ 0.9 of cells for every rendering type used: capital and language, clean and donor.
+  3. Realized writes. ρ ∈ [0.9, 1.1] and κ ≥ 0.99 on every fixed-target row and every clamp write; the `_ccsr` norm within 5 % of its match; the random-vector norms asserted.
+  4. Reproduction. The same-run reference rows equal Stage 2's stored margins within 0.01 nats in ≥ 0.95 of cells.
+  5. Gate V, for row (b).
+
+#### What it will answer (outcome → reading, registered before the forward)
+
+- **(a) Is the intermediate's readable leverage separate from the answer's, or contained in it?**
+  - Let the removal effects be e_I = 1 − share(`q_rem_pre`), e_A = 1 − share(`q_ansrem_pre`) and e_both = 1 − share(`q_bothrem_pre`), all same-run. Define the overlap fraction ov = (e_I + e_A − e_both)/e_I, the fraction of the intermediate plane's effect that the answer plane already carries. It is reported with a cluster-bootstrap interval.
+  - **Nested** (ov interval above 0.75): the intermediate's readable leverage is inside the answer's, which supports the answer-precomputed reading.
+  - **Separate** (ov interval below 0.25): the two readable handles act independently.
+  - Otherwise **partly shared**, with the value.
+  - The registered prediction above (share ≤ min(B, B_ans) − 0.05 if separate, ≈ B_ans if nested) is scored as written beside it.
+  - Control: `q_rand4rem_pre` ≥ 0.9.
+- **(b) Is the half that survived Stage 2's clamp a route the lens cannot read, or an artefact of the partial clamp?**
+  - The reading is taken only if V passes and `_ccsr` lies within the un-clamped `q_J25rem_pre` interval. Let C = share(`q_J25rem_pre_ccs`).
+  - C ≥ 0.4: a route not J-readable at the answer position through block 62 carries at least C of the question-turn effect. Stage 2's upper bound becomes the bracket [C, 0.51].
+  - C ≤ 0.2: Stage 2's surviving half was the partial clamp, and the effect reaches the answer through readable content at the answer position.
+  - Otherwise: C is the result, reported with the bracket.
+  - Block-63 re-entry is reported beside C in every case.
+- **(c) Does the question-turn state carry the country or the capital?**
+  - Let f_L = m_lang(`q_xfer`)/m_lang(`q_native_lang`), the ratio of pair means with a bootstrap over pairs.
+  - **Upstream content present**: m_lang(`q_xfer`) exceeds its random control in ≥ 6 of 7 pairs, and f_L ≥ 0.3. The capital question's state carries something upstream of the answer that the language question uses. "Only the answer is carried" is then excluded.
+  - **Answer content only**: f_L ≤ 0.1, m_lang(`q_xfer`) inside the random control's interval, and m_cap(`q_xfer`) > 0. The capital question's state carries the capital, not the country, which supports the answer-precomputed reading.
+  - Otherwise, f_L and m_cap are reported.
+  - The mirror row is read the same way with the roles swapped: f_C = m_cap(`q_mirror`)/m_cap(`q_native_cap`).
+  - **Scope**: (c) separates answer content from upstream content. It cannot separate the country from the cue city it was derived from, because a push toward the donor's language could come from either.
+- **Predictions on record.** V passes, because the four exact folded directions are pinned and the readout can then move only through the RMS normaliser. There is no numeric prior on ov, C or f_L. The planes are not orthogonal (cosines reported), so some overlap in (a) is expected.
+
+#### Budget and outputs
+
+- Rows (a) and (b) with references: 140 cells × 11 conditions × about 4.7 spellings ≈ 7,200 forwards.
+- Row (c): 28 cells × about 80 ≈ 2,240 forwards.
+- Plus the k = 25 pursuit pass and the translation-atom pass (tokenizer and W_U only). About 55 minutes in total, capped at 2 h.
+- Raw outputs: `raw_probe3.npz`, `raw_probe3_zq.npz`, `raw_pursuit_probe3.npz`, `meta_probe3.json`, `manifest_probe3.json`.
+- Report `H3/results/reports/two_hop_probe3.md`, tables `two_hop_probe3_tables.json`, figure `h3_probe3`.
+- No rows beyond this set without a new amendment. A gate failure ends the stage as a gate failure.
