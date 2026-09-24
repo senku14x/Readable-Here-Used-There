@@ -1,0 +1,3020 @@
+{
+ "columns": [
+  "Canada",
+  "Egypt",
+  "France",
+  "Germany",
+  "Greece",
+  "Hungary",
+  "Italy",
+  "Japan",
+  "Poland",
+  "Russia",
+  "Spain",
+  "butter",
+  "honey",
+  "Arabic",
+  "Athens",
+  "Berlin",
+  "Budapest",
+  "Madrid",
+  "Ottawa",
+  "Paris",
+  "Rome",
+  "Russian",
+  "Tokyo",
+  "Warsaw",
+  "bee",
+  "cow",
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "n_int_words": 13,
+ "n_ans_words": 13,
+ "decoys": [
+  "anchor",
+  "apple",
+  "arrow",
+  "badge",
+  "basket",
+  "bread",
+  "brick",
+  "bridge"
+ ],
+ "carriers": [
+  "C0",
+  "C1",
+  "C2",
+  "C3"
+ ],
+ "swap_layers": [
+  36,
+  62
+ ],
+ "fp32_from": 35,
+ "seed": 20260924,
+ "stage": "qsplit6",
+ "cells": {
+  "ex-city-capital-Barcelona-Toronto|C0": {
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "q": [
+    94,
+    121
+   ],
+   "q_pre": [
+    94,
+    120
+   ],
+   "scoring": 121,
+   "n_tokens": 122,
+   "cos_int_swap_max_abs": 0.5149497985839844,
+   "cos_ans_swap_max_abs": 0.2917133569717407,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ]
+  },
+  "ex-city-capital-Barcelona-Toronto|C1": {
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "q": [
+    96,
+    123
+   ],
+   "q_pre": [
+    96,
+    122
+   ],
+   "scoring": 123,
+   "n_tokens": 124,
+   "cos_int_swap_max_abs": 0.5149497985839844,
+   "cos_ans_swap_max_abs": 0.2917133569717407,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ]
+  },
+  "ex-city-capital-Barcelona-Toronto|C2": {
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    64,
+    80
+   ],
+   "q": [
+    80,
+    107
+   ],
+   "q_pre": [
+    80,
+    106
+   ],
+   "scoring": 107,
+   "n_tokens": 108,
+   "cos_int_swap_max_abs": 0.5149497985839844,
+   "cos_ans_swap_max_abs": 0.2917133569717407,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ]
+  },
+  "ex-city-capital-Barcelona-Toronto|C3": {
+   "intermediate": "Spain",
+   "swap_to": "Canada",
+   "answer": "Madrid",
+   "swap_answer": "Ottawa",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    81,
+    114
+   ],
+   "q": [
+    114,
+    141
+   ],
+   "q_pre": [
+    114,
+    140
+   ],
+   "scoring": 141,
+   "n_tokens": 142,
+   "cos_int_swap_max_abs": 0.5149497985839844,
+   "cos_ans_swap_max_abs": 0.2917133569717407,
+   "spellings_answer": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C0": {
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "q": [
+    94,
+    121
+   ],
+   "q_pre": [
+    94,
+    120
+   ],
+   "scoring": 121,
+   "n_tokens": 122,
+   "cos_int_swap_max_abs": 0.6813498139381409,
+   "cos_ans_swap_max_abs": 0.6136183738708496,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C1": {
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "q": [
+    96,
+    123
+   ],
+   "q_pre": [
+    96,
+    122
+   ],
+   "scoring": 123,
+   "n_tokens": 124,
+   "cos_int_swap_max_abs": 0.6813498139381409,
+   "cos_ans_swap_max_abs": 0.6136183738708496,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C2": {
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    64,
+    80
+   ],
+   "q": [
+    80,
+    107
+   ],
+   "q_pre": [
+    80,
+    106
+   ],
+   "scoring": 107,
+   "n_tokens": 108,
+   "cos_int_swap_max_abs": 0.6813498139381409,
+   "cos_ans_swap_max_abs": 0.6136183738708496,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ]
+  },
+  "ex-city-capital-Lyon-Naples|C3": {
+   "intermediate": "France",
+   "swap_to": "Italy",
+   "answer": "Paris",
+   "swap_answer": "Rome",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    81,
+    114
+   ],
+   "q": [
+    114,
+    141
+   ],
+   "q_pre": [
+    114,
+    140
+   ],
+   "scoring": 141,
+   "n_tokens": 142,
+   "cos_int_swap_max_abs": 0.6813498139381409,
+   "cos_ans_swap_max_abs": 0.6136183738708496,
+   "spellings_answer": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ],
+   "spellings_swap": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C0": {
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "q": [
+    94,
+    121
+   ],
+   "q_pre": [
+    94,
+    120
+   ],
+   "scoring": 121,
+   "n_tokens": 122,
+   "cos_int_swap_max_abs": 0.7091184854507446,
+   "cos_ans_swap_max_abs": 0.53851318359375,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C1": {
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "q": [
+    96,
+    123
+   ],
+   "q_pre": [
+    96,
+    122
+   ],
+   "scoring": 123,
+   "n_tokens": 124,
+   "cos_int_swap_max_abs": 0.7091184854507446,
+   "cos_ans_swap_max_abs": 0.53851318359375,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C2": {
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    64,
+    80
+   ],
+   "q": [
+    80,
+    107
+   ],
+   "q_pre": [
+    80,
+    106
+   ],
+   "scoring": 107,
+   "n_tokens": 108,
+   "cos_int_swap_max_abs": 0.7091184854507446,
+   "cos_ans_swap_max_abs": 0.53851318359375,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ]
+  },
+  "ex-city-capital-Naples-Barcelona|C3": {
+   "intermediate": "Italy",
+   "swap_to": "Spain",
+   "answer": "Rome",
+   "swap_answer": "Madrid",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    81,
+    114
+   ],
+   "q": [
+    114,
+    141
+   ],
+   "q_pre": [
+    114,
+    140
+   ],
+   "scoring": 141,
+   "n_tokens": 142,
+   "cos_int_swap_max_abs": 0.7091184854507446,
+   "cos_ans_swap_max_abs": 0.53851318359375,
+   "spellings_answer": [
+    [
+     49,
+     617
+    ],
+    [
+     21047
+    ]
+   ],
+   "spellings_swap": [
+    [
+     218787
+    ],
+    [
+     23327
+    ]
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C0": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "q": [
+    94,
+    121
+   ],
+   "q_pre": [
+    94,
+    120
+   ],
+   "scoring": 121,
+   "n_tokens": 122,
+   "cos_int_swap_max_abs": 0.6071150302886963,
+   "cos_ans_swap_max_abs": 0.4669778347015381,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C1": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "q": [
+    96,
+    123
+   ],
+   "q_pre": [
+    96,
+    122
+   ],
+   "scoring": 123,
+   "n_tokens": 124,
+   "cos_int_swap_max_abs": 0.6071150302886963,
+   "cos_ans_swap_max_abs": 0.4669778347015381,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C2": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    64,
+    80
+   ],
+   "q": [
+    80,
+    107
+   ],
+   "q_pre": [
+    80,
+    106
+   ],
+   "scoring": 107,
+   "n_tokens": 108,
+   "cos_int_swap_max_abs": 0.6071150302886963,
+   "cos_ans_swap_max_abs": 0.4669778347015381,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ]
+  },
+  "ex-city-capital-Toronto-Lyon|C3": {
+   "intermediate": "Canada",
+   "swap_to": "France",
+   "answer": "Ottawa",
+   "swap_answer": "Paris",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    81,
+    114
+   ],
+   "q": [
+    114,
+    141
+   ],
+   "q_pre": [
+    114,
+    140
+   ],
+   "scoring": 141,
+   "n_tokens": 142,
+   "cos_int_swap_max_abs": 0.6071150302886963,
+   "cos_ans_swap_max_abs": 0.4669778347015381,
+   "spellings_answer": [
+    [
+     46,
+     5391,
+     13674
+    ],
+    [
+     31106
+    ]
+   ],
+   "spellings_swap": [
+    [
+     57590
+    ],
+    [
+     11751
+    ]
+   ]
+  },
+  "ex2-city-capital-Munich|C0": {
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "q": [
+    94,
+    121
+   ],
+   "q_pre": [
+    94,
+    120
+   ],
+   "scoring": 121,
+   "n_tokens": 122,
+   "cos_int_swap_max_abs": 0.5969783067703247,
+   "cos_ans_swap_max_abs": 0.5823403596878052,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ]
+  },
+  "ex2-city-capital-Munich|C1": {
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "q": [
+    96,
+    123
+   ],
+   "q_pre": [
+    96,
+    122
+   ],
+   "scoring": 123,
+   "n_tokens": 124,
+   "cos_int_swap_max_abs": 0.5969783067703247,
+   "cos_ans_swap_max_abs": 0.5823403596878052,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ]
+  },
+  "ex2-city-capital-Munich|C2": {
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    64,
+    80
+   ],
+   "q": [
+    80,
+    107
+   ],
+   "q_pre": [
+    80,
+    106
+   ],
+   "scoring": 107,
+   "n_tokens": 108,
+   "cos_int_swap_max_abs": 0.5969783067703247,
+   "cos_ans_swap_max_abs": 0.5823403596878052,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ]
+  },
+  "ex2-city-capital-Munich|C3": {
+   "intermediate": "Germany",
+   "swap_to": "Japan",
+   "answer": "Berlin",
+   "swap_answer": "Tokyo",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    81,
+    114
+   ],
+   "q": [
+    114,
+    141
+   ],
+   "q_pre": [
+    114,
+    140
+   ],
+   "scoring": 141,
+   "n_tokens": 142,
+   "cos_int_swap_max_abs": 0.5969783067703247,
+   "cos_ans_swap_max_abs": 0.5823403596878052,
+   "spellings_answer": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ],
+   "spellings_swap": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ]
+  },
+  "ex2-city-capital-Osaka|C0": {
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "answer": "Tokyo",
+   "swap_answer": "Berlin",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    71,
+    94
+   ],
+   "q": [
+    94,
+    121
+   ],
+   "q_pre": [
+    94,
+    120
+   ],
+   "scoring": 121,
+   "n_tokens": 122,
+   "cos_int_swap_max_abs": 0.5969783067703247,
+   "cos_ans_swap_max_abs": 0.5823403596878052,
+   "spellings_answer": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ]
+  },
+  "ex2-city-capital-Osaka|C1": {
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "answer": "Tokyo",
+   "swap_answer": "Berlin",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    72,
+    96
+   ],
+   "q": [
+    96,
+    123
+   ],
+   "q_pre": [
+    96,
+    122
+   ],
+   "scoring": 123,
+   "n_tokens": 124,
+   "cos_int_swap_max_abs": 0.5969783067703247,
+   "cos_ans_swap_max_abs": 0.5823403596878052,
+   "spellings_answer": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ]
+  },
+  "ex2-city-capital-Osaka|C2": {
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "answer": "Tokyo",
+   "swap_answer": "Berlin",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    64,
+    80
+   ],
+   "q": [
+    80,
+    107
+   ],
+   "q_pre": [
+    80,
+    106
+   ],
+   "scoring": 107,
+   "n_tokens": 108,
+   "cos_int_swap_max_abs": 0.5969783067703247,
+   "cos_ans_swap_max_abs": 0.5823403596878052,
+   "spellings_answer": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ]
+  },
+  "ex2-city-capital-Osaka|C3": {
+   "intermediate": "Japan",
+   "swap_to": "Germany",
+   "answer": "Tokyo",
+   "swap_answer": "Berlin",
+   "span": [
+    8,
+    16
+   ],
+   "carrier": [
+    81,
+    114
+   ],
+   "q": [
+    114,
+    141
+   ],
+   "q_pre": [
+    114,
+    140
+   ],
+   "scoring": 141,
+   "n_tokens": 142,
+   "cos_int_swap_max_abs": 0.5969783067703247,
+   "cos_ans_swap_max_abs": 0.5823403596878052,
+   "spellings_answer": [
+    [
+     51076,
+     15560
+    ],
+    [
+     25358
+    ]
+   ],
+   "spellings_swap": [
+    [
+     91149
+    ],
+    [
+     19241
+    ]
+   ]
+  },
+  "ex2-city-language-Cairo|C0": {
+   "intermediate": "Egypt",
+   "swap_to": "Russia",
+   "answer": "Arabic",
+   "swap_answer": "Russian",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    72,
+    95
+   ],
+   "q": [
+    95,
+    122
+   ],
+   "q_pre": [
+    95,
+    121
+   ],
+   "scoring": 122,
+   "n_tokens": 123,
+   "cos_int_swap_max_abs": 0.5571679472923279,
+   "cos_ans_swap_max_abs": 0.479751855134964,
+   "spellings_answer": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ]
+  },
+  "ex2-city-language-Cairo|C1": {
+   "intermediate": "Egypt",
+   "swap_to": "Russia",
+   "answer": "Arabic",
+   "swap_answer": "Russian",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    73,
+    97
+   ],
+   "q": [
+    97,
+    124
+   ],
+   "q_pre": [
+    97,
+    123
+   ],
+   "scoring": 124,
+   "n_tokens": 125,
+   "cos_int_swap_max_abs": 0.5571679472923279,
+   "cos_ans_swap_max_abs": 0.479751855134964,
+   "spellings_answer": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ]
+  },
+  "ex2-city-language-Cairo|C2": {
+   "intermediate": "Egypt",
+   "swap_to": "Russia",
+   "answer": "Arabic",
+   "swap_answer": "Russian",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    65,
+    81
+   ],
+   "q": [
+    81,
+    108
+   ],
+   "q_pre": [
+    81,
+    107
+   ],
+   "scoring": 108,
+   "n_tokens": 109,
+   "cos_int_swap_max_abs": 0.5571679472923279,
+   "cos_ans_swap_max_abs": 0.479751855134964,
+   "spellings_answer": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ]
+  },
+  "ex2-city-language-Cairo|C3": {
+   "intermediate": "Egypt",
+   "swap_to": "Russia",
+   "answer": "Arabic",
+   "swap_answer": "Russian",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    82,
+    115
+   ],
+   "q": [
+    115,
+    142
+   ],
+   "q_pre": [
+    115,
+    141
+   ],
+   "scoring": 142,
+   "n_tokens": 143,
+   "cos_int_swap_max_abs": 0.5571679472923279,
+   "cos_ans_swap_max_abs": 0.479751855134964,
+   "spellings_answer": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ],
+   "spellings_swap": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ]
+  },
+  "ex2-city-language-Moscow|C0": {
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    72,
+    95
+   ],
+   "q": [
+    95,
+    122
+   ],
+   "q_pre": [
+    95,
+    121
+   ],
+   "scoring": 122,
+   "n_tokens": 123,
+   "cos_int_swap_max_abs": 0.5571679472923279,
+   "cos_ans_swap_max_abs": 0.479751855134964,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ]
+  },
+  "ex2-city-language-Moscow|C1": {
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    73,
+    97
+   ],
+   "q": [
+    97,
+    124
+   ],
+   "q_pre": [
+    97,
+    123
+   ],
+   "scoring": 124,
+   "n_tokens": 125,
+   "cos_int_swap_max_abs": 0.5571679472923279,
+   "cos_ans_swap_max_abs": 0.479751855134964,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ]
+  },
+  "ex2-city-language-Moscow|C2": {
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    65,
+    81
+   ],
+   "q": [
+    81,
+    108
+   ],
+   "q_pre": [
+    81,
+    107
+   ],
+   "scoring": 108,
+   "n_tokens": 109,
+   "cos_int_swap_max_abs": 0.5571679472923279,
+   "cos_ans_swap_max_abs": 0.479751855134964,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ]
+  },
+  "ex2-city-language-Moscow|C3": {
+   "intermediate": "Russia",
+   "swap_to": "Egypt",
+   "answer": "Russian",
+   "swap_answer": "Arabic",
+   "span": [
+    8,
+    17
+   ],
+   "carrier": [
+    82,
+    115
+   ],
+   "q": [
+    115,
+    142
+   ],
+   "q_pre": [
+    115,
+    141
+   ],
+   "scoring": 142,
+   "n_tokens": 143,
+   "cos_int_swap_max_abs": 0.5571679472923279,
+   "cos_ans_swap_max_abs": 0.479751855134964,
+   "spellings_answer": [
+    [
+     46118
+    ],
+    [
+     8260
+    ]
+   ],
+   "spellings_swap": [
+    [
+     6737,
+     65982
+    ],
+    [
+     32988
+    ]
+   ]
+  },
+  "ex2-language-capital-Hungarian|C0": {
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    73,
+    96
+   ],
+   "q": [
+    96,
+    123
+   ],
+   "q_pre": [
+    96,
+    122
+   ],
+   "scoring": 123,
+   "n_tokens": 124,
+   "cos_int_swap_max_abs": 0.7510275840759277,
+   "cos_ans_swap_max_abs": 0.6908942461013794,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ]
+  },
+  "ex2-language-capital-Hungarian|C1": {
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    74,
+    98
+   ],
+   "q": [
+    98,
+    125
+   ],
+   "q_pre": [
+    98,
+    124
+   ],
+   "scoring": 125,
+   "n_tokens": 126,
+   "cos_int_swap_max_abs": 0.7510275840759277,
+   "cos_ans_swap_max_abs": 0.6908942461013794,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ]
+  },
+  "ex2-language-capital-Hungarian|C2": {
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    66,
+    82
+   ],
+   "q": [
+    82,
+    109
+   ],
+   "q_pre": [
+    82,
+    108
+   ],
+   "scoring": 109,
+   "n_tokens": 110,
+   "cos_int_swap_max_abs": 0.7510275840759277,
+   "cos_ans_swap_max_abs": 0.6908942461013794,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ]
+  },
+  "ex2-language-capital-Hungarian|C3": {
+   "intermediate": "Hungary",
+   "swap_to": "Poland",
+   "answer": "Budapest",
+   "swap_answer": "Warsaw",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    83,
+    116
+   ],
+   "q": [
+    116,
+    143
+   ],
+   "q_pre": [
+    116,
+    142
+   ],
+   "scoring": 143,
+   "n_tokens": 144,
+   "cos_int_swap_max_abs": 0.7510275840759277,
+   "cos_ans_swap_max_abs": 0.6908942461013794,
+   "spellings_answer": [
+    [
+     225495,
+     26728
+    ],
+    [
+     67236
+    ]
+   ],
+   "spellings_swap": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ]
+  },
+  "ex2-language-capital-Polish|C0": {
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    73,
+    96
+   ],
+   "q": [
+    96,
+    123
+   ],
+   "q_pre": [
+    96,
+    122
+   ],
+   "scoring": 123,
+   "n_tokens": 124,
+   "cos_int_swap_max_abs": 0.5750741958618164,
+   "cos_ans_swap_max_abs": 0.49538367986679077,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ]
+  },
+  "ex2-language-capital-Polish|C1": {
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    74,
+    98
+   ],
+   "q": [
+    98,
+    125
+   ],
+   "q_pre": [
+    98,
+    124
+   ],
+   "scoring": 125,
+   "n_tokens": 126,
+   "cos_int_swap_max_abs": 0.5750741958618164,
+   "cos_ans_swap_max_abs": 0.49538367986679077,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ]
+  },
+  "ex2-language-capital-Polish|C2": {
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    66,
+    82
+   ],
+   "q": [
+    82,
+    109
+   ],
+   "q_pre": [
+    82,
+    108
+   ],
+   "scoring": 109,
+   "n_tokens": 110,
+   "cos_int_swap_max_abs": 0.5750741958618164,
+   "cos_ans_swap_max_abs": 0.49538367986679077,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ]
+  },
+  "ex2-language-capital-Polish|C3": {
+   "intermediate": "Poland",
+   "swap_to": "Greece",
+   "answer": "Warsaw",
+   "swap_answer": "Athens",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    83,
+    116
+   ],
+   "q": [
+    116,
+    143
+   ],
+   "q_pre": [
+    116,
+    142
+   ],
+   "scoring": 143,
+   "n_tokens": 144,
+   "cos_int_swap_max_abs": 0.5750741958618164,
+   "cos_ans_swap_max_abs": 0.49538367986679077,
+   "spellings_answer": [
+    [
+     95546,
+     654
+    ],
+    [
+     69724
+    ]
+   ],
+   "spellings_swap": [
+    [
+     82301,
+     704
+    ],
+    [
+     44299
+    ]
+   ]
+  },
+  "food-animal-butter|C0": {
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "answer": "cow",
+   "swap_answer": "bee",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    73,
+    96
+   ],
+   "q": [
+    96,
+    123
+   ],
+   "q_pre": [
+    96,
+    122
+   ],
+   "scoring": 123,
+   "n_tokens": 124,
+   "cos_int_swap_max_abs": 0.5056333541870117,
+   "cos_ans_swap_max_abs": 0.4586016535758972,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ]
+  },
+  "food-animal-butter|C1": {
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "answer": "cow",
+   "swap_answer": "bee",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    74,
+    98
+   ],
+   "q": [
+    98,
+    125
+   ],
+   "q_pre": [
+    98,
+    124
+   ],
+   "scoring": 125,
+   "n_tokens": 126,
+   "cos_int_swap_max_abs": 0.5056333541870117,
+   "cos_ans_swap_max_abs": 0.4586016535758972,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ]
+  },
+  "food-animal-butter|C2": {
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "answer": "cow",
+   "swap_answer": "bee",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    66,
+    82
+   ],
+   "q": [
+    82,
+    109
+   ],
+   "q_pre": [
+    82,
+    108
+   ],
+   "scoring": 109,
+   "n_tokens": 110,
+   "cos_int_swap_max_abs": 0.5056333541870117,
+   "cos_ans_swap_max_abs": 0.4586016535758972,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ]
+  },
+  "food-animal-butter|C3": {
+   "intermediate": "butter",
+   "swap_to": "honey",
+   "answer": "cow",
+   "swap_answer": "bee",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    83,
+    116
+   ],
+   "q": [
+    116,
+    143
+   ],
+   "q_pre": [
+    116,
+    142
+   ],
+   "scoring": 143,
+   "n_tokens": 144,
+   "cos_int_swap_max_abs": 0.5056333541870117,
+   "cos_ans_swap_max_abs": 0.4586016535758972,
+   "spellings_answer": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ],
+   "spellings_swap": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ]
+  },
+  "food-animal-honey|C0": {
+   "intermediate": "honey",
+   "swap_to": "butter",
+   "answer": "bee",
+   "swap_answer": "cow",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    73,
+    96
+   ],
+   "q": [
+    96,
+    123
+   ],
+   "q_pre": [
+    96,
+    122
+   ],
+   "scoring": 123,
+   "n_tokens": 124,
+   "cos_int_swap_max_abs": 0.5056333541870117,
+   "cos_ans_swap_max_abs": 0.4586016535758972,
+   "spellings_answer": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ]
+  },
+  "food-animal-honey|C1": {
+   "intermediate": "honey",
+   "swap_to": "butter",
+   "answer": "bee",
+   "swap_answer": "cow",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    74,
+    98
+   ],
+   "q": [
+    98,
+    125
+   ],
+   "q_pre": [
+    98,
+    124
+   ],
+   "scoring": 125,
+   "n_tokens": 126,
+   "cos_int_swap_max_abs": 0.5056333541870117,
+   "cos_ans_swap_max_abs": 0.4586016535758972,
+   "spellings_answer": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ]
+  },
+  "food-animal-honey|C2": {
+   "intermediate": "honey",
+   "swap_to": "butter",
+   "answer": "bee",
+   "swap_answer": "cow",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    66,
+    82
+   ],
+   "q": [
+    82,
+    109
+   ],
+   "q_pre": [
+    82,
+    108
+   ],
+   "scoring": 109,
+   "n_tokens": 110,
+   "cos_int_swap_max_abs": 0.5056333541870117,
+   "cos_ans_swap_max_abs": 0.4586016535758972,
+   "spellings_answer": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ]
+  },
+  "food-animal-honey|C3": {
+   "intermediate": "honey",
+   "swap_to": "butter",
+   "answer": "bee",
+   "swap_answer": "cow",
+   "span": [
+    8,
+    18
+   ],
+   "carrier": [
+    83,
+    116
+   ],
+   "q": [
+    116,
+    143
+   ],
+   "q_pre": [
+    116,
+    142
+   ],
+   "scoring": 143,
+   "n_tokens": 144,
+   "cos_int_swap_max_abs": 0.5056333541870117,
+   "cos_ans_swap_max_abs": 0.4586016535758972,
+   "spellings_answer": [
+    [
+     30976
+    ],
+    [
+     33,
+     2059
+    ],
+    [
+     35997
+    ],
+    [
+     36192
+    ]
+   ],
+   "spellings_swap": [
+    [
+     18350
+    ],
+    [
+     86823
+    ],
+    [
+     18775
+    ],
+    [
+     21179
+    ]
+   ]
+  }
+ },
+ "items": [
+  {
+   "name": "ex-city-capital-Barcelona-Toronto",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Barcelona is located is",
+   "intermediate": "Spain",
+   "answer": "Madrid",
+   "swap_to": "Canada",
+   "swap_answer": "Ottawa",
+   "donor_prompt": "Fact: The capital of the country where Toronto is located is",
+   "donor_name": "ex-city-capital-Toronto-Lyon"
+  },
+  {
+   "name": "ex-city-capital-Lyon-Naples",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Lyon is located is",
+   "intermediate": "France",
+   "answer": "Paris",
+   "swap_to": "Italy",
+   "swap_answer": "Rome",
+   "donor_prompt": "Fact: The capital of the country where Naples is located is",
+   "donor_name": "ex-city-capital-Naples-Barcelona"
+  },
+  {
+   "name": "ex-city-capital-Naples-Barcelona",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Naples is located is",
+   "intermediate": "Italy",
+   "answer": "Rome",
+   "swap_to": "Spain",
+   "swap_answer": "Madrid",
+   "donor_prompt": "Fact: The capital of the country where Barcelona is located is",
+   "donor_name": "ex-city-capital-Barcelona-Toronto"
+  },
+  {
+   "name": "ex-city-capital-Toronto-Lyon",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Toronto is located is",
+   "intermediate": "Canada",
+   "answer": "Ottawa",
+   "swap_to": "France",
+   "swap_answer": "Paris",
+   "donor_prompt": "Fact: The capital of the country where Lyon is located is",
+   "donor_name": "ex-city-capital-Lyon-Naples"
+  },
+  {
+   "name": "ex2-city-capital-Munich",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Munich is located is",
+   "intermediate": "Germany",
+   "answer": "Berlin",
+   "swap_to": "Japan",
+   "swap_answer": "Tokyo",
+   "donor_prompt": "Fact: The capital of the country where Osaka is located is",
+   "donor_name": "ex2-city-capital-Osaka"
+  },
+  {
+   "name": "ex2-city-capital-Osaka",
+   "category": "city-capital",
+   "prompt": "Fact: The capital of the country where Osaka is located is",
+   "intermediate": "Japan",
+   "answer": "Tokyo",
+   "swap_to": "Germany",
+   "swap_answer": "Berlin",
+   "donor_prompt": "Fact: The capital of the country where Munich is located is",
+   "donor_name": "ex2-city-capital-Munich"
+  },
+  {
+   "name": "ex2-city-language-Cairo",
+   "category": "city-language",
+   "prompt": "Fact: The language spoken in the country where Cairo is located is",
+   "intermediate": "Egypt",
+   "answer": "Arabic",
+   "swap_to": "Russia",
+   "swap_answer": "Russian",
+   "donor_prompt": "Fact: The language spoken in the country where Moscow is located is",
+   "donor_name": "ex2-city-language-Moscow"
+  },
+  {
+   "name": "ex2-city-language-Moscow",
+   "category": "city-language",
+   "prompt": "Fact: The language spoken in the country where Moscow is located is",
+   "intermediate": "Russia",
+   "answer": "Russian",
+   "swap_to": "Egypt",
+   "swap_answer": "Arabic",
+   "donor_prompt": "Fact: The language spoken in the country where Cairo is located is",
+   "donor_name": "ex2-city-language-Cairo"
+  },
+  {
+   "name": "ex2-language-capital-Hungarian",
+   "category": "language-capital",
+   "prompt": "Fact: The capital of the country where Hungarian is the primary language is",
+   "intermediate": "Hungary",
+   "answer": "Budapest",
+   "swap_to": "Poland",
+   "swap_answer": "Warsaw",
+   "donor_prompt": "Fact: The capital of the country where Polish is the primary language is",
+   "donor_name": "ex2-language-capital-Polish"
+  },
+  {
+   "name": "ex2-language-capital-Polish",
+   "category": "language-capital",
+   "prompt": "Fact: The capital of the country where Polish is the primary language is",
+   "intermediate": "Poland",
+   "answer": "Warsaw",
+   "swap_to": "Greece",
+   "swap_answer": "Athens",
+   "donor_prompt": "Fact: The capital of the country where Greek is the primary language is",
+   "donor_name": "ex2-language-capital-Greek"
+  },
+  {
+   "name": "food-animal-butter",
+   "category": "food-animal",
+   "prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+   "intermediate": "butter",
+   "answer": "cow",
+   "swap_to": "honey",
+   "swap_answer": "bee",
+   "donor_prompt": "Fact: The insect that produces the sweet golden substance spread on toast is the",
+   "donor_name": "food-animal-honey"
+  },
+  {
+   "name": "food-animal-honey",
+   "category": "food-animal",
+   "prompt": "Fact: The insect that produces the sweet golden substance spread on toast is the",
+   "intermediate": "honey",
+   "answer": "bee",
+   "swap_to": "butter",
+   "swap_answer": "cow",
+   "donor_prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+   "donor_name": "food-animal-butter"
+  }
+ ],
+ "question": "Complete the fact from the clue you were given, using one word.",
+ "s_donor0_seq_bf16_quoted": 23.87764283021291,
+ "readout_band": [
+  51,
+  59
+ ],
+ "zq_layers": [
+  36,
+  62
+ ],
+ "ks": [
+  2,
+  8,
+  25,
+  64
+ ],
+ "k_nnls": 25,
+ "kmax": 64,
+ "restricted_dictionary_size": 66032,
+ "vocab_size": 248320,
+ "ridge_rel": 1e-06,
+ "materials": "anthropics/jacobian-lens@581d398 data/experiments/probe-swap.json",
+ "design": "H3/design_specs/two_hop_organism.md (Amendment 6)",
+ "seeds": {
+  "random_2plane": "SEED + cell",
+  "random_k_removal": "SEED + 100000 + cell",
+  "ccr_frames": "SEED + 200000 + cell",
+  "energy_reference": "SEED + 777"
+ },
+ "gate2": {
+  "competence_clean32_seq": 1.0,
+  "competence_donor32_seq": 1.0,
+  "pass": true
+ },
+ "energy": {
+  "36": {
+   "e_J": {
+    "2": 0.01109427772462368,
+    "8": 0.023208023980259895,
+    "25": 0.035162974148988724,
+    "64": 0.04197884723544121
+   },
+   "e_rand_sigma": {
+    "2": 0.005270496662706137,
+    "8": 0.01822622902691364,
+    "25": 0.04441062957048416,
+    "64": 0.08020438402891159
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "37": {
+   "e_J": {
+    "2": 0.010924885049462318,
+    "8": 0.023355286568403244,
+    "25": 0.0359366200864315,
+    "64": 0.04331747815012932
+   },
+   "e_rand_sigma": {
+    "2": 0.007699859794229269,
+    "8": 0.01947489511221647,
+    "25": 0.04433743879199028,
+    "64": 0.07999194264411927
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "38": {
+   "e_J": {
+    "2": 0.010776202194392681,
+    "8": 0.023416781798005104,
+    "25": 0.036539819091558456,
+    "64": 0.04444408789277077
+   },
+   "e_rand_sigma": {
+    "2": 0.009202397987246513,
+    "8": 0.024188996478915214,
+    "25": 0.04864841476082802,
+    "64": 0.08343815803527832
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "39": {
+   "e_J": {
+    "2": 0.016108667477965355,
+    "8": 0.03121487982571125,
+    "25": 0.04665990173816681,
+    "64": 0.05618585646152496
+   },
+   "e_rand_sigma": {
+    "2": 0.003960558632388711,
+    "8": 0.01820455901324749,
+    "25": 0.04419648051261902,
+    "64": 0.07989543378353119
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "40": {
+   "e_J": {
+    "2": 0.016124792397022247,
+    "8": 0.03108188509941101,
+    "25": 0.04690493643283844,
+    "64": 0.057164158672094345
+   },
+   "e_rand_sigma": {
+    "2": 0.004341867798939347,
+    "8": 0.01753968894481659,
+    "25": 0.045416302233934405,
+    "64": 0.08087370395660401
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "41": {
+   "e_J": {
+    "2": 0.016359878703951836,
+    "8": 0.0318073034286499,
+    "25": 0.04837578907608986,
+    "64": 0.059435032308101654
+   },
+   "e_rand_sigma": {
+    "2": 0.006117957178503275,
+    "8": 0.01937093064188957,
+    "25": 0.04125043973326683,
+    "64": 0.07751640826463699
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "42": {
+   "e_J": {
+    "2": 0.015679825097322464,
+    "8": 0.03100402280688286,
+    "25": 0.047757234424352646,
+    "64": 0.058948080986738205
+   },
+   "e_rand_sigma": {
+    "2": 0.005178738152608275,
+    "8": 0.017585069686174393,
+    "25": 0.04282643273472786,
+    "64": 0.07827357053756714
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "43": {
+   "e_J": {
+    "2": 0.013880591839551926,
+    "8": 0.02841867133975029,
+    "25": 0.04470989480614662,
+    "64": 0.05576289817690849
+   },
+   "e_rand_sigma": {
+    "2": 0.004167739814147353,
+    "8": 0.016220545396208763,
+    "25": 0.037200506776571274,
+    "64": 0.06975117772817611
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "44": {
+   "e_J": {
+    "2": 0.013591494411230087,
+    "8": 0.027903201058506966,
+    "25": 0.04396183788776398,
+    "64": 0.05478380247950554
+   },
+   "e_rand_sigma": {
+    "2": 0.004654888948425651,
+    "8": 0.015420912951231002,
+    "25": 0.03574247434735298,
+    "64": 0.06765032261610031
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "45": {
+   "e_J": {
+    "2": 0.01297884713858366,
+    "8": 0.02700212225317955,
+    "25": 0.04286176338791847,
+    "64": 0.053480491042137146
+   },
+   "e_rand_sigma": {
+    "2": 0.004257844900712371,
+    "8": 0.014479219540953636,
+    "25": 0.03368532359600067,
+    "64": 0.06357533782720566
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "46": {
+   "e_J": {
+    "2": 0.012746714055538177,
+    "8": 0.026832586154341698,
+    "25": 0.043061405420303345,
+    "64": 0.05408972501754761
+   },
+   "e_rand_sigma": {
+    "2": 0.004829321010038257,
+    "8": 0.01701773554086685,
+    "25": 0.036175388097763064,
+    "64": 0.06584974825382232
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "47": {
+   "e_J": {
+    "2": 0.012342548929154873,
+    "8": 0.02642095275223255,
+    "25": 0.042646247893571854,
+    "64": 0.05363984778523445
+   },
+   "e_rand_sigma": {
+    "2": 0.0024420719128102064,
+    "8": 0.012747297249734401,
+    "25": 0.03027002178132534,
+    "64": 0.05928881838917732
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "48": {
+   "e_J": {
+    "2": 0.01371726579964161,
+    "8": 0.028788795694708824,
+    "25": 0.04590655863285065,
+    "64": 0.05722275376319885
+   },
+   "e_rand_sigma": {
+    "2": 0.0030361630488187075,
+    "8": 0.011865965090692043,
+    "25": 0.029443729668855667,
+    "64": 0.05773570388555527
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "49": {
+   "e_J": {
+    "2": 0.01644827425479889,
+    "8": 0.032463811337947845,
+    "25": 0.050103675574064255,
+    "64": 0.061593197286129
+   },
+   "e_rand_sigma": {
+    "2": 0.0035623664502054454,
+    "8": 0.012012623809278011,
+    "25": 0.029453476145863532,
+    "64": 0.05735514387488365
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "50": {
+   "e_J": {
+    "2": 0.017056986689567566,
+    "8": 0.03364630788564682,
+    "25": 0.05208267271518707,
+    "64": 0.06426475942134857
+   },
+   "e_rand_sigma": {
+    "2": 0.004839908471331001,
+    "8": 0.01489920038729906,
+    "25": 0.033145888894796374,
+    "64": 0.06253983601927757
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "51": {
+   "e_J": {
+    "2": 0.01659676991403103,
+    "8": 0.03311742842197418,
+    "25": 0.05174650996923447,
+    "64": 0.06420353800058365
+   },
+   "e_rand_sigma": {
+    "2": 0.003706410527229309,
+    "8": 0.014263348281383514,
+    "25": 0.03389383032917977,
+    "64": 0.06614954769611359
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "52": {
+   "e_J": {
+    "2": 0.01713777519762516,
+    "8": 0.03397829085588455,
+    "25": 0.05293507128953934,
+    "64": 0.06596528738737106
+   },
+   "e_rand_sigma": {
+    "2": 0.0035592681728303433,
+    "8": 0.014531397074460984,
+    "25": 0.03507562130689621,
+    "64": 0.06770262718200684
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "53": {
+   "e_J": {
+    "2": 0.016846969723701477,
+    "8": 0.03367232158780098,
+    "25": 0.05293109640479088,
+    "64": 0.06650914251804352
+   },
+   "e_rand_sigma": {
+    "2": 0.0037989952601492406,
+    "8": 0.014786388725042343,
+    "25": 0.03472592532634735,
+    "64": 0.06611513048410415
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "54": {
+   "e_J": {
+    "2": 0.01694689877331257,
+    "8": 0.033812325447797775,
+    "25": 0.05307483300566673,
+    "64": 0.06701890379190445
+   },
+   "e_rand_sigma": {
+    "2": 0.006834247731603682,
+    "8": 0.024843864887952805,
+    "25": 0.04637677893042565,
+    "64": 0.07903125137090683
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "55": {
+   "e_J": {
+    "2": 0.02617586776614189,
+    "8": 0.04528726264834404,
+    "25": 0.06570540368556976,
+    "64": 0.08001009374856949
+   },
+   "e_rand_sigma": {
+    "2": 0.005089045828208327,
+    "8": 0.016825678385794164,
+    "25": 0.03756490722298622,
+    "64": 0.07192780077457428
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "56": {
+   "e_J": {
+    "2": 0.02720571495592594,
+    "8": 0.04652918875217438,
+    "25": 0.06708399206399918,
+    "64": 0.08161911368370056
+   },
+   "e_rand_sigma": {
+    "2": 0.0059275916311889885,
+    "8": 0.01608735751360655,
+    "25": 0.03790090903639794,
+    "64": 0.07415525019168853
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "57": {
+   "e_J": {
+    "2": 0.026984035968780518,
+    "8": 0.046236928552389145,
+    "25": 0.06671595573425293,
+    "64": 0.0812886580824852
+   },
+   "e_rand_sigma": {
+    "2": 0.004537598136812449,
+    "8": 0.015866759233176708,
+    "25": 0.03792924210429192,
+    "64": 0.07541528344154358
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "58": {
+   "e_J": {
+    "2": 0.027567634359002113,
+    "8": 0.046808648854494095,
+    "25": 0.06695469468832016,
+    "64": 0.08115420490503311
+   },
+   "e_rand_sigma": {
+    "2": 0.009361751563847064,
+    "8": 0.029216953739523887,
+    "25": 0.055163991451263425,
+    "64": 0.09458146542310715
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "59": {
+   "e_J": {
+    "2": 0.03236332908272743,
+    "8": 0.052507948130369186,
+    "25": 0.0728265568614006,
+    "64": 0.08649075031280518
+   },
+   "e_rand_sigma": {
+    "2": 0.005529745062813163,
+    "8": 0.017175299301743507,
+    "25": 0.03769321665167809,
+    "64": 0.07512838393449783
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "60": {
+   "e_J": {
+    "2": 0.03283216804265976,
+    "8": 0.055140476673841476,
+    "25": 0.07468509674072266,
+    "64": 0.0861651673913002
+   },
+   "e_rand_sigma": {
+    "2": 0.0036166883539408444,
+    "8": 0.013028396293520927,
+    "25": 0.03419112414121628,
+    "64": 0.07346566915512084
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "61": {
+   "e_J": {
+    "2": 0.05899687111377716,
+    "8": 0.0848427414894104,
+    "25": 0.10075566917657852,
+    "64": 0.10697904229164124
+   },
+   "e_rand_sigma": {
+    "2": 0.0033402102533727886,
+    "8": 0.011082017235457898,
+    "25": 0.034934016317129134,
+    "64": 0.08765232861042023
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  },
+  "62": {
+   "e_J": {
+    "2": 0.05801202729344368,
+    "8": 0.08684538304805756,
+    "25": 0.1049412414431572,
+    "64": 0.11221087723970413
+   },
+   "e_rand_sigma": {
+    "2": 0.0031531723216176033,
+    "8": 0.01092984490096569,
+    "25": 0.032794231176376344,
+    "64": 0.08584748804569245
+   },
+   "k_over_d": {
+    "2": 0.000390625,
+    "8": 0.0015625,
+    "25": 0.0048828125,
+    "64": 0.0125
+   },
+   "n_cov_samples": 5876
+  }
+ },
+ "run_id": "20260924T091935Z",
+ "n_forwards": 8624,
+ "elapsed_s": 2707.3,
+ "rows": [
+  "q_full_pre",
+  "q_plane_pre",
+  "q_rem_pre",
+  "q_ansplane_pre",
+  "q_ansrem_pre",
+  "q_J25nn_pre",
+  "q_rem25nn_pre",
+  "q_rem25ans_pre",
+  "q_rem25int_pre",
+  "q_rand_pre",
+  "q_rem_rand_pre",
+  "q_J2_pre",
+  "q_J2rem_pre",
+  "q_rand2rem_pre",
+  "q_J8_pre",
+  "q_J8rem_pre",
+  "q_rand8rem_pre",
+  "q_J25_pre",
+  "q_J25rem_pre",
+  "q_rand25rem_pre",
+  "q_J64_pre",
+  "q_J64rem_pre",
+  "q_rand64rem_pre",
+  "q_rem_cb_pre",
+  "q_rem_pre_cc",
+  "q_rem25nn_pre_cc",
+  "q_J2rem_pre_cc",
+  "q_J8rem_pre_cc",
+  "q_J25rem_pre_cc",
+  "q_J64rem_pre_cc",
+  "q_rem_pre_ccr",
+  "q_rem25nn_pre_ccr",
+  "q_J2rem_pre_ccr",
+  "q_J8rem_pre_ccr",
+  "q_J25rem_pre_ccr",
+  "q_J64rem_pre_ccr"
+ ],
+ "n_qpre": 27
+}

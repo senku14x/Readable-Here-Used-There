@@ -142,15 +142,29 @@ T["top_atoms_k25_L51_59"] = {w: [(repr(tok.decode([v])), n_) for v, n_ in top[w]
 T["early_stops"] = int(sum(int((RAW[f"{b}|L{l}|stop_qpre"] < META["kmax"]).sum()) for b in cells for l in SWAP_L)); T["nnls_fallbacks_note"] = "scipy fallback count per block is in the battery log"
 
 # ---- current base: re-entry fraction of the plane coordinate inside the band
-re_ = {}
+re_, re_w, nr_ = {}, {}, {}
 for l_i, l in enumerate(SWAP_L):
-    fr = []
+    fr, frw, nr = [], [], []
     for b in cells:
         cf = RAW[f"{b}|L{l}|plane_coord_full"].astype(np.float32); cb = RAW[f"{b}|q_rem_cb_pre|plane_band"][l_i].astype(np.float32)   # [P, 2] each
-        fr.append(float(((cb * cf).sum(1) / (cf ** 2).sum(1).clip(1e-8)).mean()))
-    re_[str(l)] = float(np.mean(fr))
-T["current_base"] = {"share": sh("q_rem_cb_pre"), "rem_share": sh("q_rem_pre"), "reentry_fraction_by_block": re_, "reentry_fraction_L62": re_[str(SWAP_L[-1])], "reentry_fraction_L51_59": float(np.mean([re_[str(l)] for l in RBL])),
-                     "P6_share_ok": bool(sh("q_rem_cb_pre") >= sh("q_rem_pre") - 0.10), "plane_rebuilt_ge_0.5_by_L62": bool(re_[str(SWAP_L[-1])] >= 0.5)}
+        fr.append(float(((cb * cf).sum(1) / (cf ** 2).sum(1).clip(1e-8)).mean()))            # per-position projection ratio, mean (dominated by small-coordinate positions)
+        frw.append(float((cb * cf).sum() / (cf ** 2).sum().clip(1e-8)))                      # norm-weighted: ratio of sums over positions
+        nr.append(float(np.linalg.norm(cb, axis=1).mean() / np.linalg.norm(cf, axis=1).mean().clip(1e-8)))
+    re_[str(l)] = float(np.mean(fr)); re_w[str(l)] = float(np.mean(frw)); nr_[str(l)] = float(np.mean(nr))
+T["current_base"] = {"share": sh("q_rem_cb_pre"), "rem_share": sh("q_rem_pre"), "reentry_fraction_by_block_perposition": re_, "reentry_fraction_by_block_weighted": re_w, "plane_norm_ratio_by_block": nr_,
+                     "reentry_fraction_L62": re_w[str(SWAP_L[-1])], "reentry_fraction_L51_59": float(np.mean([re_w[str(l)] for l in RBL])), "plane_norm_ratio_L62": nr_[str(SWAP_L[-1])], "plane_norm_ratio_max": float(max(nr_.values())),
+                     "first_block_weighted_ge_0.5": next((l for l in SWAP_L if re_w[str(l)] >= 0.5), None),
+                     "P6_share_ok": bool(sh("q_rem_cb_pre") >= sh("q_rem_pre") - 0.10), "plane_rebuilt_ge_0.5_by_L62": bool(re_w[str(SWAP_L[-1])] >= 0.5), "plane_rebuilt_ge_0.5_anywhere_in_band": bool(max(re_w.values()) >= 0.5)}
+# consumer-clamp effects as item-level differences (un-clamped minus clamped; control minus un-clamped)
+T["clamp_effects"] = {}
+for c in ROWS:
+    if c + "_cc" in rows:
+        T["clamp_effects"][c] = {"cc_delta": ci(byitem(lambda b: mg(b, c) - mg(b, c + "_cc"))), "ccr_delta": ci(byitem(lambda b: mg(b, c) - mg(b, c + "_ccr"))),
+                                 "cc_delta_share_of_full": float(np.mean(byitem(lambda b: mg(b, c) - mg(b, c + "_cc"))) / full_mean), "cc_delta_share_of_row": float(np.mean(byitem(lambda b: mg(b, c) - mg(b, c + "_cc"))) / rows[c]["margin_seq"]["mean"])}
+T["plane_comparison"] = {"ans_minus_int_plane": ci(byitem(lambda b: mg(b, "q_ansplane_pre") - mg(b, "q_plane_pre"))), "v_over_dh_int_plane_L51_59": rows["q_plane_pre"].get("v_over_dh_L51_59"), "v_over_dh_ans_plane_L51_59": rows["q_ansplane_pre"].get("v_over_dh_L51_59"),
+                         "additivity_J25": ci([rows["q_full_pre"]["per_item_margin"][nm] - rows["q_J25_pre"]["per_item_margin"][nm] - rows["q_J25rem_pre"]["per_item_margin"][nm] for nm in names]),
+                         "additivity_plane": ci([rows["q_full_pre"]["per_item_margin"][nm] - rows["q_plane_pre"]["per_item_margin"][nm] - rows["q_rem_pre"]["per_item_margin"][nm] for nm in names]),
+                         "additivity_ans_plane": ci([rows["q_full_pre"]["per_item_margin"][nm] - rows["q_ansplane_pre"]["per_item_margin"][nm] - rows["q_ansrem_pre"]["per_item_margin"][nm] for nm in names])}
 
 # ---- decision rule and predictions
 A, B = sh("q_plane_pre"), sh("q_rem_pre"); Aa, Ba = sh("q_ansplane_pre"), sh("q_ansrem_pre"); RR = sh("q_rem_rand_pre")
@@ -210,8 +224,18 @@ for k in KS:
     cell = lambda nm: f"{f3(cv[nm]['share'])} ({f2(cv[nm]['margin'])} [{f2(cv[nm]['ci'][0])}, {f2(cv[nm]['ci'][1])}], {cv[nm]['n_pos']}/{len(names)})"
     L.append(f"| {k} | {cell('J_k')} | {cell('J_k_rem')} | {cell('J_k_rem_cc')} | {cell('J_k_rem_ccr')} | {cell('rand_k_rem')} | {e['e_J_all_blocks']:.3f} / {e['e_J_L51_59']:.3f} | {e['e_rand_sigma_all_blocks']:.3f} / {e['e_rand_sigma_L51_59']:.3f} | {e['k_over_d']:.4f} | {e['blocks_e_J_gt_e_rand']}/{len(SWAP_L)} |")
 L.append(f"\nPlane rows for comparison: intermediate plane A = {f3(A)}, complement B = {f3(B)} (+ consumer clamp {f3(sh('q_rem_pre_cc'))}, random-plane clamp {f3(sh('q_rem_pre_ccr'))}); answer plane A_ans = {f3(Aa)}, complement B_ans = {f3(Ba)}; restricted-dictionary NNLS k = 25: installed {f3(sh('q_J25nn_pre'))}, complement {f3(sh('q_rem25nn_pre'))} (+ clamp {f3(sh('q_rem25nn_pre_cc'))}, control {f3(sh('q_rem25nn_pre_ccr'))}); "
-         f"atom-type ablations at k = 25: answer-related atoms removed {f3(sh('q_rem25ans_pre'))}, intermediate-related atoms removed {f3(sh('q_rem25int_pre'))}. Current base: `q_rem_cb_pre` {f3(sh('q_rem_cb_pre'))} vs `q_rem_pre` {f3(B)}; the free plane coordinate inside the band reaches {100*T['current_base']['reentry_fraction_L62']:.0f} % of the full donor's plane coordinate by block 62 ({100*T['current_base']['reentry_fraction_L51_59']:.0f} % over L51–59; projection ⟨c_cb, c_full⟩/‖c_full‖² per position, mean over `q_pre` and cells). "
+         f"atom-type ablations at k = 25: answer-related atoms removed {f3(sh('q_rem25ans_pre'))}, intermediate-related atoms removed {f3(sh('q_rem25int_pre'))}. "
          f"Energy reference: Σ_l from {T['energy']['n_cov_samples']} clean block outputs; 5 seeds.\n")
+ce_ = T["clamp_effects"]; pcmp = T["plane_comparison"]
+L.append("Consumer-clamp effects as item-level differences (un-clamped minus clamped, nats; item-clustered 95 % t-intervals; the random-k control's difference beside it):\n")
+L.append("| complement row | clamp Δ (nats) | 95 % CI | items > 0 | as share of `q_full_pre` | as share of the row | random-k control Δ | 95 % CI |\n|---|---|---|---|---|---|---|---|")
+for c in ce_: L.append(f"| `{c}` | {f2(ce_[c]['cc_delta']['mean'])} | [{f2(ce_[c]['cc_delta']['ci'][0])}, {f2(ce_[c]['cc_delta']['ci'][1])}] | {ce_[c]['cc_delta']['n_pos']}/{len(names)} | {f3(ce_[c]['cc_delta_share_of_full'])} | {f3(ce_[c]['cc_delta_share_of_row'])} | {f2(ce_[c]['ccr_delta']['mean'])} | [{f2(ce_[c]['ccr_delta']['ci'][0])}, {f2(ce_[c]['ccr_delta']['ci'][1])}] |")
+L.append(f"\nPlanes at equal dimension: answer plane minus intermediate plane {f2(pcmp['ans_minus_int_plane']['mean'])} nats [{f2(pcmp['ans_minus_int_plane']['ci'][0])}, {f2(pcmp['ans_minus_int_plane']['ci'][1])}], {pcmp['ans_minus_int_plane']['n_pos']}/{len(names)} items > 0, at ‖v‖/‖Δh‖ {pcmp['v_over_dh_ans_plane_L51_59']:.3f} vs {pcmp['v_over_dh_int_plane_L51_59']:.3f}. "
+         f"Additivity S = m(full) − m(part) − m(complement): intermediate plane {f2(pcmp['additivity_plane']['mean'])} [{f2(pcmp['additivity_plane']['ci'][0])}, {f2(pcmp['additivity_plane']['ci'][1])}]; answer plane {f2(pcmp['additivity_ans_plane']['mean'])} [{f2(pcmp['additivity_ans_plane']['ci'][0])}, {f2(pcmp['additivity_ans_plane']['ci'][1])}]; J_25 {f2(pcmp['additivity_J25']['mean'])} [{f2(pcmp['additivity_J25']['ci'][0])}, {f2(pcmp['additivity_J25']['ci'][1])}] (reported, not a partition).\n")
+cbt = T["current_base"]
+L.append(f"Current base († construction failed, see §8.3 — the registered additive form double-counts the accumulated block delta; the numbers are reported as run and **not read**): `q_rem_cb_pre` {f3(cbt['share'])} vs `q_rem_pre` {f3(B)} ({rows['q_rem_cb_pre']['flips_seq']} vs {rows['q_rem_pre']['flips_seq']} flips; J_NP int readout on `q_pre` {f2(rows['q_rem_cb_pre']['J_int_shift_qpre']['mean'])} vs {f2(rows['q_rem_pre']['J_int_shift_qpre']['mean'])} pinned and {f2(rows['q_full_pre']['J_int_shift_qpre']['mean'])} full; at s {f2(rows['q_rem_cb_pre']['J_int_shift_s']['mean'])} vs {f2(rows['q_rem_pre']['J_int_shift_s']['mean'])} and {f2(rows['q_full_pre']['J_int_shift_s']['mean'])}). "
+         f"The free plane coordinate inside the band, Q_lᵀ(h' − h), projected on the full donor's plane coordinate (norm-weighted over `q_pre`, mean over cells): first block ≥ 0.5 at L{cbt['first_block_weighted_ge_0.5']}, {cbt['reentry_fraction_L51_59']:.2f} over L51–59, {cbt['reentry_fraction_L62']:.2f} at block 62; the coordinate's norm relative to the donor's peaks at {cbt['plane_norm_ratio_max']:.2f}× and is {cbt['plane_norm_ratio_L62']:.2f}× at block 62. "
+         f"Per block (weighted fraction): " + ", ".join(f"L{l} {cbt['reentry_fraction_by_block_weighted'][str(l)]:.2f}" for l in SWAP_L[::3] + [SWAP_L[-1]]) + ".\n")
 L.append("## 4. Atom-type breakdown (norm shares ‖v_C‖/‖v_Jk‖, mean over cells × blocks × positions; atoms are not orthogonal, so the shares are components, not a partition)\n")
 L.append("| k | `q_pre` L51–59: answer / intermediate / other | `q_pre` all blocks | scoring position L51–59 | scoring position all blocks | count fraction (`q_pre`, L51–59) | |coef|-weighted fraction |")
 L.append("|---|---|---|---|---|---|---|")
@@ -243,10 +267,12 @@ L.append(f"| P2 k = 2 selection contains intermediate/swap_to on a majority of `
 L.append(f"| P3 answer plane: B_ans ≤ 0.5 while B ≈ 0.78 (qualifier applies) | {Pp['P3_B_ans_le_0.5_and_B_stays']} | A_ans {f3(Aa)}, B_ans {f3(Ba)}, B {f3(B)} |")
 L.append(f"| P4 share(J_k rem) non-increasing in k; random-k rem ≥ 0.80 at every k | {Pp['P4_Jrem_nonincreasing']} / {Pp['P4_rand_rem_ge_0.8_all_k']} | J rem {[round(x, 3) for x in Jrem]}; rand rem {[round(x, 3) for x in Rrem]} |")
 L.append(f"| P5 `_cc` lowers each complement share; `_ccr` within the un-clamped interval | {sum(Pp['P5_cc_lower_than_unclamped'].values())}/{len(Pp['P5_cc_lower_than_unclamped'])} lower; {sum(Pp['P5_ccr_within_unclamped_interval'].values())}/{len(Pp['P5_ccr_within_unclamped_interval'])} within | " + "; ".join(f"{c}: cc {f3(sh(c + '_cc'))} vs {f3(sh(c))} (ccr {f3(sh(c + '_ccr'))})" for c in Pp['P5_cc_lower_than_unclamped']) + " |")
-L.append(f"| P6 current base ≥ B − 0.10; plane rebuilt ≥ 0.5 by block 62? | {Pp['P6_cb_share_ok']} / {Pp['P6_plane_rebuilt']} | cb {f3(sh('q_rem_cb_pre'))}, B {f3(B)}, re-entry fraction at L62 {T['current_base']['reentry_fraction_L62']:.2f} |")
+L.append(f"| P6 current base ≥ B − 0.10; plane rebuilt ≥ 0.5 by block 62? | {Pp['P6_cb_share_ok']} / {Pp['P6_plane_rebuilt']} (≥ 0.5 somewhere in the band: {T['current_base']['plane_rebuilt_ge_0.5_anywhere_in_band']}) | cb {f3(sh('q_rem_cb_pre'))}, B {f3(B)}, weighted re-entry fraction at L62 {T['current_base']['reentry_fraction_L62']:.2f}, first block ≥ 0.5: L{T['current_base']['first_block_weighted_ge_0.5']} |")
 L.append(f"| P7 e_J > N(0, Σ) random-k fraction at every k (block means) | {Pp['P7_eJ_gt_erand_every_k']} | blocks holding per k: {Pp['P7_blocks_holding']} |")
 L.append("\nCaveats carried forward from Amendment 5: each row is a fixed state trajectory over blocks 36–62 at `q_pre` (the rows are not a partition of one computation); `q_rem_pre` pins a two-token plane; the J_k rows pin the LS projection onto k greedy atoms of one dictionary (J_NP folded directions), so \"J-readable content\" here means \"content in the span of those atoms\"; the atom classes are string-mechanical (translations and related tokens in other scripts fall in *other*); shares are ratios of item means with n = 12 items.\n")
-L.append("## 8. Interpretation, licensed / not licensed, next decision\n\n_(hand-written after reading the tables)_\n")
+L.append("## 8. Interpretation, licensed / not licensed, next decision\n")
+_reading = os.path.join(REP, f"two_hop_{STAGE}_reading.md")
+L.append(open(_reading).read() if os.path.exists(_reading) else "_(hand-written after reading the tables; kept in `two_hop_" + STAGE + "_reading.md` and inlined here)_\n")
 open(os.path.join(REP, f"two_hop_{STAGE}.md"), "w").write("\n".join(L))
 
 # ---- figure from the tables only
@@ -258,7 +284,7 @@ except Exception as e:
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
 fig, axs = plt.subplots(1, 3, figsize=(5.5, 2.1), gridspec_kw={"width_ratios": [1.5, 1.1, 1.0]})
 ax = axs[0]; MAIN = ["q_full_pre", "q_plane_pre", "q_rem_pre", "q_ansplane_pre", "q_ansrem_pre", "q_J25rem_pre", "q_J25rem_pre_cc", "q_J25rem_pre_ccr", "q_rand25rem_pre", "q_rem_cb_pre"]
-lab = {"q_full_pre": "full", "q_plane_pre": "plane", "q_rem_pre": "rem", "q_ansplane_pre": "ans\nplane", "q_ansrem_pre": "ans\nrem", "q_J25rem_pre": "J25\nrem", "q_J25rem_pre_cc": "J25 rem\n+clamp", "q_J25rem_pre_ccr": "J25 rem\n+rand", "q_rand25rem_pre": "rand25\nrem", "q_rem_cb_pre": "rem\ncur. base"}
+lab = {"q_full_pre": "full", "q_plane_pre": "plane", "q_rem_pre": "rem", "q_ansplane_pre": "ans\nplane", "q_ansrem_pre": "ans\nrem", "q_J25rem_pre": "J25\nrem", "q_J25rem_pre_cc": "J25 rem\n+clamp", "q_J25rem_pre_ccr": "J25 rem\n+rand", "q_rand25rem_pre": "rand25\nrem", "q_rem_cb_pre": "rem\ncur. base†"}
 colr = ["#4c4c4c", "#1f77b4", "#d62728", "#6baed6", "#fb6a4a", "#a50f15", "#67000d", "#fcae91", "#bdbdbd", "#e6550d"]
 ms = [rows[c]["margin_seq"]["mean"] for c in MAIN]; lo = [rows[c]["margin_seq"]["mean"] - rows[c]["margin_seq"]["ci"][0] for c in MAIN]; hi = [rows[c]["margin_seq"]["ci"][1] - rows[c]["margin_seq"]["mean"] for c in MAIN]
 lo = [0 if np.isnan(x) else x for x in lo]; hi = [0 if np.isnan(x) else x for x in hi]
@@ -268,13 +294,13 @@ ax.axhline(0, color="k", lw=0.5); ax.set_xticks(range(len(MAIN))); ax.set_xtickl
 ax = axs[1]; from matplotlib.ticker import NullFormatter, FixedFormatter
 for nm, st_, cl in (("J_k_rem", "-o", "#d62728"), ("J_k_rem_cc", "-s", "#67000d"), ("J_k_rem_ccr", "--^", "#fcae91"), ("rand_k_rem", ":d", "#7f7f7f"), ("J_k", "-x", "#1f77b4")):
     ax.plot(KS, [curve[str(k)][nm]["share"] for k in KS], st_, color=cl, ms=3, lw=1, label={"J_k_rem": "J_k complement", "J_k_rem_cc": "+ consumer clamp", "J_k_rem_ccr": "+ random-k clamp", "rand_k_rem": "random-k complement", "J_k": "J_k installed"}[nm])
-ax.set_xscale("log"); ax.set_xticks(KS); ax.xaxis.set_major_formatter(FixedFormatter([str(k) for k in KS])); ax.xaxis.set_minor_formatter(NullFormatter()); ax.set_ylim(-0.1, 1.15); ax.axhline(0.5, color="k", lw=0.4, ls=":"); ax.axhline(0.2, color="k", lw=0.4, ls=":")
-ax.set_xlabel("k atoms"); ax.set_ylabel("share of q_full_pre"); ax.set_title("(b) share(k)", fontsize=7); ax.legend(fontsize=4.2, frameon=False, loc="center", bbox_to_anchor=(0.55, 0.42), handlelength=1.6)
+ax.set_xscale("log"); ax.set_xticks(KS); ax.xaxis.set_major_formatter(FixedFormatter([str(k) for k in KS])); ax.xaxis.set_minor_formatter(NullFormatter()); ax.set_ylim(-0.22, 1.12); ax.axhline(0.5, color="k", lw=0.4, ls=":"); ax.axhline(0.2, color="k", lw=0.4, ls=":")
+ax.set_xlabel("k atoms"); ax.set_ylabel("share of q_full_pre"); ax.set_title("(b) share(k)", fontsize=7); ax.legend(fontsize=4.2, frameon=False, loc="center", bbox_to_anchor=(0.55, 0.13), handlelength=1.6)
 ax = axs[2]; w_ = 0.35; x = np.arange(len(KS))
 for j, (w, cl) in enumerate((("answer", "#fb6a4a"), ("intermediate", "#1f77b4"), ("other", "#bdbdbd"))):
     ax.bar(x - w_ / 2, [atoms[str(k)]["norm_share_qpre_L51_59"][w] for k in KS], w_, bottom=[sum(atoms[str(k)]["norm_share_qpre_L51_59"][v] for v in ("answer", "intermediate", "other")[:j]) for k in KS], color=cl, label=w)
     ax.bar(x + w_ / 2, [atoms[str(k)]["norm_share_s_L51_59"][w] for k in KS], w_, bottom=[sum(atoms[str(k)]["norm_share_s_L51_59"][v] for v in ("answer", "intermediate", "other")[:j]) for k in KS], color=cl, alpha=0.55)
-ax.set_xticks(x); ax.set_xticklabels([f"{k}" for k in KS]); ax.set_ylim(0, 1.75); ax.set_xlabel("k (left q_pre, right scoring pos.)"); ax.set_ylabel("norm share of v_Jk (components)"); ax.set_title("(c) atom types, L51–59", fontsize=7); ax.legend(fontsize=4.2, frameon=False, loc="upper left", ncol=3, columnspacing=0.8, handlelength=1.2)
+ax.set_xticks(x); ax.set_xticklabels([f"{k}" for k in KS]); ax.set_ylim(0, 1.4); ax.set_xlabel("k (left q_pre, right scoring pos.)"); ax.set_ylabel("norm share of v_Jk (components)"); ax.set_title("(c) atom types, L51–59", fontsize=7); ax.legend(fontsize=4.2, frameon=False, loc="upper left", ncol=3, columnspacing=0.8, handlelength=1.2)
 fig.tight_layout(); fig.savefig(os.path.join(FIG, f"h3_{STAGE}.png"), dpi=200); fig.savefig(os.path.join(FIG, f"h3_{STAGE}.pdf"))
 print(json.dumps({k: T[k] for k in ("competence_clean32_seq", "competence_donor32_seq", "gate3", "gate4", "gate5", "gate6_positive_control", "gate7", "decision", "predictions", "current_base")}, indent=1, default=str))
 for c in ROWS: print(f"  [{c:20s}] seq margin {rows[c]['margin_seq']['mean']:+6.2f} [{rows[c]['margin_seq']['ci'][0]:+6.2f},{rows[c]['margin_seq']['ci'][1]:+6.2f}] ({rows[c]['margin_seq']['n_pos']}/{rows[c]['margin_seq']['n']}) share {rows[c]['share_of_q_full_pre']:+.3f} flips {rows[c]['flips_seq']:2d} | J int s {rows[c]['J_int_shift_s']['mean']:+.2f} q {rows[c]['J_int_shift_qpre']['mean']:+.2f} ans s {rows[c]['J_ans_shift_s']['mean']:+.2f} | c63 {rows[c]['block63_reentry_qpre']['mean']:+.2f}")

@@ -1,0 +1,60 @@
+
+ex-city-capital-Barcelona-Toronto|C0: per block  ||h'_cb - h||  /  ||Delta^perp|| (= fixed-target deviation)  /  ||Delta||  (means over q_pre positions)
+  L36:    3.29 /    3.29 /    3.40   ratio cb/full  0.97
+  L37:    6.73 /    3.44 /    3.54   ratio cb/full  1.90
+  L38:    9.73 /    3.32 /    3.41   ratio cb/full  2.85
+  L39:   13.37 /    3.93 /    4.13   ratio cb/full  3.24
+  L40:   16.39 /    3.79 /    3.99   ratio cb/full  4.11
+  L41:   19.78 /    3.81 /    4.05   ratio cb/full  4.88
+  L42:   23.65 /    3.90 /    4.13   ratio cb/full  5.73
+  L43:   27.61 /    4.36 /    4.57   ratio cb/full  6.05
+  L44:   31.64 /    4.45 /    4.65   ratio cb/full  6.80
+  L45:   35.98 /    4.60 /    4.79   ratio cb/full  7.51
+  L46:   41.12 /    4.78 /    4.96   ratio cb/full  8.28
+  L47:   46.19 /    5.24 /    5.41   ratio cb/full  8.53
+  L48:   51.05 /    5.51 /    5.70   ratio cb/full  8.95
+  L49:   55.98 /    5.92 /    6.19   ratio cb/full  9.04
+  L50:   62.99 /    6.59 /    6.85   ratio cb/full  9.20
+  L51:   72.38 /    7.98 /    8.22   ratio cb/full  8.80
+  L52:   83.40 /    9.18 /    9.56   ratio cb/full  8.73
+  L53:   96.48 /   10.13 /   10.51   ratio cb/full  9.18
+  L54:  112.49 /   11.12 /   11.47   ratio cb/full  9.81
+  L55:  128.74 /   14.67 /   15.45   ratio cb/full  8.33
+  L56:  147.85 /   17.93 /   18.90   ratio cb/full  7.82
+  L57:  168.44 /   21.44 /   22.42   ratio cb/full  7.51
+  L58:  195.72 /   23.76 /   24.95   ratio cb/full  7.84
+  L59:  224.51 /   27.20 /   28.17   ratio cb/full  7.97
+  L60:  259.98 /   34.53 /   35.30   ratio cb/full  7.36
+  L61:  306.10 /   45.57 /   47.67   ratio cb/full  6.42
+  L62:  367.45 /   53.75 /   56.21   ratio cb/full  6.54
+  L63 (free): cb 410.62 vs donor 66.42
+
+food-animal-butter|C0: per block  ||h'_cb - h||  /  ||Delta^perp|| (= fixed-target deviation)  /  ||Delta||  (means over q_pre positions)
+  L36:    5.99 /    5.99 /    6.02   ratio cb/full  1.00
+  L37:   12.19 /    6.13 /    6.16   ratio cb/full  1.98
+  L38:   17.84 /    6.00 /    6.02   ratio cb/full  2.96
+  L39:   24.38 /    6.65 /    6.71   ratio cb/full  3.63
+  L40:   29.44 /    6.39 /    6.44   ratio cb/full  4.57
+  L41:   34.93 /    6.32 /    6.37   ratio cb/full  5.48
+  L42:   41.09 /    6.46 /    6.51   ratio cb/full  6.32
+  L43:   48.01 /    7.20 /    7.24   ratio cb/full  6.63
+  L44:   54.67 /    7.42 /    7.46   ratio cb/full  7.33
+  L45:   61.40 /    7.67 /    7.70   ratio cb/full  7.97
+  L46:   69.01 /    7.93 /    7.97   ratio cb/full  8.66
+  L47:   77.06 /    8.70 /    8.73   ratio cb/full  8.83
+  L48:   85.00 /    9.17 /    9.20   ratio cb/full  9.24
+  L49:   92.94 /    9.67 /    9.70   ratio cb/full  9.58
+  L50:  103.23 /   10.76 /   10.81   ratio cb/full  9.55
+  L51:  118.86 /   13.22 /   13.30   ratio cb/full  8.94
+  L52:  134.65 /   14.57 /   14.64   ratio cb/full  9.20
+  L53:  153.63 /   16.05 /   16.12   ratio cb/full  9.53
+  L54:  175.74 /   18.37 /   18.44   ratio cb/full  9.53
+  L55:  199.91 /   22.49 /   22.62   ratio cb/full  8.84
+  L56:  225.18 /   24.64 /   24.82   ratio cb/full  9.07
+  L57:  250.62 /   26.94 /   27.17   ratio cb/full  9.23
+  L58:  283.17 /   31.18 /   31.98   ratio cb/full  8.86
+  L59:  318.24 /   35.01 /   35.86   ratio cb/full  8.87
+  L60:  357.12 /   39.67 /   40.64   ratio cb/full  8.79
+  L61:  406.65 /   49.41 /   50.65   ratio cb/full  8.03
+  L62:  472.62 /   59.23 /   60.76   ratio cb/full  7.78
+  L63 (free): cb 521.02 vs donor 72.16
